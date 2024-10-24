@@ -8,6 +8,7 @@ class Team:
         self.teamID = teamID
         self.numberOfPoints = 0
         self.createTeam(start)
+        self.elo = 0
     
     
     def returnBoxScore(self):

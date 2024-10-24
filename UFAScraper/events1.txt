@@ -1,0 +1,4802 @@
+12y Swing from Laviolette to Long
+14y Turnover from Long to Laviolette
+12y Pass from Long to Hawkins
+16y Swing from Hawkins to Long
+21y Pass from Long to Fairfax
+14y Dump from Fairfax to Long
+10y Swing from Long to Hawkins
+15y Pass from Hawkins to Mitchell
+15y Swing from Mitchell to Hawkins
+27y Swing from Hawkins to Juengst
+6y Dish from Juengst to Hawkins
+14y Turnover from Hawkins to Laviolette
+16y Swing from Snell to Weaver
+16y Swing from Weaver to Sanner
+16y Turnover from Sanner to Coffin
+11y Pass from Hawkins to Laviolette
+12y Swing from Laviolette to Long
+31y Pass from Long to Laviolette
+12y Swing from Laviolette to Mitchell
+9y Dump from Mitchell to Hawkins
+13y Swing from Hawkins to Long
+8y Pass from Long to Hawkins
+14y Swing from Hawkins to Fairfax
+19y Swing from Fairfax to Brooks
+10y Pass from Brooks to Juengst
+14y Swing from Juengst to Long
+15y Swing from Long to Juengst
+13y Swing from Juengst to Long
+18y Swing from Long to Laviolette
+13y Turnover from Laviolette to Long
+13y Swing from Hawkins to Snell
+55y Huck throwaway from Snell
+0y Block by Fisher
+9y Pass from Fisher to Laviolette
+6y Pass from Laviolette to Snell
+14y Swing from Snell to Brooks
+13y Swing from Brooks to Sanner
+14y Swing from Sanner to Brooks
+20y Pass from Brooks to Juengst
+39y Throwaway from Juengst
+19y Pass from Laviolette to Sanner
+7y Dump from Sanner to Brooks
+13y Pass from Brooks to Hawkins
+8y Dump from Hawkins to Brooks
+18y Pass from Brooks to Snell
+5y Dump from Snell to Brooks
+10y Swing from Brooks to Juengst
+20y Pass from Juengst to Sanner
+13y Pass from Sanner to Laviolette
+11y Swing from Laviolette to Sanner
+10y Pass from Sanner to Snell
+8y Pass from Snell to Sanner
+12y Swing from Sanner to Laviolette
+10y Score from Laviolette to Fisher
+54y Pull by Coffin
+18y Swing from Long to Weaver
+16y Turnover from Weaver to Coffin
+6y Dump from Laviolette to Hawkins
+19y Pass from Hawkins to Fairfax
+10y Throwaway from Fairfax
+0y Block by Juengst
+10y Pass from Laviolette to Juengst
+15y Dump from Juengst to Hawkins
+12y Swing from Hawkins to Brooks
+17y Pass from Brooks to Fairfax
+15y Swing from Fairfax to Laviolette
+27y Pass from Laviolette to Juengst
+9y Dump from Juengst to Laviolette
+13y Pass from Laviolette to Fairfax
+7y Dish from Fairfax to Brooks
+10y Dump from Brooks to Laviolette
+14y Pass from Laviolette to Brooks
+13y Pass from Brooks to Laviolette
+22y Score from Laviolette to Fairfax
+90y Pull by Fisher
+65y Huck throwaway from Snell
+12y Swing from Snell to Fisher
+9y Dump from Fisher to McSherry
+17y Swing from McSherry to Long
+61y Huck throwaway from Long
+17y Pass from McSherry to Fisher
+3y Dish from Fisher to McSherry
+20y Pass from McSherry to Williams
+10y Dump from Williams to McSherry
+12y Pass from McSherry to Snell
+8y Dump from Snell to McSherry
+44y Huck throwaway from McSherry
+24y Pass from Snell to Belus
+45y Huck throwaway from Belus
+89y Pull by Coffin
+10y Pass from Laviolette to Long
+9y Dump from Long to Hawkins
+21y Pass from Hawkins to Brooks
+17y Throwaway from Brooks
+8y Pass from Long to Laviolette
+16y Swing from Laviolette to Long
+13y Swing from Long to Hawkins
+26y Pass from Hawkins to Brooks
+14y Dump from Brooks to Hawkins
+10y Throwaway from Hawkins
+16y Swing from Laviolette to Long
+14y Swing from Long to Hawkins
+14y Pass from Hawkins to Sanner
+21y Pass from Sanner to Brooks
+70y Huck throwaway from Brooks
+12y Pass from Long to Brooks
+8y Dump from Brooks to Long
+11y Swing from Long to Sanner
+14y Swing from Sanner to Long
+13y Pass from Long to Brooks
+3y Dish from Brooks to Mitchell
+5y Pass from Mitchell to Brooks
+6y Score from Brooks to Sanner
+86y Pull by Coffin
+20y Pass from Laviolette to Hawkins
+14y Pass from Hawkins to Brooks
+72y Score from Brooks to Mitchell
+91y Pull by Fisher
+16y Swing from Snell to Weaver
+11y Swing from Weaver to Snell
+17y Swing from Snell to Weaver
+58y Huck from Weaver to Wellers
+7y Dump from Hawkins to Laviolette
+10y Pass from Laviolette to Long
+6y Pass from Long to Juengst
+11y Swing from Juengst to Long
+15y Score from Long to Sanner
+60y OB Pull by Coffin
+0y Block by Bloodworth
+68y Huck throwaway from Bloodworth
+11y Pass from Hawkins to Laviolette
+19y Swing from Laviolette to Long
+12y Pass from Long to Fairfax
+10y Swing from Fairfax to Long
+23y Pass from Long to Brooks
+56y Huck throwaway from Brooks
+0y Block by Fairfax
+7y Dump from Fairfax to Brooks
+24y Pass from Brooks to Laviolette
+9y Pass from Laviolette to Juengst
+15y Swing from Juengst to Long
+36y Score from Long to Brooks
+94y Pull by Coffin
+0y Block by Fisher
+17y Pass from Snell to Bloodworth
+11y Swing from Bloodworth to Fisher
+9y Pass from Fisher to Snell
+8y Dump from Snell to Fisher
+14y Swing from Fisher to Weaver
+7y Pass from Weaver to Sanner
+10y Swing from Sanner to Weaver
+10y Pass from Weaver to Sanner
+18y Swing from Sanner to Davis
+16y Pass from Laviolette to Juengst
+13y Swing from Juengst to Laviolette
+46y Huck throwaway from Laviolette
+13y Pass from Hawkins to Laviolette
+20y Swing from Laviolette to Long
+15y Pass from Long to Juengst
+26y Throwaway from Juengst
+69y Huck throwaway from Laviolette
+8y Pass from Juengst to Long
+22y Pass from Long to Fairfax
+3y Dish from Fairfax to Long
+20y Swing from Long to Fairfax
+17y Swing from Fairfax to Laviolette
+76y Score from Laviolette to Mitchell
+94y Pull by Coffin
+27y Pass from Long to Fairfax
+7y Pass from Fairfax to Long
+15y Pass from Long to Juengst
+11y Dump from Juengst to Long
+47y Huck throwaway from Long
+0y Block by Belus
+16y Pass from Snell to Sanner
+11y Swing from Sanner to Bloodworth
+16y Pass from Bloodworth to Sanner
+29y Pass from Sanner to Fisher
+10y Swing from Fisher to Sanner
+7y Pass from Sanner to Bloodworth
+13y Swing from Bloodworth to Sanner
+11y Pass from Sanner to Snell
+8y Dump from Snell to Sanner
+8y Dump from Sanner to Snell
+18y Swing from Snell to Belus
+12y Swing from Belus to Sanner
+18y Score from Sanner to Snell
+65y Pull by Coffin
+17y Swing from Coffin to Weaver
+13y Pass from Weaver to McSherry
+61y Huck throwaway from McSherry
+8y Pass from Laviolette to Hawkins
+21y Swing from Hawkins to Long
+15y Pass from Long to Fairfax
+6y Dump from Fairfax to Hawkins
+20y Swing from Hawkins to Long
+57y Huck from Long to Fairfax
+5y Dump from Fairfax to Laviolette
+41y Score from Laviolette to Fairfax
+60y OB Pull by Fisher
+0y Block by Wellers
+5y Dump from Weaver to Snell
+14y Pass from Snell to Bloodworth
+9y Dump from Bloodworth to Snell
+21y Swing from Snell to Weaver
+13y Pass from Weaver to Fisher
+19y Swing from Fisher to Snell
+5y Dump from Long to Hawkins
+10y Pass from Hawkins to Long
+20y Pass from Long to Brooks
+19y Dump from Brooks to Long
+14y Pass from Long to Mitchell
+18y Swing from Mitchell to Juengst
+17y Turnover from Juengst to Fairfax
+0y Block by Laviolette
+43y Swing from Laviolette to Mitchell
+12y Pass from Mitchell to Fairfax
+11y Pass from Fairfax to Mitchell
+8y Dish from Mitchell to Fairfax
+8y Dump from Fairfax to Hawkins
+19y Pass from Hawkins to Juengst
+9y Dish from Juengst to Brooks
+10y Dump from Brooks to Hawkins
+16y Swing from Hawkins to Long
+21y Score from Long to Juengst
+92y Pull by Coffin
+10y Pass from Long to Laviolette
+14y Swing from Laviolette to Long
+16y Pass from Long to Fairfax
+19y Swing from Fairfax to Brooks
+12y Swing from Brooks to Mitchell
+8y Dump from Mitchell to Hawkins
+16y Pass from Hawkins to Juengst
+9y Dump from Juengst to Hawkins
+25y Swing from Hawkins to Fairfax
+57y Huck from Fairfax to Brooks
+8y Score from Brooks to Mitchell
+90y Pull by Coffin
+0y Block by Fisher
+60y Pull by Coffin
+0y Block by Fisher
+3y Dish from Fisher to Snell
+3y Dish from Snell to Sanner
+11y Swing from Sanner to Snell
+14y Pass from Snell to Coffin
+48y Huck throwaway from Coffin
+0y Block by Tucker
+40y Swing from Snell to Swanson
+6y Dump from Swanson to Belus
+8y Dump from Belus to Sanner
+18y Pass from Sanner to Coffin
+16y Pass from Coffin to Sanner
+23y Pass from Sanner to Davis
+7y Dump from Davis to Snell
+49y Score from Snell to Swanson
+89y Pull by Fisher
+0y Block by Wellers
+23y Swing from Williams to Weaver
+11y Swing from Weaver to Juengst
+13y Dump from Juengst to Hawkins
+13y Swing from Hawkins to Juengst
+13y Swing from Juengst to Bloodworth
+14y Swing from Bloodworth to Hawkins
+15y Swing from Hawkins to Bloodworth
+17y Swing from Bloodworth to Williams
+14y Pass from Williams to Bloodworth
+18y Pass from Bloodworth to Wellers
+9y Pass from Wellers to Juengst
+9y Pass from Juengst to Fisher
+13y Score from Fisher to Bloodworth
+90y Pull by Coffin
+0y Block by Snell
+49y Huck from Snell to Swanson
+8y Score from Swanson to Coffin
+94y Pull by Fisher
+22y Score from Belus to Juengst
+76y Pull by Snell
+9y Pass from Laviolette to Hawkins
+8y Dump from Hawkins to Laviolette
+19y Pass from Laviolette to Long
+4y Dish from Long to Brooks
+18y Pass from Brooks to Long
+25y Pass from Long to Fairfax
+19y Dump from Fairfax to Long
+18y Swing from Long to Brooks
+16y Pass from Brooks to Juengst
+10y Dump from Juengst to Long
+13y Pass from Long to Brooks
+12y Pass from Brooks to Juengst
+11y Swing from Juengst to Long
+8y Dish from Long to Brooks
+21y Pass from Brooks to Laviolette
+0y Stall by Laviolette
+11y Pass from Hawkins to Long
+17y Pass from Long to Brooks
+16y Swing from Brooks to Fairfax
+7y Dump from Fairfax to Long
+16y Swing from Long to Brooks
+16y Swing from Brooks to Laviolette
+7y Dump from Laviolette to Long
+15y Pass from Long to Laviolette
+73y Huck throwaway from Laviolette
+17y Pass from Laviolette to Brooks
+59y Huck from Brooks to Mitchell
+8y Dump from Mitchell to Long
+6y Dump from Long to Brooks
+14y Swing from Brooks to Long
+24y Throwaway from Long
+0y Block by Brooks
+22y Pass from Brooks to Hawkins
+7y Pass from Hawkins to Long
+9y Dish from Long to Hawkins
+17y Swing from Hawkins to Brooks
+12y Swing from Brooks to Juengst
+18y Score from Juengst to Mitchell
+46y OB Pull by Snell
+80y Pull by Lacy
+11y Score from VandeMoortele to Hanson
+99y Pull by Lacy
+5y Score from VandeMoortele to Krenik
+68y Pull by KJohnson
+14y Swing from Klane to Jirele
+5y Dump from Jirele to Klane
+42y Score from Klane to Hanson
+86y Pull by Lacy
+9y Dump from VandeMoortele to Lacy
+8y Dump from Lacy to Rehder
+20y Pass from Rehder to Dehlin
+10y Pass from Dehlin to Vohnoutka
+43y Score from Vohnoutka to VandeMoortele
+70y Pull by KJohnson
+0y Block by Matis
+55y Huck throwaway from Klane
+0y Block by Matis
+13y Swing from Klane to KJohnson
+11y Swing from KJohnson to Klane
+19y Pass from Klane to Matis
+6y Dump from Matis to Klane
+65y Huck throwaway from Klane
+13y Swing from Brandt to Sovell-Fernandez
+14y Swing from Sovell-Fernandez to Snider
+12y Dump from Snider to Sovell-Fernandez
+13y Pass from Sovell-Fernandez to VandeMoortele
+12y Swing from VandeMoortele to Snider
+19y Throwaway from Snider
+13y Pass from Brandt to VandeMoortele
+11y Swing from VandeMoortele to Brandt
+8y Dish from Brandt to Snider
+10y Swing from Snider to Larson
+14y Score from Larson to Berry
+78y Pull by Lacy
+10y Throwaway from Dehlin
+19y Pass from VandeMoortele to Brandt
+19y Pass from Brandt to Taylor
+18y Pass from Taylor to Vohnoutka
+9y Pass from Vohnoutka to Snider
+16y Throwaway from Snider
+36y Pass from Sovell-Fernandez to Taylor
+18y Pass from Taylor to Vohnoutka
+12y Pass from Vohnoutka to Snider
+3y Dish from Snider to Brandt
+11y Swing from Brandt to VandeMoortele
+7y Dump from VandeMoortele to Larson
+12y Swing from Larson to Brandt
+11y Throwaway from Brandt
+18y Swing from Sovell-Fernandez to Larson
+11y Swing from Larson to Vohnoutka
+17y Pass from Vohnoutka to Taylor
+53y Huck throwaway from Taylor
+19y Swing from Sovell-Fernandez to Larson
+8y Pass from Larson to Brandt
+20y Pass from Brandt to Taylor
+5y Pass from Taylor to VandeMoortele
+40y Huck throwaway from VandeMoortele
+0y Block by Snider
+13y Pass from Klane to Brandt
+13y Pass from Brandt to Rehder
+11y Pass from Rehder to Sovell-Fernandez
+8y Dish from Sovell-Fernandez to Berry
+10y Swing from Berry to Vohnoutka
+69y Score from Vohnoutka to Sovell-Fernandez
+84y Pull by Lacy
+0y Block by Lacy
+10y Pass from VandeMoortele to Lacy
+7y Dish from Lacy to VandeMoortele
+9y Dish from VandeMoortele to Krenik
+4y Dish from Krenik to VandeMoortele
+19y Score from VandeMoortele to Hanson
+98y Pull by Lacy
+0y Block by Shope
+7y Dump from Shope to Krenik
+20y Swing from Brandt to Vohnoutka
+11y Pass from Vohnoutka to Larson
+21y Score from Larson to Taylor
+98y Pull by Lacy
+0y Block by Lacy
+8y Dish from Lacy to DeClerck
+11y Swing from DeClerck to Lacy
+8y Pass from Lacy to DeClerck
+17y Throwaway from DeClerck
+13y Pass from Sovell-Fernandez to Brandt
+22y Pass from Brandt to Berry
+15y Pass from Berry to Larson
+13y Dump from Larson to Berry
+8y Dish from Berry to VandeMoortele
+12y Pass from VandeMoortele to Vohnoutka
+12y Pass from Vohnoutka to Larson
+40y Score from Larson to Brandt
+88y Pull by Lacy
+14y Pass from VandeMoortele to Brandt
+18y Pass from Brandt to VandeMoortele
+10y Pass from VandeMoortele to Rehder
+19y Swing from Rehder to Brandt
+12y Pass from Brandt to Larson
+9y Pass from Larson to Taylor
+10y Pass from Taylor to Larson
+9y Pass from Larson to VandeMoortele
+7y Dump from VandeMoortele to Brandt
+20y Throwaway from Brandt
+18y Swing from Brandt to Snider
+16y Pass from Snider to Larson
+6y Dump from Larson to Rehder
+10y Pass from Rehder to Brandt
+27y Pass from Brandt to Larson
+12y Pass from Larson to Rehder
+41y Huck throwaway from Rehder
+0y Block by Brandt
+8y Pass from Brandt to Klane
+17y Pass from Klane to Taylor
+8y Dump from Taylor to Brandt
+19y Pass from Brandt to Larson
+12y Dump from Larson to Brandt
+17y Swing from Brandt to Sovell-Fernandez
+7y Pass from Sovell-Fernandez to Klane
+60y Score from Klane to Larson
+89y Pull by Lacy
+0y Block by Lacy
+18y Pass from DeClerck to Matis
+16y Throwaway from Matis
+13y Pass from Sovell-Fernandez to Brandt
+16y Pass from Brandt to Taylor
+17y Pass from Taylor to Snider
+9y Pass from Snider to Brandt
+18y Swing from Brandt to Larson
+16y Pass from Larson to Taylor
+11y Pass from Taylor to Snider
+23y Swing from Snider to Taylor
+46y Huck throwaway from Taylor
+9y Pass from VandeMoortele to Vohnoutka
+10y Pass from Vohnoutka to Hanson
+22y Pass from Hanson to VandeMoortele
+25y Swing from VandeMoortele to Matis
+7y Pass from Matis to Shope
+6y Dump from Shope to VandeMoortele
+49y Score from Klane to Snider
+90y Pull by Lacy
+0y Block by Krenik
+10y Pass from Krenik to Lacy
+13y Pass from Lacy to Vohnoutka
+23y Pass from Vohnoutka to Krenik
+8y Score from Krenik to Hanson
+59y Pull by Lacy
+0y Block by Vohnoutka
+91y Pull by Lacy
+17y Pass from Klane to Brandt
+15y Pass from Brandt to Vohnoutka
+11y Pass from Vohnoutka to Rehder
+58y Huck from Rehder to Vohnoutka
+7y Dump from Vohnoutka to Klane
+5y Score from Klane to Snider
+60y OB Pull by Lacy
+13y Swing from VandeMoortele to Barcus
+8y Dump from Barcus to VandeMoortele
+9y Dump from VandeMoortele to KJohnson
+11y Swing from KJohnson to VandeMoortele
+10y Swing from VandeMoortele to Krenik
+11y Pass from Krenik to Shope
+14y Pass from Shope to Barcus
+10y Dump from Barcus to VandeMoortele
+16y Dump from VandeMoortele to Lacy
+7y Dish from Lacy to VandeMoortele
+24y Pass from Brandt to Vohnoutka
+5y Pass from Vohnoutka to Larson
+11y Swing from Larson to DeClerck
+7y Dish from DeClerck to Larson
+12y Swing from Larson to Klane
+47y Huck throwaway from Klane
+31y Pass from VandeMoortele to Matis
+41y Huck throwaway from Matis
+0y Block by Berry
+9y Dump from VandeMoortele to KJohnson
+4y Dish from KJohnson to VandeMoortele
+13y Swing from VandeMoortele to KJohnson
+17y Pass from KJohnson to Snider
+10y Pass from Snider to Rehder
+17y Pass from Rehder to Snider
+4y Dish from Snider to Krenik
+17y Pass from Krenik to Snider
+5y Score from Snider to VandeMoortele
+80y Pull by Lacy
+14y Swing from Brandt to Sovell-Fernandez
+18y Pass from Sovell-Fernandez to Rehder
+8y Dish from Rehder to Brandt
+65y Huck throwaway from Brandt
+13y Swing from Vohnoutka to Matis
+10y Pass from Matis to Jirele
+16y Throwaway from Jirele
+12y Pass from Sovell-Fernandez to Brandt
+18y Swing from Brandt to Sovell-Fernandez
+15y Pass from Sovell-Fernandez to Snider
+20y Pass from Snider to Larson
+10y Pass from Larson to Brandt
+11y Swing from Brandt to Larson
+14y Pass from Larson to Snider
+14y Swing from Snider to Larson
+5y Pass from Larson to Brandt
+10y Pass from Brandt to Snider
+6y Dump from Snider to Brandt
+17y Pass from Brandt to Larson
+5y Dump from Larson to Brandt
+20y Score from Brandt to Snider
+98y Pull by Lacy
+19y Pass from Sovell-Fernandez to Brandt
+15y Pass from Brandt to Berry
+9y Dump from Berry to Brandt
+19y Pass from Brandt to Larson
+11y Pass from Larson to Snider
+12y Swing from Snider to Klane
+13y Pass from Klane to Berry
+20y Swing from Berry to Sovell-Fernandez
+43y Huck throwaway from Sovell-Fernandez
+15y Pass from Brandt to Larson
+39y Throwaway from Larson
+0y Block by Snider
+18y Swing from Brandt to Larson
+14y Swing from Larson to Taylor
+5y Pass from Taylor to Larson
+12y Swing from Larson to Brandt
+7y Dish from Brandt to VandeMoortele
+13y Pass from VandeMoortele to Rehder
+22y Dump from Rehder to Brandt
+13y Pass from Brandt to Larson
+11y Pass from Larson to VandeMoortele
+11y Turnover from VandeMoortele to Taylor
+9y Pass from KJohnson to Klane
+13y Pass from Klane to DeClerck
+50y Huck throwaway from DeClerck
+14y Pass from VandeMoortele to Brandt
+16y Pass from Brandt to Vohnoutka
+11y Swing from Vohnoutka to Brandt
+10y Swing from Brandt to VandeMoortele
+11y Swing from VandeMoortele to Brandt
+11y Swing from Brandt to VandeMoortele
+7y Dump from VandeMoortele to Vohnoutka
+11y Swing from Vohnoutka to VandeMoortele
+8y Dish from VandeMoortele to Larson
+10y Pass from Larson to Brandt
+19y Pass from Brandt to VandeMoortele
+6y Throwaway from VandeMoortele
+11y Pass from KJohnson to Klane
+9y Dish from Klane to KJohnson
+13y Throwaway from KJohnson
+10y Pass from Sovell-Fernandez to Brandt
+9y Pass from Brandt to Larson
+7y Pass from Larson to Brandt
+7y Dish from Brandt to Larson
+13y Swing from Larson to Brandt
+18y Pass from Brandt to VandeMoortele
+3y Dish from VandeMoortele to Larson
+11y Pass from Larson to Vohnoutka
+46y Score from Vohnoutka to Brandt
+88y Pull by Lacy
+13y Swing from Lacy to Hanson
+19y Pass from Brandt to Larson
+24y Swing from Larson to Rehder
+10y Swing from Rehder to Brandt
+11y Pass from Brandt to Vohnoutka
+11y Swing from Vohnoutka to Snider
+13y Pass from Snider to Larson
+8y Dish from Larson to Snider
+10y Pass from Snider to Brandt
+15y Score from Brandt to Vohnoutka
+93y Pull by Lacy
+11y Swing from VandeMoortele to DeClerck
+14y Swing from DeClerck to VandeMoortele
+63y Huck throwaway from VandeMoortele
+0y Block by Jirele
+49y Huck throwaway from VandeMoortele
+8y Dump from Brandt to Sovell-Fernandez
+10y Dump from Sovell-Fernandez to Brandt
+12y Swing from Brandt to Vohnoutka
+6y Pass from Vohnoutka to Brandt
+7y Dump from Brandt to Vohnoutka
+10y Swing from Vohnoutka to Brandt
+35y Pass from Brandt to Larson
+9y Dish from Larson to Vohnoutka
+20y Throwaway from Brandt
+17y Pass from Brandt to Rehder
+16y Throwaway from Rehder
+40y Score from Klane to Vohnoutka
+60y OB Pull by Lacy
+9y Dump from Lacy to VandeMoortele
+13y Swing from VandeMoortele to Jirele
+8y Dump from Jirele to Klane
+11y Pass from Klane to Krenik
+7y Dump from Krenik to Klane
+37y Throwaway from Klane
+6y Pass from Klane to Bergmeier
+10y Pass from Bergmeier to DeClerck
+39y Throwaway from DeClerck
+4y Dish from VandeMoortele to Klane
+14y Swing from Klane to VandeMoortele
+11y Swing from VandeMoortele to Matis
+7y Dump from Matis to VandeMoortele
+31y Throwaway from VandeMoortele
+0y Block by DeClerck
+11y Swing from DeClerck to Klane
+24y Throwaway from Klane
+0y Block by VandeMoortele
+11y Pass from KJohnson to Rehder
+7y Pass from Rehder to Berry
+34y Throwaway from Berry
+68y Huck throwaway from Klane
+13y Pass from DeClerck to Klane
+14y Score from Klane to DeClerck
+72y Pull by Lacy
+0y Block by Shope
+9y Pass from Rehder to Vohnoutka
+35y Throwaway from Vohnoutka
+86y Huck throwaway from VandeMoortele
+0y Block by VandeMoortele
+21y Pass from VandeMoortele to Larson
+14y Swing from Larson to Brandt
+15y Pass from Brandt to Larson
+24y Pass from Larson to Berry
+10y Pass from Berry to Sovell-Fernandez
+8y Pass from Sovell-Fernandez to Brandt
+8y Pass from Brandt to Larson
+13y Score from Larson to Snider
+84y Pull by Lacy
+10y Throwaway from Klane
+16y Swing from Klane to Bergmeier
+7y Dump from Bergmeier to Klane
+9y Dump from Klane to Hanson
+14y Swing from Hanson to Klane
+18y Pass from Klane to Matis
+11y Swing from Matis to Klane
+49y Score from Klane to Hanson
+94y Pull by Lacy
+0y Block by Shope
+23y Pass from Shope to VandeMoortele
+65y Huck throwaway from VandeMoortele
+0y Block by Rehder
+62y Huck throwaway from Rehder
+91y Pull by KJohnson
+19y Pass from Sovell-Fernandez to DeClerck
+19y Pass from DeClerck to Berry
+15y Dump from Berry to Sovell-Fernandez
+19y Pass from Sovell-Fernandez to Berry
+20y Pass from Berry to DeClerck
+16y Pass from DeClerck to Taylor
+8y Pass from Taylor to Larson
+8y Dish from Larson to Brandt
+24y Throwaway from Brandt
+9y Dish from Klane to KJohnson
+5y Pass from KJohnson to Klane
+40y Huck throwaway from Klane
+8y Dump from Krenik to Klane
+30y Swing from Klane to Rehder
+12y Turnover from Rehder to Snider
+0y Block by Rehder
+6y Dump from Brandt to Klane
+11y Swing from Klane to Brandt
+8y Dish from Brandt to Klane
+25y Pass from Klane to Rehder
+19y Pass from Rehder to Bergmeier
+8y Dish from Bergmeier to Klane
+41y Huck from Klane to Snider
+13y Swing from Snider to Krenik
+16y Swing from Krenik to Brandt
+14y Swing from Brandt to Klane
+24y Score from Klane to Snider
+60y OB Pull by Lacy
+13y Swing from DeClerck to Lacy
+14y Pass from Lacy to VandeMoortele
+20y Score from VandeMoortele to DeClerck
+54y Pull by Lacy
+0y Block by Rehder
+36y Throwaway from Klane
+16y Pass from Brandt to Sovell-Fernandez
+10y Pass from Sovell-Fernandez to Brandt
+43y Huck from Brandt to Taylor
+17y Score from Taylor to Vohnoutka
+44y Pull by Lacy
+47y Huck throwaway from Klane
+0y Block by Jirele
+14y Pass from Klane to Lacy
+6y Pass from Lacy to Bergmeier
+40y Score from Bergmeier to Krenik
+83y Pull by KJohnson
+37y Score from VandeMoortele to Vohnoutka
+98y Pull by Lacy
+18y Dump from Brandt to VandeMoortele
+18y Pass from VandeMoortele to Larson
+31y Pass from Larson to Snider
+41y Score from Snider to Taylor
+99y Pull by Lacy
+7y Pass from Krenik to Vohnoutka
+11y Pass from Klane to Bergmeier
+56y Huck throwaway from Bergmeier
+12y Pass from Brandt to Sovell-Fernandez
+13y Swing from Sovell-Fernandez to VandeMoortele
+15y Swing from VandeMoortele to Brandt
+87y Huck throwaway from Brandt
+13y Swing from Brandt to Larson
+12y Pass from Larson to Brandt
+14y Swing from Brandt to Larson
+57y Dropped huck from Larson to VandeMoortele
+7y Dish from KJohnson to Klane
+3y Dish from Klane to KJohnson
+11y Swing from KJohnson to Rehder
+14y Throwaway from Rehder
+15y Swing from Sovell-Fernandez to Brandt
+14y Swing from Brandt to VandeMoortele
+16y Pass from VandeMoortele to Larson
+19y Swing from Larson to Brandt
+9y Dump from Brandt to VandeMoortele
+12y Swing from VandeMoortele to Larson
+15y Pass from Larson to Jirele
+16y Swing from Jirele to Larson
+10y Pass from Larson to DeClerck
+34y Score from DeClerck to VandeMoortele
+85y Pull by Lacy
+11y Dump from Dehlin to Lacy
+14y Swing from Lacy to Dehlin
+21y Swing from Dehlin to Bergmeier
+16y Pass from Bergmeier to Shope
+17y Pass from Shope to Hanson
+6y Dump from Hanson to Dehlin
+4y Dish from Dehlin to Bergmeier
+5y Dish from Bergmeier to Dehlin
+5y Dump from Dehlin to Bergmeier
+16y Swing from Brandt to Sovell-Fernandez
+9y Pass from Sovell-Fernandez to Larson
+6y Pass from Larson to Brandt
+8y Turnover from Brandt to Snider
+0y Block by Rehder
+61y Huck throwaway from Rehder
+18y Pass from Rehder to Larson
+8y Dish from Larson to Klane
+14y Swing from Klane to Larson
+20y Pass from Larson to Snider
+4y Dish from Snider to Brandt
+14y Swing from Brandt to Sovell-Fernandez
+11y Swing from Sovell-Fernandez to Larson
+50y Huck throwaway from Larson
+13y Swing from Bergmeier to Hanson
+7y Dump from Hanson to Bergmeier
+9y Pass from Bergmeier to Lacy
+49y Huck throwaway from Lacy
+18y Pass from Klane to Brandt
+19y Swing from Brandt to Klane
+86y Pull by Lacy
+12y Pass from Klane to Vohnoutka
+13y Pass from Vohnoutka to VandeMoortele
+22y Turnover from VandeMoortele to Rehder
+13y Pass from Lacy to Rehder
+44y Huck from Rehder to Vohnoutka
+8y Pass from Vohnoutka to Bergmeier
+9y Pass from Bergmeier to Krenik
+9y Dish from Krenik to Bergmeier
+16y Swing from Bergmeier to VandeMoortele
+16y Score from VandeMoortele to Krenik
+99y Pull by KJohnson
+35y Throwaway from VandeMoortele
+0y Block by Hanson
+8y Dish from Hanson to VandeMoortele
+7y Dump from VandeMoortele to Larson
+7y Dish from Larson to VandeMoortele
+8y Pass from VandeMoortele to KJohnson
+14y Score from KJohnson to Larson
+90y Pull by Lacy
+8y Score from Bergmeier to Dehlin
+60y OB Pull by KJohnson
+0y Block by Vohnoutka
+90y Huck throwaway from Vohnoutka
+0y Block by Shope
+11y Pass from Shope to DeClerck
+18y Score from DeClerck to Snider
+88y Pull by Lacy
+16y Pass from Taylor to Berry
+85y Huck throwaway from Berry
+10y Pass from Brandt to Larson
+22y Pass from Larson to Snider
+8y Pass from Snider to Brandt
+20y Throwaway from Brandt
+68y Huck throwaway from Brandt
+22y Swing from Klane to KJohnson
+9y Dish from KJohnson to VandeMoortele
+7y Dish from VandeMoortele to Krenik
+4y Dish from Krenik to VandeMoortele
+12y Pass from VandeMoortele to Snider
+9y Dump from Snider to KJohnson
+9y Dish from KJohnson to Krenik
+5y Pass from Krenik to KJohnson
+6y Dump from KJohnson to Krenik
+10y Swing from Krenik to KJohnson
+7y Dump from KJohnson to VandeMoortele
+9y Dump from VandeMoortele to Klane
+12y Swing from Klane to Bergmeier
+8y Dump from Bergmeier to KJohnson
+4y Dish from KJohnson to VandeMoortele
+5y Pass from VandeMoortele to Bergmeier
+21y Throwaway from Bergmeier
+0y Block by Krenik
+7y Pass from Krenik to KJohnson
+39y Pass from KJohnson to Krenik
+5y Score from Vohnoutka to Krenik
+98y Pull by Unknown
+80y Huck throwaway from VandeMoortele
+75y Pull by Merriman
+11y Dump from Bloodgood to Tom
+0y Throwaway from Tom
+0y Block by Bergeron
+21y Throwaway from Bloodgood
+65y Huck throwaway from Malks
+48y Huck throwaway from McDonnell
+12y Dump from Roy to Malks
+22y Swing from Malks to Edmonds
+7y Pass from Edmonds to Malks
+11y Pass from Malks to Nissen
+7y Pass from Nissen to Malks
+9y Pass from Malks to Edmonds
+14y Turnover from Edmonds to Malks
+0y Block by McDonnell
+5y Dish from McDonnell to Roy
+8y Pass from Roy to McDonnell
+11y Pass from McDonnell to Monroe
+13y Swing from Monroe to McDonnell
+25y Throwaway from McDonnell
+0y Block by Monroe
+11y Pass from Monroe to Edmonds
+25y Pass from Edmonds to Jurek
+5y Throwaway from Jurek
+9y Pass from McCutcheon to Nissen
+9y Dump from Nissen to Edmonds
+64y Score from Edmonds to Merriman
+45y Pull by Bloodgood
+10y Swing from Edmonds to Bloodgood
+20y Pass from Bloodgood to McCutcheon
+7y Dump from McCutcheon to Bloodgood
+20y Throwaway from Bloodgood
+13y Pass from Roy to Malks
+67y Huck throwaway from Malks
+14y Swing from Roy to Malks
+9y Dump from Malks to Roy
+13y Pass from Roy to G Norrbom
+17y Score from G Norrbom to McDonnell
+72y Pull by Merriman
+0y Block by Rehfuss
+21y Pass from Holland to Bergeron
+7y Dump from Bergeron to Tom
+9y Pass from Tom to Bergeron
+10y Pass from Bergeron to Merriman
+49y Huck from Merriman to Rehfuss
+8y Dump from Rehfuss to Bergeron
+16y Throwaway from Bergeron
+17y Pass from G Norrbom to Roy
+11y Turnover from Roy to McDonnell
+0y Block by Roy
+67y Huck throwaway from Nissen
+16y Swing from Roy to Nissen
+9y Pass from Nissen to Edmonds
+17y Pass from Edmonds to Roy
+10y Pass from Roy to Bonnet
+10y Dump from Bonnet to Edmonds
+9y Pass from Edmonds to Bonnet
+8y Dump from Bonnet to Edmonds
+10y Pass from Edmonds to Roy
+9y Dump from Roy to Edmonds
+13y Swing from Edmonds to Wodatch
+14y Pass from Wodatch to Bonnet
+8y Dump from Bonnet to Edmonds
+20y Pass from Edmonds to Bonnet
+11y Pass from Bonnet to Nissen
+52y Huck throwaway from Nissen
+12y Swing from Roy to Nissen
+10y Swing from Nissen to Roy
+17y Pass from Roy to Monroe
+13y Pass from Monroe to Jurek
+7y Dump from Jurek to Roy
+11y Swing from Roy to Monroe
+16y Pass from Monroe to Nissen
+25y Pass from Nissen to Roy
+10y Swing from Roy to Wodatch
+9y Pass from Wodatch to Bonnet
+10y Pass from Bonnet to Roy
+6y Dish from Roy to Bonnet
+12y Swing from Bonnet to Edmonds
+12y Turnover from Edmonds to Monroe
+7y Pass from Tom to Edmonds
+12y Pass from Edmonds to Merriman
+94y Score from Merriman to Grovic
+74y Pull by McDonnell
+6y Pass from Monroe to Malks
+25y Pass from Malks to Jurek
+15y Pass from Jurek to Nissen
+9y Dish from Nissen to Monroe
+7y Pass from Monroe to McDonnell
+5y Pass from McDonnell to Monroe
+5y Dump from Monroe to McDonnell
+9y Dump from McDonnell to Roy
+13y Swing from Roy to McDonnell
+15y Pass from McDonnell to Nissen
+16y Score from Nissen to Malks
+98y Pull by Edmonds
+0y Block by Dean
+5y Dump from Edmonds to Bloodgood
+7y Dish from Bloodgood to Edmonds
+12y Swing from Edmonds to Bloodgood
+17y Pass from Bloodgood to Grovic
+7y Dish from Grovic to Holland
+12y Swing from Holland to Dean
+6y Dish from Dean to Holland
+7y Pass from Holland to Dean
+11y Dump from Dean to Edmonds
+14y Swing from Edmonds to Bloodgood
+10y Swing from Bloodgood to Edmonds
+32y Throwaway from Edmonds
+26y Throwaway from Dean
+11y Swing from Roy to Malks
+8y Pass from Malks to Roy
+5y Turnover from Roy to McDonnell
+10y Pass from Edmonds to Tom
+0y Throwaway from Tom
+0y Block by Merriman
+7y Dump from Merriman to Bloodgood
+19y Pass from Bloodgood to Bergeron
+10y Pass from Bergeron to Healey
+18y Pass from Healey to Rehfuss
+8y Pass from Rehfuss to Healey
+20y Swing from Healey to Rehfuss
+5y Dump from Rehfuss to Edmonds
+9y Pass from Edmonds to Rehfuss
+11y Pass from Rehfuss to Edmonds
+15y Score from Edmonds to Healey
+73y Pull by McDonnell
+72y Huck throwaway from Edmonds
+0y Block by Healey
+50y Huck throwaway from Edmonds
+10y Pass from G Norrbom to Malks
+10y Swing from Malks to Roy
+16y Pass from Roy to Wodatch
+6y Dump from Wodatch to Roy
+17y Pass from Roy to Jurek
+13y Dump from Jurek to Roy
+11y Dump from Roy to Malks
+16y Pass from Malks to G Norrbom
+9y Dump from G Norrbom to Malks
+10y Swing from Malks to Roy
+10y Pass from Roy to G Norrbom
+7y Pass from G Norrbom to Roy
+14y Swing from Roy to Malks
+16y Swing from Malks to Wodatch
+9y Dump from Wodatch to Malks
+17y Swing from Malks to Roy
+31y Throwaway from Roy
+10y Pass from Edmonds to Bloodgood
+16y Pass from Bloodgood to Holland
+22y Pass from Holland to Dean
+10y Swing from Dean to Bloodgood
+6y Dump from Bloodgood to Dean
+13y Swing from Dean to Bloodgood
+12y Swing from Bloodgood to Edmonds
+17y Pass from Edmonds to Merriman
+18y Pass from Merriman to Grovic
+12y Pass from Grovic to McCutcheon
+13y Score from McCutcheon to Holland
+49y Pull by Nissen
+16y Swing from Malks to Roy
+9y Pass from Roy to McDonnell
+91y Dropped huck from McDonnell to Bonnet
+82y Pull by McDonnell
+16y Dump from Nissen to G Norrbom
+11y Swing from G Norrbom to Malks
+4y Dish from Malks to Nissen
+6y Dump from Nissen to Malks
+4y Dish from Malks to Nissen
+6y Dish from Nissen to McDonnell
+9y Pass from McDonnell to G Norrbom
+7y Dump from G Norrbom to McDonnell
+6y Dish from McDonnell to G Norrbom
+6y Dump from G Norrbom to Nissen
+6y Dish from Nissen to G Norrbom
+11y Pass from G Norrbom to Monroe
+6y Dump from Monroe to Nissen
+6y Pass from Nissen to G Norrbom
+7y Dump from G Norrbom to Nissen
+8y Dump from Nissen to McDonnell
+5y Dump from McDonnell to G Norrbom
+5y Dump from G Norrbom to Malks
+25y Score from Malks to Monroe
+92y Pull by Merriman
+0y Block by Bergeron
+12y Swing from Holland to Tom
+12y Pass from Tom to Bloodgood
+17y Pass from Bloodgood to Tom
+56y Score from Tom to Grovic
+86y Pull by McDonnell
+10y Pass from Roy to Jurek
+15y Swing from Jurek to Roy
+13y Pass from Roy to Malks
+46y Huck throwaway from Malks
+0y Block by Wodatch
+11y Pass from Roy to Jurek
+6y Dump from Jurek to McDonnell
+13y Pass from McDonnell to Jurek
+7y Dump from Jurek to Roy
+12y Pass from Roy to Nissen
+11y Swing from Nissen to Roy
+8y Dump from Roy to Nissen
+25y Pass from Nissen to Wodatch
+9y Pass from Wodatch to Malks
+15y Swing from Malks to Wodatch
+8y Dump from Wodatch to McDonnell
+14y Pass from McDonnell to Nissen
+6y Dish from Nissen to McDonnell
+9y Dump from McDonnell to Nissen
+7y Dump from Nissen to Roy
+15y Pass from Roy to Nissen
+19y Score from Nissen to Malks
+94y Pull by Edmonds
+8y Score from Edmonds to Tom
+82y Pull by McDonnell
+20y Pass from Edmonds to Bloodgood
+15y Pass from Bloodgood to Dean
+7y Dump from Dean to Holland
+21y Throwaway from Holland
+42y Huck from Bloodgood to Grovic
+14y Pass from Grovic to McCutcheon
+14y Pass from McCutcheon to Grovic
+10y Swing from Grovic to Edmonds
+12y Swing from Edmonds to Dean
+16y Pass from Dean to Holland
+12y Swing from Holland to Edmonds
+5y Dump from Edmonds to Bloodgood
+19y Throwaway from Bloodgood
+0y Block by Holland
+59y Huck throwaway from Edmonds
+0y Block by McCutcheon
+21y Pass from Malks to Bonnet
+9y Dish from Bonnet to Malks
+6y Dump from Malks to Roy
+23y Pass from Roy to Jurek
+10y Pass from Jurek to McDonnell
+6y Pass from McDonnell to Jurek
+14y Dump from Jurek to Roy
+8y Dump from Roy to Nissen
+13y Swing from Nissen to Roy
+13y Pass from Roy to McDonnell
+38y Throwaway from McDonnell
+0y Block by McDonnell
+14y Pass from McDonnell to Bonnet
+14y Pass from Bonnet to Nissen
+15y Swing from Nissen to Malks
+6y Pass from Malks to Nissen
+7y Dump from Nissen to McDonnell
+8y Pass from McDonnell to Nissen
+7y Pass from Nissen to Roy
+22y Score from Roy to Wodatch
+90y Pull by Edmonds
+19y Pass from Edmonds to Bloodgood
+4y Dish from Bloodgood to Edmonds
+12y Pass from Edmonds to Bloodgood
+39y Throwaway from Bloodgood
+16y Dump from Dean to Edmonds
+66y Huck throwaway from Edmonds
+9y Pass from G Norrbom to Malks
+10y Swing from Malks to G Norrbom
+25y Throwaway from G Norrbom
+0y Block by G Norrbom
+8y Dump from G Norrbom to Nissen
+9y Pass from Nissen to McDonnell
+38y Throwaway from McDonnell
+14y Turnover from Edmonds to Tom
+15y Swing from Roy to Nissen
+16y Pass from Nissen to Wodatch
+6y Pass from Wodatch to McDonnell
+8y Dump from McDonnell to Roy
+5y Dish from Roy to Malks
+18y Swing from Malks to Bonnet
+9y Dump from Bonnet to Malks
+11y Dump from Malks to Roy
+17y Pass from Roy to Nissen
+10y Dump from Nissen to Roy
+13y Pass from Roy to McDonnell
+41y Huck throwaway from McDonnell
+31y Throwaway from Roy
+22y Pass from Edmonds to Bloodgood
+14y Pass from Bloodgood to Merriman
+75y Score from Merriman to Grovic
+76y Pull by McDonnell
+28y Pass from Roy to Bonnet
+53y Huck throwaway from Bonnet
+16y Pass from Malks to Jurek
+19y Swing from Jurek to Roy
+17y Swing from Roy to G Norrbom
+15y Swing from G Norrbom to Roy
+9y Dish from Roy to G Norrbom
+8y Dish from G Norrbom to Jurek
+5y Pass from Jurek to G Norrbom
+13y Swing from G Norrbom to Roy
+16y Swing from Roy to Bonnet
+13y Pass from Bonnet to Monroe
+15y Swing from Monroe to McDonnell
+12y Swing from McDonnell to Monroe
+18y Swing from Monroe to Malks
+49y Huck throwaway from Malks
+0y Block by Bonnet
+15y Pass from Bonnet to Roy
+15y Dump from Roy to Bonnet
+4y Dish from Bonnet to Roy
+13y Pass from Roy to G Norrbom
+15y Swing from G Norrbom to McDonnell
+10y Pass from McDonnell to Malks
+9y Pass from Malks to G Norrbom
+9y Dump from G Norrbom to Malks
+9y Dish from Malks to G Norrbom
+6y Dish from G Norrbom to McDonnell
+7y Pass from McDonnell to Malks
+9y Dump from Malks to G Norrbom
+7y Pass from G Norrbom to Malks
+7y Pass from Malks to McDonnell
+7y Dump from McDonnell to G Norrbom
+23y Score from G Norrbom to Roy
+88y Pull by Edmonds
+0y Block by Holland
+22y Throwaway from Bloodgood
+14y Swing from Roy to McDonnell
+18y Pass from McDonnell to Nissen
+29y Pass from Nissen to Jurek
+5y Dump from Jurek to Edmonds
+7y Dump from Edmonds to Malks
+8y Dump from Malks to Edmonds
+7y Dump from Edmonds to Malks
+11y Swing from Malks to McDonnell
+69y Huck throwaway from McDonnell
+15y Swing from Roy to Malks
+44y Huck throwaway from Malks
+85y Pull by Snell
+17y Swing from Long to Hawkins
+18y Swing from Hawkins to Long
+30y Swing from Long to Brooks
+11y Pass from Brooks to Fairfax
+76y Score from Fairfax to Juengst
+84y Pull by Unknown
+0y Block by Coffin
+9y Pass from Coffin to Snell
+11y Throwaway from Snell
+19y Pass from Snell to Coffin
+47y Huck from Coffin to Swanson
+8y Pass from Swanson to Fisher
+10y Score from Fisher to Sanner
+60y OB Pull by Coffin
+66y Huck throwaway from Hawkins
+16y Swing from Long to Hawkins
+22y Swing from Hawkins to Laviolette
+60y Huck from Laviolette to Juengst
+7y Dump from Juengst to Brooks
+11y Throwaway from Brooks
+10y Pass from Laviolette to Juengst
+14y Pass from Juengst to Brooks
+46y Huck throwaway from Brooks
+0y Block by Davis
+5y Dump from Davis to Coffin
+76y Huck throwaway from Coffin
+51y Score from Snell to Fisher
+85y Pull by Coffin
+0y Block by Coffin
+7y Pass from Coffin to Tucker
+9y Dish from Tucker to McSherry
+4y Dish from McSherry to Weaver
+11y Swing from Long to Juengst
+10y Swing from Juengst to Long
+9y Pass from Long to Brooks
+11y Throwaway from Brooks
+27y Score from Long to Fairfax
+92y Pull by Snell
+0y Block by Wellers
+12y Pass from Weaver to Snell
+12y Dump from Snell to Weaver
+11y Pass from Weaver to Snell
+16y Swing from Snell to Bloodworth
+8y Dump from Bloodworth to Snell
+14y Swing from Snell to Weaver
+7y Dump from Weaver to Snell
+50y Huck throwaway from Snell
+5y Dump from Long to Hawkins
+10y Swing from Hawkins to Long
+11y Pass from Long to Fairfax
+8y Dump from Fairfax to Long
+14y Pass from Long to Fairfax
+8y Dish from Fairfax to Brooks
+10y Swing from Brooks to Laviolette
+9y Dump from Laviolette to Long
+7y Dump from Long to Laviolette
+13y Pass from Laviolette to Juengst
+11y Swing from Juengst to Laviolette
+40y Score from Laviolette to Fairfax
+92y Pull by Coffin
+0y Block by Williams
+20y Pass from Williams to Fisher
+12y Pass from Fisher to McSherry
+8y Dish from McSherry to Fisher
+11y Swing from Fisher to McSherry
+12y Pass from McSherry to Coffin
+14y Swing from Coffin to McSherry
+21y Pass from McSherry to Williams
+10y Pass from Williams to Bloodworth
+6y Dump from Bloodworth to McSherry
+19y Pass from McSherry to Williams
+7y Dump from Juengst to Laviolette
+13y Swing from Laviolette to Hawkins
+8y Pass from Hawkins to Juengst
+8y Dump from Juengst to Brooks
+11y Pass from Brooks to Juengst
+10y Dump from Juengst to Long
+11y Pass from Long to Brooks
+18y Swing from Brooks to Juengst
+22y Pass from Juengst to Hawkins
+7y Pass from Hawkins to Brooks
+12y Pass from Brooks to Juengst
+4y Dish from Juengst to Laviolette
+9y Pass from Laviolette to Brooks
+6y Dump from Brooks to Laviolette
+6y Throwaway from Laviolette
+16y Swing from Hawkins to Snell
+13y Pass from Snell to Brooks
+13y Pass from Brooks to Fisher
+12y Swing from Fisher to Hawkins
+48y Huck from Hawkins to Fisher
+19y Score from Fisher to Sanner
+60y OB Pull by McSherry
+0y Block by Swanson
+10y Swing from Swanson to McSherry
+6y Dump from McSherry to Weaver
+5y Dump from Weaver to McSherry
+13y Pass from McSherry to Weaver
+17y Pass from Weaver to Tucker
+31y Turnover from Long to Juengst
+76y Huck throwaway from Snell
+0y Block by Davis
+81y Huck from Snell to Wellers
+10y Dump from Wellers to Fisher
+29y Score from Fisher to Tucker
+60y Pull by Coffin
+15y Swing from Coffin to Weaver
+10y Swing from Weaver to Bloodworth
+5y Pass from Bloodworth to Weaver
+22y Turnover from Weaver to Sanner
+0y Block by Belus
+16y Swing from Weaver to Coffin
+31y Throwaway from Coffin
+0y Block by Long
+56y Huck from Weaver to Swanson
+8y Dump from Swanson to Coffin
+23y Score from Coffin to Sanner
+60y OB Pull by Fisher
+26y Pass from Long to Brooks
+12y Dump from Brooks to Long
+11y Pass from Long to Brooks
+8y Dump from Brooks to Long
+57y Score from Long to Brooks
+60y OB Pull by Coffin
+12y Pass from Long to Hawkins
+7y Dump from Hawkins to Long
+13y Pass from Long to Fairfax
+8y Dump from Fairfax to Hawkins
+12y Swing from Hawkins to Laviolette
+21y Swing from Laviolette to Hawkins
+21y Pass from Hawkins to Juengst
+19y Swing from Juengst to Fairfax
+23y Throwaway from Fairfax
+15y Swing from Long to Hawkins
+20y Pass from Hawkins to Brooks
+15y Pass from Brooks to Mitchell
+12y Swing from Mitchell to Long
+9y Throwaway from Long
+60y OB Pull by Snell
+18y Swing from Laviolette to Long
+20y Pass from Long to Brooks
+22y Swing from Brooks to Long
+12y Swing from Long to Juengst
+11y Swing from Juengst to Long
+12y Pass from Long to Fairfax
+11y Pass from Fairfax to Brooks
+12y Pass from Brooks to Hawkins
+8y Pass from Hawkins to Brooks
+32y Throwaway from Brooks
+17y Pass from Hawkins to Snell
+11y Dump from Snell to Hawkins
+15y Pass from Hawkins to Snell
+14y Pass from Snell to Fisher
+12y Pass from Fisher to Sanner
+14y Pass from Sanner to Brooks
+40y Huck from Brooks to Coffin
+13y Score from Coffin to Fisher
+98y Pull by Coffin
+15y Pass from Juengst to Hawkins
+16y Swing from Hawkins to Brooks
+18y Pass from Brooks to Mitchell
+13y Dump from Mitchell to Long
+16y Pass from Long to Laviolette
+11y Swing from Laviolette to Long
+11y Swing from Long to Fairfax
+3y Dish from Fairfax to Long
+12y Pass from Long to Juengst
+18y Swing from Juengst to Laviolette
+15y Swing from Laviolette to Hawkins
+39y Score from Hawkins to Long
+88y Pull by Snell
+22y Pass from Laviolette to Long
+10y Swing from Long to Hawkins
+62y Huck throwaway from Hawkins
+15y Swing from Laviolette to Brooks
+67y Score from Brooks to Fairfax
+79y Pull by Snell
+17y Swing from Snell to Bloodworth
+10y Pass from Bloodworth to Fisher
+19y Swing from Fisher to Coffin
+67y Huck throwaway from Coffin
+0y Block by Fisher
+7y Dish from Fisher to Snell
+5y Dump from Snell to Coffin
+5y Pass from Coffin to Snell
+22y Swing from Snell to Belus
+13y Pass from Belus to Fisher
+62y Score from Fisher to Swanson
+43y Pull by Coffin
+71y Score from Laviolette to Fairfax
+60y OB Pull by Fisher
+33y Pass from Laviolette to Fisher
+68y Huck throwaway from Fisher
+17y Pass from Laviolette to Long
+16y Pass from Long to Fairfax
+17y Swing from Fairfax to Long
+60y Huck from Long to Brooks
+12y Dump from Brooks to Mitchell
+8y Dump from Mitchell to Long
+14y Pass from Long to Fairfax
+14y Swing from Fairfax to Juengst
+12y Pass from Juengst to Brooks
+13y Swing from Brooks to Long
+9y Pass from Long to Fairfax
+12y Dump from Fairfax to Long
+11y Pass from Long to Juengst
+5y Pass from Juengst to Brooks
+9y Score from Brooks to Mitchell
+94y Pull by Fisher
+0y Block by Fisher
+19y Pass from Snell to Bloodworth
+22y Pass from Bloodworth to Sanner
+9y Dump from Sanner to Snell
+28y Pass from Snell to Davis
+12y Swing from Davis to Bloodworth
+36y Score from Laviolette to Fairfax
+94y Pull by Coffin
+8y Pass from Coffin to Snell
+12y Swing from Snell to Coffin
+76y Score from Coffin to Fisher
+42y Pull by Unknown
+9y Dish from Juengst to Laviolette
+11y Dump from Laviolette to Long
+11y Swing from Long to Hawkins
+11y Swing from Hawkins to Brooks
+15y Pass from Brooks to Fairfax
+17y Swing from Fairfax to Long
+8y Dump from Long to Hawkins
+15y Pass from Hawkins to Long
+18y Pass from Long to Brooks
+19y Throwaway from Brooks
+19y Pass from Laviolette to Hawkins
+15y Swing from Hawkins to Laviolette
+15y Pass from Laviolette to Brooks
+22y Swing from Brooks to Long
+21y Pass from Long to Brooks
+12y Pass from Brooks to Mitchell
+16y Dump from Mitchell to Brooks
+11y Pass from Brooks to Juengst
+17y Swing from Juengst to Brooks
+11y Pass from Brooks to Sanner
+17y Throwaway from Sanner
+0y Block by Sanner
+21y Swing from Laviolette to Brooks
+8y Dump from Brooks to Laviolette
+10y Pass from Laviolette to Brooks
+12y Score from Brooks to Laviolette
+93y Pull by Snell
+6y Dump from Weaver to Snell
+8y Pass from Snell to Weaver
+9y Pass from Weaver to Davis
+10y Dump from Davis to Weaver
+6y Dump from Weaver to Snell
+16y Pass from Snell to Davis
+14y Dump from Davis to Snell
+11y Pass from Snell to Bloodworth
+19y Dump from Bloodworth to Snell
+11y Pass from Snell to Belus
+69y Score from Belus to Swanson
+74y Pull by Coffin
+28y Dump from Laviolette to Hawkins
+12y Swing from Hawkins to Juengst
+16y Dump from Juengst to Hawkins
+17y Swing from Hawkins to Long
+19y Pass from Long to Brooks
+14y Swing from Brooks to Laviolette
+80y Score from Laviolette to Fairfax
+92y Pull by Fisher
+12y Pass from Hawkins to Brooks
+65y Huck from Brooks to Fairfax
+14y Swing from Fairfax to Juengst
+35y Throwaway from Juengst
+0y Block by Coffin
+12y Swing from Coffin to Swanson
+4y Dish from Swanson to Coffin
+8y Turnover from Coffin to Wellers
+0y Block by Fisher
+12y Swing from Wolf to Lofink
+13y Pass from Lofink to Munoz
+14y Pass from Munoz to Raunig
+17y Pass from Raunig to TLi
+14y Pass from TLi to Martin
+20y Pass from Martin to Munoz
+32y Score from Munoz to TLi
+82y Pull by El-Salaam
+10y Swing from Lofink to Wolf
+21y Turnover from Wolf to TLi
+6y Pass from Munoz to Lofink
+16y Pass from Lofink to Leahy
+12y Pass from Leahy to Munoz
+15y Pass from Munoz to Lofink
+18y Swing from Lofink to Raunig
+9y Dish from Raunig to Wolf
+7y Pass from Wolf to Lofink
+42y Huck throwaway from Lofink
+14y Pass from Foster to Ambrose
+12y Pass from Ambrose to Brown
+9y Pass from Brown to Foster
+42y Score from Foster to El-Salaam
+88y Pull by El-Salaam
+0y Block by Brown
+10y Pass from Brown to Ambrose
+13y Swing from Ambrose to Dean
+10y Dump from Dean to El-Salaam
+6y Dump from El-Salaam to O'Brien
+22y Pass from O'Brien to Brown
+12y Swing from Brown to O'Brien
+10y Pass from O'Brien to Goss
+12y Pass from Goss to Ambrose
+9y Pass from Ambrose to El-Salaam
+48y Huck throwaway from El-Salaam
+0y Block by O'Brien
+24y Pass from O'Brien to Brown
+51y Huck throwaway from Brown
+0y Block by Brown
+14y Pass from Wolf to TLi
+27y Pass from TLi to Lofink
+21y Throwaway from Lofink
+18y Pass from Lofink to Raunig
+11y Pass from Raunig to Martin
+10y Throwaway from Martin
+17y Pass from Wolf to Foster
+18y Pass from Foster to Ambrose
+13y Pass from Ambrose to Brown
+15y Throwaway from Brown
+11y Turnover from El-Salaam to Goss
+16y Pass from Lofink to Munoz
+16y Pass from Munoz to TLi
+19y Pass from TLi to Lofink
+7y Dump from Lofink to Munoz
+11y Pass from Munoz to Leahy
+18y Pass from Leahy to Wolf
+12y Throwaway from Wolf
+0y Block by Munoz
+19y Pass from Munoz to Raunig
+14y Pass from Raunig to Martin
+10y Pass from Martin to Munoz
+8y Dump from Munoz to Lofink
+14y Pass from Lofink to Munoz
+15y Score from Munoz to TLi
+60y OB Pull by El-Salaam
+11y Pass from Wolf to Lofink
+15y Swing from Lofink to Wolf
+18y Pass from Wolf to Raunig
+14y Pass from Raunig to TLi
+66y Huck throwaway from TLi
+58y Pull by El-Salaam
+0y Block by Ambrose
+55y Huck from Goss to Ambrose
+8y Pass from Ambrose to C Hines
+10y Pass from C Hines to Ambrose
+14y Dump from Ambrose to Dean
+8y Pass from Dean to Goss
+17y Score from Goss to Dean
+97y Pull by El-Salaam
+12y Swing from Lofink to Munoz
+18y Throwaway from Munoz
+17y Swing from El-Salaam to Goss
+13y Swing from Goss to Worthington
+16y Pass from Worthington to Korolog
+10y Pass from Korolog to Jacobs
+11y Pass from Jacobs to Korolog
+10y Pass from Lofink to Wolf
+18y Swing from Wolf to Foster
+15y Pass from Foster to Martin
+13y Dump from Martin to Foster
+11y Swing from Foster to Munoz
+11y Swing from Munoz to Lofink
+15y Throwaway from Lofink
+10y Swing from Martin to Wolf
+12y Pass from Wolf to Martin
+10y Pass from Martin to Munoz
+13y Pass from Munoz to Leahy
+12y Swing from Leahy to Munoz
+19y Pass from Munoz to Raunig
+44y Huck throwaway from Raunig
+6y Dump from Dean to El-Salaam
+23y Dump from El-Salaam to Wolf
+35y Throwaway from Wolf
+16y Pass from El-Salaam to TLi
+13y Swing from TLi to C Hines
+10y Swing from C Hines to Ambrose
+11y Swing from Ambrose to Dean
+18y Swing from Dean to Ambrose
+6y Pass from Ambrose to Dean
+9y Dump from Dean to Wolf
+23y Throwaway from Wolf
+0y Block by Dean
+12y Swing from El-Salaam to Ambrose
+16y Throwaway from Ambrose
+15y Swing from Foster to Lofink
+14y Swing from Lofink to Foster
+22y Pass from Foster to Raunig
+19y Pass from Raunig to Martin
+39y Score from Martin to Munoz
+60y OB Pull by Foster
+21y Pass from Wolf to Martin
+14y Pass from Martin to Raunig
+21y Pass from Raunig to Lofink
+7y Score from Lofink to Munoz
+99y Pull by El-Salaam
+11y Pass from Brown to Dean
+53y Huck throwaway from Dean
+9y Dump from Wolf to Lofink
+19y Pass from Lofink to Raunig
+23y Pass from Raunig to Leahy
+12y Pass from Leahy to Raunig
+12y Swing from Raunig to Munoz
+11y Swing from Munoz to TLi
+28y Score from TLi to Leahy
+92y Pull by El-Salaam
+21y Pass from Dean to C Hines
+20y Pass from C Hines to Ambrose
+18y Swing from Ambrose to C Hines
+7y Dump from C Hines to El-Salaam
+14y Pass from El-Salaam to Goss
+12y Pass from Goss to Dean
+8y Pass from Dean to O'Brien
+10y Dump from O'Brien to Dean
+11y Swing from Dean to Ambrose
+9y Dump from Ambrose to Dean
+9y Dump from Dean to O'Brien
+10y Swing from O'Brien to Dean
+63y Score from Dean to Brown
+99y Pull by Foster
+10y Swing from Lofink to Munoz
+14y Pass from Munoz to TLi
+13y Pass from TLi to Lofink
+7y Pass from Lofink to TLi
+13y Dump from TLi to Lofink
+15y Swing from Lofink to Wolf
+16y Pass from Wolf to Leahy
+13y Pass from Leahy to Lofink
+7y Dish from Lofink to Wolf
+14y Pass from Wolf to TLi
+16y Swing from TLi to O'Brien
+17y Swing from O'Brien to Martin
+32y Score from Martin to Munoz
+85y Pull by El-Salaam
+16y Pass from Lofink to Wolf
+25y Pass from Wolf to Foster
+20y Pass from Foster to TLi
+14y Pass from TLi to Leahy
+10y Dump from Leahy to Wolf
+16y Pass from Wolf to Foster
+14y Pass from Foster to Lofink
+43y Score from Lofink to Raunig
+94y Pull by Ambrose
+0y Block by Ambrose
+16y Swing from Worthington to Shipway
+14y Swing from Shipway to Lin
+11y Pass from Lin to Worthington
+13y Pass from Worthington to Jacobs
+20y Turnover from Jacobs to Korolog
+18y Swing from Lofink to Foster
+19y Swing from Foster to Wolf
+15y Pass from Wolf to Leahy
+28y Pass from Leahy to Raunig
+6y Dump from Raunig to Foster
+57y Huck throwaway from Foster
+0y Block by Wolf
+29y Swing from Wolf to Foster
+32y Pass from Foster to Leahy
+21y Throwaway from Leahy
+11y Pass from Munoz to Dean
+26y Swing from Dean to El-Salaam
+26y Pass from El-Salaam to C Hines
+6y Dump from C Hines to El-Salaam
+12y Dump from El-Salaam to C Hines
+7y Pass from C Hines to El-Salaam
+8y Pass from El-Salaam to Dean
+6y Dump from Dean to El-Salaam
+23y Score from El-Salaam to Ambrose
+41y Pull by Worthington
+11y Swing from Lofink to Wolf
+5y Dish from Wolf to Lofink
+9y Pass from Lofink to Foster
+15y Swing from Foster to Lofink
+16y Swing from Lofink to Wolf
+23y Swing from Wolf to Foster
+18y Pass from Foster to Raunig
+9y Dish from Raunig to Martin
+5y Dump from Martin to Lofink
+18y Pass from Lofink to Raunig
+16y Pass from Raunig to Martin
+18y Score from Martin to TLi
+94y Pull by El-Salaam
+0y Block by Dean
+88y Pull by El-Salaam
+12y Pass from Wolf to Lofink
+14y Pass from Lofink to Foster
+17y Pass from Foster to TLi
+20y Pass from TLi to Wolf
+13y Swing from Wolf to Foster
+12y Pass from Foster to Leahy
+12y Swing from Leahy to Foster
+26y Throwaway from Foster
+9y Pass from Lofink to Wolf
+10y Swing from Wolf to Lofink
+13y Swing from Lofink to Foster
+8y Pass from Foster to TLi
+69y Huck throwaway from TLi
+27y Pass from Lofink to C Hines
+12y Pass from C Hines to Lofink
+15y Swing from Lofink to C Hines
+17y Swing from C Hines to Dean
+15y Swing from Dean to Lofink
+20y Score from Lofink to Ambrose
+57y Pull by El-Salaam
+0y Block by O'Brien
+21y Pass from Wolf to Goss
+49y Score from Goss to Ambrose
+84y Pull by El-Salaam
+0y Block by Ambrose
+12y Pass from Ambrose to Dean
+17y Swing from Dean to Ambrose
+17y Throwaway from Ambrose
+12y Pass from Lofink to Wolf
+13y Swing from Wolf to Lofink
+15y Pass from Lofink to Raunig
+11y Pass from Raunig to Leahy
+9y Pass from Leahy to TLi
+14y Dump from TLi to Leahy
+13y Swing from Leahy to Foster
+21y Pass from Foster to Wolf
+14y Swing from Wolf to Foster
+21y Pass from Foster to Martin
+15y Swing from Martin to TLi
+12y Throwaway from TLi
+14y Swing from Munoz to Wolf
+11y Swing from Wolf to Dean
+18y Pass from Dean to El-Salaam
+84y Score from El-Salaam to Ambrose
+58y Pull by El-Salaam
+13y Pass from Wolf to Lofink
+19y Swing from Lofink to Foster
+23y Pass from Foster to Wolf
+18y Pass from Wolf to Leahy
+15y Pass from Leahy to Raunig
+19y Pass from Raunig to Martin
+52y Score from Martin to Lofink
+90y Pull by Ambrose
+0y Block by Worthington
+20y Swing from Lofink to Wolf
+18y Pass from Wolf to Raunig
+16y Dump from Raunig to Wolf
+21y Turnover from Wolf to Foster
+58y Huck throwaway from Wolf
+18y Pass from Munoz to Raunig
+17y Pass from Raunig to Lofink
+17y Pass from Lofink to Leahy
+14y Pass from Leahy to Lofink
+23y Score from Lofink to Wolf
+91y Pull by El-Salaam
+14y Swing from Munoz to Lofink
+23y Swing from Lofink to Raunig
+23y Pass from Raunig to TLi
+13y Pass from TLi to Martin
+15y Pass from Martin to Leahy
+8y Dump from Leahy to Martin
+6y Pass from Martin to Lofink
+12y Pass from Lofink to TLi
+10y Swing from TLi to Munoz
+9y Dump from Munoz to TLi
+11y Swing from TLi to Wolf
+1y Dish from Wolf to Lofink
+8y Score from Lofink to Wolf
+85y Pull by El-Salaam
+19y Throwaway from El-Salaam
+13y Swing from Munoz to Wolf
+9y Dump from Wolf to Lofink
+15y Swing from Lofink to Wolf
+14y Swing from Wolf to Munoz
+9y Dish from Munoz to Wolf
+10y Pass from Wolf to Raunig
+8y Pass from Raunig to Leahy
+3y Dish from Leahy to Lofink
+45y Score from Lofink to Munoz
+60y OB Pull by El-Salaam
+10y Swing from Dean to Ambrose
+34y Throwaway from Ambrose
+7y Dump from Lofink to Munoz
+15y Swing from Munoz to Wolf
+9y Dish from Wolf to Lofink
+10y Score from Lofink to Wolf
+99y Pull by Ambrose
+17y Swing from Wolf to Munoz
+16y Pass from Munoz to Lofink
+13y Pass from Lofink to Raunig
+7y Dish from Raunig to TLi
+14y Swing from TLi to Wolf
+7y Pass from Wolf to Lofink
+10y Swing from Lofink to Wolf
+14y Pass from Wolf to Leahy
+6y Dump from Leahy to Wolf
+8y Throwaway from Wolf
+19y Swing from Wolf to Dean
+13y Pass from Dean to Munoz
+13y Pass from Munoz to Brown
+52y Huck from Brown to C Hines
+10y Dump from C Hines to El-Salaam
+13y Swing from El-Salaam to C Hines
+11y Swing from C Hines to El-Salaam
+15y Swing from El-Salaam to Wolf
+5y Dump from Wolf to El-Salaam
+12y Score from El-Salaam to Ambrose
+83y Pull by Ambrose
+12y Swing from Munoz to Lofink
+15y Swing from Lofink to Wolf
+12y Pass from Wolf to Munoz
+7y Dump from Munoz to Wolf
+9y Dish from Wolf to Martin
+6y Pass from Martin to Munoz
+8y Dump from Munoz to Lofink
+13y Swing from Lofink to Wolf
+22y Pass from Wolf to Raunig
+6y Dump from Raunig to TLi
+18y Pass from TLi to Lofink
+14y Score from Lofink to Raunig
+89y Pull by Unknown
+0y Block by Korolog
+6y Throwaway from Lin
+21y Swing from Lin to Dean
+87y Huck throwaway from Dean
+86y Pull by El-Salaam
+6y Dump from Lofink to Wolf
+16y Pass from Wolf to Martin
+19y Pass from Martin to Leahy
+14y Swing from Leahy to Martin
+6y Pass from Martin to Lofink
+11y Pass from Lofink to Munoz
+22y Pass from Munoz to TLi
+6y Dump from TLi to Wolf
+10y Dump from Wolf to TLi
+11y Swing from TLi to Wolf
+28y Swing from Wolf to Leahy
+34y Score from Leahy to Martin
+84y Pull by Ambrose
+14y Pass from Munoz to Wolf
+22y Turnover from Wolf to Raunig
+12y Pass from Munoz to Ambrose
+18y Pass from Ambrose to Brown
+12y Dump from Brown to Dean
+14y Swing from Dean to Brown
+8y Dump from Brown to Wolf
+14y Pass from Wolf to Munoz
+12y Pass from Munoz to Ambrose
+10y Pass from Ambrose to El-Salaam
+48y Score from El-Salaam to Dean
+56y Pull by Worthington
+7y Dish from Munoz to Wolf
+22y Pass from Wolf to Raunig
+14y Pass from Raunig to Munoz
+60y Huck throwaway from Munoz
+20y Pass from Munoz to Ambrose
+16y Pass from Ambrose to Brown
+14y Swing from Brown to Ambrose
+8y Dish from Ambrose to Munoz
+11y Pass from Munoz to Ambrose
+13y Pass from Ambrose to Wolf
+17y Swing from Wolf to Ambrose
+14y Swing from Ambrose to Dean
+16y Pass from Dean to Munoz
+18y Score from Munoz to Dean
+80y Pull by Ambrose
+21y Swing from Lin to Ambrose
+13y Pass from Lofink to Munoz
+14y Pass from Munoz to Lofink
+24y Score from Lofink to Martin
+99y Pull by El-Salaam
+14y Pass from Wolf to Lofink
+23y Pass from Lofink to Martin
+15y Pass from Martin to El-Salaam
+15y Swing from El-Salaam to Wolf
+21y Pass from Wolf to Munoz
+8y Dump from Munoz to TLi
+18y Pass from TLi to Munoz
+13y Swing from Munoz to El-Salaam
+11y Pass from El-Salaam to TLi
+27y Throwaway from TLi
+20y Pass from Leahy to TLi
+6y Throwaway from TLi
+21y Swing from Lofink to Munoz
+6y Dish from Munoz to Lofink
+15y Pass from Lofink to Wolf
+12y Pass from Wolf to Lofink
+10y Pass from Lofink to TLi
+9y Dump from TLi to Wolf
+19y Swing from Wolf to Leahy
+0y Throwaway from Leahy
+8y Dish from Dean to Wolf
+20y Pass from Wolf to Ambrose
+14y Swing from Ambrose to Munoz
+8y Dump from Munoz to Wolf
+13y Pass from Wolf to El-Salaam
+8y Pass from El-Salaam to Wolf
+11y Pass from Wolf to Munoz
+6y Pass from Munoz to Dean
+39y Score from Dean to Ambrose
+60y OB Pull by Ambrose
+15y Pass from Wolf to Lofink
+17y Pass from Lofink to TLi
+18y Pass from TLi to Leahy
+12y Pass from Leahy to Lofink
+8y Pass from Lofink to Munoz
+15y Dump from Munoz to TLi
+22y Pass from TLi to Raunig
+9y Dump from Raunig to Wolf
+5y Dump from Wolf to Munoz
+10y Pass from Munoz to TLi
+23y Score from TLi to Martin
+96y Pull by El-Salaam
+0y Block by El-Salaam
+24y Pass from El-Salaam to Lin
+11y Swing from Lin to El-Salaam
+10y Pass from El-Salaam to Dean
+16y Swing from Dean to El-Salaam
+12y Swing from El-Salaam to Dean
+11y Pass from Dean to Lin
+7y Pass from Lin to Korolog
+12y Dump from Korolog to Lin
+9y Dish from Lin to El-Salaam
+5y Pass from El-Salaam to Dean
+18y Swing from Dean to Lin
+13y Score from Lin to Dean
+87y Pull by Ambrose
+12y Throwaway from Goss
+0y Block by El-Salaam
+15y Pass from Wolf to Martin
+18y Score from Martin to Lofink
+97y Pull by El-Salaam
+0y Block by Ambrose
+10y Swing from Ambrose to Goss
+26y Pass from Goss to Worthington
+10y Pass from Worthington to El-Salaam
+9y Dump from El-Salaam to C Hines
+6y Pass from C Hines to El-Salaam
+12y Swing from El-Salaam to C Hines
+7y Score from C Hines to El-Salaam
+85y Pull by Ambrose
+16y Pass from Munoz to TLi
+12y Pass from TLi to Munoz
+9y Dump from Munoz to TLi
+19y Pass from TLi to Raunig
+14y Pass from Raunig to Munoz
+15y Pass from Munoz to Leahy
+48y Score from Leahy to Raunig
+93y Pull by El-Salaam
+23y Pass from Dean to El-Salaam
+52y Huck throwaway from El-Salaam
+16y Swing from Munoz to Lofink
+19y Pass from Lofink to Martin
+67y Score from Martin to Raunig
+81y Pull by El-Salaam
+26y Pass from Ambrose to C Hines
+8y Pass from C Hines to Brown
+12y Throwaway from Brown
+83y Pull by El-Salaam
+0y Block by C Hines
+48y Swing from Goss to Ambrose
+14y Pass from Ambrose to Worthington
+19y Pass from Lofink to Martin
+8y Dump from Martin to Lofink
+19y Pass from Lofink to Munoz
+6y Dump from Munoz to Wolf
+13y Swing from Wolf to Munoz
+11y Pass from Munoz to Lofink
+6y Pass from Lofink to Munoz
+18y Swing from Munoz to Lofink
+32y Score from Lofink to Leahy
+99y Pull by El-Salaam
+0y Block by Brown
+7y Pass from Dean to Goss
+10y Dump from Goss to Dean
+13y Swing from Dean to C Hines
+17y Pass from C Hines to Brown
+26y Throwaway from Brown
+0y Block by Goss
+28y Pass from Dean to Goss
+14y Pass from Goss to Worthington
+17y Score from Worthington to Buyco
+89y Pull by Ambrose
+38y Throwaway from Lofink
+25y Pass from Munoz to Raunig
+0y Stall by Raunig
+21y Swing from Dean to C Hines
+21y Swing from C Hines to Ambrose
+9y Pass from Ambrose to Munoz
+15y Swing from Munoz to Ambrose
+17y Pass from Ambrose to Munoz
+9y Pass from Munoz to Brown
+9y Dump from Brown to Munoz
+8y Pass from Munoz to Dean
+11y Throwaway from Dean
+25y Swing from Lofink to El-Salaam
+15y Swing from El-Salaam to TLi
+14y Pass from TLi to Raunig
+13y Pass from Raunig to Munoz
+11y Dump from Munoz to TLi
+11y Swing from TLi to Munoz
+15y Swing from Munoz to Leahy
+13y Pass from Leahy to Lofink
+18y Pass from Lofink to Raunig
+10y Pass from Raunig to Martin
+12y Score from Martin to Lofink
+88y Pull by El-Salaam
+25y Swing from Munoz to Wolf
+8y Pass from Wolf to Lofink
+11y Swing from Lofink to Wolf
+20y Pass from Wolf to Martin
+15y Swing from Martin to TLi
+11y Swing from TLi to Wolf
+18y Pass from Wolf to Lofink
+12y Pass from Lofink to Leahy
+13y Pass from Leahy to Wolf
+12y Score from Wolf to Martin
+91y Pull by El-Salaam
+91y Pull by Ashton
+54y Huck from Miller to Connole
+49y Score from Connole to Field
+93y Pull by L'Heureux
+34y Throwaway from Lindsley
+0y Block by Kerr
+65y Huck from Kerr to Selfridge
+13y Score from Selfridge to Field
+92y Pull by Ashton
+44y Huck from Miller to Connole
+21y Throwaway from Connole
+19y Throwaway from Field
+16y Pass from MYorgason to Kerr
+9y Dump from Kerr to MYorgason
+9y Pass from MYorgason to Selfridge
+4y Dish from Selfridge to MYorgason
+12y Swing from MYorgason to Kerr
+10y Swing from Kerr to MYorgason
+9y Pass from MYorgason to Miller
+6y Pass from Miller to MYorgason
+29y Pass from MYorgason to Selfridge
+10y Pass from Selfridge to MYorgason
+13y Score from MYorgason to Field
+80y Pull by Weinberg
+0y Block by Brown
+8y Pass from Brown to Weinberg
+36y Score from Weinberg to Forsberg
+81y Pull by Ashton
+13y Swing from Selfridge to Miller
+16y Pass from Miller to Kerr
+19y Pass from Kerr to Duennebeil
+66y Score from Duennebeil to Jaime
+66y Pull by L'Heureux
+15y Swing from Kerr to Miller
+21y Swing from Miller to Kerr
+14y Pass from Kerr to Field
+9y Dump from Field to Kerr
+17y Swing from Kerr to Miller
+31y Throwaway from Miller
+0y Block by Selfridge
+23y Pass from Selfridge to Kerr
+30y Swing from Kerr to Jaime
+15y Pass from Jaime to Selfridge
+13y Throwaway from Selfridge
+0y Block by Field
+15y Pass from MYorgason to CYorgason
+21y Pass from CYorgason to Russnogle
+14y Dump from Russnogle to MYorgason
+17y Pass from MYorgason to Lindsley
+25y Pass from Lindsley to CYorgason
+16y Dump from CYorgason to Lindsley
+15y Swing from Lindsley to MYorgason
+15y Pass from MYorgason to Dastrup
+11y Pass from Dastrup to Huff
+11y Swing from Huff to Dastrup
+18y Pass from Dastrup to Russnogle
+15y Score from Russnogle to Ashton
+60y OB Pull by L'Heureux
+17y Pass from Selfridge to Lindsley
+14y Swing from Lindsley to Selfridge
+4y Dish from Selfridge to Lindsley
+7y Dump from Lindsley to Selfridge
+16y Swing from Selfridge to Lindsley
+17y Pass from Lindsley to Jaime
+13y Dump from Jaime to Lindsley
+8y Pass from Lindsley to Jaime
+12y Pass from Jaime to Selfridge
+15y Swing from Selfridge to Kerr
+20y Pass from Kerr to Miller
+9y Dump from Miller to Selfridge
+11y Pass from Selfridge to Miller
+11y Pass from Miller to Selfridge
+18y Score from Selfridge to Lindsley
+80y Pull by Ashton
+17y Dump from CYorgason to MYorgason
+20y Pass from MYorgason to CYorgason
+17y Pass from CYorgason to MYorgason
+16y Swing from MYorgason to CYorgason
+26y Score from CYorgason to Dastrup
+60y OB Pull by Weinberg
+21y Pass from Lindsley to Field
+15y Pass from Field to Selfridge
+11y Swing from Selfridge to Miller
+8y Dump from Miller to Field
+12y Pass from Field to Miller
+11y Swing from Miller to Lindsley
+29y Score from Lindsley to Field
+75y Pull by Ashton
+0y Block by CYorgason
+9y Dump from Lindsley to Huff
+6y Dump from Huff to Lindsley
+24y Pass from Lindsley to Dastrup
+20y Swing from Dastrup to Lindsley
+16y Pass from Lindsley to Russnogle
+6y Dump from Russnogle to MYorgason
+22y Pass from MYorgason to Ashton
+71y Score from Ashton to Russnogle
+68y Pull by L'Heureux
+8y Pass from MYorgason to Miller
+6y Dump from Miller to MYorgason
+10y Swing from MYorgason to Miller
+14y Pass from Miller to Kerr
+12y Swing from Kerr to Miller
+7y Pass from Miller to Kerr
+14y Pass from Kerr to Selfridge
+28y Swing from Selfridge to Duennebeil
+17y Swing from Duennebeil to MYorgason
+27y Throwaway from MYorgason
+18y Pass from Connole to Kerr
+7y Dump from Kerr to Connole
+20y Swing from Connole to Selfridge
+15y Pass from Selfridge to Jaime
+14y Pass from Jaime to Miller
+7y Dump from Miller to Connole
+12y Swing from Connole to Miller
+15y Pass from Miller to Duennebeil
+65y Score from Duennebeil to Kerr
+89y Pull by L'Heureux
+0y Block by L'Heureux
+20y Dump from L'Heureux to Ashton
+14y Pass from Ashton to Brown
+17y Pass from Brown to Lindsley
+18y Pass from Lindsley to CYorgason
+15y Pass from CYorgason to Weinberg
+24y Turnover from Weinberg to Lindsley
+0y Block by Ashton
+27y Score from CYorgason to Weinberg
+73y Pull by Unknown
+0y Block by Connole
+33y Pass from Mounga to Ashton
+14y Pass from Ashton to Weinberg
+32y Score from Weinberg to Forsberg
+78y Pull by Ashton
+8y Dump from Miller to Selfridge
+12y Swing from Selfridge to Miller
+8y Pass from Miller to Connole
+10y Dump from Connole to Field
+10y Pass from Field to Connole
+7y Pass from Connole to Miller
+15y Pass from Miller to Jaime
+15y Pass from Jaime to Selfridge
+18y Swing from Selfridge to Kerr
+16y Swing from Kerr to Selfridge
+14y Pass from Selfridge to Field
+9y Dish from Field to Miller
+14y Pass from Miller to Field
+10y Dump from Field to Miller
+10y Swing from Miller to Kerr
+20y Score from Kerr to Selfridge
+94y Pull by Weinberg
+12y Swing from Miller to Lindsley
+9y Dish from Lindsley to Miller
+20y Pass from Miller to Field
+14y Swing from Field to Miller
+6y Pass from Miller to Lindsley
+9y Dump from Lindsley to Miller
+14y Pass from Miller to Selfridge
+12y Pass from Selfridge to Lindsley
+22y Throwaway from Lindsley
+21y Swing from Ashton to Lindsley
+16y Swing from Lindsley to CYorgason
+19y Swing from CYorgason to Lindsley
+20y Pass from Lindsley to Russnogle
+27y Throwaway from Russnogle
+0y Throwaway from CYorgason
+17y Pass from Connole to Miller
+11y Pass from Miller to Selfridge
+11y Pass from Selfridge to Field
+28y Pass from Field to Duennebeil
+7y Dump from Duennebeil to Connole
+18y Swing from Connole to Miller
+16y Pass from Miller to Jaime
+9y Pass from Jaime to Miller
+12y Throwaway from Miller
+16y Pass from MYorgason to Lindsley
+17y Swing from Lindsley to Russnogle
+55y Huck from Russnogle to Huff
+12y Score from Huff to CYorgason
+85y Pull by L'Heureux
+11y Pass from Connole to Miller
+19y Pass from Miller to Selfridge
+22y Swing from Selfridge to Miller
+15y Pass from Miller to Jaime
+11y Dump from Jaime to Connole
+17y Pass from Connole to Miller
+15y Pass from Miller to Duennebeil
+13y Pass from Duennebeil to Miller
+14y Swing from Miller to Selfridge
+16y Pass from Selfridge to Field
+8y Dish from Field to Selfridge
+13y Pass from Selfridge to Field
+9y Turnover from Field to Jaime
+0y Block by Duennebeil
+9y Pass from Selfridge to Miller
+10y Swing from Miller to Selfridge
+22y Swing from Selfridge to Jaime
+17y Pass from Jaime to Kerr
+46y Score from Kerr to Duennebeil
+80y Pull by L'Heureux
+15y Swing from Ashton to Lindsley
+15y Swing from Lindsley to MYorgason
+16y Pass from MYorgason to CYorgason
+11y Swing from CYorgason to MYorgason
+15y Swing from MYorgason to CYorgason
+73y Huck throwaway from CYorgason
+0y Block by Ashton
+21y Pass from MYorgason to CYorgason
+15y Dump from CYorgason to Lindsley
+18y Swing from Lindsley to Miller
+12y Swing from Miller to Kerr
+10y Pass from Kerr to Selfridge
+13y Swing from Selfridge to CYorgason
+33y Throwaway from CYorgason
+12y Pass from Miller to Lindsley
+11y Pass from Lindsley to MYorgason
+12y Swing from MYorgason to Lindsley
+14y Swing from Lindsley to MYorgason
+8y Pass from MYorgason to Selfridge
+22y Swing from Selfridge to Lindsley
+16y Swing from Lindsley to Duennebeil
+11y Swing from Duennebeil to Lindsley
+17y Swing from Lindsley to MYorgason
+8y Dump from MYorgason to Kerr
+15y Swing from Kerr to Field
+11y Swing from Field to Miller
+7y Dump from Miller to Field
+18y Pass from Field to Duennebeil
+1y Throwaway from Duennebeil
+10y Dump from Kerr to MYorgason
+21y Swing from MYorgason to Selfridge
+13y Swing from Selfridge to Field
+12y Swing from Field to Selfridge
+21y Pass from Selfridge to Lindsley
+11y Swing from Lindsley to Selfridge
+26y Throwaway from Selfridge
+23y Pass from Selfridge to Connole
+13y Pass from Connole to Ashton
+73y Huck throwaway from Ashton
+8y Score from Huff to Dastrup
+81y Pull by Unknown
+17y Pass from Lindsley to L'Heureux
+58y Huck throwaway from L'Heureux
+18y Score from Lindsley to Weinberg
+58y Pull by Weinberg
+0y Block by CYorgason
+33y Pass from CYorgason to Weinberg
+8y Dump from Weinberg to Lindsley
+30y Pass from Lindsley to Weinberg
+6y Dump from Weinberg to Lindsley
+32y Pass from Lindsley to L'Heureux
+16y Swing from L'Heureux to Selfridge
+24y Score from Selfridge to Ashton
+61y Pull by Ashton
+14y Pass from Miller to Selfridge
+21y Swing from Selfridge to Kerr
+20y Swing from Kerr to MYorgason
+15y Pass from MYorgason to Selfridge
+18y Swing from Selfridge to Miller
+16y Swing from Miller to MYorgason
+13y Pass from MYorgason to Field
+12y Pass from Field to MYorgason
+16y Pass from MYorgason to Selfridge
+11y Dump from Selfridge to Miller
+22y Pass from Miller to Kerr
+11y Pass from Kerr to MYorgason
+19y Swing from MYorgason to Selfridge
+10y Swing from Selfridge to MYorgason
+16y Swing from MYorgason to Field
+10y Score from Field to Selfridge
+58y Pull by Weinberg
+24y Swing from MYorgason to Lindsley
+23y Pass from Lindsley to CYorgason
+15y Pass from CYorgason to Selfridge
+12y Pass from Selfridge to MYorgason
+14y Pass from MYorgason to Connole
+13y Pass from Connole to Selfridge
+28y Throwaway from Selfridge
+10y Pass from Marcus to Sample
+14y Swing from Sample to Luo
+11y Pass from Luo to Hart
+9y Pass from Hart to Sample
+8y Pass from Sample to Hart
+6y Throwaway from Hart
+8y Pass from Alexander to Wilson
+7y Dish from Wilson to Alexander
+15y Pass from Alexander to Carrico
+12y Swing from Carrico to Wilson
+14y Swing from Wilson to Carrico
+5y Pass from Carrico to Wilson
+10y Pass from Wilson to Carrico
+7y Pass from Carrico to Alexander
+11y Pass from Alexander to Carrico
+9y Pass from Carrico to Alexander
+47y Score from Alexander to McCarthy
+60y OB Pull by Marks
+0y Block by Marks
+5y Pass from Marks to Weber
+15y Pass from Weber to Marks
+12y Swing from Marks to Carrico
+10y Pass from Carrico to Pettit-Scantling
+20y Pass from Pettit-Scantling to Knoche
+19y Pass from Knoche to Marks
+10y Swing from Marks to Carrico
+24y Throwaway from Carrico
+4y Dish from Marcus to Hart
+6y Pass from Hart to Luo
+15y Swing from Luo to Sample
+9y Pass from Sample to Gutowsky
+7y Dump from Gutowsky to Luo
+16y Swing from Luo to Sample
+10y Swing from Sample to Vordick
+9y Dump from Vordick to Luo
+15y Swing from Luo to Marcus
+15y Pass from Marcus to Sample
+13y Pass from Sample to Vordick
+21y Pass from Vordick to Hart
+9y Pass from Hart to Marcus
+10y Pass from Marcus to Gutowsky
+9y Dump from Gutowsky to Marcus
+12y Pass from Marcus to Hart
+0y Stall by Hart
+0y Block by Luo
+12y Swing from Luo to Hart
+19y Pass from Hart to Gutowsky
+6y Pass from Gutowsky to Vordick
+11y Pass from Vordick to Marcus
+12y Pass from Marcus to Luo
+66y Score from Luo to Sample
+99y Pull by DeLorenzo
+0y Block by McCarthy
+16y Swing from DeLorenzo to Meshnick
+7y Dump from Meshnick to McCarthy
+15y Swing from McCarthy to Alexander
+21y Swing from Alexander to Weber
+31y Pass from Weber to Meshnick
+8y Pass from Meshnick to Wilson
+15y Swing from Wilson to McCarthy
+42y Huck throwaway from McCarthy
+12y Dump from Wilson to Pettit-Scantling
+7y Pass from Pettit-Scantling to Wilson
+8y Dish from Wilson to Weber
+17y Swing from Weber to Alexander
+9y Pass from Alexander to Weber
+11y Score from Weber to McCarthy
+47y Pull by DeLorenzo
+0y Block by Marks
+14y Pass from Marcus to Nelson
+13y Dump from Nelson to Marcus
+24y Swing from Marcus to Schewe
+18y Pass from Schewe to Gutowsky
+37y Throwaway from Gutowsky
+6y Pass from Alexander to Wilson
+11y Pass from Wilson to Carrico
+9y Dump from Carrico to Wilson
+19y Throwaway from Wilson
+14y Pass from Robert to Wilson
+4y Dish from Wilson to Weber
+6y Dump from Weber to Wilson
+6y Dish from Wilson to Weber
+14y Pass from Weber to Pettit-Scantling
+14y Dump from Pettit-Scantling to DeLorenzo
+14y Pass from DeLorenzo to Wilson
+11y Pass from Wilson to Weber
+12y Dump from Weber to Wilson
+8y Pass from Wilson to Robert
+6y Dump from Robert to Weber
+19y Swing from Weber to Robert
+5y Pass from Robert to Wilson
+3y Dish from Wilson to Weber
+10y Pass from Weber to Knoche
+9y Dump from Knoche to Weber
+15y Throwaway from Weber
+75y Pull by Marks
+17y Pass from Marcus to Hart
+12y Pass from Hart to Luo
+10y Swing from Luo to Schewe
+12y Score from Schewe to Vordick
+90y Pull by DeLorenzo
+10y Pass from DeLorenzo to Alexander
+13y Pass from Alexander to Pettit-Scantling
+57y Huck throwaway from Pettit-Scantling
+14y Pass from Alexander to Gutowsky
+10y Pass from Gutowsky to Meshnick
+4y Dish from Meshnick to Alexander
+14y Pass from Alexander to Meshnick
+11y Throwaway from Meshnick
+9y Pass from Marcus to Hart
+6y Dish from Hart to Marcus
+12y Pass from Marcus to Luo
+65y Huck throwaway from Luo
+13y Swing from Alexander to Wilson
+11y Throwaway from Wilson
+8y Pass from Marcus to Hart
+55y Huck from Hart to Luo
+15y Pass from Luo to Gutowsky
+8y Score from Gutowsky to Vordick
+87y Pull by Marks
+14y Pass from Marcus to Schewe
+12y Swing from Schewe to Marcus
+11y Pass from Marcus to Nelson
+10y Pass from Nelson to Sample
+16y Swing from Sample to Vordick
+8y Dump from Vordick to Hart
+14y Swing from Hart to Vordick
+17y Pass from Vordick to Schewe
+10y Pass from Schewe to Sample
+10y Pass from Sample to Gutowsky
+6y Dump from Gutowsky to Schewe
+11y Swing from Schewe to Sample
+12y Throwaway from Sample
+0y Block by Sample
+60y Huck throwaway from Schewe
+8y Dump from Wilson to Weber
+11y Pass from Weber to Alexander
+8y Pass from Alexander to Wilson
+20y Swing from Wilson to Robert
+5y Pass from Robert to Weber
+7y Dump from Weber to Carrico
+19y Swing from Carrico to Alexander
+8y Turnover from Alexander to Weber
+12y Pass from Schewe to Marcus
+9y Pass from Marcus to Luo
+9y Dump from Luo to Hart
+8y Pass from Hart to Luo
+13y Pass from Luo to Hart
+13y Swing from Hart to Luo
+22y Pass from Luo to Marcus
+9y Pass from Marcus to Hart
+11y Swing from Hart to Luo
+32y Throwaway from Luo
+0y Block by Knoche
+7y Pass from Marcus to Hart
+17y Pass from Hart to Gutowsky
+11y Throwaway from Gutowsky
+13y Pass from Alexander to Wilson
+12y Pass from Wilson to Alexander
+21y Swing from Alexander to McCarthy
+45y Huck from McCarthy to Carrico
+5y Pass from Carrico to Alexander
+16y Score from Alexander to McCarthy
+86y Pull by Marks
+2y Dish from Luo to Marcus
+35y Throwaway from Marcus
+15y Pass from Alexander to Wilson
+10y Pass from Wilson to McCarthy
+25y Pass from McCarthy to Knoche
+13y Pass from Knoche to McCarthy
+8y Dump from McCarthy to Wilson
+7y Pass from Wilson to Weber
+41y Score from Weber to Alexander
+38y OB Pull by Luo
+15y Swing from Wilson to Luo
+19y Swing from Luo to Pettit-Scantling
+9y Pass from Pettit-Scantling to Luo
+11y Swing from Luo to DeLorenzo
+8y Dump from DeLorenzo to Pettit-Scantling
+13y Pass from Pettit-Scantling to Gutowsky
+9y Pass from Gutowsky to Wilson
+11y Pass from Wilson to Luo
+19y Pass from Luo to Pettit-Scantling
+8y Pass from Pettit-Scantling to Wilson
+15y Swing from Wilson to Luo
+11y Swing from Luo to Wilson
+10y Pass from Wilson to Meshnick
+11y Pass from Meshnick to Pettit-Scantling
+16y Throwaway from Pettit-Scantling
+13y Pass from Marcus to Hart
+6y Dish from Hart to Marcus
+85y Score from Marcus to Gutowsky
+67y Pull by Marks
+12y Pass from Marcus to Schewe
+15y Pass from Schewe to Vordick
+24y Swing from Vordick to Schewe
+19y Pass from Schewe to Gutowsky
+13y Pass from Gutowsky to Marcus
+51y Huck throwaway from Marcus
+11y Pass from Alexander to Wilson
+16y Swing from Wilson to Weber
+16y Pass from Weber to Knoche
+2y Dish from Knoche to McCarthy
+12y Pass from McCarthy to Robert
+16y Swing from Robert to Wilson
+14y Pass from Wilson to McCarthy
+48y Huck throwaway from McCarthy
+7y Pass from Marcus to Luo
+20y Pass from Luo to Hart
+10y Pass from Hart to Luo
+56y Score from Luo to Hart
+50y Pull by DeLorenzo
+0y Block by Marks
+34y Score from Wilson to Marks
+88y Pull by Marks
+22y Swing from Carrico to Marks
+9y Pass from Marks to McCarthy
+7y Dish from McCarthy to Marks
+60y Score from Marks to Robert
+46y Pull by DeLorenzo
+13y Swing from Wilson to Alexander
+13y Swing from Alexander to Wilson
+11y Swing from Wilson to Alexander
+22y Score from Alexander to DeLorenzo
+89y Pull by Marks
+0y Block by Knoche
+30y OB Pull by DeLorenzo
+18y Pass from Marcus to Gutowsky
+6y Dump from Gutowsky to Marcus
+12y Pass from Marcus to Gutowsky
+7y Dish from Gutowsky to Marcus
+11y Pass from Marcus to Sample
+21y Pass from Sample to Vordick
+6y Pass from Vordick to Hart
+17y Swing from Hart to Schewe
+17y Swing from Schewe to Marcus
+13y Swing from Marcus to Sample
+26y Pass from Sample to Nelson
+12y Swing from Nelson to Marcus
+7y Dish from Marcus to Sample
+6y Dump from Sample to Vordick
+4y Dish from Vordick to Sample
+29y Score from Sample to Nelson
+83y Pull by Marks
+14y Swing from Marcus to Schewe
+16y Swing from Schewe to Luo
+5y Pass from Luo to Schewe
+24y Throwaway from Schewe
+14y Pass from Alexander to Wilson
+16y Pass from Wilson to McCarthy
+6y Dump from McCarthy to Wilson
+6y Pass from Wilson to McCarthy
+6y Dish from McCarthy to Wilson
+5y Pass from Wilson to McCarthy
+4y Dish from McCarthy to Wilson
+3y Dish from Wilson to McCarthy
+7y Dish from McCarthy to Carrico
+5y Dish from Carrico to Wilson
+34y Pass from Wilson to Knoche
+12y Swing from Knoche to Weber
+3y Dish from Weber to McCarthy
+9y Dump from McCarthy to Weber
+11y Pass from Weber to Wilson
+25y Throwaway from Wilson
+11y Pass from Schewe to Marcus
+84y Huck throwaway from Marcus
+0y Block by Sample
+13y Swing from Sample to Hart
+11y Swing from Hart to Sample
+6y Pass from Sample to Gutowsky
+5y Pass from Gutowsky to Marcus
+85y Huck throwaway from Marcus
+11y Pass from Alexander to Wilson
+10y Pass from Wilson to Weber
+26y Pass from Weber to Knoche
+8y Dish from Knoche to McCarthy
+10y Swing from McCarthy to Weber
+6y Pass from Weber to Wilson
+15y Pass from Wilson to Alexander
+8y Pass from Alexander to McCarthy
+15y Swing from McCarthy to Carrico
+6y Dish from Carrico to Wilson
+12y Score from Wilson to McCarthy
+45y Pull by Wilson
+13y Pass from Schewe to Marcus
+19y Pass from Marcus to Gutowsky
+15y Swing from Gutowsky to Hart
+9y Pass from Hart to Luo
+3y Dish from Luo to Marcus
+28y Swing from Marcus to Schewe
+11y Pass from Schewe to Luo
+7y Pass from Luo to Marcus
+18y Throwaway from Marcus
+7y Pass from McCarthy to Alexander
+16y Pass from Alexander to Weber
+14y Swing from Weber to Wilson
+9y Pass from Wilson to Weber
+7y Pass from Weber to McCarthy
+14y Pass from McCarthy to Carrico
+7y Pass from Carrico to McCarthy
+11y Dump from McCarthy to Carrico
+14y Swing from Carrico to Wilson
+8y Dish from Wilson to Carrico
+6y Pass from Carrico to Wilson
+40y Huck throwaway from Wilson
+79y Pull by Lacy
+0y Block by McCosky
+6y Pass from VandeMoortele to McCosky
+5y Pass from McCosky to Lacy
+16y Pass from Lacy to McCosky
+6y Score from McCosky to Krenik
+94y Pull by Berglund
+19y Pass from Brandt to Taylor
+15y Pass from Taylor to Larson
+11y Pass from Larson to Snider
+18y Dump from Snider to Brandt
+11y Pass from Brandt to Klane
+7y Dish from Klane to Larson
+22y Throwaway from Larson
+0y Block by Brandt
+12y Pass from Brandt to Berry
+8y Pass from Berry to Klane
+73y Score from Klane to Taylor
+99y Pull by Lacy
+9y Pass from VandeMoortele to McCosky
+70y Huck throwaway from McCosky
+10y Pass from Klane to Brandt
+24y Pass from Brandt to Larson
+12y Pass from Larson to Rehder
+48y Huck throwaway from Rehder
+20y Pass from Brandt to Snider
+16y Pass from Snider to Vohnoutka
+10y Turnover from Vohnoutka to Brandt
+15y Dump from VandeMoortele to McCosky
+41y Huck throwaway from McCosky
+0y Block by Jirele
+11y Pass from DeClerck to Larson
+68y Score from Larson to Vohnoutka
+80y Pull by Berglund
+0y Block by Shope
+9y Pass from Shope to VandeMoortele
+7y Pass from VandeMoortele to McCosky
+12y Swing from McCosky to VandeMoortele
+14y Pass from VandeMoortele to Berglund
+12y Pass from Berglund to VandeMoortele
+12y Swing from Brandt to Sovell-Fernandez
+12y Swing from Sovell-Fernandez to Brandt
+9y Pass from Brandt to Vohnoutka
+5y Dump from Vohnoutka to Brandt
+10y Dump from Brandt to Klane
+15y Swing from Klane to Sovell-Fernandez
+8y Turnover from Sovell-Fernandez to Klane
+0y Block by Berry
+6y Dump from Klane to Vohnoutka
+18y Pass from Vohnoutka to Berry
+60y Huck throwaway from Berry
+14y Swing from Brandt to Klane
+12y Swing from Klane to Larson
+21y Pass from Larson to Snider
+11y Swing from Snider to Klane
+26y Pass from Klane to Taylor
+8y Dish from Taylor to Brandt
+38y Score from Brandt to Taylor
+45y Pull by Berglund
+5y Dump from Klane to Brandt
+11y Swing from Brandt to Klane
+15y Pass from Klane to Berry
+13y Pass from Berry to Larson
+16y Swing from Larson to Berry
+8y Pass from Berry to Klane
+12y Pass from Klane to Snider
+13y Pass from Snider to Brandt
+5y Dish from Brandt to Snider
+17y Throwaway from Snider
+16y Swing from Brandt to Larson
+12y Swing from Larson to Rehder
+14y Pass from Rehder to Brandt
+59y Dropped huck from Brandt to Snider
+21y Swing from Brandt to Larson
+10y Pass from Larson to Snider
+10y Pass from Snider to Klane
+14y Swing from Klane to Vohnoutka
+36y Score from Vohnoutka to Snider
+93y Pull by Berglund
+11y Pass from Bergmeier to DeClerck
+4y Dish from DeClerck to Berglund
+57y Huck from Berglund to Shope
+11y Score from Shope to Krenik
+99y Pull by Lacy
+8y Dump from VandeMoortele to Vohnoutka
+7y Dump from Vohnoutka to Lacy
+8y Dump from Lacy to McCosky
+7y Dish from McCosky to Lacy
+16y Score from Lacy to Jirele
+88y Pull by Berglund
+18y Swing from Sovell-Fernandez to Brandt
+20y Pass from Brandt to Sovell-Fernandez
+14y Pass from Sovell-Fernandez to Larson
+12y Pass from Larson to Snider
+14y Pass from Snider to Larson
+15y Pass from Larson to Klane
+14y Pass from Klane to Snider
+6y Pass from Snider to Vohnoutka
+6y Dump from Vohnoutka to Snider
+8y Dump from Snider to Brandt
+13y Swing from Brandt to Sovell-Fernandez
+13y Swing from Sovell-Fernandez to Larson
+8y Dish from Larson to Brandt
+24y Score from Brandt to Snider
+92y Pull by Berglund
+0y Block by Hanson
+59y Huck throwaway from Berglund
+0y Block by Lacy
+14y Pass from Lacy to Berglund
+12y Pass from Berglund to Bergmeier
+15y Pass from Bergmeier to McCosky
+14y Swing from McCosky to Lacy
+15y Pass from Lacy to Shope
+13y Pass from Shope to Bergmeier
+35y Throwaway from Bergmeier
+12y Swing from Bergmeier to Krenik
+5y Dish from Krenik to Bergmeier
+11y Swing from Bergmeier to Krenik
+11y Swing from Krenik to Larson
+15y Score from Larson to Krenik
+91y Pull by Lacy
+8y Pass from McCosky to Hanson
+12y Dump from Hanson to Lacy
+11y Swing from Brandt to Vohnoutka
+22y Swing from Vohnoutka to Berry
+10y Pass from Berry to Brandt
+22y Pass from Brandt to Snider
+24y Pass from Snider to Larson
+12y Pass from Larson to Klane
+49y Huck throwaway from Klane
+87y Pull by Berglund
+16y Swing from VandeMoortele to Berglund
+29y Score from Berglund to Jirele
+88y Pull by Lacy
+10y Dump from Klane to Brandt
+14y Pass from Brandt to Sovell-Fernandez
+14y Pass from Sovell-Fernandez to Vohnoutka
+15y Pass from Vohnoutka to Klane
+56y Score from Klane to Sovell-Fernandez
+99y Pull by Berglund
+7y Score from VandeMoortele to DeClerck
+84y Pull by Lacy
+16y Pass from Brandt to Larson
+31y Throwaway from Larson
+19y Pass from Brandt to Snider
+18y Pass from Snider to Brandt
+26y Swing from Brandt to Taylor
+32y Pass from Taylor to Klane
+45y Score from Klane to Snider
+85y Pull by Berglund
+15y Pass from Sovell-Fernandez to Snider
+34y Pass from Snider to Rehder
+45y Score from Rehder to Larson
+93y Pull by Lacy
+0y Block by Shope
+5y Pass from Lacy to VandeMoortele
+45y Huck from VandeMoortele to DeClerck
+11y Swing from DeClerck to Bergmeier
+4y Dish from Bergmeier to DeClerck
+5y Dish from DeClerck to Bergmeier
+4y Dish from Bergmeier to DeClerck
+6y Score from DeClerck to Bergmeier
+84y Pull by Berglund
+8y Pass from Lacy to Hanson
+12y Pass from Hanson to Matis
+68y Score from Matis to Vohnoutka
+73y Pull by VandeMoortele
+38y Throwaway from Brandt
+9y Pass from Klane to Taylor
+7y Pass from Taylor to Sovell-Fernandez
+8y Pass from Sovell-Fernandez to Snider
+14y Pass from Snider to Rehder
+17y Pass from Rehder to Snider
+4y Dish from Snider to Brandt
+10y Throwaway from Brandt
+18y Dump from Brandt to VandeMoortele
+16y Throwaway from VandeMoortele
+14y Swing from Brandt to Klane
+8y Pass from Klane to Brandt
+9y Pass from Brandt to Klane
+37y Swing from Klane to Taylor
+6y Pass from Taylor to Rehder
+11y Swing from Rehder to Larson
+25y Pass from Larson to Sovell-Fernandez
+7y Dump from Sovell-Fernandez to Larson
+25y Pass from Larson to Klane
+30y Pass from Klane to Taylor
+6y Dump from Taylor to Brandt
+29y Throwaway from Brandt
+13y Pass from Brandt to Klane
+11y Pass from Klane to Larson
+29y Score from Larson to Snider
+81y Pull by Berglund
+18y Pass from Sovell-Fernandez to Klane
+13y Swing from Klane to Sovell-Fernandez
+68y Huck from Sovell-Fernandez to Taylor
+10y Swing from Taylor to Larson
+15y Score from Larson to Taylor
+62y Pull by Lacy
+0y Block by Lacy
+10y Pass from McCosky to Lacy
+16y Pass from Lacy to Hanson
+56y Huck from Hanson to VandeMoortele
+6y Dump from VandeMoortele to McCosky
+8y Dish from McCosky to Bergmeier
+7y Score from Bergmeier to McCosky
+94y Pull by Berglund
+0y Block by Bergmeier
+6y Dump from Bergmeier to Berglund
+14y Swing from Berglund to Bergmeier
+5y Pass from Bergmeier to Berglund
+10y Pass from Berglund to Hanson
+63y Huck from Hanson to DeClerck
+10y Score from DeClerck to Matis
+76y Pull by Lacy
+9y Pass from Lacy to McCosky
+9y Pass from McCosky to VandeMoortele
+8y Pass from VandeMoortele to McCosky
+10y Pass from McCosky to Hanson
+4y Dish from Hanson to McCosky
+18y Swing from McCosky to VandeMoortele
+10y Swing from VandeMoortele to Krenik
+6y Dump from Krenik to McCosky
+5y Dump from McCosky to VandeMoortele
+14y Swing from VandeMoortele to McCosky
+11y Dump from McCosky to VandeMoortele
+8y Dish from VandeMoortele to McCosky
+14y Pass from McCosky to Hanson
+48y Huck throwaway from Hanson
+42y Huck from McCosky to VandeMoortele
+26y Swing from VandeMoortele to Jirele
+8y Pass from Jirele to Shope
+5y Pass from Shope to Hanson
+9y Dump from Hanson to VandeMoortele
+7y Dish from VandeMoortele to McCosky
+8y Dish from McCosky to VandeMoortele
+10y Swing from VandeMoortele to Lacy
+6y Dish from Lacy to VandeMoortele
+11y Score from VandeMoortele to Jirele
+88y Pull by Berglund
+39y Swing from Brandt to Snider
+5y Dump from Snider to Sovell-Fernandez
+14y Pass from Sovell-Fernandez to Larson
+16y Pass from Larson to Klane
+38y Score from Klane to Berry
+79y Pull by Lacy
+0y Block by Bergmeier
+10y Pass from McCosky to Matis
+12y Pass from Matis to Bergmeier
+5y Dump from Bergmeier to McCosky
+18y Swing from McCosky to Bergmeier
+19y Pass from Bergmeier to Matis
+7y Dump from Matis to Bergmeier
+12y Swing from Bergmeier to McCosky
+8y Dish from McCosky to Bergmeier
+6y Dish from Bergmeier to McCosky
+13y Pass from McCosky to Bergmeier
+16y Pass from Bergmeier to DeClerck
+39y Score from DeClerck to Jirele
+83y Pull by Berglund
+0y Block by Vohnoutka
+16y Swing from Vohnoutka to Hanson
+9y Pass from Hanson to Berglund
+22y Pass from Berglund to Larson
+19y Dump from Larson to Berglund
+16y Swing from Berglund to Larson
+14y Swing from Larson to Berglund
+14y Pass from Dick to Sadok
+11y Swing from Sadok to Carapella
+11y Pass from Carapella to Sadok
+17y Dump from Sadok to Dick
+20y Pass from Dick to Sadok
+0y Throwaway from Sadok
+17y Pass from Dick to Carapella
+12y Swing from Carapella to Johnson-Go
+19y Swing from Johnson-Go to Dick
+15y Pass from Dick to Johnson-Go
+21y Dump from Johnson-Go to Sadok
+10y Swing from Sadok to Johnson-Go
+4y Dish from Johnson-Go to Sadok
+31y Score from Sadok to Cable
+74y Pull by Stang-Osborne
+24y Pass from Sadok to Johnson-Go
+14y Pass from Johnson-Go to Babbitt
+15y Dump from Babbitt to Davis-Brand
+18y Pass from Davis-Brand to Johnson-Go
+0y Throwaway from Johnson-Go
+12y Pass from Sadok to Dick
+16y Pass from Dick to Sadok
+18y Dump from Sadok to Dick
+10y Pass from Dick to Johnson-Go
+7y Dump from Johnson-Go to Dick
+12y Pass from Dick to Johnson-Go
+16y Pass from Johnson-Go to Chan
+12y Pass from Chan to Johnson-Go
+10y Swing from Johnson-Go to Carapella
+9y Dish from Carapella to Johnson-Go
+9y Dump from Johnson-Go to Carapella
+19y Swing from Carapella to Sadok
+13y Swing from Sadok to Dick
+9y Pass from Dick to Chan
+18y Pass from Chan to Cable
+15y Dump from Cable to Chan
+46y Score from Chan to Babbitt
+91y Pull by Stang-Osborne
+10y Pass from Sadok to Dick
+11y Pass from Dick to Johnson-Go
+8y Dump from Johnson-Go to Dick
+23y Swing from Dick to Sadok
+10y Pass from Sadok to Dick
+17y Pass from Dick to Sadok
+0y Throwaway from Sadok
+9y Pass from Babbitt to Sadok
+11y Pass from Sadok to Dick
+9y Pass from Dick to Johnson-Go
+13y Pass from Johnson-Go to Carapella
+12y Dump from Carapella to Dick
+10y Pass from Dick to Carapella
+19y Pass from Carapella to Harwood
+14y Dump from Harwood to Dick
+14y Pass from Dick to Johnson-Go
+16y Pass from Johnson-Go to Harwood
+12y Dump from Harwood to Sadok
+14y Pass from Sadok to Babbitt
+13y Dump from Babbitt to Sadok
+17y Pass from Sadok to Babbitt
+13y Dump from Babbitt to Sadok
+10y Swing from Sadok to Dick
+10y Pass from Dick to Sadok
+8y Dump from Sadok to Dick
+15y Pass from Dick to Carapella
+4y Dish from Carapella to Johnson-Go
+23y Score from Johnson-Go to Carapella
+92y Pull by McCann
+9y Dump from Sadok to Dick
+17y Pass from Dick to Sadok
+16y Pass from Sadok to Johnson-Go
+17y Dump from Johnson-Go to Dick
+13y Pass from Dick to Carapella
+11y Pass from Carapella to Chan
+21y Dump from Chan to Sadok
+9y Dish from Sadok to Dick
+28y Pass from Dick to Chan
+15y Pass from Chan to Cable
+17y Swing from Cable to Babbitt
+21y Dump from Babbitt to Sadok
+11y Pass from Sadok to Dick
+24y Pass from Dick to Chan
+0y Throwaway from Chan
+14y Pass from Dick to Sadok
+12y Swing from Sadok to Johnson-Go
+9y Dump from Johnson-Go to Sadok
+14y Pass from Sadok to Carapella
+11y Swing from Carapella to Dick
+13y Dump from Dick to Sadok
+9y Pass from Sadok to Dick
+15y Pass from Dick to Carapella
+10y Swing from Carapella to Dick
+38y Pass from Dick to Johnson-Go
+0y Throwaway from Johnson-Go
+93y Pull by Linehan
+0y Block by Boerth
+36y Score from Boerth to McCann
+88y Pull by Stang-Osborne
+0y Block by Haflin
+10y Pass from Linehan to Allen
+12y Pass from Allen to Browning
+11y Pass from Browning to Haflin
+13y Pass from Haflin to Stang-Osborne
+18y Dump from Stang-Osborne to Haflin
+9y Pass from Haflin to Linehan
+8y Dump from Linehan to Stang-Osborne
+4y Dish from Stang-Osborne to Linehan
+25y Pass from Sadok to Dick
+15y Pass from Dick to Babbitt
+11y Dump from Babbitt to Dick
+16y Pass from Dick to Cable
+29y Dump from Cable to Sadok
+18y Pass from Sadok to Cable
+9y Dump from Cable to Sadok
+19y Pass from Sadok to Dick
+18y Swing from Dick to Babbitt
+22y Dump from Babbitt to Sadok
+63y Huck throwaway from Sadok
+22y Swing from Dick to Sadok
+8y Pass from Sadok to Johnson-Go
+20y Pass from Johnson-Go to Cable
+16y Dump from Cable to Dick
+12y Swing from Dick to Cable
+9y Dump from Cable to Dick
+11y Swing from Dick to Sadok
+18y Pass from Sadok to Johnson-Go
+9y Pass from Johnson-Go to Carapella
+10y Pass from Carapella to Johnson-Go
+12y Pass from Johnson-Go to Dick
+9y Dump from Dick to Johnson-Go
+10y Pass from Johnson-Go to Dick
+13y Swing from Dick to Boerth
+7y Dish from Boerth to Dick
+26y Swing from Dick to Sadok
+13y Dump from Sadok to Dick
+18y Pass from Dick to Sadok
+15y Swing from Sadok to Davis
+17y Swing from Davis to Boerth
+34y Score from Boerth to Carapella
+76y Pull by Stang-Osborne
+24y Swing from Sadok to Davis-Brand
+16y Swing from Davis-Brand to Sadok
+11y Swing from Sadok to Davis-Brand
+17y Pass from Davis-Brand to Chan
+12y Dump from Chan to Davis-Brand
+16y Pass from Davis-Brand to Chan
+16y Dump from Chan to Davis-Brand
+15y Pass from Davis-Brand to Chan
+14y Dump from Chan to Davis-Brand
+10y Pass from Davis-Brand to Babbitt
+15y Dump from Babbitt to Davis-Brand
+18y Pass from Davis-Brand to Babbitt
+10y Pass from Babbitt to Harwood
+11y Pass from Harwood to Chan
+17y Dump from Chan to Davis-Brand
+19y Pass from Davis-Brand to Carapella
+13y Pass from Carapella to Cable
+10y Swing from Cable to Harwood
+13y Swing from Harwood to Chan
+12y Pass from Chan to Babbitt
+8y Dish from Babbitt to Sadok
+15y Dump from Sadok to Chan
+17y Pass from Chan to Sadok
+10y Dump from Sadok to Chan
+8y Dish from Chan to Sadok
+13y Dump from Sadok to Chan
+9y Pass from Chan to Sadok
+14y Pass from Sadok to Cable
+0y Throwaway from Cable
+19y Pass from Dick to Sadok
+20y Pass from Sadok to Johnson-Go
+15y Swing from Johnson-Go to Boerth
+13y Pass from Boerth to Chan
+12y Swing from Chan to Davis
+9y Dump from Davis to Dick
+8y Pass from Dick to Boerth
+12y Pass from Boerth to Johnson-Go
+14y Dump from Johnson-Go to Dick
+17y Swing from Dick to Johnson-Go
+13y Pass from Johnson-Go to Sadok
+10y Swing from Sadok to Johnson-Go
+9y Pass from Johnson-Go to Dick
+8y Pass from Dick to Boerth
+9y Dump from Boerth to Dick
+11y Swing from Dick to Davis
+18y Pass from Davis to Chan
+14y Score from Chan to Johnson-Go
+88y Pull by Linehan
+0y Block by Linehan
+14y Swing from Dick to Sadok
+22y Pass from Sadok to Dick
+12y Pass from Dick to Johnson-Go
+10y Dump from Johnson-Go to Sadok
+11y Swing from Sadok to Dick
+9y Dump from Dick to Sadok
+11y Swing from Sadok to Dick
+13y Pass from Dick to Carapella
+10y Dump from Carapella to Sadok
+10y Pass from Sadok to Carapella
+9y Pass from Carapella to Dick
+6y Dump from Dick to Sadok
+0y Throwaway from Sadok
+9y Pass from Sadok to Chan
+11y Swing from Chan to Carapella
+9y Pass from Carapella to Babbitt
+7y Pass from Babbitt to Sadok
+14y Pass from Sadok to Carapella
+7y Pass from Carapella to Sadok
+0y Stall by Sadok
+17y Swing from Davis-Brand to Carapella
+15y Pass from Carapella to Cable
+20y Dump from Cable to Dick
+30y Pass from Dick to Davis
+10y Pass from Davis to Babbitt
+13y Dump from Babbitt to Dick
+10y Pass from Dick to Johnson-Go
+14y Pass from Johnson-Go to Carapella
+0y Throwaway from Carapella
+18y Swing from Davis-Brand to Dick
+7y Dump from Dick to Carapella
+8y Pass from Carapella to Dick
+37y Score from Dick to Babbitt
+94y Pull by Linehan
+16y Pass from Sadok to Dick
+15y Pass from Dick to Davis
+10y Pass from Davis to Harwood
+13y Swing from Harwood to Davis
+23y Pass from Davis to Harwood
+15y Dump from Harwood to Dick
+0y Throwaway from Dick
+0y Block by Davis
+20y Pass from Davis to Cable
+13y Dump from Cable to Dick
+13y Swing from Dick to Carapella
+7y Dump from Carapella to Dick
+15y Pass from Dick to Cable
+28y Swing from Cable to Sadok
+15y Swing from Sadok to Babbitt
+9y Dump from Babbitt to Dick
+11y Pass from Dick to Harwood
+14y Pass from Harwood to Sadok
+13y Swing from Sadok to Babbitt
+14y Swing from Babbitt to Harwood
+12y Pass from Harwood to Carapella
+0y Throwaway from Carapella
+0y Block by Cable
+13y Swing from Sadok to Dick
+12y Pass from Dick to Carapella
+16y Pass from Carapella to Cable
+19y Pass from Cable to Babbitt
+16y Pass from Babbitt to Davis
+41y Score from Davis to Sadok
+83y Pull by Stang-Osborne
+12y Pass from Dick to Sadok
+10y Swing from Sadok to Dick
+15y Pass from Dick to Johnson-Go
+21y Pass from Johnson-Go to Babbitt
+7y Pass from Babbitt to Harwood
+18y Dump from Harwood to Dick
+24y Pass from Dick to Johnson-Go
+9y Dump from Johnson-Go to Dick
+8y Dish from Dick to Johnson-Go
+20y Pass from Johnson-Go to Harwood
+13y Dump from Harwood to Dick
+21y Pass from Dick to Johnson-Go
+21y Pass from Johnson-Go to Davis-Brand
+15y Swing from Davis-Brand to Johnson-Go
+13y Score from Johnson-Go to Babbitt
+73y Pull by Linehan
+0y Block by Babbitt
+80y Pull by Linehan
+13y Swing from Sadok to Dick
+14y Pass from Dick to Davis
+16y Swing from Davis to Sadok
+14y Pass from Sadok to Carapella
+14y Dump from Carapella to Sadok
+15y Pass from Sadok to Dick
+24y Dump from Dick to Sadok
+9y Pass from Sadok to Dick
+21y Pass from Dick to Johnson-Go
+13y Swing from Johnson-Go to Carapella
+9y Pass from Carapella to Cable
+29y Swing from Cable to Sadok
+6y Pass from Sadok to Carapella
+9y Dump from Carapella to Sadok
+8y Pass from Sadok to Dick
+11y Swing from Dick to Sadok
+29y Score from Sadok to Davis
+89y Pull by Linehan
+14y Swing from Dick to Davis-Brand
+23y Pass from Davis-Brand to Cable
+35y Swing from Cable to Davis-Brand
+7y Dump from Davis-Brand to Dick
+22y Pass from Dick to Carapella
+12y Pass from Carapella to Harwood
+0y Throwaway from Harwood
+16y Swing from Sadok to Carapella
+20y Pass from Carapella to Davis
+17y Dump from Davis to Sadok
+11y Swing from Sadok to Carapella
+11y Pass from Carapella to Katz
+24y Pass from Katz to Johnson-Go
+15y Pass from Johnson-Go to Carapella
+14y Dump from Carapella to Davis-Brand
+12y Pass from Davis-Brand to Sadok
+20y Pass from Sadok to Katz
+13y Score from Katz to Babbitt
+40y Pull by McCann
+20y Swing from Davis to Sadok
+15y Pass from Sadok to Carapella
+14y Dump from Carapella to Sadok
+21y Pass from Sadok to Carapella
+19y Dump from Carapella to Davis
+19y Pass from Davis to Sadok
+53y Score from Sadok to Cable
+88y Pull by Linehan
+0y Block by Chan
+15y Pass from McCann to Babbitt
+7y Dump from Babbitt to Chan
+12y Dump from Chan to McCann
+39y Pass from McCann to Babbitt
+18y Swing from Babbitt to Chan
+19y Score from Chan to Linehan
+66y Pull by Davis
+47y Score from Sadok to Cable
+50y Pull by McCann
+0y Block by Johnson-Go
+78y Huck throwaway from Stang-Osborne
+75y Pull by Merriman
+9y Pass from Roy to Malks
+9y Dish from Malks to Roy
+11y Pass from Roy to Bonnet
+6y Dump from Bonnet to Roy
+14y Pass from Roy to McDonnell
+13y Pass from McDonnell to Jurek
+13y Swing from Jurek to Monroe
+9y Dump from Monroe to Roy
+7y Dump from Roy to Nissen
+15y Pass from Nissen to Monroe
+6y Pass from Monroe to McDonnell
+6y Dump from McDonnell to Jurek
+13y Swing from Jurek to Roy
+8y Pass from Roy to Malks
+8y Pass from Malks to Roy
+11y Swing from Roy to Nissen
+42y Score from Nissen to Bonnet
+82y Pull by Edmonds
+0y Block by Tom
+8y Dish from Nissen to Tom
+10y Pass from Tom to Nissen
+9y Pass from Malks to Jurek
+6y Pass from Jurek to G Norrbom
+11y Dump from G Norrbom to Malks
+9y Dump from Malks to McDonnell
+10y Pass from McDonnell to Malks
+12y Swing from Malks to Roy
+8y Pass from Roy to Wodatch
+8y Dump from Wodatch to Roy
+19y Score from Roy to G Norrbom
+71y Pull by Edmonds
+9y Pass from G Norrbom to Malks
+12y Pass from Malks to G Norrbom
+32y Pass from G Norrbom to Nissen
+21y Dump from Nissen to Malks
+15y Dump from Malks to Nissen
+18y Pass from Nissen to Malks
+20y Pass from Malks to Wodatch
+8y Pass from Wodatch to Malks
+17y Swing from Malks to Bonnet
+16y Dump from Bonnet to Malks
+38y Score from Malks to Bonnet
+80y Pull by Merriman
+0y Block by Bloodgood
+15y Dump from Bloodgood to Merriman
+10y Swing from Merriman to Bloodgood
+10y Swing from Bloodgood to Holland
+9y Pass from Holland to Tom
+24y Pass from Tom to Bergeron
+49y Huck throwaway from Bergeron
+16y Pass from G Norrbom to Roy
+21y Swing from Roy to McDonnell
+22y Pass from McDonnell to Monroe
+37y Swing from Monroe to Nissen
+16y Pass from Nissen to Jurek
+31y Pass from Jurek to G Norrbom
+13y Swing from G Norrbom to Wodatch
+19y Pass from Wodatch to G Norrbom
+21y Score from G Norrbom to Nissen
+80y Pull by Edmonds
+0y Block by Tom
+12y Pass from Tom to Nissen
+16y Dump from Nissen to Dean
+21y Pass from Dean to Merriman
+18y Pass from Merriman to Tom
+31y Score from Tom to Rehfuss
+84y Pull by Edmonds
+0y Block by Bergeron
+14y Pass from G Norrbom to Roy
+19y Pass from Roy to Malks
+17y Swing from Malks to Roy
+12y Pass from Roy to McDonnell
+11y Dump from McDonnell to Roy
+8y Dump from Roy to McDonnell
+17y Pass from McDonnell to Malks
+16y Pass from Malks to Roy
+11y Pass from Roy to Bonnet
+12y Throwaway from Bonnet
+15y Pass from Roy to Bonnet
+17y Pass from Bonnet to Malks
+10y Pass from Malks to Wodatch
+16y Dump from Wodatch to Roy
+19y Swing from Roy to G Norrbom
+17y Swing from G Norrbom to McDonnell
+13y Pass from McDonnell to Nissen
+41y Huck from Nissen to Bonnet
+8y Throwaway from Bonnet
+13y Pass from Merriman to Bloodgood
+13y Pass from Bloodgood to Bergeron
+9y Dish from Bergeron to Holland
+10y Pass from Holland to Bloodgood
+20y Swing from Bloodgood to Bergeron
+10y Dump from Bergeron to Bloodgood
+19y Pass from Bloodgood to Merriman
+33y Pass from Merriman to Grovic
+6y Dump from Grovic to McCutcheon
+11y Pass from McCutcheon to Bergeron
+13y Score from Bergeron to Grovic
+80y Pull by Edmonds
+16y Swing from G Norrbom to Roy
+14y Pass from Roy to Malks
+60y Huck from Malks to Jurek
+9y Dump from Jurek to Monroe
+19y Score from Monroe to Jurek
+90y Pull by Edmonds
+0y Block by Bloodgood
+7y Dump from Bloodgood to Edmonds
+6y Dump from Edmonds to Bloodgood
+37y Pass from Bloodgood to Grovic
+10y Score from Grovic to Bergeron
+77y Pull by Merriman
+19y Pass from Roy to Malks
+19y Pass from Malks to Roy
+14y Dump from Roy to Malks
+9y Pass from Malks to Roy
+14y Dump from Roy to Wodatch
+13y Pass from Wodatch to Roy
+18y Pass from Roy to McDonnell
+22y Swing from McDonnell to Roy
+23y Pass from Roy to Malks
+32y Throwaway from Malks
+74y Pull by Merriman
+0y Block by Merriman
+11y Pass from Merriman to Nissen
+15y Pass from Nissen to Edmonds
+14y Dump from Edmonds to Nissen
+10y Dump from Nissen to Edmonds
+10y Throwaway from Edmonds
+6y Dish from Malks to G Norrbom
+23y Pass from G Norrbom to McDonnell
+15y Swing from McDonnell to Monroe
+17y Swing from Monroe to G Norrbom
+18y Pass from G Norrbom to Malks
+38y Score from Malks to Roy
+80y Pull by Edmonds
+0y Block by Dean
+18y Pass from Bloodgood to Edmonds
+19y Pass from Edmonds to Holland
+19y Swing from Holland to Bergeron
+8y Pass from Bergeron to Holland
+26y Throwaway from Holland
+23y Pass from G Norrbom to Malks
+10y Swing from Malks to McDonnell
+18y Dump from McDonnell to Malks
+12y Swing from Malks to McDonnell
+14y Swing from McDonnell to G Norrbom
+21y Pass from G Norrbom to Bonnet
+13y Swing from Bonnet to Malks
+15y Pass from Malks to Wodatch
+9y Pass from Wodatch to Nissen
+18y Swing from Nissen to Wodatch
+10y Swing from Wodatch to McDonnell
+14y Pass from McDonnell to Wodatch
+16y Swing from Wodatch to Monroe
+10y Swing from Monroe to Malks
+9y Dump from Malks to Bonnet
+9y Dish from Bonnet to Monroe
+7y Dish from Monroe to Malks
+11y Pass from Malks to G Norrbom
+0y Dish from G Norrbom to Malks
+18y Swing from Malks to G Norrbom
+11y Pass from G Norrbom to McDonnell
+7y Pass from McDonnell to Nissen
+12y Swing from Nissen to McDonnell
+6y Score from McDonnell to Malks
+75y Pull by Merriman
+0y Block by Bloodgood
+15y Pass from Bloodgood to McCutcheon
+14y Dump from McCutcheon to Bloodgood
+55y Huck throwaway from Bloodgood
+15y Swing from Bloodgood to Tom
+20y Pass from Tom to Bloodgood
+15y Pass from Bloodgood to Holland
+13y Dump from Holland to Tom
+16y Swing from Tom to Holland
+27y Throwaway from Holland
+19y Swing from G Norrbom to Roy
+14y Pass from Roy to Bonnet
+14y Swing from Bonnet to McDonnell
+12y Pass from McDonnell to Wodatch
+9y Dump from Wodatch to Nissen
+21y Swing from Nissen to Roy
+18y Pass from Roy to Bonnet
+10y Swing from Bonnet to Monroe
+13y Pass from Monroe to McDonnell
+13y Pass from McDonnell to Nissen
+35y Dump from Nissen to G Norrbom
+10y Swing from G Norrbom to McDonnell
+10y Swing from McDonnell to Nissen
+9y Pass from Nissen to McDonnell
+39y Score from McDonnell to Wodatch
+84y Pull by Edmonds
+18y Dump from Malks to Nissen
+14y Swing from Nissen to McDonnell
+17y Pass from McDonnell to Nissen
+12y Swing from Nissen to Roy
+30y Pass from Roy to Merriman
+50y Huck throwaway from Merriman
+9y Pass from G Norrbom to Roy
+14y Pass from Roy to Nissen
+16y Pass from Nissen to Roy
+12y Pass from Roy to Jurek
+16y Dump from Jurek to Roy
+20y Dump from Roy to Nissen
+19y Pass from Nissen to Malks
+18y Pass from Malks to Roy
+13y Pass from Roy to McDonnell
+9y Pass from McDonnell to Jurek
+18y Score from Jurek to Malks
+72y Pull by Edmonds
+15y Pass from Nissen to Monroe
+7y Dump from Monroe to Nissen
+19y Swing from Nissen to Roy
+11y Pass from Roy to Malks
+8y Dish from Malks to Roy
+7y Dump from Roy to Malks
+14y Dump from Malks to Wodatch
+13y Swing from Wodatch to Malks
+48y Huck from Malks to McDonnell
+9y Dump from McDonnell to Nissen
+10y Dump from Nissen to McDonnell
+9y Dump from McDonnell to Monroe
+13y Swing from Monroe to McDonnell
+21y Pass from McDonnell to Bonnet
+9y Dump from Bonnet to Nissen
+28y Score from Nissen to Roy
+79y Pull by Merriman
+8y Pass from Bloodgood to Tom
+14y Pass from Tom to Holland
+11y Pass from Holland to Tom
+4y Dish from Tom to Bergeron
+11y Pass from Bergeron to Grovic
+10y Dump from Grovic to Tom
+11y Swing from Tom to Edmonds
+18y Pass from Edmonds to McCutcheon
+13y Pass from McCutcheon to Bloodgood
+12y Dump from Bloodgood to Tom
+16y Pass from Tom to Edmonds
+11y Dump from Edmonds to Tom
+11y Swing from Tom to Edmonds
+11y Swing from Edmonds to Tom
+12y Pass from Tom to Grovic
+10y Pass from Grovic to Holland
+8y Pass from Holland to Bergeron
+8y Dump from Bergeron to Holland
+11y Pass from Holland to McCutcheon
+23y Score from McCutcheon to Holland
+60y OB Pull by Edmonds
+36y Dump from Nissen to McDonnell
+13y Dump from McDonnell to Monroe
+7y Dish from Monroe to McDonnell
+24y Pass from McDonnell to Malks
+10y Pass from Malks to Jurek
+10y Pass from Jurek to G Norrbom
+12y Swing from G Norrbom to Nissen
+10y Swing from Nissen to G Norrbom
+6y Pass from G Norrbom to Jurek
+12y Score from Jurek to Malks
+60y OB Pull by Edmonds
+13y Pass from Malks to Roy
+17y Swing from Roy to Monroe
+16y Pass from Monroe to Bonnet
+10y Pass from Bonnet to McDonnell
+11y Dump from McDonnell to Roy
+10y Swing from Roy to Malks
+12y Swing from Malks to Roy
+11y Swing from Roy to McDonnell
+10y Swing from McDonnell to Roy
+11y Dump from Roy to Malks
+8y Pass from Malks to Roy
+16y Pass from Roy to Jurek
+11y Swing from Jurek to G Norrbom
+11y Swing from G Norrbom to McDonnell
+4y Dish from McDonnell to Bonnet
+11y Dump from Bonnet to McDonnell
+10y Pass from McDonnell to G Norrbom
+16y Dump from G Norrbom to McDonnell
+21y Swing from McDonnell to Roy
+9y Dump from Roy to Malks
+10y Swing from Malks to Roy
+13y Pass from Roy to McDonnell
+10y Pass from McDonnell to Jurek
+14y Pass from Jurek to Roy
+17y Pass from Roy to G Norrbom
+12y Dump from G Norrbom to Jurek
+12y Swing from Jurek to Bonnet
+12y Dump from Bonnet to McDonnell
+12y Dump from McDonnell to Bonnet
+8y Dump from Bonnet to Roy
+15y Pass from Roy to Bonnet
+12y Dump from Bonnet to McDonnell
+7y Pass from McDonnell to Bonnet
+12y Dump from Bonnet to Roy
+12y Swing from Roy to McDonnell
+11y Dump from McDonnell to Roy
+17y Pass from Roy to Jurek
+10y Throwaway from Jurek
+49y Huck from Nissen to Wodatch
+10y Swing from Wodatch to Malks
+15y Score from Malks to Roy
+40y Pull. We were offsides by Merriman
+34y Dump from Malks to Monroe
+12y Pass from Monroe to McDonnell
+12y Pass from McDonnell to Jurek
+14y Dump from Jurek to McDonnell
+28y Swing from McDonnell to Nissen
+15y Pass from Nissen to Wodatch
+24y Throwaway from Wodatch
+11y Swing from Holland to Merriman
+11y Pass from Merriman to Bergeron
+12y Pass from Bergeron to Grovic
+9y Dump from Grovic to Edmonds
+19y Dump from Edmonds to McCutcheon
+60y Pull by Unknown
+17y Pass from Long to Laviolette
+15y Swing from Laviolette to Juengst
+15y Throwaway from Juengst
+19y Dump from Weaver to Fisher
+16y Dump from Fisher to Hawkins
+12y Dump from Hawkins to Weaver
+12y Swing from Weaver to Sanner
+26y Swing from Sanner to Bloodworth
+38y Pass from Bloodworth to Fisher
+50y Score from Fisher to Bloodworth
+60y Pull by Coffin
+12y Pass from Juengst to Long
+19y Pass from Long to Fairfax
+25y Swing from Fairfax to Hawkins
+14y Dump from Hawkins to Fairfax
+0y Dish from Fairfax to Long
+36y Pass from Long to Brooks
+24y Pass from Brooks to Mitchell
+11y Pass from Mitchell to Juengst
+24y Dump from Juengst to Long
+17y Pass from Long to Brooks
+19y Swing from Brooks to Laviolette
+6y Dump from Laviolette to Juengst
+9y Pass from Juengst to Hawkins
+4y Dish from Hawkins to Long
+12y Dump from Long to Hawkins
+9y Dump from Hawkins to Brooks
+10y Pass from Brooks to Laviolette
+26y Score from Laviolette to Juengst
+60y Pull by Coffin
+27y Swing from Laviolette to Long
+10y Pass from Long to Laviolette
+17y Swing from Laviolette to Brooks
+9y Pass from Brooks to Hawkins
+8y Dump from Hawkins to Long
+13y Swing from Long to Hawkins
+8y Dish from Hawkins to Long
+13y Pass from Long to Laviolette
+26y Score from Laviolette to Hawkins
+60y Pull by Unknown
+16y Pass from Juengst to Long
+11y Swing from Long to Hawkins
+10y Pass from Hawkins to Laviolette
+22y Pass from Laviolette to Brooks
+14y Pass from Brooks to Fairfax
+11y Dump from Fairfax to Brooks
+15y Dump from Brooks to Long
+27y Pass from Long to Juengst
+22y Dump from Juengst to Long
+19y Pass from Long to Juengst
+22y Pass from Juengst to Mitchell
+17y Swing from Mitchell to Laviolette
+12y Swing from Laviolette to Juengst
+13y Dump from Juengst to Laviolette
+9y Pass from Laviolette to Long
+9y Pass from Long to Fairfax
+7y Pass from Fairfax to Juengst
+15y Score from Juengst to Hawkins
+60y Pull by Unknown
+25y Swing from Laviolette to Hawkins
+10y Dump from Hawkins to Long
+27y Pass from Long to Laviolette
+0y Throwaway from Laviolette
+9y Pass from Laviolette to Juengst
+13y Swing from Juengst to Laviolette
+21y Swing from Laviolette to Juengst
+81y Huck throwaway from Juengst
+10y Pass from Hawkins to Long
+28y Pass from Long to Fairfax
+60y Huck from Fairfax to Mitchell
+10y Dump from Mitchell to Juengst
+13y Score from Juengst to Mitchell
+92y Pull by Fisher
+19y Pass from Laviolette to Juengst
+17y Dump from Juengst to Laviolette
+19y Swing from Laviolette to Fairfax
+14y Pass from Fairfax to Mitchell
+12y Pass from Mitchell to Brooks
+8y Dish from Brooks to Mitchell
+16y Dump from Mitchell to Long
+7y Pass from Long to Juengst
+14y Swing from Juengst to Brooks
+7y Dump from Brooks to Laviolette
+5y Pass from Laviolette to Brooks
+34y Score from Brooks to Mitchell
+54y Pull by Coffin
+16y Pass from Hawkins to Long
+20y Pass from Long to Laviolette
+7y Pass from Laviolette to Long
+24y Dump from Long to Laviolette
+14y Pass from Laviolette to Juengst
+19y Pass from Juengst to Fairfax
+11y Pass from Fairfax to Brooks
+12y Swing from Brooks to Laviolette
+13y Swing from Laviolette to Hawkins
+11y Pass from Hawkins to Brooks
+11y Pass from Brooks to Juengst
+10y Swing from Juengst to Long
+9y Dump from Long to Juengst
+31y Score from Juengst to Mitchell
+60y Pull by Sanner
+55y Score from Laviolette to Juengst
+98y Pull by Unknown
+19y Pass from Snell to Bloodworth
+10y Pass from Laviolette to Hawkins
+10y Dump from Hawkins to Laviolette
+15y Swing from Laviolette to Fairfax
+23y Swing from Fairfax to Hawkins
+8y Pass from Hawkins to Laviolette
+15y Swing from Laviolette to Hawkins
+16y Pass from Hawkins to Juengst
+15y Dump from Juengst to Hawkins
+11y Swing from Hawkins to Juengst
+11y Pass from Juengst to Brooks
+17y Swing from Brooks to Juengst
+11y Pass from Juengst to Hawkins
+20y Dump from Hawkins to Long
+10y Pass from Long to Juengst
+11y Throwaway from Juengst
+0y Block by Belus
+33y Dump from Weaver to Bloodworth
+16y Pass from Bloodworth to Madiraju
+15y Swing from Madiraju to Weaver
+14y Swing from Weaver to Bloodworth
+12y Dump from Bloodworth to Weaver
+12y Swing from Weaver to Madiraju
+10y Dump from Madiraju to Weaver
+16y Swing from Weaver to Madiraju
+10y Swing from Madiraju to Davis
+12y Swing from Davis to Weaver
+17y Swing from Weaver to Bloodworth
+9y Dump from Bloodworth to Weaver
+14y Pass from Weaver to Madiraju
+8y Dump from Madiraju to Weaver
+13y Swing from Weaver to Bloodworth
+38y Score from Bloodworth to Fisher
+88y Pull by Coffin
+13y Pass from Snell to Williams
+10y Pass from Williams to Sanner
+8y Pass from Sanner to Coffin
+9y Dump from Coffin to Snell
+19y Swing from Snell to Coffin
+9y Dump from Coffin to Snell
+20y Pass from Snell to Sanner
+9y Pass from Sanner to Davis
+5y Dump from Davis to Sanner
+13y Score from Sanner to Swanson
+89y Pull by Fisher
+0y Block by Weaver
+23y Throwaway from Laviolette
+95y Pull by Fisher
+0y Block by Fisher
+13y Dump from Fisher to Belus
+0y Throwaway from Belus
+15y Pass from Hawkins to Fairfax
+15y Dump from Fairfax to Hawkins
+13y Swing from Hawkins to Laviolette
+11y Pass from Laviolette to Fairfax
+11y Pass from Fairfax to Brooks
+12y Dump from Brooks to Laviolette
+17y Pass from Laviolette to Fairfax
+10y Pass from Fairfax to Hawkins
+6y Pass from Hawkins to Mitchell
+13y Pass from Mitchell to Long
+15y Score from Long to Juengst
+84y Pull by Fisher
+15y Dump from Juengst to Laviolette
+13y Swing from Laviolette to Long
+9y Pass from Long to Brooks
+15y Pass from Brooks to Long
+24y Swing from Long to Laviolette
+10y Dump from Laviolette to Long
+15y Pass from Long to Fairfax
+12y Swing from Fairfax to Laviolette
+8y Dump from Laviolette to Long
+12y Dump from Long to Laviolette
+15y Pass from Laviolette to Fairfax
+11y Dump from Fairfax to Laviolette
+23y Pass from Laviolette to Juengst
+16y Dump from Juengst to Laviolette
+16y Swing from Laviolette to Juengst
+14y Pass from Juengst to Mitchell
+21y Pass from Mitchell to Laviolette
+5y Dump from Laviolette to Long
+20y Score from Long to Mitchell
+50y Pull by Coffin
+13y Pass from Hawkins to Long
+8y Dump from Long to Hawkins
+23y Pass from Hawkins to Fairfax
+13y Swing from Fairfax to Laviolette
+13y Pass from Laviolette to Hawkins
+0y Dish from Hawkins to Brooks
+16y Pass from Brooks to Juengst
+20y Pass from Juengst to Mitchell
+0y Throwaway from Mitchell
+0y Block by Hawkins
+27y Pass from Long to Juengst
+11y Pass from Juengst to Brooks
+14y Pass from Brooks to Fisher
+14y Swing from Fisher to Mitchell
+20y Dump from Mitchell to Long
+9y Dish from Long to Hawkins
+18y Pass from Hawkins to Laviolette
+19y Swing from Laviolette to Juengst
+14y Pass from Juengst to Laviolette
+11y Swing from Laviolette to Juengst
+13y Swing from Juengst to Brooks
+16y Swing from Brooks to Juengst
+9y Dump from Juengst to Long
+18y Swing from Long to Brooks
+18y Pass from Brooks to Laviolette
+24y Score from Laviolette to Juengst
+88y Pull by Sanner
+21y Pass from Juengst to Long
+7y Dump from Long to Hawkins
+20y Swing from Hawkins to Fisher
+14y Swing from Fisher to Hawkins
+14y Pass from Hawkins to Long
+14y Swing from Long to Hawkins
+16y Pass from Hawkins to Fisher
+13y Dump from Fisher to Hawkins
+11y Swing from Hawkins to Long
+14y Pass from Long to Brooks
+13y Pass from Brooks to Laviolette
+9y Dump from Laviolette to Brooks
+26y Pass from Brooks to Fisher
+14y Dump from Fisher to Long
+16y Pass from Long to Fisher
+8y Pass from Fisher to Long
+21y Score from Long to Juengst
+83y Pull by Coffin
+0y Block by Weaver
+0y Throwaway from Coffin
+12y Dump from Laviolette to Long
+13y Pass from Long to Hawkins
+9y Pass from Hawkins to Brooks
+11y Dump from Brooks to Juengst
+16y Pass from Juengst to Mitchell
+14y Swing from Mitchell to Laviolette
+6y Pass from Laviolette to Brooks
+21y Pass from Brooks to Juengst
+13y Pass from Juengst to Fairfax
+10y Pass from Fairfax to Laviolette
+7y Dump from Laviolette to Juengst
+11y Swing from Juengst to Laviolette
+12y Score from Laviolette to Long
+96y Pull by Fisher
+0y Block by Weaver
+9y Throwaway from Sanner
+18y Swing from Hawkins to Long
+10y Swing from Long to Laviolette
+24y Pass from Laviolette to Brooks
+21y Pass from Brooks to Mitchell
+23y Dump from Mitchell to Long
+10y Pass from Long to Laviolette
+22y Swing from Laviolette to Long
+14y Pass from Long to Hawkins
+11y Pass from Hawkins to Brooks
+17y Pass from Brooks to Mitchell
+7y Dump from Mitchell to Juengst
+13y Dump from Juengst to Hawkins
+12y Swing from Hawkins to Long
+9y Pass from Long to Laviolette
+18y Swing from Laviolette to Hawkins
+14y Pass from Hawkins to Long
+13y Score from Long to Hawkins
+60y OB Pull by Fisher
+0y Block by Wellers
+18y Dump from Laviolette to Hawkins
+13y Swing from Hawkins to Laviolette
+11y Dump from Laviolette to Hawkins
+8y Dish from Hawkins to Laviolette
+11y Swing from Laviolette to Hawkins
+19y Pass from Hawkins to Fairfax
+18y Dump from Fairfax to Hawkins
+13y Pass from Hawkins to Fairfax
+18y Swing from Fairfax to Laviolette
+8y Pass from Laviolette to Juengst
+24y Swing from Juengst to Laviolette
+12y Swing from Laviolette to Brooks
+8y Dish from Brooks to Juengst
+11y Swing from Juengst to Fairfax
+10y Pass from Fairfax to Laviolette
+23y Score from Laviolette to Juengst
+90y Pull by Fisher
+12y Pass from Laviolette to Long
+13y Pass from Long to Hawkins
+15y Pass from Hawkins to Juengst
+13y Swing from Juengst to Hawkins
+19y Swing from Hawkins to Laviolette
+18y Pass from Laviolette to Brooks
+0y Throwaway from Brooks
+0y Block by Belus
+13y Swing from Snell to Long
+10y Swing from Long to Snell
+13y Swing from Snell to Long
+6y Pass from Long to Bloodworth
+11y Pass from Bloodworth to Snell
+9y Pass from Snell to Long
+13y Swing from Long to Bloodworth
+13y Pass from Bloodworth to Coffin
+11y Dump from Coffin to Snell
+28y Pass from Snell to Bloodworth
+11y Pass from Bloodworth to Davis
+12y Pass from Davis to Fisher
+16y Swing from Fisher to Long
+13y Swing from Long to Snell
+9y Pass from Snell to Long
+14y Dump from Long to Davis
+7y Dump from Davis to Snell
+10y Dump from Snell to Long
+10y Pass from Long to Snell
+11y Pass from Snell to Long
+10y Dump from Long to Snell
+11y Swing from Snell to Fisher
+16y Dump from Fisher to Long
+9y Dish from Long to Snell
+14y Dump from Snell to Long
+9y Dump from Long to Snell
+9y Pass from Snell to Long
+13y Swing from Long to Bloodworth
+15y Dump from Bloodworth to Long
+6y Dump from Long to Snell
+16y Swing from Snell to Bloodworth
+11y Pass from Bloodworth to Long
+13y Dump from Long to Bloodworth
+18y Dump from Bloodworth to Snell
+9y Dump from Snell to Long
+14y Pass from Long to Fisher
+11y Pass from Fisher to Coffin
+31y Pass from Coffin to Bloodworth
+5y Pass from Bloodworth to Snell
+5y Dish from Snell to Bloodworth
+16y Swing from Snell to Juengst
+20y Pass from Juengst to Coffin
+37y Swing from Coffin to Snell
+12y Pass from Snell to Juengst
+15y Dump from Juengst to Snell
+14y Pass from Snell to Bloodworth
+11y Dump from Bloodworth to Long
+18y Swing from Long to Snell
+12y Swing from Snell to Juengst
+13y Swing from Juengst to Snell
+14y Dump from Snell to Long
+18y Swing from Long to Snell
+22y Dump from Snell to Bloodworth
+13y Pass from Olsen to Ley
+20y Pass from Ley to Hulsmeyer
+12y Pass from Hulsmeyer to Austin-Knab
+13y Dump from Austin-Knab to Ley
+15y Swing from Ley to Taylor
+9y Pass from Taylor to Hulsmeyer
+18y Swing from Hulsmeyer to Ley
+9y Pass from Ley to Hulsmeyer
+11y Pass from Hulsmeyer to Ekwurtzel
+6y Dump from Ekwurtzel to Ley
+6y Pass from Ley to Taylor
+11y Pass from Taylor to Hulsmeyer
+19y Pass from Hulsmeyer to Ley
+12y Score from Ley to Langdon
+94y Pull by Fairley
+0y Block by Miller
+11y Swing from Miller to O'Bryan
+17y Swing from O'Bryan to Kobyra
+8y Dish from Kobyra to Polk
+19y Pass from Polk to Kobyra
+8y Dump from Kobyra to O'Bryan
+9y Pass from O'Bryan to Kobyra
+11y Pass from Kobyra to Miller
+24y Pass from Miller to Burnett
+24y Score from Burnett to Polk
+86y Pull by Fairley
+13y Pass from Olsen to Ley
+15y Pass from Ley to Hulsmeyer
+14y Pass from Hulsmeyer to Austin-Knab
+15y Pass from Austin-Knab to Langdon
+11y Dump from Langdon to Austin-Knab
+14y Pass from Austin-Knab to Olsen
+5y Dump from Olsen to Taylor
+12y Pass from Taylor to Downey
+13y Pass from Downey to Langdon
+12y Pass from Langdon to Hulsmeyer
+13y Pass from Hulsmeyer to Taylor
+9y Dish from Taylor to Langdon
+28y Score from Langdon to Downey
+96y Pull by Polk
+12y Pass from Olsen to Taylor
+9y Dish from Taylor to Ley
+10y Pass from Ley to Langdon
+14y Pass from Langdon to Hulsmeyer
+22y Pass from Hulsmeyer to Austin-Knab
+15y Dump from Austin-Knab to Ley
+19y Swing from Ley to Langdon
+14y Pass from Langdon to Hulsmeyer
+20y Swing from Hulsmeyer to Downey
+12y Pass from Downey to Olsen
+14y Dump from Olsen to Austin-Knab
+10y Pass from Austin-Knab to Ley
+7y Pass from Ley to Austin-Knab
+7y Pass from Austin-Knab to Hulsmeyer
+14y Score from Hulsmeyer to Austin-Knab
+56y Pull by Spinks
+14y Pass from Taylor to Ley
+25y Pass from Ley to Hulsmeyer
+6y Pass from Hulsmeyer to Olsen
+12y Pass from Olsen to Ekwurtzel
+12y Dump from Ekwurtzel to Ley
+9y Pass from Ley to Taylor
+9y Pass from Taylor to Ley
+14y Pass from Ley to Downey
+17y Dump from Downey to Ley
+20y Swing from Ley to Taylor
+33y Score from Taylor to Hulsmeyer
+83y Pull by Fairley
+20y Pass from Taylor to Hulsmeyer
+11y Swing from Hulsmeyer to Downey
+14y Dump from Downey to Taylor
+11y Pass from Taylor to Downey
+15y Pass from Downey to Hulsmeyer
+11y Swing from Hulsmeyer to Downey
+10y Swing from Downey to Taylor
+4y Dish from Taylor to Hulsmeyer
+15y Swing from Hulsmeyer to Ley
+57y Score from Ley to Hulsmeyer
+60y Pull by Spinks
+15y Pass from Burnett to Seuntjens
+10y Swing from Seuntjens to Fleming
+9y Dump from Fleming to Spinks
+30y Swing from Spinks to Fairley
+14y Swing from Fairley to Taylor
+14y Swing from Taylor to Miller
+8y Dump from Miller to Taylor
+30y Pass from Taylor to Fairley
+50y Score from Fairley to Downey
+94y Pull by Ramsey
+0y Block by Fernandez
+94y Pull by Fairley
+19y Pass from Olsen to Ley
+11y Pass from Ley to Taylor
+18y Swing from Taylor to Hulsmeyer
+12y Pass from Hulsmeyer to Austin-Knab
+12y Pass from Austin-Knab to Ley
+10y Pass from Ley to Hulsmeyer
+16y Pass from Hulsmeyer to Langdon
+11y Dump from Langdon to Austin-Knab
+19y Pass from Austin-Knab to Taylor
+10y Dump from Taylor to Austin-Knab
+8y Pass from Austin-Knab to Langdon
+5y Pass from Langdon to Austin-Knab
+17y Pass from Austin-Knab to Olsen
+9y Dump from Olsen to Austin-Knab
+12y Dump from Austin-Knab to Ley
+8y Dish from Ley to Austin-Knab
+14y Swing from Austin-Knab to Olsen
+10y Dump from Olsen to Austin-Knab
+3y Dish from Austin-Knab to Olsen
+7y Dish from Olsen to Austin-Knab
+21y Score from Austin-Knab to Langdon
+50y Pull by Spinks
+39y Swing from Hulsmeyer to Downey
+21y Pass from Downey to Langdon
+10y Dump from Langdon to Downey
+8y Pass from Downey to Ley
+26y Score from Ley to Taylor
+94y Pull by Ramsey
+13y Pass from Olsen to Taylor
+61y Huck from Taylor to Hulsmeyer
+4y Dish from Hulsmeyer to Langdon
+4y Dish from Langdon to Hulsmeyer
+6y Score from Hulsmeyer to Langdon
+43y Pull by Fairley
+15y Pass from Olsen to Ley
+16y Pass from Ley to Hulsmeyer
+14y Pass from Hulsmeyer to Langdon
+10y Turnover from Langdon to Taylor
+12y Pass from Miller to Fairley
+11y Swing from Fairley to Seuntjens
+7y Dish from Seuntjens to Miller
+9y Dish from Miller to Fleming
+6y Dump from Fleming to Miller
+10y Swing from Miller to Fleming
+5y Dump from Fleming to Miller
+9y Dump from Miller to Fleming
+9y Dump from Fairley to Taylor
+12y Swing from Taylor to Fairley
+15y Swing from Fairley to Taylor
+13y Swing from Taylor to Fairley
+5y Dish from Fairley to Taylor
+19y Throwaway from Taylor
+19y Pass from Olsen to Ley
+12y Pass from Ley to Hulsmeyer
+12y Pass from Hulsmeyer to Ekwurtzel
+8y Dump from Ekwurtzel to Hulsmeyer
+9y Dish from Hulsmeyer to Olsen
+10y Pass from Olsen to Hulsmeyer
+14y Pass from Hulsmeyer to Langdon
+12y Dump from Langdon to Austin-Knab
+16y Throwaway from Austin-Knab
+17y Pass from Taylor to Ley
+15y Pass from Ley to Hulsmeyer
+77y Huck throwaway from Hulsmeyer
+0y Block by Fernandez
+11y Pass from Fernandez to Fairley
+15y Pass from Olsen to Ley
+22y Throwaway from Ley
+0y Block by Olsen
+82y Score from Ley to Langdon
+70y Pull by Polk
+13y Swing from Olsen to Ley
+20y Pass from Ley to Hulsmeyer
+12y Pass from Hulsmeyer to Ekwurtzel
+9y Pass from Ekwurtzel to Austin-Knab
+18y Pass from Austin-Knab to Downey
+18y Dump from Downey to Austin-Knab
+18y Swing from Austin-Knab to Ley
+17y Pass from Ley to Hulsmeyer
+21y Swing from Hulsmeyer to Downey
+10y Swing from Downey to Olsen
+7y Dish from Olsen to Downey
+21y Swing from Downey to Ley
+56y Score from Ley to Hulsmeyer
+63y Pull by Spinks
+13y Pass from Taylor to Austin-Knab
+13y Dump from Austin-Knab to Ley
+8y Dump from Ley to Taylor
+11y Pass from Taylor to Ley
+21y Pass from Ley to Hulsmeyer
+14y Pass from Hulsmeyer to Langdon
+7y Dump from Langdon to Olsen
+12y Swing from Olsen to Ley
+14y Swing from Ley to Olsen
+7y Pass from Olsen to Hulsmeyer
+13y Dump from Hulsmeyer to Langdon
+10y Pass from Langdon to Hulsmeyer
+6y Pass from Hulsmeyer to Langdon
+8y Score from Langdon to Austin-Knab
+88y Pull by Ramsey
+0y Block by Fernandez
+12y Pass from Miller to Polk
+9y Dump from Polk to Miller
+6y Pass from Miller to Burnett
+19y Swing from Burnett to O'Bryan
+18y Swing from O'Bryan to Burnett
+10y Pass from Burnett to Miller
+8y Pass from Miller to Burnett
+6y Dish from Burnett to Miller
+18y Swing from Miller to Polk
+18y Swing from Polk to Fernandez
+11y Pass from Fernandez to Burnett
+13y Throwaway from Burnett
+13y Pass from Olsen to Hulsmeyer
+13y Pass from Hulsmeyer to Ekwurtzel
+14y Dump from Ekwurtzel to Ley
+9y Pass from Ley to Taylor
+16y Pass from Taylor to Ley
+14y Pass from Ley to Hulsmeyer
+14y Pass from Hulsmeyer to Austin-Knab
+11y Swing from Austin-Knab to Olsen
+15y Swing from Olsen to Taylor
+25y Score from Taylor to Ekwurtzel
+87y Pull by Fairley
+27y Swing from Taylor to Ley
+17y Swing from Ley to Taylor
+14y Pass from Taylor to Langdon
+8y Dish from Langdon to Ley
+12y Swing from Ley to Olsen
+11y Pass from Olsen to Langdon
+15y Pass from Langdon to Hulsmeyer
+10y Pass from Hulsmeyer to Austin-Knab
+12y Swing from Austin-Knab to Hulsmeyer
+12y Throwaway from Hulsmeyer
+0y Block by Downey
+59y Pull by Spinks
+19y Pass from Taylor to Ley
+17y Pass from Ley to Hulsmeyer
+10y Pass from Hulsmeyer to Downey
+10y Swing from Downey to Taylor
+8y Pass from Taylor to Olsen
+22y Pass from Olsen to Hulsmeyer
+16y Dump from Hulsmeyer to Taylor
+11y Swing from Taylor to Olsen
+16y Swing from Olsen to Ley
+10y Dump from Ley to Austin-Knab
+11y Swing from Austin-Knab to Olsen
+9y Pass from Olsen to Hulsmeyer
+13y Pass from Hulsmeyer to Austin-Knab
+10y Pass from Austin-Knab to Downey
+8y Dump from Downey to Austin-Knab
+6y Dish from Austin-Knab to Downey
+16y Throwaway from Downey
+14y Pass from Austin-Knab to Downey
+29y Score from Downey to Olsen
+88y Pull by Polk
+8y Pass from Ley to Hulsmeyer
+8y Pass from Hulsmeyer to Austin-Knab
+12y Throwaway from Austin-Knab
+17y Pass from Ley to Taylor
+10y Pass from Taylor to Hulsmeyer
+6y Pass from Hulsmeyer to Taylor
+5y Dump from Taylor to Austin-Knab
+15y Pass from Austin-Knab to Olsen
+8y Pass from Olsen to Hulsmeyer
+6y Pass from Hulsmeyer to Olsen
+6y Dump from Olsen to Ley
+68y Score from Ley to Langdon
+87y Pull by Ramsey
+0y Block by Polk
+11y Swing from Fleming to Polk
+22y Swing from Ley to Taylor
+10y Swing from Taylor to Ley
+11y Swing from Ley to Austin-Knab
+25y Swing from Austin-Knab to Taylor
+9y Dump from Taylor to Downey
+6y Dump from Downey to Olsen
+8y Dump from Olsen to Downey
+17y Swing from Downey to Austin-Knab
+4y Dish from Austin-Knab to Taylor
+13y Pass from Taylor to Downey
+11y Swing from Downey to Ley
+40y Huck throwaway from Ley
+60y OB Pull by Astrom
+12y Swing from Dremann to Rivas
+17y Pass from Rivas to Shanahan
+10y Dump from Shanahan to Rivas
+10y Swing from Rivas to Shanahan
+19y Pass from Shanahan to Weis
+16y Dump from Weis to Shanahan
+8y Pass from Shanahan to Weis
+5y Dump from Weis to Kaminsky
+9y Pass from Kaminsky to Sjogren
+12y Swing from Sjogren to Rivas
+10y Pass from Rivas to Weis
+12y Dump from Weis to Rivas
+16y Swing from Rivas to Weis
+29y Pass from Weis to Lithio
+42y Dropped huck from Lithio to Dremann
+11y Pass from Harris to Baker
+11y Swing from Baker to Astrom
+13y Pass from Astrom to Cercello
+54y Huck from Cercello to Baker
+39y Score from Baker to Steslicki
+60y OB Pull by Cercello
+16y Swing from Kaminsky to Dremann
+13y Pass from Dremann to Rivas
+11y Swing from Rivas to Dremann
+9y Dump from Dremann to Shanahan
+11y Pass from Shanahan to Lithio
+13y Pass from Lithio to Rivas
+7y Dump from Rivas to Dremann
+7y Dish from Dremann to Rivas
+15y Pass from Rivas to Lithio
+17y Swing from Lithio to Dremann
+17y Swing from Dremann to Sjogren
+5y Dump from Sjogren to Dremann
+27y Throwaway from Dremann
+13y Pass from Harris to Baker
+13y Swing from Baker to Harris
+15y Swing from Harris to Baker
+10y Swing from Baker to Astrom
+9y Dump from Astrom to Baker
+17y Pass from Baker to Harris
+11y Dump from Harris to Baker
+11y Pass from Baker to Cercello
+21y Swing from Cercello to Astrom
+11y Pass from Astrom to Preiss
+16y Swing from Preiss to Rubin-Miller
+15y Pass from Rubin-Miller to Astrom
+50y Score from Astrom to Preiss
+82y Pull by Cercello
+9y Dish from Steslicki to Jansen
+10y Swing from Jansen to Gabrielson
+7y Pass from Gabrielson to Jansen
+9y Dump from Jansen to Tornabene
+14y Pass from Tornabene to Gabrielson
+11y Pass from Gabrielson to Jansen
+13y Dump from Jansen to Steslicki
+8y Pass from Steslicki to Lithio
+12y Dump from Lithio to Gabrielson
+19y Swing from Gabrielson to Tornabene
+11y Dump from Tornabene to Gabrielson
+16y Pass from Kaminsky to Weis
+14y Throwaway from Weis
+0y Block by Sjogren
+10y Swing from Sjogren to Shanahan
+10y Pass from Shanahan to Sjogren
+9y Dump from Sjogren to Shanahan
+12y Pass from Shanahan to Lithio
+14y Pass from Lithio to Sjogren
+3y Throwaway from Sjogren
+16y Pass from Steslicki to Baker
+16y Swing from Baker to Harris
+8y Pass from Harris to Cercello
+9y Dump from Cercello to Baker
+6y Pass from Baker to Cercello
+12y Swing from Cercello to Steslicki
+15y Swing from Steslicki to Baker
+16y Pass from Baker to Astrom
+8y Dump from Astrom to Baker
+7y Dump from Baker to Astrom
+11y Swing from Astrom to Harris
+9y Dish from Harris to Baker
+9y Dump from Baker to Harris
+28y Throwaway from Harris
+17y Dump from Rivas to Kaminsky
+16y Swing from Kaminsky to Dremann
+22y Pass from Dremann to Rivas
+26y Pass from Rivas to Dremann
+12y Swing from Dremann to Kaminsky
+12y Swing from Kaminsky to Dremann
+18y Pass from Dremann to Kaminsky
+23y Swing from Kaminsky to Rivas
+5y Pass from Rivas to Shanahan
+19y Pass from Shanahan to Dremann
+10y Score from Dremann to Rivas
+57y Pull by Astrom
+10y Pass from Rivas to Dremann
+18y Swing from Dremann to Shanahan
+63y Huck from Shanahan to Sjogren
+6y Dump from Sjogren to Rivas
+14y Score from Rivas to Sjogren
+92y Pull by Astrom
+5y Pass from Kaminsky to Dremann
+10y Swing from Dremann to Kaminsky
+13y Pass from Kaminsky to Rivas
+10y Dump from Rivas to Kaminsky
+18y Swing from Kaminsky to Dremann
+16y Pass from Dremann to Weis
+10y Pass from Weis to Shanahan
+18y Swing from Shanahan to Kaminsky
+9y Pass from Kaminsky to Lithio
+13y Pass from Lithio to Weis
+8y Pass from Weis to Dremann
+55y Huck throwaway from Dremann
+0y Block by Kaminsky
+14y Pass from Kaminsky to Dremann
+9y Dish from Dremann to Weis
+15y Pass from Weis to Shanahan
+5y Dump from Shanahan to Kaminsky
+17y Swing from Kaminsky to Shanahan
+9y Pass from Shanahan to Weis
+9y Dump from Weis to Shanahan
+12y Pass from Shanahan to Lithio
+21y Score from Lithio to Dremann
+97y Pull by Astrom
+0y Block by Preiss
+16y Throwaway from Steslicki
+0y Block by Rubin-Miller
+14y Pass from Harris to Johnson
+12y Pass from Johnson to Steslicki
+7y Dump from Steslicki to Jansen
+56y Huck from Jansen to Preiss
+6y Dump from Preiss to Harris
+13y Pass from Harris to Steslicki
+10y Dump from Steslicki to Harris
+15y Swing from Harris to Rubin-Miller
+11y Pass from Rubin-Miller to Astrom
+27y Score from Astrom to Preiss
+40y OB Pull by Cercello
+16y Swing from Kaminsky to Rivas
+16y Pass from Rivas to Sjogren
+14y Pass from Sjogren to Shanahan
+35y Throwaway from Shanahan
+18y Pass from Shanahan to Kaminsky
+13y Dump from Kaminsky to Rivas
+7y Dump from Rivas to Kaminsky
+31y Throwaway from Kaminsky
+0y Block by Lithio
+10y Pass from Kaminsky to Rivas
+9y Dish from Rivas to Weis
+26y Throwaway from Weis
+11y Pass from Steslicki to Baker
+11y Pass from Baker to Steslicki
+11y Swing from Steslicki to Harris
+9y Pass from Harris to Cercello
+12y Swing from Cercello to Rubin-Miller
+16y Pass from Rubin-Miller to Harris
+14y Pass from Harris to Astrom
+18y Pass from Astrom to Steslicki
+11y Swing from Steslicki to Rubin-Miller
+8y Pass from Rubin-Miller to Steslicki
+9y Pass from Steslicki to Cercello
+22y Score from Cercello to Preiss
+88y Pull by Astrom
+91y Pull by Cercello
+10y Pass from Baker to Astrom
+16y Pass from Astrom to Cercello
+49y Huck throwaway from Cercello
+62y Huck from Baker to Astrom
+45y Score from Astrom to Jansen
+81y Pull by Mauntel
+5y Dish from Kaminsky to Dremann
+18y Pass from Dremann to Weis
+13y Dump from Weis to Dremann
+9y Pass from Dremann to Weis
+13y Swing from Weis to Rivas
+7y Pass from Rivas to Weis
+14y Swing from Weis to Kaminsky
+12y Swing from Kaminsky to Rivas
+12y Swing from Rivas to Kaminsky
+12y Dump from Kaminsky to Rivas
+17y Pass from Rivas to Lithio
+16y Swing from Lithio to Kaminsky
+21y Pass from Kaminsky to Weis
+11y Turnover from Weis to Sjogren
+11y Swing from Kaminsky to Rivas
+19y Swing from Rivas to Dremann
+14y Pass from Dremann to Kaminsky
+54y Huck from Kaminsky to Sjogren
+14y Dump from Sjogren to Weis
+7y Dump from Weis to Sjogren
+5y Dump from Sjogren to Kaminsky
+4y Dish from Kaminsky to Sjogren
+21y Score from Sjogren to Kaminsky
+76y Pull by Astrom
+10y Pass from Steslicki to Preiss
+21y Dump from Preiss to Harris
+25y Throwaway from Harris
+16y Pass from Kaminsky to Dremann
+19y Swing from Dremann to Kaminsky
+10y Swing from Kaminsky to Lithio
+16y Swing from Lithio to Kaminsky
+33y Throwaway from Kaminsky
+13y Pass from Kaminsky to Shanahan
+13y Pass from Shanahan to Dremann
+12y Dump from Dremann to Shanahan
+15y Pass from Shanahan to Lithio
+8y Pass from Lithio to Rivas
+20y Score from Rivas to Sjogren
+84y Pull by Cercello
+9y Dump from Kaminsky to Rivas
+18y Pass from Rivas to Dremann
+16y Pass from Dremann to Weis
+13y Swing from Weis to Rivas
+13y Swing from Rivas to Weis
+6y Pass from Weis to Sjogren
+5y Pass from Sjogren to Shanahan
+34y Throwaway from Shanahan
+9y Dish from Dremann to Kaminsky
+7y Pass from Kaminsky to Dremann
+13y Pass from Dremann to Sjogren
+10y Swing from Sjogren to Dremann
+12y Pass from Dremann to Rivas
+7y Dump from Rivas to Kaminsky
+11y Swing from Kaminsky to Shanahan
+11y Swing from Shanahan to Rivas
+14y Pass from Rivas to Lithio
+11y Swing from Lithio to Rivas
+8y Pass from Rivas to Kaminsky
+26y Score from Kaminsky to Weis
+82y Pull by Astrom
+0y Block by Astrom
+7y Dump from Rivas to Kaminsky
+9y Dump from Kaminsky to Rivas
+15y Swing from Rivas to Kaminsky
+22y Pass from Kaminsky to Shanahan
+8y Pass from Shanahan to Weis
+16y Dump from Weis to Rivas
+17y Pass from Rivas to Lithio
+9y Pass from Lithio to Kaminsky
+20y Pass from Kaminsky to Dremann
+7y Dish from Dremann to Shanahan
+10y Pass from Shanahan to Rivas
+9y Dump from Rivas to Shanahan
+8y Dump from Shanahan to Kaminsky
+11y Pass from Kaminsky to Shanahan
+14y Pass from Shanahan to Weis
+14y Swing from Weis to Sjogren
+7y Pass from Sjogren to Rivas
+18y Score from Rivas to Dremann
+95y Pull by Astrom
+9y Dish from Rivas to Dremann
+10y Swing from Dremann to Rivas
+11y Swing from Rivas to Dremann
+10y Pass from Dremann to Lithio
+16y Pass from Lithio to Weis
+5y Dump from Weis to Rivas
+13y Pass from Rivas to Sjogren
+11y Dump from Sjogren to Rivas
+7y Dump from Rivas to Kaminsky
+16y Swing from Kaminsky to Lithio
+22y Pass from Lithio to Weis
+10y Dump from Weis to Rivas
+5y Dish from Rivas to Kaminsky
+11y Pass from Kaminsky to Lithio
+11y Pass from Lithio to Weis
+5y Dish from Weis to Shanahan
+15y Swing from Shanahan to Lithio
+14y Swing from Lithio to Shanahan
+7y Dish from Shanahan to Weis
+8y Pass from Weis to Shanahan
+6y Dish from Shanahan to Weis
+20y Score from Weis to Sjogren
+83y Pull by Cercello
+0y Block by Pappas
+17y Swing from Cercello to Jansen
+23y Swing from Jansen to Pappas
+10y Swing from Pappas to Tornabene
+16y Swing from Tornabene to Cercello
+17y Pass from Cercello to Jansen
+11y Pass from Jansen to Gabrielson
+20y Pass from Gabrielson to Pappas
+6y Dish from Pappas to Jansen
+37y Score from Jansen to Pappas
+83y Pull by Astrom
+14y Swing from Lithio to Weis
+10y Dump from Weis to Rivas
+13y Swing from Rivas to Dremann
+12y Pass from Dremann to Rivas
+14y Pass from Rivas to Sjogren
+12y Pass from Sjogren to Weis
+13y Dump from Weis to Rivas
+8y Throwaway from Rivas
+8y Dish from Dremann to Kaminsky
+18y Pass from Kaminsky to Weis
+10y Pass from Weis to Lithio
+12y Pass from Lithio to Dremann
+4y Dish from Dremann to Kaminsky
+10y Dump from Kaminsky to Dremann
+10y Swing from Dremann to Kaminsky
+6y Dump from Kaminsky to Weis
+10y Swing from Weis to Kaminsky
+9y Dump from Kaminsky to Weis
+16y Throwaway from Weis
+15y Pass from Harris to Baker
+16y Pass from Baker to Steslicki
+12y Dump from Steslicki to Harris
+17y Swing from Harris to Cercello
+23y Pass from Cercello to Rubin-Miller
+11y Swing from Rubin-Miller to Steslicki
+10y Swing from Steslicki to Cercello
+15y Pass from Cercello to Steslicki
+17y Pass from Steslicki to Preiss
+17y Swing from Preiss to Cercello
+44y Score from Cercello to Astrom
+60y OB Pull by Astrom
+12y Pass from Kaminsky to Dremann
+17y Pass from Dremann to Shanahan
+14y Pass from Shanahan to Lithio
+16y Dump from Lithio to Shanahan
+10y Swing from Shanahan to Rivas
+12y Swing from Rivas to Kaminsky
+17y Pass from Kaminsky to Weis
+10y Swing from Weis to Kaminsky
+8y Dump from Kaminsky to Rivas
+9y Dump from Rivas to Kaminsky
+17y Swing from Kaminsky to Rivas
+11y Swing from Rivas to Shanahan
+6y Dump from Kaminsky to Dremann
+6y Dish from Dremann to Kaminsky
+11y Dump from Kaminsky to Dremann
+6y Pass from Dremann to Kaminsky
+12y Pass from Kaminsky to Shanahan
+29y Throwaway from Shanahan
+0y Block by Harris
+13y Pass from Kaminsky to Dremann
+13y Pass from Dremann to Kaminsky
+15y Pass from Kaminsky to Shanahan
+10y Pass from Shanahan to Rivas
+8y Dump from Rivas to Shanahan
+12y Swing from Shanahan to Kaminsky
+14y Pass from Kaminsky to Sjogren
+14y Pass from Sjogren to Weis
+12y Dump from Weis to Sjogren
+16y Swing from Sjogren to Rivas
+9y Pass from Rivas to Weis
+13y Pass from Weis to Shanahan
+8y Dump from Shanahan to Weis
+7y Dish from Weis to Kaminsky
+9y Pass from Kaminsky to Weis
+9y Pass from Weis to Kaminsky
+7y Dish from Kaminsky to Weis
+10y Swing from Weis to Shanahan
+9y Dump from Shanahan to Weis
+10y Swing from Weis to Kaminsky
+13y Swing from Kaminsky to Weis
+11y Pass from Weis to Lithio
+7y Pass from Lithio to Kaminsky
+12y Dump from Kaminsky to Lithio
+10y Pass from Lithio to Kaminsky
+14y Score from Kaminsky to Sjogren
+60y OB Pull by Astrom
+12y Pass from Kaminsky to Dremann
+68y Huck from Dremann to Lithio
+6y Dump from Lithio to Sjogren
+8y Dish from Sjogren to Lithio
+18y Score from Lithio to Shanahan
+70y Pull by Harris
+5y Dump from Harris to Steslicki
+10y Dump from Steslicki to Harris
+7y Dump from Harris to Steslicki
+14y Throwaway from Steslicki
+14y Pass from Dremann to Weis
+6y Dump from Weis to Kaminsky
+13y Pass from Kaminsky to Lithio
+11y Pass from Lithio to Dremann
+0y Throwaway from Dremann
+40y Pull. We were offsides by Astrom
+13y Swing from Marcus to Shriwise
+11y Pass from Shriwise to Sample
+5y Dump from Sample to Marcus
+10y Pass from Marcus to Vordick
+9y Dump from Vordick to Marcus
+23y Pass from Marcus to Sample
+14y Pass from Sample to Gutowsky
+9y Pass from Gutowsky to Marcus
+19y Swing from Marcus to Sample
+16y Pass from Sample to Luo
+13y Score from Luo to Gutowsky
+82y Pull by Marks
+0y Block by Carrico
+8y Pass from Carrico to Weber
+20y Swing from Weber to Marks
+11y Pass from Marks to McCarthy
+12y Swing from McCarthy to Weber
+10y Pass from Weber to Carrico
+20y Swing from Carrico to Weber
+18y Pass from Weber to Leibforth
+13y Swing from Leibforth to Weber
+3y Dish from Weber to McCarthy
+12y Dump from McCarthy to Weber
+19y Pass from Weber to Carrico
+7y Pass from Carrico to Knoche
+6y Dish from Knoche to Carrico
+35y Score from Carrico to Robert
+95y Pull by Wilson
+16y Swing from Marcus to Hart
+15y Swing from Hart to Marcus
+14y Pass from Marcus to Gutowsky
+7y Dump from Gutowsky to Marcus
+15y Pass from Marcus to Luo
+10y Pass from Luo to Nelson
+13y Pass from Nelson to Luo
+37y Score from Luo to Vordick
+60y OB Pull by Marks
+0y Block by Carrico
+13y Pass from Carrico to McCarthy
+77y Score from McCarthy to Robert
+83y Pull by Wilson
+14y Pass from Shriwise to Hart
+13y Pass from Hart to Shriwise
+8y Pass from Shriwise to Sample
+10y Swing from Sample to Vordick
+9y Dump from Vordick to Hart
+13y Pass from Hart to Sample
+21y Pass from Sample to Nelson
+14y Swing from Nelson to Shriwise
+17y Swing from Shriwise to Vordick
+12y Pass from Vordick to Hart
+10y Throwaway from Hart
+0y Block by McCarthy
+9y Pass from Marks to Carrico
+18y Pass from Carrico to Marks
+19y Pass from Marks to Knoche
+11y Swing from Knoche to McCarthy
+4y Dish from McCarthy to Weber
+2y Dish from Weber to McCarthy
+6y Dish from McCarthy to Weber
+17y Swing from Weber to Carrico
+19y Throwaway from Carrico
+12y Pass from Weber to Robert
+14y Swing from Robert to Weber
+18y Swing from Weber to Marks
+22y Pass from Marks to Leibforth
+19y Dump from Leibforth to Weber
+19y Swing from Weber to McCarthy
+20y Pass from McCarthy to Weber
+13y Pass from Weber to Robert
+22y Pass from Robert to Leibforth
+9y Score from Leibforth to Carrico
+96y Pull by Wilson
+0y Block by Wilson
+17y Pass from Wilson to Alexander
+15y Pass from Alexander to Luo
+30y Turnover from Luo to Pettit-Scantling
+79y Pull by Marks
+12y Pass from Marcus to Vordick
+6y Dump from Vordick to Marcus
+20y Pass from Marcus to Vordick
+12y Swing from Vordick to Luo
+20y Pass from Luo to Marcus
+20y Pass from Marcus to Sample
+8y Pass from Sample to Luo
+12y Score from Luo to Nelson
+82y Pull by Wilson
+8y Pass from Hart to Marcus
+9y Dish from Marcus to Hart
+22y Swing from Hart to Luo
+6y Dish from Luo to Marcus
+16y Swing from Marcus to Hart
+11y Pass from Hart to Luo
+14y Swing from Luo to Marcus
+11y Swing from Marcus to Luo
+13y Swing from Luo to Hart
+7y Dump from Hart to Luo
+6y Pass from Luo to Hart
+6y Pass from Hart to Vordick
+5y Dish from Vordick to Luo
+31y Swing from Luo to Marcus
+62y Huck from Marcus to Nelson
+35y Score from Nelson to Luo
+97y Pull by Marks
+39y Pass from McCarthy to Leibforth
+20y Pass from Leibforth to Robert
+19y Pass from Robert to Marks
+21y Swing from Marks to Leibforth
+30y Throwaway from Leibforth
+12y Pass from Hart to Marcus
+9y Dump from Marcus to Hart
+12y Swing from Hart to Marcus
+16y Swing from Marcus to Vordick
+11y Throwaway from Vordick
+0y Block by Hart
+30y Swing from Marcus to Sample
+9y Pass from Sample to Vordick
+8y Pass from Vordick to Hart
+17y Dump from Hart to Luo
+24y Swing from Luo to Marcus
+98y Dropped huck from Marcus to Nelson
+9y Dump from Wilson to Alexander
+25y Pass from Alexander to Carrico
+40y Huck throwaway from Carrico
+0y Block by Wilson
+18y Pass from Wilson to Alexander
+19y Swing from Alexander to Pettit-Scantling
+11y Pass from Pettit-Scantling to Wilson
+18y Throwaway from Wilson
+0y Block by Gutowsky
+14y Dump from Wilson to Pettit-Scantling
+9y Pass from Pettit-Scantling to Wilson
+8y Pass from Wilson to Pettit-Scantling
+15y Turnover from Pettit-Scantling to Marks
+35y Swing from Wilson to Pettit-Scantling
+14y Pass from Pettit-Scantling to Alexander
+12y Score from Alexander to Wilson
+89y Pull by Marks
+22y Swing from Hart to Marcus
+26y Pass from Marcus to Hart
+23y Dump from Hart to Marcus
+23y Pass from Marcus to Hart
+27y Swing from Hart to Marcus
+11y Swing from Marcus to Luo
+9y Dish from Luo to Marcus
+10y Pass from Marcus to Luo
+14y Pass from Luo to Hart
+15y Pass from Hart to Marcus
+14y Pass from Marcus to Sample
+14y Pass from Sample to Gutowsky
+12y Dump from Gutowsky to Hart
+21y Swing from Hart to Luo
+17y Swing from Luo to Hart
+10y Pass from Hart to Gutowsky
+12y Swing from Gutowsky to Hart
+60y Huck from Hart to Nelson
+8y Dump from Nelson to Marcus
+54y Huck throwaway from Marcus
+0y Block by Gutowsky
+15y Pass from Gutowsky to Vordick
+13y Pass from Vordick to Sample
+12y Swing from Sample to Hart
+12y Swing from Hart to Sample
+13y Dump from Sample to Marcus
+77y Huck throwaway from Marcus
+12y Pass from Weber to Wilson
+6y Pass from Wilson to Alexander
+10y Swing from Alexander to Wilson
+12y Pass from Wilson to Alexander
+17y Swing from Alexander to McCarthy
+10y Dump from McCarthy to Wilson
+16y Swing from Wilson to Alexander
+16y Pass from Alexander to Weber
+7y Dish from Weber to Alexander
+28y Pass from Alexander to Robert
+12y Swing from Robert to Carrico
+8y Dump from Carrico to Wilson
+18y Pass from Wilson to Alexander
+32y Score from Alexander to Robert
+83y Pull by Marks
+0y Block by Carrico
+36y Swing from McCarthy to Knoche
+3y Dish from Knoche to Weber
+17y Swing from Weber to Marks
+11y Swing from Marks to Weber
+17y Throwaway from Weber
+10y Pass from Luo to Marcus
+11y Swing from Marcus to Luo
+12y Swing from Luo to Hart
+11y Swing from Hart to Luo
+11y Swing from Luo to Marcus
+5y Pass from Marcus to Luo
+10y Pass from Luo to Gutowsky
+11y Dump from Gutowsky to Marcus
+16y Throwaway from Marcus
+13y Swing from Marcus to Luo
+22y Swing from Luo to Vordick
+12y Swing from Vordick to Luo
+7y Dish from Luo to Marcus
+10y Pass from Marcus to Gutowsky
+12y Swing from Gutowsky to Hart
+17y Pass from Hart to Sample
+11y Pass from Sample to Hart
+5y Pass from Hart to Vordick
+9y Pass from Vordick to Sample
+9y Dish from Sample to Gutowsky
+31y Score from Gutowsky to Nelson
+92y Pull by Wilson
+12y Pass from DeLorenzo to Pettit-Scantling
+10y Swing from Pettit-Scantling to McCarthy
+8y Dish from McCarthy to Pettit-Scantling
+16y Throwaway from Pettit-Scantling
+12y Pass from Luo to Marcus
+13y Swing from Marcus to Hart
+11y Pass from Hart to Sample
+8y Dump from Sample to Marcus
+9y Pass from Marcus to Hart
+13y Pass from Hart to Nelson
+12y Swing from Nelson to Marcus
+70y Huck throwaway from Marcus
+0y Block by Weber
+11y Swing from Robert to Carrico
+20y Pass from Carrico to Weber
+11y Turnover from Weber to Marks
+17y Pass from Luo to Marcus
+27y Pass from Marcus to Hart
+24y Swing from Hart to Marcus
+81y Pull by Unknown
+21y Swing from Luo to Marcus
+16y Swing from Marcus to Luo
+7y Pass from Luo to Sample
+11y Pass from Sample to Vordick
+12y Swing from Vordick to Marcus
+14y Swing from Marcus to Luo
+14y Swing from Luo to Marcus
+14y Swing from Marcus to Luo
+14y Swing from Luo to Marcus
+19y Pass from Marcus to Vordick
+10y Swing from Vordick to Sample
+7y Dump from Sample to Hart
+3y Dish from Hart to Marcus
+17y Swing from Marcus to Hart
+14y Swing from Hart to Marcus
+13y Swing from Marcus to Hart
+15y Swing from Hart to Vordick
+17y Pass from Vordick to Sample
+15y Swing from Sample to Marcus
+12y Pass from Marcus to Vordick
+7y Pass from Vordick to Sample
+7y Pass from Sample to Luo
+34y Score from Luo to Nelson
+84y Pull by Wilson
+10y Pass from Hart to Marcus
+12y Pass from Marcus to Sample
+11y Pass from Sample to Vordick
+9y Pass from Vordick to Marcus
+16y Swing from Marcus to Vordick
+19y Swing from Vordick to Hart
+57y Huck throwaway from Hart
+15y Pass from Alexander to Wilson
+12y Swing from Wilson to Alexander
+7y Pass from Alexander to Weber
+23y Pass from Weber to McCarthy
+16y Swing from McCarthy to Wilson
+11y Pass from Wilson to Carrico
+16y Swing from Carrico to Wilson
+8y Pass from Wilson to Carrico
+8y Dump from Carrico to Wilson
+7y Pass from Wilson to Carrico
+9y Pass from Carrico to Weber
+11y Swing from Weber to McCarthy
+14y Swing from McCarthy to Carrico
+8y Pass from Carrico to Wilson
+33y Score from Wilson to Robert
+49y Pull by Wilson
+0y Block by McCarthy
+10y Swing from Pettit-Scantling to Meshnick
+8y Pass from Meshnick to Pettit-Scantling
+16y Swing from Pettit-Scantling to McCarthy
+21y Score from McCarthy to Marks
+98y Pull by Marks
+9y Pass from Knoche to Weber
+36y Score from Weber to Leibforth
+95y Pull by Wilson
+9y Dump from Marcus to Hart
+16y Swing from Hart to Marcus
+8y Pass from Marcus to Vordick
+11y Swing from Vordick to Hart
+10y Swing from Hart to Luo
+16y Pass from Luo to Gutowsky
+45y Score from Gutowsky to Nelson
+82y Pull by Marks
+0y Block by McCarthy
+18y Swing from Wilson to Weber
+21y Swing from Weber to Knoche
+21y Pass from Marcus to Sample
+12y Dump from Sample to Marcus
+16y Pass from Marcus to Hart
+6y Dump from Hart to Marcus
+12y Pass from Marcus to Hart
+7y Dump from Hart to Marcus
+23y Swing from Marcus to Hart
+95y Pull by Marks
+18y Swing from Marcus to Vordick
+16y Pass from Vordick to Gutowsky
+15y Swing from Gutowsky to Marcus
+15y Swing from Marcus to Luo
+15y Pass from Luo to Vordick
+12y Swing from Vordick to Marcus
+13y Pass from Marcus to Sample
+21y Score from Sample to Vordick
+85y Pull by Wilson
+12y Dump from Hart to Marcus
+13y Swing from Marcus to Hart
+20y Swing from Hart to Sample
+6y Pass from Sample to Marcus
+8y Dump from Marcus to Hart
+14y Swing from Hart to Marcus
+8y Dish from Marcus to Hart
+3y Dish from Hart to Marcus
+24y Pass from Marcus to Vordick
+6y Dump from Vordick to Sample
+19y Throwaway from Sample
+0y Block by Knoche
+8y Dish from Knoche to Luo
+7y Dump from Luo to Knoche
+7y Dish from Knoche to Luo
+13y Swing from Luo to Vordick
+15y Pass from Vordick to Sample
+10y Swing from Sample to Vordick
+12y Swing from Marcus to Luo
+10y Swing from Luo to Marcus
+13y Score from Marcus to Knoche
+87y Pull by DeLorenzo
+0y Block by Robert
+9y Dump from Marcus to Hart
+7y Dump from Hart to Marcus
+13y Pass from Marcus to Vordick
+10y Swing from Vordick to Marcus
+7y Dish from Marcus to Hart
+11y Pass from Hart to Marcus
+9y Dish from Marcus to Vordick
+7y Pass from Vordick to Sample
+9y Pass from Sample to Vordick
+10y Swing from Vordick to Hart
+8y Dish from Hart to Sample
+32y Score from Sample to Vordick

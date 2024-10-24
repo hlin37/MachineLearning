@@ -116,8 +116,42 @@ class Simulation:
     def throwaway_modifier(self, distance):
         return min(1.5, 1 + (100 - distance) / 200)  # Throwaways more likely closer to goal
 
+    # def elo_modifier(self, offense_elo, defense_elo):
+    #     """Returns a modifier based on the ELO difference, with reduced impact for smaller differences."""
+    #     elo_diff = offense_elo - defense_elo
+
+    #     # Use a polynomial or logarithmic function to reduce the impact of small ELO differences
+    #     if abs(elo_diff) <= 100:
+    #         modifier = 1 + (elo_diff / 400)  # Scales ELO differences to have less effect when close
+    #     else:
+    #         # For larger ELO differences, use a log function to smoothly increase the impact
+    #         modifier = 1 + np.sign(elo_diff) * np.log(1 + abs(elo_diff) / 200)  # Adjust base/log scaling as needed
+
+    #     return max(0.5, min(1.5, modifier))  # Bound the modifier to prevent excessive impact
+
+    def elo_modifier(self, offense_elo, defense_elo, max_effect=0.45):
+        elo_diff = offense_elo - defense_elo
+        """
+        Modify the action probabilities based on the Elo difference.
+        
+        Parameters:
+        - elo_diff: The Elo difference between two teams (team1_elo - team2_elo).
+        - max_effect: The maximum modifier effect on the probabilities (default is 45%).
+        
+        Returns:
+        - modifier: A multiplicative factor to adjust transition matrix probabilities for actions.
+        """
+        # Cap the Elo difference to prevent extreme adjustments
+        capped_diff = np.clip(elo_diff, -1000, 1000)
+        
+        # Calculate the adjustment factor based on Elo difference
+        modifier = 1 + (max_effect * (capped_diff / 1000))  # Modifies probabilities up to ±45%
+        
+        return modifier
+
+
     # Function to dynamically adjust the transition matrix based on continuous distance functions
-    def adjust_probabilities_club_ultimate(self, distance_to_goal):
+    def adjust_probabilities_club_ultimate(self, distance_to_goal, offense_elo, defense_elo):
         adjustment_matrix = np.ones_like(self.baseTransitionMatrix)
 
         # Get the continuous modifiers for each action based on the current distance
@@ -129,6 +163,8 @@ class Simulation:
         drop_mod = self.drop_modifier(distance_to_goal)
         block_mod = self.block_modifier(distance_to_goal)
         throwaway_mod = self.throwaway_modifier(distance_to_goal)
+
+        elo_mod = self.elo_modifier(offense_elo, defense_elo)
 
         # Apply modifications to relevant actions
         huck_idx = self.action_to_index["Huck"]
@@ -144,6 +180,15 @@ class Simulation:
         huck_throwaway_idx = self.action_to_index["Huck throwaway"]
 
         for i in range(len(self.actions)):
+            
+            adjustment_matrix[i] *= elo_mod  # Increase probabilities for successful actions
+            
+            # Mistakes such as dropped passes, throwaways are inversely affected
+            mistake_actions = ["Dropped pass", "Throwaway", "Dropped huck", "Huck throwaway"]
+            for mistake in mistake_actions:
+                mistake_idx = self.action_to_index[mistake]
+                adjustment_matrix[i][mistake_idx] /= elo_mod  
+            
             adjustment_matrix[i][huck_idx] *= huck_mod
             adjustment_matrix[i][score_idx] *= score_mod
             adjustment_matrix[i][pass_idx] *= pass_mod
@@ -178,11 +223,11 @@ class Simulation:
 
         return adjusted_matrix
     
-    def predict_next_action_markov(self, current_action, distance_to_goal):
+    def predict_next_action_markov(self, current_action, distance_to_goal, offense_elo, defense_elo):
 
         """Predicts the next action using only the Markov Chain."""
         # Adjust Markov Chain probabilities based on distance
-        adjusted_matrix = self.adjust_probabilities_club_ultimate(distance_to_goal)
+        adjusted_matrix = self.adjust_probabilities_club_ultimate(distance_to_goal, offense_elo, defense_elo)
 
         # Get probabilities from Markov Chain
         current_idx = self.action_to_index[current_action]
@@ -422,7 +467,7 @@ class Simulation:
 
         while ("Score" != next_action):
 
-            next_action = self.predict_next_action_markov(next_action, yardsRemaining)
+            next_action = self.predict_next_action_markov(next_action, yardsRemaining, self.teamOnOffense.elo, self.teamOnDefense.elo)
             yardsGainedForAction = self.randomYardsForAction(next_action)
 
             turnover, yardsRemaining = self.updateYardsAndAction(next_action, yardsGainedForAction, yardsRemaining)
@@ -435,8 +480,6 @@ class Simulation:
 
             catcher, thrower, defender = self.changeOffense(next_action, yardsGainedForAction, catcher, thrower, defender, turnover)  
 
-
-    
     def choosePlayerForAction(self, action, catcher, thrower, defender):
         if (catcher == None and thrower == None and defender == None):
             defender = self.teamOnDefense.roster[random.randint(0,6)]
@@ -485,6 +528,8 @@ class Simulation:
         self.teamOnOffense = team1
         self.teamOnDefense = team2
 
+        team1Wins = 0
+
         counter = 0
         while (counter < 100):
             while (self.team1.numberOfPoints < 15 and self.team2.numberOfPoints < 15):
@@ -504,13 +549,15 @@ class Simulation:
                         self.teamOnDefense = team2
             
             print ("Team One : Team Two " + str(self.team1.numberOfPoints) + " - " + str(self.team2.numberOfPoints))
+            if (self.team1.numberOfPoints > self.team2.numberOfPoints):
+                team1Wins += 1
             counter += 1
             self.teamOnOffense = team1
             self.teamOnDefense = team2
             self.team1.numberOfPoints = 0
             self.team2.numberOfPoints = 0
             
-            # print ("Team One : Team Two " + str(self.team1.numberOfPoints) + " - " + str(self.team2.numberOfPoints))
+        print (team1Wins / 100)
         
         
         # for player in self.teamOnOffense.roster:
@@ -525,5 +572,7 @@ class Simulation:
 
 team1 = Team("FirstTeam", 0, 0)
 team2 = Team("SecondTeam", 1, 7)
+team1.elo = 1974
+team2.elo = 2178
 sim = Simulation(team1, team2)
 sim.main()
