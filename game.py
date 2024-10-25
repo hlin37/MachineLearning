@@ -454,9 +454,9 @@ class Simulation:
     
     def runFrisbeeGame(self):
 
-        thrower = None
-        catcher = None
-        defender = None
+        thrower = self.teamOnOffense.roster[random.randint(0,6)]
+        catcher = self.teamOnOffense.roster[random.randint(0,6)]
+        defender = self.teamOnDefense.roster[random.randint(0,6)]
 
         while (catcher != thrower):
             catcher = self.teamOnOffense.roster[random.randint(0,6)]
@@ -468,17 +468,17 @@ class Simulation:
         while ("Score" != next_action):
 
             next_action = self.predict_next_action_markov(next_action, yardsRemaining, self.teamOnOffense.elo, self.teamOnDefense.elo)
+        
             yardsGainedForAction = self.randomYardsForAction(next_action)
 
             turnover, yardsRemaining = self.updateYardsAndAction(next_action, yardsGainedForAction, yardsRemaining)
 
             catcher, thrower, defender, isScore = self.discInEndzone(next_action, yardsGainedForAction, catcher, thrower, defender)
 
-
             if (isScore):
                 break
 
-            catcher, thrower, defender = self.changeOffense(next_action, yardsGainedForAction, catcher, thrower, defender, turnover)  
+            catcher, thrower, defender = self.changeOffense(next_action, yardsGainedForAction, catcher, thrower, defender, turnover)
 
     def choosePlayerForAction(self, action, catcher, thrower, defender):
         if (catcher == None and thrower == None and defender == None):
@@ -519,10 +519,66 @@ class Simulation:
                 thrower = self.teamOnDefense.roster[random.randint(0,6)]
 
                 thrower.addPull()
-            
-        return catcher, thrower, defender
-
     
+        if self.determine_if_action_completes(action, thrower, catcher, defender):
+            print("success")
+        else:
+            print("failure")
+        return catcher, thrower, defender
+    
+    def determine_if_action_completes(self, action, thrower, catcher, defender):
+        action_complete = False
+
+        ## If I don't throw pass, huck -> dump, swing
+
+        ## I don't throw dump, swing -> (dump or swing), dish
+
+        ## If I do throw dump/swing -> dish, pass, swing, dump. huck
+
+        ## If I dont throw dish -> huck/huck throwaway/stall?
+
+        ## If I do throw dish, -> dump, pass, swing, dump, huck
+
+        ## If I throw pass, huck -> find out if catcher catches the disc
+
+        ## If any catcher does not catch the disc, turnover
+
+        if action in ["Pass", "Huck", "Swing", "Dish", "Dump"]:
+            if self.doesPlayerThrowDisc(catcher, defender):
+                if self.doesPlayerCatchDisc(thrower, catcher, defender):
+                    action_complete = True
+                else:
+                    action_complete = False
+
+        return action_complete
+    
+    def doesPlayerThrowDisc(self, catcher, defender):
+        probabilityOfThrowing = random.randint(0, 100)
+        simulationProbabilityOfThrowing = self.throwingProbability(catcher, defender)
+        if (simulationProbabilityOfThrowing > probabilityOfThrowing):
+            return True
+        else:
+            return False
+    
+    def throwingProbability(self, catcher, defense):
+        speedRatio = catcher.attributes['speed'] / defense.attributes['speed']
+        agilityRatio = catcher.attributes['agility'] / defense.attributes['agility']
+
+        # alpha is a scaling constant to determine steepness of the curve
+        alpha = 1
+
+        exponent = -1 * (alpha * (speedRatio + agilityRatio) - 1)
+        denominator = 1 + pow(math.e, exponent)
+        return 100 / denominator
+    
+    def doesPlayerCatchDisc(self, thrower, catcher, defense):
+        probabilityOfCatching = random.randint(0, 100)
+        if (((thrower.attributes['throw'] + thrower.attributes['accuracy'] + catcher.attributes['catch']) / 1.55) - defense.attributes['defense'] > probabilityOfCatching):
+            return True
+        else:
+            return False
+
+    ## TO DO: MAYBE ADD IN A PROBABILITY TO SEE IF THE ACTION IS COMPLETED BY USING PLAYER STATS?
     def main(self):
         
         self.teamOnOffense = team1
@@ -560,13 +616,13 @@ class Simulation:
         print (team1Wins / 100)
         
         
-        # for player in self.teamOnOffense.roster:
-        #     ## ## print(player.name + ": ", end = "")
-        #     ## ## print(player.statsDictionary)
+        for player in self.teamOnOffense.roster:
+            print(player.name + ": ", end = "")
+            print(player.attributes)
         
-        # for player in self.teamOnDefense.roster:
-        #     ## ## print(player.name + ": ", end = "")
-        #     ## ## print(player.statsDictionary)
+        for player in self.teamOnDefense.roster:
+            print(player.name + ": ", end = "")
+            print(player.attributes)
     
 
 
