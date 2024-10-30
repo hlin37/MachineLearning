@@ -1,0 +1,525 @@
+Rank	Team	Power Rating	Gender Division	Competition Division	City	State	Club Region	Club Section	Wins	Losses
+1	Rhino Slam!	2123	Men	Pro	Portland	OR	Northwest	Oregon	25	7
+2	Revolver	2088	Men	Pro	San Francisco	CA	Southwest	NorCal	20	7
+3	DiG	2087	Men	Pro	Boston	MA	Northeast	East New England	20	8
+4	PoNY	2080	Men	Pro	New York	NY	Northeast	Metro NY	16	7
+5	Chicago Machine	2073	Men	Pro	Chicago	IL	Great Lakes	Central Plains	23	5
+6	Truck Stop	2012	Men	Pro	Washington	DC	Mid-Atlantic	Capital	17	8
+7	Ring of Fire	1998	Men	Pro	Raleigh	NC	Southeast	North Carolina	19	9
+8	Chain Lightning	1990	Men	Elite	Atlanta	GA	Southeast	East Coast	19	12
+9	Johnny Bravo	1965	Men	Pro	Colorado	CO	South Central	Rocky Mountain	13	7
+10	Sockeye	1958	Men	Top Select	Seattle	WA	Northwest	Washington/BC	26	8
+11	Mephisto	1819	Men	Classic	Montreal	Quebec	Northeast	West New England	11	4
+12	Furious George	1814	Men	Elite	Vancouver	British Columbia	Northwest	Washington/BC	15	10
+13	GOAT	1798	Men	Select	Toronto	Ontario	Northeast	Upstate NY	23	9
+14	Doublewide	1776	Men	Elite	Austin	TX	South Central	Texas	16	8
+15	Sprout	1706	Men	Top Select	Amherst	MA	Northeast	West New England	19	9
+16	Raleigh-Durham United	1689	Men	Elite	Raleigh	NC	Southeast	North Carolina	12	14
+17	Vault	1658	Men	Elite	Hampton	VA	Mid-Atlantic	Capital	11	7
+18	Mallard	1630	Men	Top Select	Minneapolis	MN	North Central	Northwest Plains	23	13
+19	Mad Men	1630	Men	Select	Madison	WI	North Central	Northwest Plains	21	7
+20	Dark Star	1619	Men	Elite	Eugene	OR	Northwest	Oregon	14	11
+21	Sub Zero	1619	Men	Elite	Minneapolis	MN	North Central	Northwest Plains	11	7
+22	SoCal Condors	1611	Men	Select	Calico	CA	Southwest	So Cal	20	9
+23	Ghostbusters	1602	Men	 	Philadelphia	PA	Mid-Atlantic	Founders	13	4
+24	Shrimp	1591	Men	Classic	Salt Lake	UT	Northwest	Big Sky	20	9
+25	Phoenix	1584	Men	Select	Ottawa, ON	Ontario	Northeast	Upstate NY	15	10
+26	Garden State Ultimate	1532	Men	Top Select	New Brunswick	NJ	Mid-Atlantic	Founders	18	12
+27	Fungi	1531	Men	Classic	Denver	CO	South Central	Rocky Mountain	24	4
+28	Red Tide	1529	Men	Select	Portland	ME	Northeast	East New England	19	4
+29	Blueprint	1520	Men	Elite	New York	NY	Northeast	Metro NY	14	10
+30	Lounar	1496	Men	Classic	St. Louis	MO	North Central	West Plains	20	9
+31	Boneyard	1490	Men	Division I	Triangle	NC	Southeast	North Carolina	9	4
+32	Bonneville Flatball Club	1489	Men	Classic	Shoreline Trail	UT	Northwest	Big Sky	7	4
+33	Pittsburgh Temper	1484	Men	Classic	Pittsburgh	PA	Mid-Atlantic	Founders	20	10
+34	Flying Dutchmen	1467	Men	Classic	Columbus	OH	Great Lakes	East Plains	27	5
+35	Scoop	1449	Men	Select	Boston	MA	Northeast	East New England	11	12
+36	Cash Crop 2	1420	Men	Top Select	Chapel Hill	NC	Southeast	North Carolina	19	6
+37	Beacon	1416	Men	Top Select	Grand Rapids	MI	Great Lakes	East Plains	18	11
+38	Shade	1410	Men	Classic	New York	NY	Northeast	Metro NY	23	7
+39	Oak Grove Boys	1397	Men	Select	ARLINGTON	VA	Mid-Atlantic	Capital	16	14
+40	Phantom	1392	Men	Select	Philadelphia	PA	Mid-Atlantic	Founders	18	13
+41	Red Circus	1377	Men	 	Halifax	Nova Scotia	Northeast	East New England	13	7
+42	Colonels	1371	Men	Select	Louisville	KY	Great Lakes	East Plains	12	11
+43	Omen	1369	Men	Select	Cincinnati	OH	Great Lakes	East Plains	15	15
+44	Switchback	1362	Men	Select	Seattle	WA	Northwest	Washington/BC	19	17
+45	I-69	1352	Men	Classic	Indianapolis	IN	Great Lakes	Central Plains	26	5
+46	Trident	1345	Men	Select	Chicago	IL	Great Lakes	Central Plains	15	14
+47	Alamode	1336	Men	Select	San Antonio	TX	South Central	Texas	19	12
+48	Florida Untied	1334	Men	 	Ocala	FL	Southeast	Florida	16	8
+49	Alliance	1332	Men	Classic	Alabama	AL	Southeast	Gulf Coast	28	6
+50	General Strike	1317	Men	Select	Winnipeg	MB	North Central	Northwest Plains	12	6
+51	ISO Atmo	1308	Men	Classic	Boulder	CO	South Central	Rocky Mountain	19	9
+52	baNC	1305	Men	Select	Charlotte	NC	Southeast	North Carolina	21	12
+53	SOUF	1305	Men	Select	Seattle	WA	Northwest	Washington/BC	15	8
+54	Club M - Manic	1303	Men	Classic	Montreal	QC	Northeast	West New England	10	3
+55	(washed)	1300	Men	 	Denver	CO	South Central	Rocky Mountain	13	7
+56	Hazard	1289	Men	Classic	Los Angeles	CA	Southwest	So Cal	13	9
+57	Kansas City Smokestack	1287	Men	Select	Kansas City	MO	North Central	West Plains	23	9
+58	Chimney	1277	Men	Classic	Cleveland	OH	Great Lakes	East Plains	21	10
+59	Tanasi	1274	Men	Select	Tennessee	TN	Southeast	East Coast	13	11
+60	H.I.P	1254	Men	Top Select	Texas City	TX	South Central	Texas	18	12
+61	Zyzzyva	1250	Men	Top Select	Berkeley	CA	Southwest	NorCal	13	7
+62	Colt	1240	Men	Classic	Hartford	CT	Northeast	Metro NY	14	9
+63	Haymaker	1220	Men	 	Chicago	IL	Great Lakes	Central Plains	21	10
+64	Johnny Walker	1209	Men	Classic	Denver	CO	South Central	Rocky Mountain	6	5
+65	Little Red Wagon	1206	Men	 	Atlanta	GA	Southeast	East Coast	19	7
+66	Brawl	1204	Men	Select	Dallas	TX	South Central	Texas	15	13
+67	Blackfish	1198	Men	 	Vancouver	BC	Northwest	Washington/BC	7	6
+68	Zoboomafoo	1196	Men	Classic	Madison	WI	North Central	Northwest Plains	22	11
+69	Town Hall Stars	1193	Men	Classic	College Park	MD	Mid-Atlantic	Capital	23	6
+70	Lost Boys	1183	Men	Classic	Columbia	SC	Southeast	East Coast	28	6
+71	Portland TremOR	1181	Men	Elite	Portland	OR	Northwest	Oregon	13	8
+72	Junco	1169	Men	 	Portland	OR	Northwest	Oregon	16	11
+73	Riverside	1164	Men	Classic	Austin	TX	South Central	Texas	20	10
+74	Big Wrench	1159	Men	Classic	Somerville	MA	Northeast	East New England	15	11
+75	OAT	1158	Men	Top Select	East Bay	CA	Southwest	NorCal	15	9
+76	Knights of Ni	1147	Men	Classic	Golden Valley	MN	North Central	Northwest Plains	21	11
+77	Sawtooth	1138	Men	Select	Boise	ID	Northwest	Big Sky	16	14
+78	Lantern	1114	Men	Classic	Boston	MA	Northeast	East New England	16	16
+79	Wavestorms	1112	Men	Classic	Santa Cruz	CA	Southwest	NorCal	8	3
+80	Magma Bears	1092	Men	Classic	ALL OF NEW YORK	NY	Northeast	Metro NY	19	12
+81	Hooch	1052	Men	Classic	Atlanta	GA	Southeast	East Coast	17	7
+82	Nighthawk	1045	Men	Classic	Phoenix	AZ	Southwest	So Cal	16	13
+83	John Doe	1031	Men	Classic	Washington	DC	Mid-Atlantic	Capital	19	13
+84	Harvey Cats	1030	Men	Classic	Houston	TX	South Central	Texas	15	14
+85	Skipjack	1023	Men	Select	San Diego	CA	Southwest	So Cal	9	15
+86	Dreadnought	1019	Men	Classic	Fayetteville	AR	South Central	Ozarks	20	9
+87	BARNSTORM	1017	Men	Select	Oklahoma City	OK	South Central	Ozarks	16	12
+88	Drought	1014	Men	Classic	Phoenix	AZ	Southwest	So Cal	22	12
+89	PIPE	1010	Men	Classic	Toronto	ON	Northeast	Upstate NY	8	6
+90	Triumph	1009	Men	Classic	Morrisville	NC	Southeast	North Carolina	18	9
+91	Texas Duffy	1009	Men	Classic	College Station	TX	South Central	Texas	17	13
+92	Black Lung	1007	Men	Classic	Lexington	KY	Great Lakes	East Plains	17	15
+93	Ascension	1005	Men	 	Sherbrooke	QC	Northeast	West New England	5	7
+94	OC Crows	1004	Men	Select	Irvine	CA	Southwest	So Cal	12	12
+95	HouSE	995	Men	Classic	Kenosha	WI	North Central	Northwest Plains	16	15
+96	Bux	984	Men	Classic	Milwaukee	WI	North Central	Northwest Plains	17	14
+97	Green River Swordfish	982	Men	Classic	Davis	CA	Southwest	NorCal	16	15
+98	Clutch	981	Men	Classic	Houston	TX	South Central	Texas	16	10
+99	DeMo	963	Men	Classic	Des Moines	IA	North Central	West Plains	21	17
+100	Rumspringa	944	Men	Classic	Virginville	PA	Mid-Atlantic	Founders	10	9
+101	Atlanta Arson	940	Men	Classic	Atlanta	GA	Southeast	East Coast	15	11
+102	Sprawl	915	Men	Classic	Dallas	TX	South Central	Texas	16	9
+103	Crypt	910	Men	Classic	Richmond	VA	Mid-Atlantic	Capital	18	13
+104	Red Lotus	909	Men	Classic	Boulder	CO	South Central	Rocky Mountain	12	10
+105	Make it Rain	907	Men	Classic	Seattle	WA	Northwest	Washington/BC	12	17
+106	Colorado Cutthroat U-20 Boys	902	Boys	 	Denver	CO	South Central	Rocky Mountain	7	8
+107	Seven Gills	892	Men	Classic	Kirkland	WA	Northwest	Washington/BC	10	20
+108	Cowtown Cannons	889	Men	Classic	Fort Worth	TX	South Central	Texas	14	16
+109	Offshore	884	Men	Classic	Santa Barbara	CA	Southwest	So Cal	8	12
+110	Heartbreak	877	Men	Classic	Spokane	WA	Northwest	Washington/BC	9	15
+111	Skeleton Squad	877	Men	Classic	Needham	MA	Northeast	East New England	18	20
+112	PowderHogs	874	Men	Classic	Salt Lake City	UT	Northwest	Big Sky	7	9
+113	BAG	858	Men	 	Somerville	MA	Northeast	East New England	10	9
+114	Enigma	857	Men	Classic	Dayton	OH	Great Lakes	East Plains	13	12
+115	Surf	854	Men	 	Victoria	British Columbia	Northwest	Washington/BC	6	9
+116	Helots	834	Men	Select	Sparta	NJ	Mid-Atlantic	Founders	13	18
+117	Second Nature	830	Men	 	Huntsville	AL	Southeast	Gulf Coast	15	9
+118	DINGWOP	824	Men	Classic	Duluth	MN	North Central	Northwest Plains	9	10
+119	NOx	824	Men	Classic	Kansas City	MO	North Central	West Plains	13	17
+120	NOMAD	821	Men	Classic	Edina / St. Louis Park	MN	North Central	Northwest Plains	18	14
+121	Charleston Heat Stroke	815	Men	Classic	Charleston	SC	Southeast	East Coast	14	14
+122	Scythe	815	Men	Classic	Omaha	NE	North Central	West Plains	11	15
+123	Battleship	808	Men	Classic	Mobile	AL	Southeast	Gulf Coast	13	6
+124	OPE	800	Men	Classic	Minneapolis	MN	North Central	Northwest Plains	12	13
+125	Riptide	787	Men	 	Austin	TX	South Central	Texas	13	11
+126	Nomads	786	Men	Classic	Sioux Falls	SD	North Central	Northwest Plains	11	20
+127	Carolina Summer	767	Men	 	Greenville	SC	Southeast	East Coast	9	11
+128	Carbon	758	Men	 	Broomfield	CO	South Central	Rocky Mountain	9	14
+129	Sundance Kids	752	Men	Classic	Provo	UT	Northwest	Big Sky	4	7
+130	Pittsburgh Stealers	752	Men	Classic	Pittsburgh	PA	Mid-Atlantic	Founders	10	8
+131	STL Moonar	751	Men	Classic	St. Louis	MO	North Central	West Plains	10	11
+132	AVE	750	Men	 	Seattle	WA	Northwest	Washington/BC	3	9
+133	Odyssey	732	Men	Classic	Medford	MA	Northeast	East New England	14	17
+134	Cookie Mon$terz	732	Men	Select	$	MS	Southeast	Gulf Coast	13	15
+135	El Niño	717	Men	Classic	Fort Lauderdale	FL	Southeast	Florida	11	7
+136	Rawhide	716	Men	Classic	Tulsa	OK	South Central	Ozarks	15	10
+137	SUPA FC	714	Men	Classic	Stewartstown	PA	Mid-Atlantic	Founders	9	11
+138	MOB Ultimate	707	Men	Classic	Baltimore	MD	Mid-Atlantic	Capital	14	20
+139	Bomb Squad	701	Men	Classic	Baltimore	MD	Mid-Atlantic	Capital	12	11
+140	Scoop	701	Men	Classic	Akron/Cleveland	OH	Great Lakes	East Plains	11	15
+141	CITYWIDE Special	698	Men	Select	Philadelphia	PA	Mid-Atlantic	Founders	10	15
+142	Bloom	695	Men	Classic	Orlando	FL	Southeast	Florida	16	15
+143	Nocturnal	692	Men	Classic	Nashville	TN	Southeast	East Coast	7	12
+144	Timber	689	Men	Classic	Stevens Point & Fox Cities	WI	North Central	Northwest Plains	12	19
+145	Battery	685	Men	Classic	San Francisco	CA	Southwest	NorCal	8	16
+146	Alibi	680	Men	Classic	Albany	NY	Northeast	Upstate NY	16	16
+147	Fat Stacks	676	Men	Classic	St George	UT	Northwest	Big Sky	6	10
+148	Roundhouse	675	Men	Classic	Chicago	IL	Great Lakes	Central Plains	8	10
+149	DAPPER	668	Men	 	Rochester	NY	Northeast	Upstate NY	10	10
+150	Hazard	667	Men	Select	Pittsburgh	PA	Mid-Atlantic	Founders	11	13
+151	Void	665	Men	Classic	Milwaukee	WI	North Central	Northwest Plains	11	14
+152	Sonoran Dog	658	Men	 	Tucson	AZ	Southwest	So Cal	8	15
+153	Trident II	657	Men	Classic	Chicago	IL	Great Lakes	Central Plains	8	10
+154	Hydra	657	Men	 	Winston-Salem	NC	Southeast	North Carolina	10	7
+155	Bay Dog	654	Men	Classic	Albany	CA	Southwest	NorCal	7	8
+156	Winc City Fog	653	Men	 	Winchester	VA	Mid-Atlantic	Capital	8	12
+157	Space Cowboys	639	Men	Classic	Greenville	SC	Southeast	East Coast	10	9
+158	UpRoar	630	Men	Classic	Tampa Bay	FL	Southeast	Florida	8	10
+159	NC Brickhouse	628	Men	Classic	Raleigh	NC	Southeast	North Carolina	10	14
+160	San Antonio Warhawks	600	Men	 	San Antonio	TX	South Central	Texas	9	15
+161	Forge	596	Men	Classic	Austin	TX	South Central	Texas	5	13
+162	Psychedelic	589	Men	 	Jacksonville	FL	Southeast	Florida	9	9
+163	Alliance 2	570	Men	Classic	Alabama	AL	Southeast	Gulf Coast	9	10
+164	Dyno	568	Men	Classic	Atlanta	GA	Southeast	East Coast	10	8
+165	Firefly TX	565	Men	Classic	Houston	TX	South Central	Texas	10	15
+166	On Ramp	552	Men	Classic	Indianapolis	IN	Great Lakes	Central Plains	7	16
+167	Diesel	526	Men	Classic	Ann Arbor	MI	Great Lakes	East Plains	9	20
+168	Dallas Delinquents	524	Men	Classic	Dallas	TX	South Central	Texas	9	14
+169	Choice City Hops	520	Men	Classic	Fort Collins	CO	South Central	Rocky Mountain	5	18
+170	Queen City Kings	519	Men	Classic	Charlotte	NC	Southeast	North Carolina	9	18
+171	Green Mountain Boys	509	Men	Classic	South Burlington	VT	Northeast	East New England	6	5
+172	Rebels	505	Men	Recreational	Haddonfield	NJ	Mid-Atlantic	Founders	4	7
+173	Rubicon Rapids	493	Men	 	Hartford	WI	North Central	Northwest Plains	4	18
+174	Friendly Fire	491	Men	Classic	Kansas City	MO	North Central	West Plains	3	15
+175	Harvest Moon	473	Men	 	Cumming	GA	Southeast	East Coast	9	8
+176	Capitol City Chaos	453	Men	 	Montgomery	AL	Southeast	Gulf Coast	5	7
+177	Sonoran Pups	452	Men	Classic	Tucson	AZ	Southwest	So Cal	2	8
+178	DCVIII	418	Men	Classic	Madison	WI	North Central	Northwest Plains	4	20
+179	Mischief	409	Men	Classic	Livonia	MI	Great Lakes	East Plains	8	27
+180	Shenanigans	401	Men	Classic	Bloomington	IN	Great Lakes	Central Plains	3	14
+181	Frizz	401	Men	 	Gainesville	FL	Southeast	Florida	4	7
+182	Monsoon	376	Men	Classic	Phoenix	AZ	Southwest	So Cal	1	21
+183	Loaded Panda	365	Men	Classic	Cedar Falls, Iowa	IA	North Central	West Plains	2	22
+184	MBTA	352	Men	Classic	Boston	MA	Northeast	East New England	4	13
+185	BDC	350	Men	Classic	Washington	DC	Mid-Atlantic	Capital	8	15
+186	Ronin	333	Men	Classic	Madison	AL	Southeast	Gulf Coast	3	9
+187	EZ	312	Men	Classic	Wilmington	DE	Mid-Atlantic	Founders	3	12
+188	PARLAY	261	Men	Classic	Charlotte	NC	Southeast	North Carolina	5	24
+189	Jolly Roger	254	Men	 	Newport News	VA	Mid-Atlantic	Capital	3	8
+190	Riverside Messengers	251	Men	Classic	Austin	TX	South Central	Texas	2	21
+191	ONI	238	Men	Classic	Vancouver	BC	Northwest	Washington/BC	0	11
+192	Beef Depot	236	Men	Classic	Washington	DC	Mid-Atlantic	Capital	8	18
+193	Buffalo Frostbite	232	Men	Classic	Buffalo	NY	Northeast	Upstate NY	11	15
+194	Crossfire	228	Men	Classic	Boston	MA	Northeast	East New England	5	18
+195	Golden Triangle Ultimate	212	Men	Classic	Golden Triangle	MS	Southeast	Gulf Coast	3	19
+196	Gambit	208	Men	Classic	Charlotte	NC	Southeast	North Carolina	4	15
+197	Atlanta Outlaws	187	Men	Classic	Atlanta	GA	Southeast	East Coast	4	7
+198	Tennessee Folklore	116	Men	Classic	Knoxville	TN	Southeast	East Coast	3	15
+199	Oakay	111	Men	Recreational	Raleigh	NC	Southeast	North Carolina	2	23
+200	Watchmen	81	Men	Classic	Nashville	TN	Southeast	East Coast	4	14
+201	Long Island Riff Raff	79	Men	Classic	Dix Hills	NY	Northeast	Metro NY	3	15
+202	Supercell	70	Men	Classic	Oklahoma City	OK	South Central	Ozarks	2	16
+203	Spring Break '93	59	Men	Classic	Seymour	CT	Northeast	Metro NY	3	15
+204	Power Point Ultimate	10	Men	 	Augusta	GA	Southeast	East Coast	2	15
+205	Anchor	4	Men	Classic	San Francisco	CA	Southwest	NorCal	1	12
+206	Bud	-47	Men	 	Orlando	FL	Southeast	Florida	2	9
+207	Motive	-124	Men	Classic	Albany	NY	Northeast	Upstate NY	3	19
+208	Chemical X	-205	Men	 	State College	PA	Mid-Atlantic	Founders	1	12
+209	Mohawk Valley Wild	-341	Men	Classic	Utica	NY	Northeast	Upstate NY	1	9
+210	Players Into Serious Sports	-353	Men	Developmental	Tampa	FL	Southeast	Florida	0	12
+1	Fury	2383	Women	Pro	San Francisco	CA	Southwest	NorCal	20	1
+2	Scandal	2226	Women	Pro	Washington	DC	Mid-Atlantic	Capital	25	4
+3	Brute Squad	2134	Women	Pro	Boston	MA	Northeast	East New England	15	5
+4	Phoenix	2052	Women	Pro	Raleigh	NC	Southeast	North Carolina	21	8
+5	Flipside	2040	Women	Pro	San Diego	CA	Southwest	So Cal	17	8
+6	Molly Brown	2040	Women	Pro	Denver/Boulder	CO	South Central	Rocky Mountain	26	5
+7	Seattle Riot	1989	Women	Elite	Seattle	WA	Northwest	Washington/BC	23	8
+8	BENT	1951	Women	Pro	New York	NY	Northeast	Metro NY	16	12
+9	6ixers	1886	Women	Elite	Toronto	Ontario	Northeast	Upstate NY	16	9
+10	Schwa	1856	Women	Elite	Portland	OR	Northwest	Oregon	25	9
+11	Traffic	1763	Women	Pro	Vancouver	BC	Northwest	Washington/BC	15	9
+12	Iris	1711	Women	Top Select	Québec	Quebec	Northeast	West New England	13	13
+13	Grit	1642	Women	Elite	Washington	DC	Mid-Atlantic	Capital	15	17
+14	Parcha	1625	Women	Elite	Pittsburgh	PA	Mid-Atlantic	Founders	18	13
+15	Nightlock	1570	Women	Elite	Bay Area	CA	Southwest	NorCal	11	12
+16	NCT	1560	Women	Classic	Ottawa	ON	Northeast	Upstate NY	7	3
+17	LOL	1544	Women	Select	Oakland	CA	Southwest	NorCal	19	5
+18	Dark Sky	1455	Women	Top Select	Utah	UT	Northwest	Big Sky	12	7
+19	Nemesis	1425	Women	Elite	Chicago	IL	Great Lakes	Central Plains	11	14
+20	Starling Ultimate	1406	Women	Select	Northampton	MA	Northeast	West New England	10	10
+21	Pop	1388	Women	Elite	Minneapolis	MN	North Central	Northwest Plains	10	13
+22	Vengeance	1384	Women	Select	Austin	TX	South Central	Texas	24	5
+23	Flight	1370	Women	Select	Philadelphia	PA	Mid-Atlantic	Founders	15	10
+24	Underground	1314	Women	Select	Seattle	WA	Northwest	Washington/BC	13	10
+25	Wildfire	1280	Women	Top Select	San Diego	CA	Southwest	So Cal	17	4
+26	Ozone	1218	Women	Top Select	Atlanta	GA	Southeast	East Coast	18	4
+27	Siege	1216	Women	Select	Boston	MA	Northeast	East New England	15	7
+28	Heist	1143	Women	Top Select	Madison	WI	North Central	Northwest Plains	17	9
+29	Seattle END	1101	Women	Classic	Seattle	WA	Northwest	Washington/BC	16	6
+30	Colorado Small Batch	1082	Women	Top Select	Denver	CO	South Central	Rocky Mountain	9	13
+31	Indy Rogue	1072	Women	Select	Indianapolis	IN	Great Lakes	Central Plains	19	6
+32	Crush City	1071	Women	Select	Houston	TX	South Central	Texas	18	9
+33	Wicked	1048	Women	Select	Kansas City	KS	North Central	West Plains	21	5
+34	Colorado Kelp	1042	Women	Classic	Boulder	CO	South Central	Rocky Mountain	10	11
+35	Eugene Further	1029	Women	 	Eugene	OR	Northwest	Oregon	5	6
+36	Outrage	1006	Women	Top Select	Ann Arbor	MI	Great Lakes	East Plains	18	11
+37	Tabby Rosa	1003	Women	Select	Gainesville	FL	Southeast	Florida	14	8
+38	FAB	1002	Women	Select	Bay Area	CA	Southwest	NorCal	15	17
+39	Brooklyn Book Club	997	Women	Select	Brooklyn	NY	Northeast	Metro NY	11	14
+40	San Antonio Problems	957	Women	Classic	San Antonio	TX	South Central	Texas	17	12
+41	Juice Box	931	Women	Select	Charlotte and Asheville	NC	Southeast	North Carolina	16	15
+42	Agency	922	Women	Select	Washington	DC	Mid-Atlantic	Capital	14	12
+43	Hucklebears	885	Women	 	Victoria	British Columbia	Northwest	Washington/BC	5	6
+44	CHAOS	877	Women	Classic	Charleston	SC	Southeast	East Coast	12	10
+45	Vice	859	Women	Classic	Cambridge	MA	Northeast	East New England	14	7
+46	Shiver	782	Women	 	Durham	NC	Southeast	North Carolina	12	12
+47	Hayride	745	Women	Select	Tulsa	OK	South Central	Ozarks	6	11
+48	Rampage	740	Women	Select	Los Angeles	CA	Southwest	So Cal	13	9
+49	Void Cat Rewind	734	Women	Select	Sunnyvale	CA	Southwest	NorCal	15	12
+50	Drift	734	Women	Select	Vancouver	BC	Northwest	Washington/BC	8	14
+51	Trainwreck	681	Women	Classic	Fort Collins	CO	South Central	Rocky Mountain	13	8
+52	Zephyr	670	Women	Top Select	Philadelphia	PA	Mid-Atlantic	Founders	12	12
+53	Stellar	613	Women	Top Select	St. Louis	MO	North Central	West Plains	12	14
+54	Pine Baroness	606	Women	Select	New Brunswick	NJ	Mid-Atlantic	Founders	10	17
+55	Frolic	605	Women	Classic	Portland	ME	Northeast	East New England	6	6
+56	Virginia Rebellion	604	Women	Classic	Richmond	VA	Mid-Atlantic	Capital	13	15
+57	Pizza Rat	576	Women	 	New York City	NY	Northeast	Metro NY	11	15
+58	Calypso	548	Women	Classic	Tampa	FL	Southeast	Florida	9	11
+59	Wave	546	Women	Classic	Baltimore	MD	Mid-Atlantic	Capital	10	9
+60	Dish	470	Women	Select	Chicago	IL	Great Lakes	Central Plains	9	17
+61	Fiasco	444	Women	Select	Miami	FL	Southeast	Florida	6	15
+62	Lake Erie Walleye	439	Women	Classic	Cleveland	OH	Great Lakes	East Plains	9	13
+63	Magma	410	Women	Classic	Marietta	GA	Southeast	East Coast	9	13
+64	Venom	389	Women	Classic	Tucson	AZ	Southwest	So Cal	9	4
+65	TWISTED	353	Women	Classic	Dallas	TX	South Central	Texas	5	16
+66	Medusa	300	Women	Classic	Milwaukee	WI	North Central	Northwest Plains	8	13
+67	Sureshot	299	Women	Classic	Cincinnati	OH	Great Lakes	East Plains	7	14
+68	Inferno	294	Women	Classic	Houston	TX	South Central	Texas	3	8
+69	Y'all	271	Women	 	Lexington	KY	Great Lakes	East Plains	7	9
+70	COSMOS	217	Women	Classic	Colorado Springs	CO	South Central	Rocky Mountain	3	11
+71	Colorado Cutthroat U-20 Girls	215	Girls	 	Denver	CO	South Central	Rocky Mountain	4	6
+72	Portland Rain Check	193	Women	Classic	Portland	OR	Northwest	Oregon	3	25
+73	Stormborn	163	Women	Classic	Minneapolis	MN	North Central	Northwest Plains	6	10
+74	Seattle Soul	155	Women	Select	Seattle	WA	Northwest	Washington/BC	6	21
+75	Swell	133	Women	Select	Salt Lake City	UT	Northwest	Big Sky	9	10
+76	Incline	91	Women	 	Pittsburgh	PA	Mid-Atlantic	Founders	4	7
+77	Versa	90	Women	Classic	Cambridge	MA	Northeast	East New England	1	19
+78	Haboob	32	Women	 	Phoenix	AZ	Southwest	So Cal	9	17
+79	Firewheel	-186	Women	 	Austin	TX	South Central	Texas	0	10
+80	Solstice	-200	Women	 	Columbus	OH	Great Lakes	East Plains	1	14
+81	Tempo	-210	Women	Classic	Bay Area	CA	Southwest	NorCal	5	19
+82	Dissent	-232	Women	 	Washington	DC	Mid-Atlantic	Capital	3	18
+83	Ultraviolet	-253	Women	Classic	Bay Area	CA	Southwest	NorCal	4	7
+84	Freshwater Ultimate	-284	Women	Classic	Madison	WI	North Central	Northwest Plains	3	17
+85	Just Add Water	-441	Women	Classic	Long Beach	CA	Southwest	So Cal	1	26
+86	Charm	-590	Women	 	Des Moines	IA	North Central	West Plains	1	17
+87	Pickup Lines	-654	Women	Classic	Washington, DC	DC	Mid-Atlantic	Capital	1	9
+1	BFG	2140	Mixed	Pro	Seattle	WA	Northwest	Washington/BC	25	2
+2	Hybrid	2083	Mixed	Pro	Ann Arbor	MI	Great Lakes	East Plains	23	6
+3	Drag'n Thrust	2077	Mixed	Pro	Minneapolis	MN	North Central	Northwest Plains	23	6
+4	shame.	2002	Mixed	Pro	Fort Collins	CO	South Central	Rocky Mountain	22	7
+5	XIST	1984	Mixed	Pro	New York	NY	Northeast	Metro NY	20	9
+6	Red Flag	1943	Mixed	Pro	Vancouver	BC	Northwest	Washington/BC	20	4
+7	Sprocket	1929	Mixed	Elite	Medford	MA	Northeast	East New England	21	8
+8	Austin Disco Club	1844	Mixed	Select	Austin	TX	South Central	Texas	24	5
+9	Slow	1796	Mixed	Pro	Boston	MA	Northeast	East New England	13	15
+10	AMP	1791	Mixed	Pro	Philadelphia	PA	Mid-Atlantic	Founders	17	9
+11	Lawless	1782	Mixed	Elite	Phoenix	AZ	Southwest	So Cal	14	12
+12	Seattle Mixtape	1763	Mixed	Elite	Seattle	WA	Northwest	Washington/BC	15	13
+13	Space Force	1762	Mixed	Select	Huntsville	AL	Southeast	Gulf Coast	28	8
+14	Rally	1762	Mixed	Elite	Washington	DC	Mid-Atlantic	Capital	16	15
+15	Tower	1761	Mixed	Select	Sacramento	CA	Southwest	NorCal	17	12
+16	Mischief	1722	Mixed	Elite	San Francisco Bay Area	CA	Southwest	NorCal	13	10
+17	'Shine	1676	Mixed	Elite	Nashville	TN	Southeast	East Coast	14	16
+18	Toro	1667	Mixed	Select	Durham	NC	Southeast	North Carolina	18	7
+19	Mile High Trash	1639	Mixed	Select	Denver	CO	South Central	Rocky Mountain	17	5
+20	MOONDOG	1614	Mixed	Top Select	Montana	MT	Northwest	Big Sky	22	14
+21	Big Rig	1604	Mixed	 	Burlington	VT	Northeast	West New England	24	4
+22	Murmur	1603	Mixed	Elite	Athens	GA	Southeast	East Coast	20	3
+23	UNION	1591	Mixed	Classic	Toronto	Ontario	Northeast	Upstate NY	14	7
+24	Public Enemy	1589	Mixed	Top Select	Dallas/Fort Worth	TX	South Central	Texas	16	6
+25	Spoke	1585	Mixed	Select	Seattle	WA	Northwest	Washington/BC	19	6
+26	NOISE	1584	Mixed	Elite	Madison	WI	North Central	Northwest Plains	10	8
+27	Storm	1578	Mixed	Top Select	Charlotte	NC	Southeast	North Carolina	15	13
+28	Lotus	1543	Mixed	Classic	Los Angeles	CA	Southwest	So Cal	22	8
+29	Revival	1536	Mixed	Select	Richmond	VA	Mid-Atlantic	Capital	16	6
+30	Townies	1536	Mixed	Top Select	Ithaca	NY	Northeast	Upstate NY	19	9
+31	Polar Bears	1532	Mixed	Select	San Francisco Bay Area	CA	Southwest	NorCal	13	11
+32	Loco	1527	Mixed	Top Select	West Chester	PA	Mid-Atlantic	Founders	15	12
+33	Pittsburgh Port Authority	1525	Mixed	Select	Pittsburgh	PA	Mid-Atlantic	Founders	18	8
+34	Oregon Scorch	1502	Mixed	Select	Oregon	OR	Northwest	Oregon	20	11
+35	Sunshine	1477	Mixed	Top Select	Bay Area	CA	Southwest	NorCal	16	15
+36	Anthem	1458	Mixed	Classic	Baltimore	MD	Mid-Atlantic	Capital	27	7
+37	Roma Ultima	1449	Mixed	Select	ATL	GA	Southeast	East Coast	22	8
+38	Wild Card	1436	Mixed	Select	Boston	MA	Northeast	East New England	19	13
+39	FlyTrap	1433	Mixed	Classic	Wilmington	NC	Southeast	North Carolina	14	7
+40	California Burrito	1423	Mixed	Classic	San Diego	CA	Southwest	So Cal	16	6
+41	Love Tractor	1412	Mixed	Elite	Denver	CO	South Central	Rocky Mountain	11	13
+42	LIT Ultimate	1408	Mixed	Classic	South Bay	CA	Southwest	NorCal	22	7
+43	Flight Club	1391	Mixed	Select	Denver	CO	South Central	Rocky Mountain	18	14
+44	Brunch Club	1382	Mixed	 	Durham	NC	Southeast	North Carolina	18	8
+45	Donuts	1381	Mixed	Classic	Bay Area	CA	Southwest	NorCal	29	13
+46	Darkwing	1354	Mixed	Classic	Mansfield	MA	Northeast	East New England	13	8
+47	Zero Strategy	1339	Mixed	Classic	Burlington	VT	Northeast	West New England	17	9
+48	Funk	1329	Mixed	Classic	Newburgh	NY	Northeast	Metro NY	26	5
+49	Conspiracy	1323	Mixed	Classic	Savannah	GA	Southeast	East Coast	17	6
+50	Garbage Plates	1315	Mixed	 	Rochester	NY	Northeast	Upstate NY	21	9
+51	Pyro	1306	Mixed	Elite	Huntsville	AL	Southeast	Gulf Coast	22	6
+52	Lights Out	1304	Mixed	Select	Seattle	WA	Northwest	Washington/BC	20	14
+53	Fireball	1297	Mixed	Classic	Washington	DC	Mid-Atlantic	Capital	9	5
+54	TT	1289	Mixed	Classic	Vancouver	BC	Northwest	Washington/BC	10	6
+55	Grit City	1282	Mixed	Classic	Tacoma	WA	Northwest	Washington/BC	20	10
+56	Grand Army	1246	Mixed	Classic	Brooklyn	NY	Northeast	Metro NY	24	7
+57	American Barbecue	1246	Mixed	 	San Francisco	CA	Southwest	NorCal	14	9
+58	Smack!	1234	Mixed	Classic	Seattle	WA	Northwest	Washington/BC	21	9
+59	Chicago Parlay	1216	Mixed	Top Select	Chicago	IL	Great Lakes	Central Plains	13	17
+60	BW Ultimate	1199	Mixed	Select	Bay Area	CA	Southwest	NorCal	12	16
+61	Obscure	1181	Mixed	 	Boston	MA	Northeast	East New England	11	11
+62	Space Ghosts	1174	Mixed	Classic	Denver	CO	South Central	Rocky Mountain	15	14
+63	Sego	1169	Mixed	Classic	Salt Lake City	UT	Northwest	Big Sky	16	16
+64	Malice in Wonderland	1162	Mixed	Classic	Raleigh	NC	Southeast	North Carolina	15	9
+65	Porch Bears	1160	Mixed	 	Portland	OR	Northwest	Oregon	15	8
+66	The Buoy Association	1148	Mixed	 	Portland	ME	Northeast	East New England	13	10
+67	Too Much Fun	1147	Mixed	Classic	Asheville	NC	Southeast	North Carolina	15	13
+68	Jumbo Slice	1147	Mixed	Classic	Washington	DC	Mid-Atlantic	Capital	15	10
+69	The Chad Larson Experience	1143	Mixed	Select	Ames	IA	North Central	West Plains	15	13
+70	Buffalo Lake Effect	1142	Mixed	Classic	Buffalo	NY	Northeast	Upstate NY	18	11
+71	Steamboat	1132	Mixed	Classic	Cincinnati	OH	Great Lakes	East Plains	19	10
+72	Classy	1130	Mixed	Classic	San Francisco	CA	Southwest	NorCal	14	15
+73	Catalyst	1129	Mixed	Classic	Charlotte	NC	Southeast	North Carolina	16	15
+74	Fatal Attraction	1122	Mixed	 	Omaha	NE	North Central	West Plains	18	11
+75	Octonauts	1118	Mixed	 	Culver City	CA	Southwest	So Cal	15	10
+76	PBHG	1118	Mixed	 	Winnipeg	Manitoba	North Central	Northwest Plains	12	3
+77	No Touching!	1118	Mixed	Classic	Twin Cities	MN	North Central	Northwest Plains	16	5
+78	Deadweight	1110	Mixed	 	Hartford	CT	Northeast	Metro NY	12	8
+79	RAMP	1109	Mixed	Select	Chicago	IL	Great Lakes	Central Plains	11	17
+80	Jughandle	1097	Mixed	Select	Princeton	NJ	Mid-Atlantic	Founders	17	10
+81	Minnesota Star Power	1092	Mixed	Classic	Minneapolis/ St. Paul	MN	North Central	Northwest Plains	14	12
+82	FLI	1086	Mixed	Classic	Long Island	NY	Northeast	Metro NY	15	8
+83	Bench	1080	Mixed	Classic	albany	NY	Northeast	Upstate NY	19	14
+84	PS	1077	Mixed	Classic	Allentown	PA	Mid-Atlantic	Founders	21	12
+85	League of Shadows	1070	Mixed	Classic	Boston	MA	Northeast	East New England	14	12
+86	Bird	1066	Mixed	Classic	Minneapolis	MN	North Central	Northwest Plains	23	8
+87	Green Chiles	1060	Mixed	Classic	Denver	CO	South Central	Rocky Mountain	10	13
+88	HVAC	1042	Mixed	Classic	Washington DC	DC	Mid-Atlantic	Capital	14	12
+89	Scarecrow	1042	Mixed	Classic	Manchester	NH	Northeast	East New England	15	11
+90	Quick Draw	1029	Mixed	Classic	Logan	UT	Northwest	Big Sky	10	7
+91	Oasis Ultimate	1010	Mixed	Classic	Tampa	FL	Southeast	Florida	9	12
+92	Heat Wave	1009	Mixed	Classic	Brooklyn	NY	Northeast	Metro NY	15	12
+93	Robot	989	Mixed	Classic	Santa Barbara	CA	Southwest	So Cal	10	9
+94	Brackish	983	Mixed	Classic	Hampton	VA	Mid-Atlantic	Capital	17	8
+95	Seattle Soft Serve	981	Mixed	Classic	Central District	WA	Northwest	Washington/BC	7	16
+96	Karma	976	Mixed	Classic	Tucson	AZ	Southwest	So Cal	15	9
+97	Impact	965	Mixed	Top Select	Wichita	KS	North Central	West Plains	15	8
+98	Mashed	961	Mixed	Classic	Syracuse	NY	Northeast	Upstate NY	18	14
+99	Ant Madness	956	Mixed	Classic	Washington	DC	Mid-Atlantic	Capital	19	14
+100	Hive	946	Mixed	Classic	Portland	OR	Northwest	Oregon	16	13
+101	Farm Show	934	Mixed	Classic	Harrisburg	PA	Mid-Atlantic	Founders	13	19
+102	Nice!	924	Mixed	Classic	Somerville	MA	Northeast	East New England	10	9
+103	Pegasus	923	Mixed	Classic	Seattle	WA	Northwest	Washington/BC	9	15
+104	Shipwreck	923	Mixed	Classic	San Diego	CA	Southwest	So Cal	9	11
+105	Igneous Ultimate	923	Mixed	Classic	Bend	OR	Northwest	Oregon	14	14
+106	Twist	922	Mixed	 	Ann Arbor	MI	Great Lakes	East Plains	16	7
+107	Risky Business	921	Mixed	Classic	Dallas	TX	South Central	Texas	13	8
+108	Barefoot	904	Mixed	Classic	Tupelo	MS	Southeast	Gulf Coast	13	12
+109	Queen City Gambit	904	Mixed	Classic	Cincinnati	OH	Great Lakes	East Plains	24	7
+110	BUMS	901	Mixed	Classic	Birmingham	AL	Southeast	Gulf Coast	10	8
+111	Three Rivers Ultimate Club	891	Mixed	Classic	Fort Wayne	IN	Great Lakes	Central Plains	14	8
+112	Mad Udderburn	873	Mixed	Select	Madison	WI	North Central	Northwest Plains	14	17
+113	Firefly	873	Mixed	Classic	San Francisco	CA	Southwest	NorCal	16	15
+114	Legion	860	Mixed	Classic	Lynchburg	VA	Mid-Atlantic	Capital	14	11
+115	Pushovers	856	Mixed	Classic	Lake Elmo	MN	North Central	Northwest Plains	17	13
+116	Axolotls	853	Mixed	Classic	Hoboken	NJ	Mid-Atlantic	Founders	14	17
+117	The Strangers	852	Mixed	Classic	Westminster	CO	South Central	Rocky Mountain	10	12
+118	Northern Comfort	852	Mixed	Classic	Milwaukee	WI	North Central	Northwest Plains	12	12
+119	B-Unit	851	Mixed	 	Gainesville	FL	Southeast	Florida	7	10
+120	Family Style	836	Mixed	Classic	Los Angeles	CA	Southwest	So Cal	11	13
+121	Spectre	835	Mixed	Select	Indianapolis	IN	Great Lakes	Central Plains	12	13
+122	Bullet Train	835	Mixed	Select	Seattle	WA	Northwest	Washington/BC	9	17
+123	MoonPi	831	Mixed	Classic	Chattanooga	TN	Southeast	East Coast	11	14
+124	Sin Nombre	830	Mixed	 	Albuquerque	NM	South Central	Rocky Mountain	9	14
+125	Columbus Chaos	828	Mixed	 	Columbus	OH	Great Lakes	East Plains	17	8
+126	Flagstaff Ultimate	817	Mixed	Classic	Flagstaff	AZ	Southwest	So Cal	5	13
+127	Magnanimouse	806	Mixed	Classic	Durham	NC	Southeast	North Carolina	8	9
+128	Mango	798	Mixed	 	San Francisco	CA	Southwest	NorCal	9	12
+129	Trex Mix	798	Mixed	Select	Dublin	OH	Great Lakes	East Plains	16	13
+130	Moontower	797	Mixed	Classic	Austin	TX	South Central	Texas	9	14
+131	Fusion	793	Mixed	Classic	Los Angeles	CA	Southwest	So Cal	8	4
+132	Low Oxygen	784	Mixed	 	Colorado Springs	CO	South Central	Rocky Mountain	4	8
+133	Memphis STAX	776	Mixed	Classic	Memphis	TN	Southeast	Gulf Coast	11	13
+134	Amber	767	Mixed	Classic	Baton Rouge	LA	Southeast	Gulf Coast	12	13
+135	Squid Inc.	762	Mixed	Classic	Bellingham	WA	Northwest	Washington/BC	9	10
+136	Delabear	761	Mixed	Classic	Wilmington	DE	Mid-Atlantic	Founders	12	12
+137	Heavy Flow	760	Mixed	Classic	Columbia	MD	Mid-Atlantic	Capital	13	16
+138	Quahogs	756	Mixed	Classic	Providence	RI	Northeast	East New England	13	10
+139	Lampshade	749	Mixed	Classic	Cambridge	MA	Northeast	East New England	8	17
+140	Choco Ghost House	740	Mixed	Classic	Portland	OR	Northwest	Oregon	5	9
+141	Garbage Pla(C)e	739	Mixed	Classic	ROCHESTER	NY	Northeast	Upstate NY	10	12
+142	Garbage	735	Mixed	Classic	Seattle	WA	Northwest	Washington/BC	7	11
+143	Cutthroat	731	Mixed	Select	Reno	NV	Southwest	NorCal	6	13
+144	Arms Race	728	Mixed	Classic	Iowa City	IA	North Central	West Plains	8	5
+145	Carolina Reapers	718	Mixed	 	Winston-Salem	NC	Southeast	North Carolina	6	14
+146	DR	717	Mixed	Classic	Berkeley	CA	Southwest	NorCal	13	11
+147	Verdant	713	Mixed	 	Greenville	SC	Southeast	East Coast	7	12
+148	T Party	711	Mixed	Classic	Boston	MA	Northeast	East New England	10	10
+149	Spoiler Alert	706	Mixed	Classic	Los Angeles	CA	Southwest	So Cal	9	9
+150	District Cocktails	701	Mixed	Classic	Washington	DC	Mid-Atlantic	Capital	12	13
+151	Holler!	679	Mixed	 	Knoxville	TN	Southeast	East Coast	8	11
+152	Heat Wave	672	Mixed	Classic	Richland	WA	Northwest	Washington/BC	4	6
+153	Jabba	656	Mixed	Classic	Chicago	IL	Great Lakes	Central Plains	13	11
+154	NY Swipes	634	Mixed	Classic	New York	NY	Northeast	Metro NY	5	13
+155	ConSTLation	621	Mixed	Classic	St. Louis	MO	North Central	West Plains	15	16
+156	VU	619	Mixed	Classic	San Francisco	CA	Southwest	NorCal	12	14
+157	Garage Sale	612	Mixed	Select	Eugene	OR	Northwest	Oregon	3	11
+158	BOP	605	Mixed	Classic	Seattle	WA	Northwest	Washington/BC	5	8
+159	All Jeeps, All Night.	604	Mixed	Classic	Boulder	CO	South Central	Rocky Mountain	5	17
+160	Flux	599	Mixed	Classic	Northeast	FL	Southeast	Florida	7	13
+161	Mousetrap	598	Mixed	Classic	Madison	WI	North Central	Northwest Plains	12	8
+162	Toast!	596	Mixed	Classic	BATTLE CREEK	MI	Great Lakes	East Plains	16	16
+163	Skyhawks	594	Mixed	Classic	South Bend	IN	Great Lakes	Central Plains	13	20
+164	Goosebumps	591	Mixed	 	Houston	TX	South Central	Texas	7	12
+165	Espionage	588	Mixed	Classic	Washington	DC	Mid-Atlantic	Capital	10	16
+166	Pandamonium	581	Mixed	Classic	Twin Cities	MN	North Central	Northwest Plains	9	12
+167	Brooklyn Hive	566	Mixed	Classic	New York	NY	Northeast	Metro NY	12	22
+168	Madison United Mixed Ultimate	565	Mixed	Classic	Madison	WI	North Central	Northwest Plains	8	15
+169	Philly Twist	562	Mixed	Classic	Philadelphia	PA	Mid-Atlantic	Founders	9	23
+170	Traffic Jam	556	Mixed	 	Houston	TX	South Central	Texas	4	8
+171	Prion	547	Mixed	Classic	Champaign	IL	Great Lakes	Central Plains	9	15
+172	Stackcats	544	Mixed	Classic	Chicago	IL	Great Lakes	Central Plains	12	14
+173	Crucible	535	Mixed	Classic	Pittsburgh	PA	Mid-Atlantic	Founders	11	12
+174	Bozos	514	Mixed	Classic	Bozeman	MT	Northwest	Big Sky	4	13
+175	Scoober Heroes	513	Mixed	Classic	Hurst	TX	South Central	Texas	8	11
+176	Indiana Pterodactyl Attack (IPA)	506	Mixed	Classic	Clarksville	IN	Great Lakes	Central Plains	8	10
+177	Boomtown Pandas	500	Mixed	Classic	Madison	WI	North Central	Northwest Plains	8	14
+178	Point of No Return	494	Mixed	Classic	Stevens Point	WI	North Central	Northwest Plains	9	11
+179	New Orleans Boil	492	Mixed	 	New Orleans	LA	Southeast	Gulf Coast	7	16
+180	Starfire	492	Mixed	 	Westbury	NY	Northeast	Metro NY	12	10
+181	Rainbow	474	Mixed	Classic	Somerville	MA	Northeast	East New England	10	19
+182	Birds of Paradise	466	Mixed	 	San Diego	CA	Southwest	So Cal	7	11
+183	SWAG	459	Mixed	 	Tallahassee	FL	Southeast	Florida	2	9
+184	Drip	447	Mixed	Classic	Corvallis	OR	Northwest	Oregon	3	16
+185	solAR	439	Mixed	Select	Little Rock	AR	South Central	Ozarks	6	13
+186	Capital City Croissants	425	Mixed	 	Montgomery	AL	Southeast	Gulf Coast	3	12
+187	Spice	402	Mixed	Classic	Charlottesville	VA	Mid-Atlantic	Capital	2	15
+188	ColorBomb	402	Mixed	Classic	Philadelphia	PA	Mid-Atlantic	Founders	5	23
+189	Replay	397	Mixed	Classic	Boston	MA	Northeast	East New England	8	14
+190	Lobster Disque	389	Mixed	Classic	Portland	ME	Northeast	East New England	7	11
+191	Mola Mola	378	Mixed	Classic	Vancouver	BC	Northwest	Washington/BC	2	9
+192	ELevate	371	Mixed	Classic	Chicago	IL	Great Lakes	Central Plains	7	18
+193	Buffalo Brain Freeze	368	Mixed	Classic	Buffalo	NY	Northeast	Upstate NY	8	19
+194	POW!	358	Mixed	Classic	East Lansing	MI	Great Lakes	East Plains	7	12
+195	Air Throwmads	353	Mixed	Classic	San Mateo	CA	Southwest	NorCal	7	19
+196	Compost Plates	350	Mixed	Classic	Rochester	NY	Northeast	Upstate NY	1	17
+197	Pixel	339	Mixed	Classic	Detroit	MI	Great Lakes	East Plains	5	13
+198	The Force	336	Mixed	Classic	Minneapolis	MN	North Central	Northwest Plains	6	12
+199	Lightning	334	Mixed	 	Lexington	KY	Great Lakes	East Plains	3	9
+200	Tempo	321	Mixed	Classic	Nashville	TN	Southeast	East Coast	1	10
+201	Rampage	312	Mixed	Classic	Raleigh	NC	Southeast	North Carolina	1	17
+202	UV Rays	302	Mixed	Classic	West Lebanon	NH	Northeast	West New England	4	14
+203	Great Minnesota Get Together	272	Mixed	Classic	Falcon Heights	MN	North Central	Northwest Plains	7	9
+204	Melt	272	Mixed	Classic	Saint Paul	MN	North Central	Northwest Plains	8	10
+205	Taproot	268	Mixed	Classic	northampton	MA	Northeast	West New England	4	12
+206	Sky-90	246	Mixed	Classic	Missoula	MT	Northwest	Big Sky	0	11
+207	Hartford Current	232	Mixed	Classic	Hartford	CT	Northeast	Metro NY	4	16
+208	Erosion	225	Mixed	 	Costa Mesa	CA	Southwest	So Cal	3	13
+209	Thunderpants the Magic Dragon	224	Mixed	Classic	Dayton	OH	Great Lakes	East Plains	6	11
+210	Sugar Shack	217	Mixed	Classic	Burlington	VT	Northeast	West New England	2	8
+211	OUtlaws	181	Mixed	Classic	Athens	OH	Great Lakes	East Plains	3	9
+212	QCO	180	Mixed	Classic	Springfield	MO	North Central	West Plains	2	9
+213	Mastodon	179	Mixed	Classic	Madison	WI	North Central	Northwest Plains	6	12
+214	Voltage	179	Mixed	Classic	Baltimore	MD	Mid-Atlantic	Capital	2	15
+215	Frostbite	158	Mixed	 	Milwaukee	WI	North Central	Northwest Plains	6	11
+216	Quails	148	Mixed	 	Sacramento	CA	Southwest	NorCal	3	15
+217	I-70 United	135	Mixed	 	Columbia/St. Louis	MO	North Central	West Plains	4	12
+218	Moonlight Ultimate	89	Mixed	Classic	San Jose	CA	Southwest	NorCal	1	23
+219	JAWN	89	Mixed	Classic	Philadelphia	PA	Mid-Atlantic	Founders	4	13
+220	Lake Superior Disc	69	Mixed	Classic	Duluth	MN	North Central	Northwest Plains	5	11
+221	Columbus Cohesion	29	Mixed	Classic	Columbus	OH	Great Lakes	East Plains	2	15
+222	Lemonade Ultimate	27	Mixed	Recreational	Minneapolis	MN	North Central	Northwest Plains	4	11
+223	Limbo	-15	Mixed	 	St. Paul	MN	North Central	Northwest Plains	5	10
+224	Mad City Vibes	-53	Mixed	Classic	Madison	WI	North Central	Northwest Plains	2	15
+225	yEUTH-ANd-Age-SIA	-77	Mixed	Developmental	Amherst	MA	Northeast	West New England	1	11
+226	Giant Six Pack	-300	Mixed	 	La Crosse	WI	North Central	Northwest Plains	0	10
+227	Domino Effect	-656	Mixed	Classic	New York	NY	Northeast	Metro NY	0	21

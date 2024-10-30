@@ -27,6 +27,9 @@ class Simulation:
 
         self.teamOnOffense = None
         self.teamOnDefense = None
+        self.simulationProbArray = []
+
+        self.debug = False
     
     def createYardDistibution(self):
         # Dictionary to store yard values for each action
@@ -237,6 +240,25 @@ class Simulation:
         next_action_idx = np.random.choice(len(self.actions), p=markov_probabilities)
         return self.actions[next_action_idx]
     
+    def predict_next_action_small(self, current_action, distance_to_goal, offense_elo, defense_elo):
+
+        adjusted_matrix = self.adjust_probabilities_club_ultimate(distance_to_goal, offense_elo, defense_elo)
+
+        # Get probabilities from Markov Chain
+        current_idx = self.action_to_index[current_action]
+        markov_probabilities = adjusted_matrix[current_idx]
+
+        ## Sum of Just the First Good Actions
+        action_list = self.actions[1:5]
+        markov_list = markov_probabilities[1:5]
+        sum = np.sum(markov_list)
+
+        markov_list = markov_list / sum
+
+        # Sample the next action based on the probabilities
+        next_action_idx = np.random.choice(len(action_list), p=markov_list)
+        return action_list[next_action_idx]
+    
     def randomYardsForAction(self, action):
         if action == "Pull":
 
@@ -320,18 +342,19 @@ class Simulation:
             self.discXCoordinate = 90 - yardsRemaining
         else:
             self.discXCoordinate = 20 + yardsRemaining
-        ## print("Predicted Next Action: " + next_action + " " + str(yardsRemaining))
+        
+        ## ## ## print("Predicted Next Action: " + next_action + " " + str(yardsRemaining))
 
-        ## print("This is disc coordinate: " + str(self.discXCoordinate))
+        ## ## ## print("This is disc coordinate: " + str(self.discXCoordinate))
 
         if (self.discXCoordinate > 110 or self.discXCoordinate < 0):
-            ## print("The pull has went out of bounds")
+            ## ## ## print("The pull has went out of bounds")
             if (self.goingLeftToRight):
                 self.discXCoordinate = 20
             else:
                 self.discXCoordinate = 90
             
-            ## print("This is disc coordinate: " + str(self.discXCoordinate))
+            ## ## ## print("This is disc coordinate: " + str(self.discXCoordinate))
         
         return next_action, yardsRemaining
     
@@ -385,10 +408,10 @@ class Simulation:
                     self.pointScored = True
 
                     catcher, thrower, defender = self.choosePlayerForAction(next_action, catcher, thrower, defender)
-
-                    ## print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
-                    ## print("This is disc coordinate: " + str(self.discXCoordinate))
-                    ## print("We have scored")
+                    if (self.debug):
+                        print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
+                    ## ## ## print("This is disc coordinate: " + str(self.discXCoordinate))
+                        print("We have scored")
                     
                     isScore = True
         else:
@@ -400,9 +423,10 @@ class Simulation:
                     self.pointScored = True
                     catcher, thrower, defender = self.choosePlayerForAction(next_action, catcher, thrower, defender)
 
-                    ## print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
-                    ## print("This is disc coordinate: " + str(self.discXCoordinate))
-                    ## print("We have scored")
+                    if (self.debug):
+                        print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
+                    ## ## ## print("This is disc coordinate: " + str(self.discXCoordinate))
+                        print("We have scored")
                     
                     isScore = True
         
@@ -414,52 +438,64 @@ class Simulation:
         if (turnover):
 
                 catcher, thrower, defender = self.choosePlayerForAction(next_action, catcher, thrower, defender)
-                # if next_action in ["Block", "Stall"]:
+                if next_action in ["Block", "Stall"]:
                     
-                #     ## print(str(yardsGainedForAction) + " " + next_action + " from " + defender.name)
-                # else:
-                #     if (catcher == None):
-                #         ## print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name)
-                #     else:
-                #         continue
-                #         ## print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
+                    if (self.debug):
+                        print(str(yardsGainedForAction) + " " + next_action + " from " + defender.name)
+                else:
+                    if (catcher == None):
+                        if (self.debug):
+                            print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name)
+                    else:
+                        if (self.debug):
+                            print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
 
                 if (self.teamOnOffense == team1):
-                    ## print("Team One Turnover")
-                    ## print("Team Two On Offense")
+                    if (self.debug):
+                        print("Team One Turnover")
+                        print("Team Two On Offense")
                     self.teamOnOffense = team2
                     self.teamOnDefense = team1
                 else:
-                    ## print("Team Two Turnover")
-                    ## print("Team One On Offense")
+                    if (self.debug):
+                        print("Team Two Turnover")
+                        print("Team One On Offense")
                     self.teamOnOffense = team1
                     self.teamOnDefense = team2
                 
-                thrower = None
-                catcher = None
-                defender = None
+                offense_players = random.sample(self.teamOnOffense.roster, 2)
+
+                thrower = offense_players[0]
+                catcher = offense_players[1]
+
+                defender = self.teamOnDefense.roster[random.randint(0,6)]
             
         else: 
 
             catcher, thrower, defender = self.choosePlayerForAction(next_action, catcher, thrower, defender)
-
-            ## print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
+            if (self.debug):
+                print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
 
             thrower = catcher
 
-            ## print("This is disc coordinate: " + str(self.discXCoordinate))
+            self.teamOnOffense.roster.remove(thrower)
+
+            catcher = random.sample(self.teamOnOffense.roster, 1)[0]
+
+            self.teamOnOffense.roster.append(thrower)
+
+            ## ## ## print("This is disc coordinate: " + str(self.discXCoordinate))
         
         return catcher, thrower, defender
 
     
     def runFrisbeeGame(self):
 
-        thrower = self.teamOnOffense.roster[random.randint(0,6)]
-        catcher = self.teamOnOffense.roster[random.randint(0,6)]
-        defender = self.teamOnDefense.roster[random.randint(0,6)]
+        offense_players = random.sample(self.teamOnOffense.roster, 2)
 
-        while (catcher != thrower):
-            catcher = self.teamOnOffense.roster[random.randint(0,6)]
+        thrower = offense_players[0]
+        catcher = offense_players[1]
+        defender = self.teamOnDefense.roster[random.randint(0,6)]
 
         ## First Action of a frisbee game is to pull
 
@@ -468,7 +504,35 @@ class Simulation:
         while ("Score" != next_action):
 
             next_action = self.predict_next_action_markov(next_action, yardsRemaining, self.teamOnOffense.elo, self.teamOnDefense.elo)
-        
+            
+            action_turnover, action_fail = self.determine_if_action_completes(next_action, thrower, catcher, defender)
+
+            # # counter = 0
+
+            while (action_fail):
+
+                if action_turnover:
+                    if (self.debug):
+                        print("There was a " + next_action, end = "")
+                    next_action = self.convert_action_to_mistake(next_action)
+                    if (self.debug):     
+                        print(" to a " + next_action)
+                    break
+                else:
+
+                    next_action = self.predict_next_action_small(next_action, yardsRemaining, self.teamOnOffense.elo, self.teamOnDefense.elo)
+                    
+                    self.teamOnOffense.roster.remove(thrower)
+
+                    catcher = random.sample(self.teamOnOffense.roster, 1)[0]
+
+                    self.teamOnOffense.roster.append(thrower)
+
+                    defender = self.teamOnDefense.roster[random.randint(0,6)]
+
+                    action_turnover, action_fail = self.determine_if_action_completes(next_action, thrower, catcher, defender)
+
+
             yardsGainedForAction = self.randomYardsForAction(next_action)
 
             turnover, yardsRemaining = self.updateYardsAndAction(next_action, yardsGainedForAction, yardsRemaining)
@@ -479,55 +543,55 @@ class Simulation:
                 break
 
             catcher, thrower, defender = self.changeOffense(next_action, yardsGainedForAction, catcher, thrower, defender, turnover)
+    
+    def convert_action_to_mistake(self, action):
+        if action in ["Pass", "Swing", "Dump", "Dish"]:
+            return np.random.choice(["Dropped pass", "Throwaway"])
+        elif action in ["Huck"]:
+            return np.random.choice(["Dropped huck", "Huck throwaway"])
+
 
     def choosePlayerForAction(self, action, catcher, thrower, defender):
-        if (catcher == None and thrower == None and defender == None):
+        if action in ["Block", "Stall"]:
             defender = self.teamOnDefense.roster[random.randint(0,6)]
-            thrower = self.teamOnOffense.roster[random.randint(0,6)]
+            defender.addBlock()
+        elif action in ["Dropped pass", "Dropped huck"]:
+
             catcher = self.teamOnOffense.roster[random.randint(0,6)]
-        else:
-            if action in ["Block", "Stall"]:
-                defender = self.teamOnDefense.roster[random.randint(0,6)]
-                defender.addBlock()
-            elif action in ["Dropped pass", "Dropped huck"]:
 
+            while (catcher == thrower):
                 catcher = self.teamOnOffense.roster[random.randint(0,6)]
 
-                while (catcher == thrower):
-                    catcher = self.teamOnOffense.roster[random.randint(0,6)]
+            thrower.addTurnover()
+            catcher.addDrop()
 
-                thrower.addTurnover()
-                catcher.addDrop()
+        elif action in ["Swing", "Dump", "Pass", "Huck", "Score", "Dish"]:
 
-            elif action in ["Swing", "Dump", "Pass", "Huck", "Score", "Dish"]:
+            catcher = self.teamOnOffense.roster[random.randint(0,6)]
 
+            while (catcher == thrower):
                 catcher = self.teamOnOffense.roster[random.randint(0,6)]
 
-                while (catcher == thrower):
-                    catcher = self.teamOnOffense.roster[random.randint(0,6)]
+            if (self.pointScored):
+                thrower.addAssist()
+                catcher.addScore()
 
-                if (self.pointScored):
-                    thrower.addAssist()
-                    catcher.addScore()
-
-            elif action in ["Huck Throwaway", "Throwaway"]:
-        
-                thrower.addTurnover()
-                catcher = None
-
-            elif action in ["Pull"]:
-                thrower = self.teamOnDefense.roster[random.randint(0,6)]
-
-                thrower.addPull()
+        elif action in ["Huck Throwaway", "Throwaway"]:
     
-        if self.determine_if_action_completes(action, thrower, catcher, defender):
-            print("success")
-        else:
-            print("failure")
+            thrower.addTurnover()
+            catcher = None
+
+        elif action in ["Pull"]:
+            thrower = self.teamOnDefense.roster[random.randint(0,6)]
+
+            thrower.addPull()
+
         return catcher, thrower, defender
     
     def determine_if_action_completes(self, action, thrower, catcher, defender):
-        action_complete = False
+        action_turnover = False
+        
+        action_fail = False
 
         ## If I don't throw pass, huck -> dump, swing
 
@@ -545,12 +609,21 @@ class Simulation:
 
         if action in ["Pass", "Huck", "Swing", "Dish", "Dump"]:
             if self.doesPlayerThrowDisc(catcher, defender):
-                if self.doesPlayerCatchDisc(thrower, catcher, defender):
-                    action_complete = True
+                boolean, simulationProb, randomProb = self.doesPlayerCatchDisc(thrower, catcher, defender)
+                if boolean:
+                    action_turnover = False
+                    action_fail = False
                 else:
-                    action_complete = False
+                    self.simulationProbArray.append(simulationProb)
+                    if (self.debug):
+                        print(simulationProb, randomProb)
+                    action_turnover = True
+                    action_fail = True
+            else:
+                action_turnover = False
+                action_fail = True
 
-        return action_complete
+        return action_turnover, action_fail
     
     def doesPlayerThrowDisc(self, catcher, defender):
         probabilityOfThrowing = random.randint(0, 100)
@@ -572,11 +645,57 @@ class Simulation:
         return 100 / denominator
     
     def doesPlayerCatchDisc(self, thrower, catcher, defense):
-        probabilityOfCatching = random.randint(0, 100)
-        if (((thrower.attributes['throw'] + thrower.attributes['accuracy'] + catcher.attributes['catch']) / 1.55) - defense.attributes['defense'] > probabilityOfCatching):
-            return True
+        # Define weights for each stat
+        throw_weight = 0.3
+        accuracy_weight = 0.5
+        catch_weight = 0.6
+
+        elo_modifier = self.elo_modifier(self.teamOnOffense.elo, self.teamOnDefense.elo)
+
+        # Calculate base probability with weighted stats
+        weighted_throw = thrower.attributes['throw'] * throw_weight
+        weighted_accuracy = thrower.attributes['accuracy'] * accuracy_weight
+        weighted_catch = catcher.attributes['catch'] * catch_weight
+        base_probability = (weighted_throw + weighted_accuracy + weighted_catch) / (throw_weight + accuracy_weight + catch_weight)
+
+        # Apply logarithmic scaling for stats below 80
+        if base_probability < 80:
+            base_probability = 90 - (10 * np.log(81 - base_probability))
+            base_probability = max(0, min(base_probability, 90))
+
+        # Adjust with Elo modifier and clamp probability to 0-100
+        final_probability = min(100, base_probability * elo_modifier)
+        final_probability = max(0, final_probability)
+
+        defense_stat = int(self.log_scale(defense.attributes['defense']))
+
+        defense_probability = random.randint(0, defense_stat)
+        
+        if defense_probability > final_probability:
+            return False, defense_probability, final_probability
         else:
-            return False
+            return True, defense_probability, final_probability
+    
+
+    def log_scale(self, value, old_min=0, old_max=100, new_min=0, new_max=80):
+        # Ensure the value is within the old range
+        if value < old_min:
+            value = old_min
+        elif value > old_max:
+            value = old_max
+
+        # Apply logarithmic transformation
+        log_value = math.log1p(value)  # log1p(value) = log(1 + value) to handle value=0
+        
+        # Map log_value from [log(1), log(1 + old_max)] to [new_min, new_max]
+        log_min = math.log1p(old_min)
+        log_max = math.log1p(old_max)
+        
+        # Scale to the new range
+        scaled_value = new_min + (log_value - log_min) * (new_max - new_min) / (log_max - log_min)
+        
+        return scaled_value
+
 
     ## TO DO: MAYBE ADD IN A PROBABILITY TO SEE IF THE ACTION IS COMPLETED BY USING PLAYER STATS?
     def main(self):
@@ -594,12 +713,14 @@ class Simulation:
                     self.pointScored = False
 
                     if (self.teamOnOffense == team1):
-                        ## ## print("Team One Scored")
+                        if (self.debug):
+                            print("Team One Scored")
                         self.team1.numberOfPoints += 1
                         self.teamOnOffense = team2
                         self.teamOnDefense = team1
                     else:
-                        ## ## print("Team Two Scored")
+                        if (self.debug):
+                            print("Team Two Scored")
                         self.team2.numberOfPoints += 1
                         self.teamOnOffense = team1
                         self.teamOnDefense = team2
@@ -618,11 +739,13 @@ class Simulation:
         
         for player in self.teamOnOffense.roster:
             print(player.name + ": ", end = "")
-            print(player.attributes)
+            print(player.statsDictionary)
         
         for player in self.teamOnDefense.roster:
             print(player.name + ": ", end = "")
-            print(player.attributes)
+            print(player.statsDictionary)
+        
+        print(self.simulationProbArray)
     
 
 

@@ -13,7 +13,7 @@ f.close()
 attributes = ['throw', 'accuracy', 'speed', 'defense', 'agility', 'catch']
 
 # Create a DataFrame with random stats (values ranging from 70-100)
-data = {attr: [random.randint(70, 100) for _ in names] for attr in attributes}
+data = {attr: [random.randint(80, 100) for _ in names] for attr in attributes}
 data['name'] = names
 
 # Convert to DataFrame

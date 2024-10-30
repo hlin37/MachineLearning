@@ -1,0 +1,59 @@
+Northern Frontier
+Redwood Division
+Cedar League
+River Alliance
+Summit Confederation
+
+Eastern Horizon
+Maple Division
+Ocean League
+Grove Alliance
+Bay Confederation
+
+Southern Isles
+Pine Division
+Lake League
+Horizon Alliance
+Forest Confederation
+
+Western Peaks
+Mountain Division
+Desert League
+Trail Alliance
+Valley Confederation
+
+Central Plains
+Prairie Division
+Field League
+Pass Alliance
+Cove Confederation
+
+Highland Range
+Summit Division
+Redwood League
+Horizon Alliance
+Cedar Confederation
+
+Coastal Bend
+Ocean Division
+Bay League
+Grove Alliance
+Lake Confederation
+
+Great Valley
+Valley Division
+River League
+Forest Alliance
+Prairie Confederation
+
+Rocky Ridge
+Maple Division
+Desert League
+Redwood Alliance
+Pine Confederation
+
+Desert Edge
+Cove Division
+Trail League
+Summit Alliance
+Field Confederation
