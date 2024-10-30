@@ -18,6 +18,7 @@ class Tournament:
         self.priority = priority
 
         self.open_tournament_to_invite_tournament = open_to_invite_ref
+        self.number_of_qualified_teams = 0
 
         self.teams = []
         self.waitList = []
@@ -39,7 +40,7 @@ class Tournament:
         self.teams.append(team)
     
     def isFull(self):
-        if len(self.teams) + 1 == self.maxTeams:
+        if len(self.teams) + 1 + self.number_of_qualified_teams == self.maxTeams:
             return True
         else:
             return False
@@ -69,8 +70,9 @@ class TournamentGenerator:
             if name in self.generated_names:
                 count = 1
                 while f"{name} {count}" in self.generated_names:
-                    count += 1
-                name = f"{name} {count}"
+                    name = f"{random.choice(prefixes)} {random.choice(suffixes)}"
+                #     count += 1
+                # name = f"{name} {count}"
             
             self.generated_names.add(name)
             return name

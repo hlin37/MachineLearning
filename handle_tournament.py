@@ -5,13 +5,16 @@ import random
 class TournamentDirector:
 
     def __init__(self, teamGenerator, tournamentGenerator):
-        self.teams = teamGenerator.teamList
+        self.all_teams = teamGenerator.teamList
         self.tournaments = tournamentGenerator.tournaments
+
+        self.all_teams_sorted_by_elo = sorted(self.all_teams, key=lambda x: x.elo, reverse=True)
     
     def remove_from_team_list(self, playerTeam):
-        for element in self.teams:
+        for element in self.all_teams:
             if element.teamName == playerTeam:
-                self.teams.remove(element)
+                self.all_teams.remove(element)
+                return element
 
     def decide_which_tournament(self):
 
@@ -21,11 +24,11 @@ class TournamentDirector:
                 tournament_dict[t.start_date] = []
             tournament_dict[t.start_date].append(t)
         
-        team_sorted_by_elo = sorted(self.teams, key=lambda x: x.elo, reverse=True)
+        self.team_sorted_by_elo = sorted(self.all_teams, key=lambda x: x.elo, reverse=True)
 
         for tournament in self.tournaments:
             if tournament.national_tournament:
-                for team in team_sorted_by_elo:
+                for team in self.team_sorted_by_elo:
                     choice = random.choice([0,1])
                     if choice == 1:
                         if tournament.isFull():
@@ -35,10 +38,13 @@ class TournamentDirector:
                             team.add_to_tournament_list(tournament, tournament_dict)
             elif tournament.invite_tournament:
                 number_of_qualified_teams = random.choice([2,4,6])
-                eligble_index = self.find_indices(team_sorted_by_elo, tournament.min_elo, tournament.max_elo)
-                allowed_teams = team_sorted_by_elo[eligble_index[0]:eligble_index[1]]
-                for i in range(number_of_qualified_teams):
-                    tournament.add_team(None)
+                eligble_index = self.find_indices(self.team_sorted_by_elo, tournament.min_elo, tournament.max_elo)
+                allowed_teams = self.team_sorted_by_elo[eligble_index[1]:eligble_index[0]]
+
+                tournament.number_of_qualified_teams = number_of_qualified_teams
+
+                # for i in range(number_of_qualified_teams):
+                #     tournament.add_team(None)
                 
                 for team in allowed_teams:
                     choice = random.choice([0,1])
@@ -48,9 +54,11 @@ class TournamentDirector:
                         else:
                             tournament.add_team(team)
                             team.add_to_tournament_list(tournament, tournament_dict)
+                
+                
             else:
-                eligble_index = self.find_indices(team_sorted_by_elo, tournament.min_elo, tournament.max_elo)
-                allowed_teams = team_sorted_by_elo[eligble_index[1]:eligble_index[0]]
+                eligble_index = self.find_indices(self.team_sorted_by_elo, tournament.min_elo, tournament.max_elo)
+                allowed_teams = self.team_sorted_by_elo[eligble_index[1]:eligble_index[0]]
 
                 for team in allowed_teams:
                     choice = random.choice([0,1])
@@ -79,6 +87,12 @@ class TournamentDirector:
                 break
         
         return smallest_index, largest_index
+
+    def eligible_for_tournament(self, team, tournament):
+        if self.all_teams_sorted_by_elo.index(team) <= tournament.maxTeams:
+            return True
+        else:
+            return False
 
             
 # Testing purposes
