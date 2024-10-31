@@ -112,7 +112,7 @@ class TournamentGenerator:
             random_date = self.add_random_weeks(invite_tournaments[i].start_date)
             min_elo = random.randint(900, 1400)
             max_elo = random.randint(1400, 1800)
-            invite_only_tournament = Tournament(name, random_date, number_of_teams, 2, min_elo, max_elo, False, False, True, False, invite_tournaments[i])
+            invite_only_tournament = Tournament(name, random_date, 16, 2, min_elo, max_elo, False, False, True, False, invite_tournaments[i])
             tournamentCalendar.append(invite_only_tournament)
         
         # Generate national tournaments, where the highest teams join.

@@ -24,6 +24,9 @@ class Team:
         self.elo = team_elo
         
         self.tournament_list = []
+
+        self.wins = 0
+        self.loss = 0
     
     def returnBoxScore(self):
         for i in range(7):

@@ -1,0 +1,129 @@
+{
+    "8": {
+        "Format 1": {
+           
+            "Pool A": ["Seed #1", "Seed #4", "Seed #5", "Seed #8"],
+            "Pool B": ["Seed #2", "Seed #3", "Seed #6", "Seed #7"]
+            
+        },
+        "Format 2": {
+            
+            "Pool A": ["Seed #1", "Seed #3", "Seed #6", "Seed #8"],
+            "Pool B": ["Seed #2", "Seed #4", "Seed #5", "Seed #7"]
+            
+        },
+        "Format 3": {
+        
+            "Pool A": ["Seed #1", "Seed #4", "Seed #6", "Seed #7"],
+            "Pool B": ["Seed #2", "Seed #3", "Seed #5", "Seed #8"]
+            
+        }
+    },
+    "10": {
+        "Format 1": {
+        
+            "Pool A": ["Seed #1", "Seed #3", "Seed #6", "Seed #8", "Seed #9"],
+            "Pool B": ["Seed #2", "Seed #4", "Seed #5", "Seed #7", "Seed #10"]
+            
+        },
+        "Format 2": {
+         
+            "Pool A": ["Seed #1", "Seed #4", "Seed #5", "Seed #7", "Seed #10"],
+            "Pool B": ["Seed #2", "Seed #3", "Seed #6", "Seed #8", "Seed #9"]
+        
+        },
+        "Format 3": {
+        
+            "Pool A": ["Seed #1", "Seed #4", "Seed #6", "Seed #7", "Seed #9"],
+            "Pool B": ["Seed #2", "Seed #3", "Seed #5", "Seed #8", "Seed #10"]
+        
+        },
+        "Format 4": {
+           
+            "Pool A": ["Seed #1", "Seed #3", "Seed #6", "Seed #7", "Seed #10"],
+            "Pool B": ["Seed #2", "Seed #4", "Seed #5", "Seed #8", "Seed #9"]
+        
+        }
+    },
+    "12": {
+        "Format 1": {
+       
+            "Pool A": ["Seed #1", "Seed #3", "Seed #6", "Seed #7", "Seed #10", "Seed #12"],
+            "Pool B": ["Seed #2", "Seed #4", "Seed #5", "Seed #8", "Seed #9", "Seed #11"]
+            
+        },
+        "Format 2": {
+            
+            "Pool A": ["Seed #1", "Seed #3", "Seed #6", "Seed #8", "Seed #9", "Seed #12"],
+            "Pool B": ["Seed #2", "Seed #4", "Seed #5", "Seed #7", "Seed #10", "Seed #11"]
+            
+        },
+        "Format 3": {
+            
+            "Pool A": ["Seed #1", "Seed #4", "Seed #5", "Seed #7", "Seed #10", "Seed #12"],
+            "Pool B": ["Seed #2", "Seed #3", "Seed #6", "Seed #8", "Seed #9", "Seed #11"]
+            
+        }
+    },
+    "16": {
+        "Format 1": {
+            
+            "Pool A": ["Seed #1", "Seed #8", "Seed #9", "Seed #16"],
+            "Pool B": ["Seed #2", "Seed #7", "Seed #10", "Seed #15"],
+            "Pool C": ["Seed #3", "Seed #6", "Seed #11", "Seed #14"],
+            "Pool D": ["Seed #4", "Seed #5", "Seed #12", "Seed #13"]
+            
+        },
+        "Format 2": {
+          
+            "Pool A": ["Seed #1", "Seed #8", "Seed #12", "Seed #13"],
+            "Pool B": ["Seed #2", "Seed #7", "Seed #11", "Seed #14"],
+            "Pool C": ["Seed #3", "Seed #6", "Seed #10", "Seed #15"],
+            "Pool D": ["Seed #4", "Seed #5", "Seed #9", "Seed #16"]
+            
+        },
+        "Format 3": {
+            
+            "Pool A": ["Seed #1", "Seed #8", "Seed #10", "Seed #15"],
+            "Pool B": ["Seed #2", "Seed #7", "Seed #9", "Seed #16"],
+            "Pool C": ["Seed #3", "Seed #6", "Seed #12", "Seed #13"],
+            "Pool D": ["Seed #4", "Seed #5", "Seed #111", "Seed #14"]
+        
+        },
+        "Format 4": {
+            
+            "Pool A": ["Seed #1", "Seed #7", "Seed #10", "Seed #16"],
+            "Pool B": ["Seed #2", "Seed #8", "Seed #9", "Seed #15"],
+            "Pool C": ["Seed #3", "Seed #5", "Seed #12", "Seed #14"],
+            "Pool D": ["Seed #4", "Seed #6", "Seed #11", "Seed #13"]
+            
+        }
+    },
+    "20": {
+        "Format 1": {
+        
+            "Pool A": ["Seed #1", "Seed #8", "Seed #9", "Seed #16", "Seed #17"],
+            "Pool B": ["Seed #2", "Seed #7", "Seed #10", "Seed #15", "Seed #18"],
+            "Pool C": ["Seed #3", "Seed #6", "Seed #11", "Seed #14", "Seed #19"],
+            "Pool D": ["Seed #4", "Seed #5", "Seed #12", "Seed #13", "Seed #20"]
+            
+        },
+        "Format 2": {
+         
+            "Pool A": ["Seed #1", "Seed #8", "Seed #12", "Seed #13", "Seed #17"],
+            "Pool B": ["Seed #2", "Seed #7", "Seed #11", "Seed #14", "Seed #18"],
+            "Pool C": ["Seed #3", "Seed #6", "Seed #10", "Seed #15", "Seed #19"],
+            "Pool D": ["Seed #4", "Seed #5", "Seed #9", "Seed #16", "Seed #20"]
+            
+        },
+        "Format 3": {
+        
+            "Pool A": ["Seed #1", "Seed #8", "Seed #10", "Seed #15", "Seed #17"],
+            "Pool B": ["Seed #2", "Seed #7", "Seed #9", "Seed #16", "Seed #18"],
+            "Pool C": ["Seed #3", "Seed #6", "Seed #12", "Seed #13", "Seed #19"],
+            "Pool D": ["Seed #4", "Seed #5", "Seed #11", "Seed #14", "Seed #20"]
+            
+        }
+    }
+}
+
