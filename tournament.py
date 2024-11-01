@@ -1,9 +1,15 @@
+from bracket import *
+from game import *
+
 import random
 from datetime import date
 import datetime
+from itertools import combinations
+import json
 
 class Tournament:
     def __init__(self, name, start_date, number_of_teams, priority, min_elo, max_elo, normal_tournament, open_tournament, invite_tournament, national_tournament, open_to_invite_ref):
+        
         self.name = name
         self.start_date = start_date
         self.min_elo = min_elo
@@ -14,16 +20,45 @@ class Tournament:
         self.open_tournament = open_tournament
         self.invite_tournament = invite_tournament
         self.national_tournament = national_tournament
-
+        
+        ## Higher-level tournaments are larger in priority.
         self.priority = priority
 
+        ## Reference to the open tournament that qualifies for this invite tournament
+        ## Type: Tournament
         self.open_tournament_to_invite_tournament = open_to_invite_ref
+
+        ## Number of Qualified Teams From the Open Tournament
         self.number_of_qualified_teams = 0
 
+        ## Format of the pools
+        self.pool_format = None
+
+        ## List of teams going
         self.teams = []
+
+        ## Waitlist of teams
         self.waitList = []
 
+        ## Once tournament is over, store the winners
         self.winners = []
+
+        ## array holding the arrays of the teams.
+        ## the arrays of the teams are the pools
+        self.tournament_pool_objects = []
+
+        self.pool_results = []
+
+        self.completed = False
+
+        ## A dictionary that stores a team object key to the initial ranking string going into the tournament
+        ## Ex: Key: Team Object -> Value: Fury (1)
+        self.team_name_to_ranking = {}
+
+        ## An array that stores arrays of strings i.e Fury (1)
+        ## Ex:[0: ["Fury (1)", "Brute (2)"]]
+        self.pool_teams = []
+
 
     def add_team(self, team):
         # if self.main_tournament:
@@ -39,6 +74,20 @@ class Tournament:
 
         self.teams.append(team)
     
+    ## Creates a string for each team with their ranking going into the tournament
+    ## Ex: Fury (1)
+    def create_base_pools_names_ranks(self):
+        if not self.invite_tournament:
+            for pool, seeding in self.pool_format.items():
+                pool_teams = []
+                for seed in seeding:
+                    seed_rank = int(seed.replace("Seed #", ""))
+                    name_and_rank = self.teams[seed_rank - 1].teamName + " (" + str(seed_rank) + ")"
+                    pool_teams.append(name_and_rank)
+                    self.team_name_to_ranking[self.teams[seed_rank - 1]] = name_and_rank
+                self.pool_teams.append(pool_teams)
+                
+    
     def isFull(self):
         if len(self.teams) + 1 + self.number_of_qualified_teams == self.maxTeams:
             return True
@@ -48,6 +97,54 @@ class Tournament:
     def add_to_waitlist(self, team):
         self.waitList.append(team)
 
+    
+    def run_event(self):
+        teams_index = None
+        teams_advancing = self.number_of_qualified_teams
+        if (teams_advancing == 0):
+            teams_advancing = 1
+        bracket = Bracket(teams_advancing, self.maxTeams)
+        self.handle_pool_play()
+        bracket.create_bracket(self.pool_results, True)
+
+        if self.maxTeams in [16,20]:
+            teams_index = 1
+        else:
+            teams_index = teams_advancing
+
+        for key in bracket.order_of_games_played_bracket[(teams_index, self.maxTeams)]:
+            ## Update the bracket
+            bracket.create_bracket(self.pool_results, False)
+            game = Simulation(bracket.bracket_dict[key].team1, bracket.bracket_dict[key].team2)
+            game.main()
+            winner, loser = game.return_winner()
+            bracket.bracket_dict[key].winner = winner
+            bracket.bracket_dict[key].loser = loser
+
+        bracket.determine_rankings()
+        self.winners = bracket.rankings
+
+        self.completed = True
+    
+
+    def handle_pool_play(self):
+        for pool in self.tournament_pool_objects:
+            win_loss_record = {team: {"wins": 0, "losses": 0} for team in pool}
+
+            team_combinations = list(combinations(pool, 2))
+            for match in team_combinations:
+                game = Simulation(match[0], match[1])
+                game.main()
+                winner, loser = game.return_winner()
+
+                win_loss_record[winner]["wins"] += 1
+                win_loss_record[loser]["losses"] += 1
+            
+            sorted_teams = sorted(win_loss_record.items(), key=lambda x: (-x[1]["wins"], x[1]["losses"]))
+
+            self.pool_results.append(sorted_teams)
+
+
 class TournamentGenerator:
     def __init__(self, start_year, num_tournaments, num_invite_tournaments, num_national_tournaments):
         self.start_year = start_year
@@ -55,9 +152,13 @@ class TournamentGenerator:
         self.num_invite_tournaments = num_invite_tournaments
         self.national_tournaments = num_national_tournaments
 
+        self.load_pool_formats()
+
         self.generated_names = set()
 
         self.tournaments = self.generate_tournaments()
+
+        self.determine_pool_format()
 
     def generate_unique_name(self):
         prefixes = ["Winter", "Spring", "Summer", "Fall", "Championship", "Open", "Classic", "Challenge", "Showdown", 
@@ -137,3 +238,18 @@ class TournamentGenerator:
         num_weeks = random.choice([1, 2])
         days_to_add = 7 * num_weeks
         return date + datetime.timedelta(days=days_to_add)
+
+    def load_pool_formats(self):
+        f = open("tournament_structure.json")
+        self.entire_pool_formats = json.load(f)
+        f.close()
+    
+    def determine_pool_format(self):
+        for tournament in self.tournaments:
+            pool_formats_for_teams = self.entire_pool_formats[str(tournament.maxTeams)]
+            choice = random.choice([0, len(pool_formats_for_teams) - 1])
+
+            format_choice = list(pool_formats_for_teams.keys())[choice]
+
+            tournament.pool_format = pool_formats_for_teams[format_choice]
+    

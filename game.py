@@ -30,6 +30,7 @@ class Simulation:
         self.simulationProbArray = []
 
         self.debug = False
+
     
     def createYardDistibution(self):
         # Dictionary to store yard values for each action
@@ -450,18 +451,18 @@ class Simulation:
                         if (self.debug):
                             print(str(yardsGainedForAction) + " " + next_action + " from " + thrower.name + " to " + catcher.name)
 
-                if (self.teamOnOffense == team1):
+                if (self.teamOnOffense == self.team1):
                     if (self.debug):
                         print("Team One Turnover")
                         print("Team Two On Offense")
-                    self.teamOnOffense = team2
-                    self.teamOnDefense = team1
+                    self.teamOnOffense = self.team2
+                    self.teamOnDefense = self.team1
                 else:
                     if (self.debug):
                         print("Team Two Turnover")
                         print("Team One On Offense")
-                    self.teamOnOffense = team1
-                    self.teamOnDefense = team2
+                    self.teamOnOffense = self.team1
+                    self.teamOnDefense = self.team2
                 
                 offense_players = random.sample(self.teamOnOffense.roster, 2)
 
@@ -696,62 +697,78 @@ class Simulation:
         
         return scaled_value
 
+    def return_winner(self):
+        winner = None
+        loser = None
+        if (self.team1.numberOfPoints == 15):
+            winner = self.team1
+            loser = self.team2
+        else:
+            winner = self.team2
+            loser = self.team1
+        
+        self.team1.numberOfPoints = 0
+        self.team2.numberOfPoints = 0
+        
+        return winner, loser
+
 
     ## TO DO: MAYBE ADD IN A PROBABILITY TO SEE IF THE ACTION IS COMPLETED BY USING PLAYER STATS?
     def main(self):
         
-        self.teamOnOffense = team1
-        self.teamOnDefense = team2
+        self.teamOnOffense = self.team1
+        self.teamOnDefense = self.team2
 
-        team1Wins = 0
+        # counter = 0
+        # while (counter < 100):
+        while (self.team1.numberOfPoints < 15 and self.team2.numberOfPoints < 15):
+            self.runFrisbeeGame()
+            if (self.pointScored):
+                self.pointScored = False
 
-        counter = 0
-        while (counter < 100):
-            while (self.team1.numberOfPoints < 15 and self.team2.numberOfPoints < 15):
-                self.runFrisbeeGame()
-                if (self.pointScored):
-                    self.pointScored = False
+                if (self.teamOnOffense == self.team1):
+                    if (self.debug):
+                        print("Team One Scored")
+                    self.team1.numberOfPoints += 1
+                    self.teamOnOffense = self.team2
+                    self.teamOnDefense = self.team1
+                else:
+                    if (self.debug):
+                        print("Team Two Scored")
+                    self.team2.numberOfPoints += 1
+                    self.teamOnOffense = self.team1
+                    self.teamOnDefense = self.team2
+        
 
-                    if (self.teamOnOffense == team1):
-                        if (self.debug):
-                            print("Team One Scored")
-                        self.team1.numberOfPoints += 1
-                        self.teamOnOffense = team2
-                        self.teamOnDefense = team1
-                    else:
-                        if (self.debug):
-                            print("Team Two Scored")
-                        self.team2.numberOfPoints += 1
-                        self.teamOnOffense = team1
-                        self.teamOnDefense = team2
+        
             
-            print ("Team One : Team Two " + str(self.team1.numberOfPoints) + " - " + str(self.team2.numberOfPoints))
-            if (self.team1.numberOfPoints > self.team2.numberOfPoints):
-                team1Wins += 1
-            counter += 1
-            self.teamOnOffense = team1
-            self.teamOnDefense = team2
-            self.team1.numberOfPoints = 0
-            self.team2.numberOfPoints = 0
+            # print ("Team One : Team Two " + str(self.team1.numberOfPoints) + " - " + str(self.team2.numberOfPoints))
+            # if (self.self.team1.numberOfPoints > self.self.team2.numberOfPoints):
+            #     team1Wins += 1
+            # counter += 1
+            # self.teamOnOffense = self.team1
+            # self.teamOnDefense = self.team2
+            # self.self.team1.numberOfPoints = 0
+            # self.self.team2.numberOfPoints = 0
             
-        print (team1Wins / 100)
+        # print (team1Wins / 100)
         
         
-        for player in self.teamOnOffense.roster:
-            print(player.name + ": ", end = "")
-            print(player.statsDictionary)
+        # for player in self.teamOnOffense.roster:
+        #     print(player.name + ": ", end = "")
+        #     print(player.statsDictionary)
         
-        for player in self.teamOnDefense.roster:
-            print(player.name + ": ", end = "")
-            print(player.statsDictionary)
+        # for player in self.teamOnDefense.roster:
+        #     print(player.name + ": ", end = "")
+        #     print(player.statsDictionary)
         
-        print(self.simulationProbArray)
+        # print(self.simulationProbArray)
     
 
-
-team1 = Team("FirstTeam", 0, 0)
-team2 = Team("SecondTeam", 1, 7)
-team1.elo = 1974
-team2.elo = 2178
-sim = Simulation(team1, team2)
-sim.main()
+# # Testing the game purposeses
+# team1 = Team("FirstTeam", 0, 0)
+# team2 = Team("SecondTeam", 1, 7)
+# team1.elo = 1974
+# team2.elo = 2178
+# sim = Simulation(team1, team2)
+# sim.main()

@@ -60,6 +60,6 @@ class Player:
         attributes = ['throw', 'accuracy', 'speed', 'defense', 'agility', 'catch']
 
         # Create a DataFrame with random stats (values ranging from 70-100)
-        data = {attr: [random.randint(80, 100)] for attr in attributes}
+        data = {attr: random.randint(80, 100) for attr in attributes}
 
         return data

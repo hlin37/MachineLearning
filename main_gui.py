@@ -123,7 +123,6 @@ class TournamentApp:
             self.current_month -= 1
         self.update_calendar_display()
 
-
     def next_month(self):
         if self.current_month == 12:
             self.current_month = 1
@@ -144,7 +143,6 @@ class TournamentApp:
 
     def get_month_year_label(self):
         return calendar.month_name[self.current_month] + " " + str(self.current_year)
-
 
     def create_calendar(self):
         # Clear all widgets in the calendar frame to start fresh
@@ -210,31 +208,58 @@ class TournamentApp:
     ## function to display the tournamnt information like the number of teams going etc.
     def show_tournament_info(self, tournament):
 
-        num_teams = len(tournament.teams)
-        midpoint = math.ceil(num_teams / 2)
+        if not tournament.completed:
+            num_teams = len(tournament.teams)
+            midpoint = math.ceil(num_teams / 2)
 
-        left_column = [f"{i + 1}. {tournament.teams[i].teamName}" for i in range(midpoint)]
-        right_column = [f"{i + 1}. {tournament.teams[i].teamName}" for i in range(midpoint, num_teams)]
+            left_column = [f"{i + 1}. {tournament.teams[i].teamName}" for i in range(midpoint)]
+            right_column = [f"{i + 1}. {tournament.teams[i].teamName}" for i in range(midpoint, num_teams)]
 
-        # Pad columns to be the same length, if necessary
-        if len(left_column) > len(right_column):
-            right_column.append("")
+            # Pad columns to be the same length, if necessary
+            if len(left_column) > len(right_column):
+                right_column.append("")
 
-        # Combine both columns into a single text string
-        team_info = "\n".join(f"{left:<20} {right}" for left, right in zip(left_column, right_column))
+            # Combine both columns into a single text string
+            team_info = "\n".join(f"{left:<20} {right}" for left, right in zip(left_column, right_column))
 
-        # Display tournament details in the info display area
-        info_text = (
-            f"Name: {tournament.name}\n"
-            f"Date: {tournament.start_date.strftime('%Y-%m-%d')}\n"
-            f"Number of Total Teams: {tournament.maxTeams}\n"
-            f"Number of Invited Teams: {(tournament.maxTeams - tournament.number_of_qualified_teams)}\n" 
-            f"Number of Qualified Teams: {tournament.number_of_qualified_teams}\n"
-            f"Minimum Elo: {tournament.min_elo}\n"
-            f"Maximum Elo: {tournament.max_elo}\n"
-            f"Teams:\n{team_info}" 
-        )
-        self.select_tournament_information.config(text=info_text)
+            # Display tournament details in the info display area
+            info_text = (
+                f"Name: {tournament.name}\n"
+                f"Date: {tournament.start_date.strftime('%Y-%m-%d')}\n"
+                f"Number of Total Teams: {tournament.maxTeams}\n"
+                f"Number of Invited Teams: {(tournament.maxTeams - tournament.number_of_qualified_teams)}\n" 
+                f"Number of Qualified Teams: {tournament.number_of_qualified_teams}\n"
+                f"Minimum Elo: {tournament.min_elo}\n"
+                f"Maximum Elo: {tournament.max_elo}\n"
+                f"Teams:\n{team_info}" 
+            )
+            self.select_tournament_information.config(text=info_text)
+        else:
+            num_teams = len(tournament.teams)
+            midpoint = math.ceil(num_teams / 2)
+
+            left_column = [f"{i + 1}. {tournament.winners[i].teamName}" for i in range(midpoint)]
+            right_column = [f"{i + 1}. {tournament.winners[i].teamName}" for i in range(midpoint, num_teams)]
+
+            # Pad columns to be the same length, if necessary
+            if len(left_column) > len(right_column):
+                right_column.append("")
+
+            # Combine both columns into a single text string
+            team_info = "\n".join(f"{left:<20} {right}" for left, right in zip(left_column, right_column))
+
+            # Display tournament details in the info display area
+            info_text = (
+                f"Name: {tournament.name}\n"
+                f"Date: {tournament.start_date.strftime('%Y-%m-%d')}\n"
+                f"Number of Total Teams: {tournament.maxTeams}\n"
+                f"Number of Invited Teams: {(tournament.maxTeams - tournament.number_of_qualified_teams)}\n" 
+                f"Number of Qualified Teams: {tournament.number_of_qualified_teams}\n"
+                f"Minimum Elo: {tournament.min_elo}\n"
+                f"Maximum Elo: {tournament.max_elo}\n"
+                f"Rankings:\n{team_info}" 
+            )
+            self.select_tournament_information.config(text=info_text)
 
     ## clear the label box
     def clear_info_display(self):
@@ -289,13 +314,13 @@ class TournamentApp:
             self.selected_tournaments.remove(selected_name)
             self.selected_tournaments_listbox.delete(selected_idx)
     
-    ##
-    def update_selected_tournaments(self):
-        if self.selected_tournaments:
-            selected_names = list(self.selected_tournaments.values())
-            self.selected_tournaments_label.config(text="Selected Tournaments: " + ", ".join(selected_names))
-        else:
-            self.selected_tournaments_label.config(text="Selected Tournaments: None")
+    # ##
+    # def update_selected_tournaments(self):
+    #     if self.selected_tournaments:
+    #         selected_names = list(self.selected_tournaments.values())
+    #         self.selected_tournaments_label.config(text="Selected Tournaments: " + ", ".join(selected_names))
+    #     else:
+    #         self.selected_tournaments_label.config(text="Selected Tournaments: None")
 
     def confirm_tournaments(self):
         if not self.selected_tournaments:
@@ -313,13 +338,19 @@ class TournamentApp:
                 if not tournament.invite_tournament:
                     if len(tournament.teams) < tournament.maxTeams:
                         tournament.add_team(tournament.waitList.pop())
-        
-        ## For some reason, self.teams does not contain the user-selected team
-        self.teams.append(self.selected_team)
-        
-        self.notebook.forget(0)
+                
+                # Sort tournament teams by Elo in descending order
+                tournament.teams = sorted(tournament.teams, key=lambda x: x.elo, reverse=True)
 
-        self.display_true_calendar()
+                tournament.create_base_pools_names_ranks()
+
+        
+            ## For some reason, self.teams does not contain the user-selected team
+            self.teams.append(self.selected_team)
+            
+            self.notebook.forget(0)
+
+            self.display_true_calendar()
 
     ## Create the new calendar, with that makes the user-selected tournaments salmon-colored.
     def display_true_calendar(self):
@@ -370,7 +401,6 @@ class TournamentApp:
         self.pause_button = tk.Button(self.calendar_tab, text="Pause", command=self.toggle_pause)
         self.pause_button.grid(row=4, column=0, columnspan=7, pady=5)
     
-
     def create_true_calendar(self):
         # Clear all widgets in the calendar frame to start fresh
         for widget in self.calendar_frame.winfo_children():
@@ -427,47 +457,67 @@ class TournamentApp:
                 self.tournament_tab = ttk.Frame(self.notebook)
                 self.notebook.add(self.tournament_tab, text=tournament.name)
 
-        pool_format = self.tournamentDirector.determine_pool_format(tournament.maxTeams)
+        pool_format = tournament.pool_format
 
-        entire_tournament_pool = []
-        entire_tournament_pool.append(list(pool_format.keys()))
-
-        # Sort tournament teams by Elo in descending order
-        tournament.teams = sorted(tournament.teams, key=lambda x: x.elo, reverse=True)
-
-        for pool, seeding in pool_format.items():
-            pool_teams = []
-            for seed in seeding:
-                seed_rank = int(seed.replace("Seed #", ""))
-                rank_and_name = str(seed_rank) + ". " + tournament.teams[seed_rank - 1].teamName
-                pool_teams.append(rank_and_name)
-            entire_tournament_pool.append(pool_teams)
+        # Get pool names as a list
+        pool_names = list(pool_format.keys())
 
         # Frame to hold the pools on the left side
         pools_frame = ttk.Frame(self.tournament_tab)
         pools_frame.grid(row=0, column=0, sticky="nw", padx=10, pady=10)
 
-        # Display pool headers above their respective two columns in the pools frame
-        for i in range(len(entire_tournament_pool[0])):
-            header = entire_tournament_pool[0][i]
+        # Display pool headers above their respective columns
+        for i, header in enumerate(pool_names):
             entry = tk.Label(pools_frame, text=header, font=("Arial", 16), width=20, height=2)
             entry.grid(row=0, column=i * 2, columnspan=2, padx=5, pady=5)  # Span two columns
 
-        # Display teams with win-loss records
-        for i in range(1, len(entire_tournament_pool)):
-            row = 1
-            for team in entire_tournament_pool[i]:
-                # Team name
-                entry = tk.Label(pools_frame, text=team, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                entry.grid(row=row, column=(2 * (i - 1)))
-                entry.bind("<Enter>", lambda event, t=team: self.show_team_info(t, tournament))
-                entry.bind("<Leave>", lambda event: self.clear_team_display())
+        if not tournament.completed:
+            # Iterate over each pool and display the teams with initial rank
+            for pool_index, pool_name in enumerate(pool_names):
+                row = 1
+                for team in tournament.pool_teams[pool_index]:
+                    # Display team name with initial rank
+                    entry = tk.Label(pools_frame, text=team, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
+                    entry.grid(row=row, column=pool_index * 2)
+                    entry.bind("<Enter>", lambda event, t=team: self.show_team_info(t, tournament))
+                    entry.bind("<Leave>", lambda event: self.clear_team_display())
 
-                # Win-loss record
-                record_label = tk.Label(pools_frame, text="0-0", font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                record_label.grid(row=row, column=(2 * (i - 1)) + 1)
+                    # Win-loss record (default as "0-0")
+                    record_label = tk.Label(pools_frame, text="0-0", font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
+                    record_label.grid(row=row, column=(pool_index * 2) + 1)
 
-                row += 1
+                    row += 1
+        else:
+            # Create a dictionary mapping team names to their initial rank for easy lookup
+            initial_ranks = {}
+            for pool_teams in tournament.pool_teams:
+                for team in pool_teams:
+                    # Extract team name and initial rank
+                    team_name, initial_rank = team.rsplit("(", 1)
+                    initial_ranks[team_name.strip()] = initial_rank.strip(")")
+
+            # Display results for completed tournaments, including initial rank
+            for pool_index, pool_results in enumerate(tournament.pool_results):
+                row = 1
+                for team_info in pool_results:
+                    team_name = team_info[0].teamName
+                    win_loss = f"{team_info[1]['wins']}-{team_info[1]['losses']}"
+
+                    # Get initial rank for the team
+                    initial_rank = initial_ranks.get(team_name, "N/A")
+                    entry_text = f"{team_name} ({initial_rank})"
+
+                    # Display team name with initial rank
+                    entry = tk.Label(pools_frame, text=entry_text, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
+                    entry.grid(row=row, column=pool_index * 2)
+                    entry.bind("<Enter>", lambda event, t=team_info[0].teamName: self.show_team_info(t, tournament))
+                    entry.bind("<Leave>", lambda event: self.clear_team_display())
+
+                    # Win-loss record
+                    record_label = tk.Label(pools_frame, text=win_loss, font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
+                    record_label.grid(row=row, column=(pool_index * 2) + 1)
+
+                    row += 1
 
         # Frame to hold the team information on the right side
         info_frame = ttk.Frame(self.tournament_tab)
@@ -483,8 +533,9 @@ class TournamentApp:
         if tournament not in self.select_team_information_label_array:
             self.select_team_information_label_array[tournament.name] = self.select_team_information
 
-        self.simulate_tournament_button = tk.Button(self.tournament_tab, text="Simulate Tournament", command=self.simulate_tournament)
-        self.simulate_tournament_button.grid(row=1, column=0, columnspan=2, pady=(20, 10), sticky="s")
+        if not tournament.completed:
+            self.simulate_tournament_button = tk.Button(self.tournament_tab, text="Simulate Tournament", command=self.simulate_tournament)
+            self.simulate_tournament_button.grid(row=1, column=0, columnspan=2, pady=(20, 10), sticky="s")
 
     def show_team_info(self, teamName, tournament):
 
@@ -522,18 +573,43 @@ class TournamentApp:
         # Check if there's a tournament on this date
         for tournament in self.tournaments:
             if tournament.start_date == self.current_date_in_simulation:
+                self.create_team_pool_object_for_tournament(tournament)
+                ## Only display selected tournament tabs
                 if tournament in self.selected_tournaments:
                     self.show_tournament_tab(tournament)
                 else:
-                    ## SIMULATION HERE
-                    print("here")
+                    tournament.run_event()
         
+        
+        # Store the current month before updating the date
+        current_month = self.current_date_in_simulation.month
         self.current_date_in_simulation += datetime.timedelta(days=1)
 
+        # Check if the month has changed
+        if self.current_date_in_simulation.month != current_month:
+            # Call the method to update the calendar view
+            self.next_month()
+        
         # Schedule the next update if not paused
         if self.current_date_in_simulation < datetime.date(2024, 12, 31):  # Adjust end date as needed
             self.root.after(1000, self.run_simulation) 
     
+    def create_team_pool_object_for_tournament(self, tournament):
+
+        tournament.teams = sorted(tournament.teams, key=lambda x: x.elo, reverse=True)
+
+        tournament_pools = []
+
+        for pool, seeding in tournament.pool_format.items():
+            team_in_pools = []
+            for seed in seeding:
+                seed_rank = int(seed.replace("Seed #", ""))
+                rank_and_name = tournament.teams[seed_rank - 1]
+                team_in_pools.append(rank_and_name)
+            tournament_pools.append(team_in_pools)
+        
+        tournament.tournament_pool_objects = tournament_pools
+
     def toggle_pause(self):
         # Toggle the paused state and update the button text
         self.paused = not self.paused

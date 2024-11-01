@@ -1,0 +1,29 @@
+{
+    "8": {
+        "2": {
+           "a": ["A1 B2"],
+           "b": ["A2 B1"],
+           "c": ["Wa Wb"],
+           "d": ["A3 B4"],
+           "e": ["A4 B3"],
+           "f": ["La Wd"],
+           "g": ["Lb We"],
+           "h": ["Wf Wg"],
+           "i": ["Lc Wh"],
+           "j": ["Ld Le"],
+           "k": ["Lf Lg"]
+        },
+        "4": {
+            
+            "Pool A": ["Seed #1", "Seed #3", "Seed #6", "Seed #8"],
+            "Pool B": ["Seed #2", "Seed #4", "Seed #5", "Seed #7"]
+            
+        },
+        "6": {
+        
+            "Pool A": ["Seed #1", "Seed #4", "Seed #6", "Seed #7"],
+            "Pool B": ["Seed #2", "Seed #3", "Seed #5", "Seed #8"]
+            
+        }
+    },
+}
