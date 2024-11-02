@@ -8,7 +8,7 @@ from itertools import combinations
 import json
 
 class Tournament:
-    def __init__(self, name, start_date, number_of_teams, priority, min_elo, max_elo, normal_tournament, open_tournament, invite_tournament, national_tournament, open_to_invite_ref):
+    def __init__(self, name, start_date, number_of_teams, priority, min_elo, max_elo, normal_tournament, open_tournament, invite_tournament, national_tournament):
         
         self.name = name
         self.start_date = start_date
@@ -24,9 +24,10 @@ class Tournament:
         ## Higher-level tournaments are larger in priority.
         self.priority = priority
 
-        ## Reference to the open tournament that qualifies for this invite tournament
+        ## Reference to the open tournament that qualifies for this invite tournament. 
+        ## If this tournament is an invite tournament, the value will be a reference. If not, then the value is None
         ## Type: Tournament
-        self.open_tournament_to_invite_tournament = open_to_invite_ref
+        self.invite_tournament_reference = None
 
         ## Number of Qualified Teams From the Open Tournament
         self.number_of_qualified_teams = 0
@@ -128,6 +129,10 @@ class Tournament:
         self.winners = self.bracket.rankings
 
         self.completed = True
+
+        if self.open_tournament:
+            number_of_invites = self.invite_tournament_reference.number_of_qualified_teams
+            self.invite_tournament_reference.teams.append(self.winners[0:number_of_invites-1])
     
 
     def handle_pool_play(self):
@@ -195,37 +200,38 @@ class TournamentGenerator:
             min_elo = random.randint(500, 1500)
             max_elo = min_elo + random.randint(500, 800)
             number_of_teams = random.choice([8, 10, 12, 16])
-            tournament = Tournament(name, random_date, number_of_teams, 0, min_elo, max_elo, True, False, False, False, None)
+            tournament = Tournament(name, random_date, number_of_teams, 0, min_elo, max_elo, True, False, False, False)
             tournamentCalendar.append(tournament)
 
         # Generate open tournaments to qualify for invite-only events
-        invite_tournaments = []
+        open_tournaments = []
         for _ in range(self.num_invite_tournaments):
             name = self.generate_unique_name() + " Open"
             random_date = self.get_random_date()
             min_elo = random.randint(500, 1500)
             max_elo = min_elo + random.randint(500, 800)
             number_of_teams = random.choice([8, 10, 12, 16, 20])
-            qualifier_tournament = Tournament(name, random_date, number_of_teams, 1, min_elo, max_elo, False, True, False, False, None)
-            invite_tournaments.append(qualifier_tournament)
+            qualifier_tournament = Tournament(name, random_date, number_of_teams, 1, min_elo, max_elo, False, True, False, False)
+            open_tournaments.append(qualifier_tournament)
             tournamentCalendar.append(qualifier_tournament)
         
         ## Generate invite only tournaments, with a minimum elo to prevent bad teams from joining
-        for i in range(len(invite_tournaments)):
-            name = invite_tournaments[i].name.removesuffix(" Open") + " Invitational"
-            random_date = self.add_random_weeks(invite_tournaments[i].start_date)
+        for i in range(len(open_tournaments)):
+            name = open_tournaments[i].name.removesuffix(" Open") + " Invitational"
+            random_date = self.add_random_weeks(open_tournaments[i].start_date)
             min_elo = random.randint(900, 1400)
             max_elo = random.randint(1400, 1800)
-            invite_only_tournament = Tournament(name, random_date, 16, 2, min_elo, max_elo, False, False, True, False, invite_tournaments[i])
+            invite_only_tournament = Tournament(name, random_date, 16, 2, min_elo, max_elo, False, False, True, False)
+            open_tournaments[i].invite_tournament_reference = invite_only_tournament
             tournamentCalendar.append(invite_only_tournament)
         
         # Generate national tournaments, where the highest teams join.
         for i in range(self.national_tournaments):
-            name = invite_tournaments[i].name.removesuffix(" Open") + " Challenge"
-            random_date = self.add_random_weeks(invite_tournaments[i].start_date)
+            name = open_tournaments[i].name.removesuffix(" Open") + " Challenge"
+            random_date = self.add_random_weeks(open_tournaments[i].start_date)
             min_elo = 0
             max_elo = 0
-            national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True, None)
+            national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True)
             tournamentCalendar.append(national_only_tournament)
 
         return tournamentCalendar
