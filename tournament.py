@@ -59,6 +59,7 @@ class Tournament:
         ## Ex:[0: ["Fury (1)", "Brute (2)"]]
         self.pool_teams = []
 
+        self.bracket = None
 
     def add_team(self, team):
         # if self.main_tournament:
@@ -99,30 +100,32 @@ class Tournament:
 
     
     def run_event(self):
-        teams_index = None
+        # teams_index = None
         teams_advancing = self.number_of_qualified_teams
         if (teams_advancing == 0):
             teams_advancing = 1
-        bracket = Bracket(teams_advancing, self.maxTeams)
+        self.bracket = Bracket(teams_advancing, self.maxTeams)
         self.handle_pool_play()
-        bracket.create_bracket(self.pool_results, True)
+        self.bracket.create_bracket(self.pool_results, True)
 
-        if self.maxTeams in [16,20]:
-            teams_index = 1
-        else:
-            teams_index = teams_advancing
-
-        for key in bracket.order_of_games_played_bracket[(teams_index, self.maxTeams)]:
+        # if self.maxTeams in [16,20]:
+        #     teams_index = 1
+        # else:
+        #     teams_index = teams_advancing
+        for key in self.bracket.order_of_games_played_bracket[(teams_advancing, self.maxTeams)]:
+        # for key in self.bracket.order_of_games_played_bracket[(teams_index, self.maxTeams)]:
             ## Update the bracket
-            bracket.create_bracket(self.pool_results, False)
-            game = Simulation(bracket.bracket_dict[key].team1, bracket.bracket_dict[key].team2)
+            self.bracket.create_bracket(self.pool_results, False)
+            game = Simulation(self.bracket.bracket_dict[key].team1, self.bracket.bracket_dict[key].team2)
             game.main()
-            winner, loser = game.return_winner()
-            bracket.bracket_dict[key].winner = winner
-            bracket.bracket_dict[key].loser = loser
+            winner, loser, winnerPoints, loserPoints = game.return_winner()
+            self.bracket.bracket_dict[key].winner = winner
+            self.bracket.bracket_dict[key].winnerPoints = winnerPoints
+            self.bracket.bracket_dict[key].loser = loser
+            self.bracket.bracket_dict[key].loserPoints = loserPoints
 
-        bracket.determine_rankings()
-        self.winners = bracket.rankings
+        self.bracket.determine_rankings()
+        self.winners = self.bracket.rankings
 
         self.completed = True
     
@@ -135,7 +138,7 @@ class Tournament:
             for match in team_combinations:
                 game = Simulation(match[0], match[1])
                 game.main()
-                winner, loser = game.return_winner()
+                winner, loser, winnerPoints, loserPoints = game.return_winner()
 
                 win_loss_record[winner]["wins"] += 1
                 win_loss_record[loser]["losses"] += 1

@@ -314,13 +314,13 @@ class TournamentApp:
             self.selected_tournaments.remove(selected_name)
             self.selected_tournaments_listbox.delete(selected_idx)
     
-    # ##
-    # def update_selected_tournaments(self):
-    #     if self.selected_tournaments:
-    #         selected_names = list(self.selected_tournaments.values())
-    #         self.selected_tournaments_label.config(text="Selected Tournaments: " + ", ".join(selected_names))
-    #     else:
-    #         self.selected_tournaments_label.config(text="Selected Tournaments: None")
+    ## For removal when clicking on the listbox itself?
+    def update_selected_tournaments(self):
+        if self.selected_tournaments:
+            selected_names = list(self.selected_tournaments.values())
+            self.selected_tournaments_label.config(text="Selected Tournaments: " + ", ".join(selected_names))
+        else:
+            self.selected_tournaments_label.config(text="Selected Tournaments: None")
 
     def confirm_tournaments(self):
         if not self.selected_tournaments:
@@ -457,73 +457,79 @@ class TournamentApp:
                 self.tournament_tab = ttk.Frame(self.notebook)
                 self.notebook.add(self.tournament_tab, text=tournament.name)
 
-        pool_format = tournament.pool_format
+                # Create a sub-notebook for Pool-Play and Bracket tabs
+                sub_notebook = ttk.Notebook(self.tournament_tab)
+                sub_notebook.grid(row=0, column=0, sticky="nsew")
 
-        # Get pool names as a list
-        pool_names = list(pool_format.keys())
+                # Create Pool-Play tab
+                pool_play_frame = ttk.Frame(sub_notebook)
+                sub_notebook.add(pool_play_frame, text='Pool-Play')
 
-        # Frame to hold the pools on the left side
-        pools_frame = ttk.Frame(self.tournament_tab)
-        pools_frame.grid(row=0, column=0, sticky="nw", padx=10, pady=10)
+                # Add pool information into the Pool-Play tab
+                pool_format = tournament.pool_format
+                pool_names = list(pool_format.keys())
+                pools_frame = ttk.Frame(pool_play_frame)
+                pools_frame.pack(expand=True, fill='both', padx=10, pady=10)
 
-        # Display pool headers above their respective columns
-        for i, header in enumerate(pool_names):
-            entry = tk.Label(pools_frame, text=header, font=("Arial", 16), width=20, height=2)
-            entry.grid(row=0, column=i * 2, columnspan=2, padx=5, pady=5)  # Span two columns
+                # Display pool headers above their respective columns
+                for i, header in enumerate(pool_names):
+                    entry = tk.Label(pools_frame, text=header, font=("Arial", 16), width=20, height=2)
+                    entry.grid(row=0, column=i * 2, columnspan=2, padx=5, pady=5)
 
-        if not tournament.completed:
-            # Iterate over each pool and display the teams with initial rank
-            for pool_index, pool_name in enumerate(pool_names):
-                row = 1
-                for team in tournament.pool_teams[pool_index]:
-                    # Display team name with initial rank
-                    entry = tk.Label(pools_frame, text=team, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                    entry.grid(row=row, column=pool_index * 2)
-                    entry.bind("<Enter>", lambda event, t=team: self.show_team_info(t, tournament))
-                    entry.bind("<Leave>", lambda event: self.clear_team_display())
+                if not tournament.completed:
+                    for pool_index, pool_name in enumerate(pool_names):
+                        row = 1
+                        for team in tournament.pool_teams[pool_index]:
+                            entry = tk.Label(pools_frame, text=team, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
+                            entry.grid(row=row, column=pool_index * 2)
+                            entry.bind("<Enter>", lambda event, t=team: self.show_team_info(t, tournament))
+                            entry.bind("<Leave>", lambda event: self.clear_team_display())
+                            
+                            record_label = tk.Label(pools_frame, text="0-0", font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
+                            record_label.grid(row=row, column=(pool_index * 2) + 1)
+                            row += 1
+                else:
+                    initial_ranks = {}
+                    for pool_teams in tournament.pool_teams:
+                        for team in pool_teams:
+                            team_name, initial_rank = team.rsplit("(", 1)
+                            initial_ranks[team_name.strip()] = initial_rank.strip(")")
 
-                    # Win-loss record (default as "0-0")
-                    record_label = tk.Label(pools_frame, text="0-0", font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                    record_label.grid(row=row, column=(pool_index * 2) + 1)
+                    for pool_index, pool_results in enumerate(tournament.pool_results):
+                        row = 1
+                        for team_info in pool_results:
+                            team_name = team_info[0].teamName
+                            win_loss = f"{team_info[1]['wins']}-{team_info[1]['losses']}"
+                            initial_rank = initial_ranks.get(team_name, "N/A")
+                            entry_text = f"{team_name} ({initial_rank})"
 
-                    row += 1
-        else:
-            # Create a dictionary mapping team names to their initial rank for easy lookup
-            initial_ranks = {}
-            for pool_teams in tournament.pool_teams:
-                for team in pool_teams:
-                    # Extract team name and initial rank
-                    team_name, initial_rank = team.rsplit("(", 1)
-                    initial_ranks[team_name.strip()] = initial_rank.strip(")")
+                            entry = tk.Label(pools_frame, text=entry_text, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
+                            entry.grid(row=row, column=pool_index * 2)
+                            entry.bind("<Enter>", lambda event, t=team_info[0].teamName: self.show_team_info(t, tournament))
+                            entry.bind("<Leave>", lambda event: self.clear_team_display())
+                            
+                            record_label = tk.Label(pools_frame, text=win_loss, font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
+                            record_label.grid(row=row, column=(pool_index * 2) + 1)
+                            row += 1
 
-            # Display results for completed tournaments, including initial rank
-            for pool_index, pool_results in enumerate(tournament.pool_results):
-                row = 1
-                for team_info in pool_results:
-                    team_name = team_info[0].teamName
-                    win_loss = f"{team_info[1]['wins']}-{team_info[1]['losses']}"
+                if tournament.completed:
+                    # Create Bracket tab
+                    bracket_frame = ttk.Frame(sub_notebook)
+                    sub_notebook.add(bracket_frame, text='Bracket')
 
-                    # Get initial rank for the team
-                    initial_rank = initial_ranks.get(team_name, "N/A")
-                    entry_text = f"{team_name} ({initial_rank})"
+                    # Create a nested notebook inside the bracket_frame
+                    bracket_notebook = ttk.Notebook(bracket_frame)
+                    bracket_notebook.pack(expand=True, fill='both')  # Pack the nested notebook
 
-                    # Display team name with initial rank
-                    entry = tk.Label(pools_frame, text=entry_text, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                    entry.grid(row=row, column=pool_index * 2)
-                    entry.bind("<Enter>", lambda event, t=team_info[0].teamName: self.show_team_info(t, tournament))
-                    entry.bind("<Leave>", lambda event: self.clear_team_display())
+                    # Draw the full bracket into the nested notebook
+                    self.draw_full_bracket(bracket_notebook, tournament)
 
-                    # Win-loss record
-                    record_label = tk.Label(pools_frame, text=win_loss, font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                    record_label.grid(row=row, column=(pool_index * 2) + 1)
-
-                    row += 1
+    # If you need to add more tabs to the nested notebook, you can do that here
 
         # Frame to hold the team information on the right side
         info_frame = ttk.Frame(self.tournament_tab)
         info_frame.grid(row=0, column=1, sticky="ne", padx=10, pady=10)
 
-        # Add the team information label in this separate frame
         self.select_team_information = tk.Label(
             info_frame, text="", anchor="nw", justify="left",
             background="white", relief="solid", width=30, height=20, padx=10, pady=10, fg="red"
@@ -536,6 +542,82 @@ class TournamentApp:
         if not tournament.completed:
             self.simulate_tournament_button = tk.Button(self.tournament_tab, text="Simulate Tournament", command=self.simulate_tournament)
             self.simulate_tournament_button.grid(row=1, column=0, columnspan=2, pady=(20, 10), sticky="s")
+
+    def draw_full_bracket(self, notebook, tournament):
+        teams_advancing = tournament.number_of_qualified_teams
+        if tournament.number_of_qualified_teams == 0:
+            teams_advancing = 1
+        
+        match_data = tournament.bracket.round_letters.get((teams_advancing, tournament.maxTeams), {})
+        rect_width = 150
+        rect_height = 30
+        spacing_y = 20  # Space between matches vertically
+        round_spacing = 200  # Horizontal spacing between rounds
+        match_results = {}
+
+        for key in tournament.bracket.order_of_games_played_bracket[(teams_advancing, tournament.maxTeams)]:
+            match_results[key.upper()] = (tournament.bracket.bracket_dict[key].winner.teamName, tournament.bracket.bracket_dict[key].winnerPoints,
+                                          tournament.bracket.bracket_dict[key].loser.teamName, tournament.bracket.bracket_dict[key].loserPoints)
+
+        for place, rounds in sorted(match_data.items()):
+            # Create a frame for each tab
+            place_frame = ttk.Frame(notebook)
+            if place == -1:
+                place = "Crossover"
+            notebook.add(place_frame, text=f"Place {place} Bracket")
+            
+            # Create a canvas inside each frame for drawing
+            canvas = tk.Canvas(place_frame, width=1000, height=600)
+            canvas.pack(fill="both", expand=True)
+
+            start_x = 50  # Initial X position for drawing rounds
+            previous_round_centers = []
+
+            for round_num, groups in enumerate(rounds, start=1):
+                current_round_centers = []
+
+                for group_index, group in enumerate(groups):
+                    if group in match_results:
+                        winner_name, winner_score, loser_name, loser_score = match_results[group]
+
+                        # Calculate Y position for centering
+                        if not previous_round_centers:
+                            # First round, calculate positions based on index
+                            y_pos = 50 + (rect_height * 2 + spacing_y) * group_index
+                        else:
+                            if 'EFGH' in groups:
+                                y_pos = 50 + (rect_height * 2 + spacing_y) * group_index
+                            else:
+                                # Check if the group_index is within bounds of previous_round_centers
+                                if group_index * 2 < len(previous_round_centers):
+                                    # Get the centers for the current group from the previous round
+                                    prev_centers = previous_round_centers[group_index * 2:group_index * 2 + 2]
+
+                                    if len(prev_centers) == 2:
+                                        # If there are two centers, center between them
+                                        y_pos = (prev_centers[0][1] + prev_centers[1][1]) // 2
+                                    else:
+                                        # If there is only one center, use that Y position
+                                        y_pos = prev_centers[0][1]
+                                else:
+                                    # If the group_index is out of bounds, handle appropriately (e.g., default to last center)
+                                    y_pos = previous_round_centers[-1][1] + (rect_height + spacing_y)
+
+                        # Draw the winner rectangle
+                        canvas.create_rectangle(start_x, y_pos, start_x + rect_width, y_pos + rect_height, fill="blue")
+                        canvas.create_text(start_x + 5, y_pos + rect_height // 2, text=f"{winner_name} {winner_score}", anchor="w", fill="white")
+
+                        # Draw the loser rectangle
+                        canvas.create_rectangle(start_x, y_pos + rect_height, start_x + rect_width, y_pos + 2 * rect_height, fill="red")
+                        canvas.create_text(start_x + 5, y_pos + 1.5 * rect_height, text=f"{loser_name} {loser_score}", anchor="w", fill="white")
+
+                        # Store center positions for next round centering
+                        center_x = start_x + rect_width
+                        center_y = y_pos + rect_height  # Middle of the lower rectangle
+                        current_round_centers.append((center_x, center_y))
+
+                previous_round_centers = current_round_centers
+                start_x += round_spacing  # Move to the next round horizontally
 
     def show_team_info(self, teamName, tournament):
 
@@ -555,7 +637,7 @@ class TournamentApp:
         self.select_team_information = self.select_team_information_label_array[tournament.name]
         self.select_team_information.config(text=info_text)
     
-     ## clear the label box
+    ## clear the label box
     def clear_team_display(self):
         # Clear the info display area
         self.select_team_information.config(text="")
@@ -631,6 +713,8 @@ class TournamentApp:
     
     def simulate_tournament(self):
         print("here1")
+    
+    ## TO DO: added a bracket view (somehow), and labels for pool-play results in tournament tab
 
 # Run the app
 teamGenerator = TeamGenerator()

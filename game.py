@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import random
 import math
-from team import Team
+# from team import Team
 
 class Simulation:
 
@@ -12,7 +12,6 @@ class Simulation:
     actions = ["Pull", "Swing", "Pass", "Dump", "Dish", "Huck", "Stall", "Block", "Dropped pass",
             "Dropped huck", "Throwaway", "Huck throwaway", "Score"]
     
-
     def __init__(self, team1, team2):
         self.yard_distribution = self.createYardDistibution()
         self.action_counts = self.createActionCounts()
@@ -31,7 +30,6 @@ class Simulation:
 
         self.debug = False
 
-    
     def createYardDistibution(self):
         # Dictionary to store yard values for each action
         yard_distribution = defaultdict(list)
@@ -700,6 +698,8 @@ class Simulation:
     def return_winner(self):
         winner = None
         loser = None
+        winnerPoints = 0
+        loserPoints= 0
         if (self.team1.numberOfPoints == 15):
             winner = self.team1
             loser = self.team2
@@ -707,10 +707,13 @@ class Simulation:
             winner = self.team2
             loser = self.team1
         
+        winnerPoints = winner.numberOfPoints
+        loserPoints = loser.numberOfPoints
+        
         self.team1.numberOfPoints = 0
         self.team2.numberOfPoints = 0
         
-        return winner, loser
+        return winner, loser, winnerPoints, loserPoints
 
 
     ## TO DO: MAYBE ADD IN A PROBABILITY TO SEE IF THE ACTION IS COMPLETED BY USING PLAYER STATS?

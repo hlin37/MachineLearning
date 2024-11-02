@@ -1,5 +1,7 @@
 class Bracket:
-
+    
+    ## TO DO: FOR THE 1,16 and 1,20 bracket, I need to do the 9th 10th game
+    ## u.loser vs y.loser for 9/10
     def __init__(self, teams_advancing, numberOfTeams):
         self.bracket_dict = {}
 
@@ -28,6 +30,23 @@ class Bracket:
                                               (6,12) : 'abcdefghijklmnopq',
                                               (1,16): 'abcdefghijklmnopqrstuvwxyz{|}~[',
                                               (1,20) : "abcdefghijklmnopqrstuvwxyz{|}~[]^_`"}
+
+        self.round_letters = {
+            (1, 8) :  {1: ["ABCD", "EF", "G"], 3: ["K"], 5: ["HI", "J"], 7: ["L"]},
+            (2, 8) : {1: ["AB", "C"], 2: ["DE", "FG", "H", "I"], 5: ["J"], 7: ["K"],},
+            (4, 8) : {1: ["A"], 2: ["B", "C"], 4: ["DE", "F", "G"], 7: ["H"]},
+            (6, 8) : {1: ["AB", "CD", "E"], 2: ["F", "G"], 4: ["HI", "J", "K"], 6: ["L", "M"]},
+            (1, 10) : {1: ['ABCD', "EF", "G"], 3: ["K"], 5: ["HI", "J"], 7: ["L"], 9: ["M"]},
+            (2, 10) : {1: ["AB", "C"], 2: ["DE", "FG", "H", "I"], 5: ["J"], 7: ["K"], 9: ["L"]},
+            (4, 10) : {1: ["A"], 2: ["B", "C"], 4: ["DE", "F", "G"], 7: ["H"], 9: ["I"]},
+            (6, 10) : {1: ["AB", "C"], 2: ["D", "E"], 5: ["F"], 6: ["GH", "I", "J"], 9: ["K"]},
+            (1, 12) : {1: ['ABCD', "EF", "G"], 3: ["K"], 5: ["HI", "J"], 7: ["L"], 9: ["MN", "O"], 10: ["P", "Q"]},
+            (2, 12) : {1: ["A"], 2: ["BC", "D", "E"], 5: ["F"], 7: ["GH", "IJ", "K"], 9: ["L"], 11: ["M"]},
+            (4, 12) : {1: ["A"], 2: ["B", "C"], 4: ["DE", "F", "G"], 7: ["H"], 9: ["IJ", "K"], 10:["L", "M"]},
+            (6, 12) : {1: ['AB', "C"], 2: ["D", "E"], 4: ["GH", "I", "F"], 6: ["JK", "LM", "N"], 9: ["O"], 11: ["P"]},
+            (1, 16) : {1: ["ABCD", "EFGH", "IJ", "K"], -1: ["PQ"], 3: ["L"], 5: ["MN", "O"], 7: ["RSVW", "TX", "UY", "Z"], 11:["{"], 13:["|}", "~"], 15: ["["]},
+            (1, 20) : {1: ["ABCD", "EFGH", "IJ", "K"], -1: ["PQ"], 3: ["L"], 5: ["MN", "O"], 7: ["RSVW", "TX", "UY", "Z"], 11:["{"], 13:["|}", "~"], 15: ["["], 17:["]^", "_"], 19: ["`"]}
+        }
         
 
     def create_bracket(self, pool_teams, update_bracket):
@@ -238,10 +257,12 @@ class Bracket:
             if update_bracket:
                 self.bracket_dict['a'].add_team(self.pool_dict[(0,0)], self.pool_dict[(1,1)])
                 self.bracket_dict['b'].add_team(self.pool_dict[(1,0)], self.pool_dict[(0,1)])
-                self.bracket_dict['g'].add_team(self.pool_dict[(0,0)], self.pool_dict[(1,1)])
-                self.bracket_dict['h'].add_team(self.pool_dict[(0,1)], self.pool_dict[(1,0)])
-                self.bracket_dict['j'].add_team(self.pool_dict[(0,2)], self.pool_dict[(1,3)])
-                self.bracket_dict['k'].add_team(self.pool_dict[(0,3)], self.pool_dict[(1,2)])
+
+                self.bracket_dict['g'].add_team(self.pool_dict[(0,2)], self.pool_dict[(1,3)])
+                self.bracket_dict['h'].add_team(self.pool_dict[(0,3)], self.pool_dict[(1,2)])
+
+                self.bracket_dict['j'].add_team(self.pool_dict[(0,4)], self.pool_dict[(1,5)])
+                self.bracket_dict['k'].add_team(self.pool_dict[(0,5)], self.pool_dict[(1,4)])
             else:
                 self.bracket_dict['c'].add_team(self.bracket_dict['a'].winner, self.bracket_dict['b'].winner)
                 self.bracket_dict['d'].add_team(self.bracket_dict['a'].loser, self.bracket_dict['b'].loser)
@@ -253,10 +274,12 @@ class Bracket:
 
                 self.bracket_dict['l'].add_team(self.bracket_dict['j'].winner, self.bracket_dict['g'].loser)
                 self.bracket_dict['m'].add_team(self.bracket_dict['h'].loser, self.bracket_dict['k'].winner)
+
                 self.bracket_dict['n'].add_team(self.bracket_dict['l'].winner, self.bracket_dict['m'].winner)
-                self.bracket_dict['o'].add_team(self.bracket_dict['i'].loser, self.bracket_dict['n'].winner)
+
+                self.bracket_dict['o'].add_team(self.bracket_dict['l'].loser, self.bracket_dict['m'].loser)
+
                 self.bracket_dict['p'].add_team(self.bracket_dict['j'].loser, self.bracket_dict['k'].loser)
-                self.bracket_dict['q'].add_team(self.bracket_dict['l'].loser, self.bracket_dict['m'].loser)
 
         elif (self.teams_advancing == 1 and self.numberOfTeams == 16):
             if update_bracket:
@@ -264,13 +287,13 @@ class Bracket:
                 self.bracket_dict['b'].add_team(self.pool_dict[(1,2)], self.pool_dict[(2,1)]) ##Bent Molly
                 self.bracket_dict['c'].add_team(self.pool_dict[(0,2)], self.pool_dict[(3,1)]) ##Riot, Traffic
                 self.bracket_dict['d'].add_team(self.pool_dict[(0,1)], self.pool_dict[(3,2)]) ##Iris Flipside
-                self.bracket_dict['p'].add_team(self.pool_dict[(1,3)], self.pool_dict[(2,3)])
-                self.bracket_dict['q'].add_team(self.pool_dict[(0,3)], self.pool_dict[(3,3)])
+                self.bracket_dict['p'].add_team(self.pool_dict[(1,3)], self.pool_dict[(2,3)]) ##Parcha Pop
+                self.bracket_dict['q'].add_team(self.pool_dict[(0,3)], self.pool_dict[(3,3)]) ## Nemesis Grit
             else:
                 self.bracket_dict['e'].add_team(self.pool_dict[(0,0)], self.bracket_dict['a'].winner) ##Fury, 6xiers
                 self.bracket_dict['f'].add_team(self.pool_dict[(3,0)], self.bracket_dict['b'].winner) ##Molly Phoenix
                 self.bracket_dict['g'].add_team(self.pool_dict[(2,0)], self.bracket_dict['c'].winner) ##Brute Riot
-                self.bracket_dict['h'].add_team(self.pool_dict[(3,0)], self.bracket_dict['d'].winner) ##Flip Scandal
+                self.bracket_dict['h'].add_team(self.pool_dict[(1,0)], self.bracket_dict['d'].winner) ##Flip Scandal
                 self.bracket_dict['i'].add_team(self.bracket_dict['e'].winner, self.bracket_dict['f'].winner)
                 self.bracket_dict['j'].add_team(self.bracket_dict['g'].winner, self.bracket_dict['h'].winner)
                 self.bracket_dict['k'].add_team(self.bracket_dict['i'].winner, self.bracket_dict['j'].winner)
@@ -291,7 +314,7 @@ class Bracket:
                 self.bracket_dict['u'].add_team(self.bracket_dict['t'].winner, self.bracket_dict['m'].loser) ##Phoenix Bent loser is 9th
 
                 self.bracket_dict['v'].add_team(self.bracket_dict['c'].loser, self.bracket_dict['q'].winner) ##Traffic Grit
-                self.bracket_dict['w'].add_team(self.bracket_dict['a'].loser, self.bracket_dict['p'].winner) ##Pop Schwa
+                self.bracket_dict['w'].add_team(self.bracket_dict['a'].loser, self.bracket_dict['p'].loser) ##Pop Schwa
 
                 self.bracket_dict['x'].add_team(self.bracket_dict['v'].winner, self.bracket_dict['w'].winner) ##Traffic Schwa
 
@@ -318,8 +341,8 @@ class Bracket:
                 self.bracket_dict['d'].add_team(self.pool_dict[(0,1)], self.pool_dict[(3,2)]) ## Brown Mich
                 self.bracket_dict['p'].add_team(self.pool_dict[(1,3)], self.pool_dict[(2,3)])
                 self.bracket_dict['q'].add_team(self.pool_dict[(0,3)], self.pool_dict[(3,3)])
-                self.bracket_dict[']'].addteam(self.pool_dict[(0,4)], self.pool_dict[(3,4)])
-                self.bracket_dict['^'].addteam(self.pool_dict[(1,4)], self.pool_dict[(2,4)])
+                self.bracket_dict[']'].add_team(self.pool_dict[(0,4)], self.pool_dict[(3,4)])
+                self.bracket_dict['^'].add_team(self.pool_dict[(1,4)], self.pool_dict[(2,4)])
             else:
                 self.bracket_dict['e'].add_team(self.pool_dict[(0,0)], self.bracket_dict['a'].winner) ## UNC Oregon
                 self.bracket_dict['f'].add_team(self.pool_dict[(3,0)], self.bracket_dict['b'].winner) ## Cal NC
@@ -346,7 +369,7 @@ class Bracket:
                 self.bracket_dict['u'].add_team(self.bracket_dict['t'].winner, self.bracket_dict['m'].loser) ##Phoenix Bent loser is 9th
 
                 self.bracket_dict['v'].add_team(self.bracket_dict['c'].loser, self.bracket_dict['q'].winner) ##Traffic Grit
-                self.bracket_dict['w'].add_team(self.bracket_dict['a'].loser, self.bracket_dict['p'].winner) ##Pop Schwa
+                self.bracket_dict['w'].add_team(self.bracket_dict['a'].loser, self.bracket_dict['p'].loser) ##Pop Schwa
 
                 self.bracket_dict['x'].add_team(self.bracket_dict['v'].winner, self.bracket_dict['w'].winner) ##Traffic Schwa
 
@@ -434,9 +457,9 @@ class Bracket:
         
         elif (self.teams_advancing == 6 and self.numberOfTeams == 12):
             self.rankings = [self.bracket_dict['c'].winner, self.bracket_dict['e'].winner, self.bracket_dict['e'].loser,
-                             self.bracket_dict['i'].winner, self.bracket_dict['i'].loser, self.bracket_dict['m'].winner, 
-                             self.bracket_dict['m'].loser, self.bracket_dict['l'].loser, self.bracket_dict['o'].winner, 
-                             self.bracket_dict['o'].loser, self.bracket_dict['n'].winner, self.bracket_dict['n'].loser]
+                             self.bracket_dict['f'].winner, self.bracket_dict['f'].loser, self.bracket_dict['n'].winner, 
+                             self.bracket_dict['n'].loser, self.bracket_dict['l'].loser, self.bracket_dict['o'].winner, 
+                             self.bracket_dict['o'].loser, self.bracket_dict['p'].winner, self.bracket_dict['p'].loser]
         
         elif (self.numberOfTeams == 16):
             self.rankings = [self.bracket_dict['k'].winner, self.bracket_dict['k'].loser, self.bracket_dict['l'].winner,
@@ -461,6 +484,8 @@ class BracketNode:
         self.winner = None
         self.loser = None
         self.letter = letter
+        self.winnerPoints = 0
+        self.loserPoints = 0
     
     def add_team(self, team1, team2):
         self.team1 = team1
