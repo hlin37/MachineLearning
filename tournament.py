@@ -81,7 +81,7 @@ class Tournament:
     ## Creates a string for each team with their ranking going into the tournament
     ## Ex: Fury (1)
     def create_base_pools_names_ranks(self):
-        if not self.invite_tournament:
+        if len(self.teams) == self.maxTeams:
             for pool, seeding in self.pool_format.items():
                 pool_teams = []
                 for seed in seeding:
@@ -105,7 +105,7 @@ class Tournament:
     def run_event(self):
         # teams_index = None
         teams_advancing = self.number_of_qualified_teams
-        if (self.maxTeams in [16, 20]):
+        if (self.maxTeams in [16, 20] or teams_advancing == 0):
             teams_advancing = 1
         self.bracket = Bracket(teams_advancing, self.maxTeams)
         self.handle_pool_play()
@@ -159,13 +159,13 @@ class Tournament:
                                 competition.teams.append(competition.waitList.pop())
                                 has_added = True
                                 break
-                    else:
-                        print("Error?")
                 
                 ## If there is no tournament with the same date, add the invite tournament to bid_winner
                 if not has_added:
                     self.invite_tournament_reference.teams.append(self.winners[index])
                     self.winners[index].tournament_list.append(self.invite_tournament_reference)
+            
+            self.invite_tournament_reference.create_base_pools_names_ranks()
 
     def handle_pool_play(self):
         alpha = "A"
@@ -232,15 +232,15 @@ class TournamentGenerator:
 
         tournamentCalendar = []
 
-        # Generate normal events: anyone can attend
-        # for _ in range(self.num_tournaments):
-        #     name = self.generate_unique_name()
-        #     random_date = self.get_random_date()
-        #     min_elo = random.randint(500, 1500)
-        #     max_elo = min_elo + random.randint(500, 800)
-        #     number_of_teams = random.choice([8, 10, 12, 16])
-        #     tournament = Tournament(name, random_date, number_of_teams, 0, min_elo, max_elo, True, False, False, False)
-        #     tournamentCalendar.append(tournament)
+        ## Generate normal events: anyone can attend
+        for _ in range(self.num_tournaments):
+            name = self.generate_unique_name()
+            random_date = self.get_random_date()
+            min_elo = random.randint(500, 1500)
+            max_elo = min_elo + random.randint(500, 800)
+            number_of_teams = random.choice([8, 10, 12, 16])
+            tournament = Tournament(name, random_date, number_of_teams, 0, min_elo, max_elo, True, False, False, False)
+            tournamentCalendar.append(tournament)
 
         # Generate open tournaments to qualify for invite-only events
         open_tournaments = []
@@ -265,19 +265,19 @@ class TournamentGenerator:
             tournamentCalendar.append(invite_only_tournament)
         
         # Generate national tournaments, where the highest teams join.
-        # for i in range(self.national_tournaments):
-        #     name = open_tournaments[i].name.removesuffix(" Open") + " Challenge"
-        #     random_date = self.add_random_weeks(open_tournaments[i].start_date)
-        #     min_elo = 0
-        #     max_elo = 0
-        #     national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True)
-        #     tournamentCalendar.append(national_only_tournament)
+        for i in range(self.national_tournaments):
+            name = open_tournaments[i].name.removesuffix(" Open") + " Challenge"
+            random_date = self.add_random_weeks(open_tournaments[i].start_date)
+            min_elo = 0
+            max_elo = 0
+            national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True)
+            tournamentCalendar.append(national_only_tournament)
 
         return tournamentCalendar
 
     def get_random_date(self):
         start_date = date.today().replace(day=1, month=1).toordinal()
-        end_date = date.today().replace(day=30, month=1).toordinal()
+        end_date = date.today().replace(day=30, month=12).toordinal()
         random_day = date.fromordinal(random.randint(start_date, end_date))
 
         return random_day

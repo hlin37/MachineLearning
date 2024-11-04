@@ -92,19 +92,6 @@ class TournamentDirector:
         else:
             return False
     
-    # def load_pool_formats(self):
-    #     f = open("tournament_structure.json")
-    #     self.entire_pool_formats = json.load(f)
-    #     f.close()
-    
-    # def determine_pool_format(self, number_of_teams):
-    #     pool_formats_for_teams = self.entire_pool_formats[str(number_of_teams)]
-    #     choice = random.choice([0, len(pool_formats_for_teams) - 1])
-
-    #     format_choice = list(pool_formats_for_teams.keys())[choice]
-
-    #     return pool_formats_for_teams[format_choice]
-    
             
 # Testing purposes
 # teamGenerator = TeamGenerator()

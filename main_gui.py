@@ -323,8 +323,7 @@ class TournamentApp:
             self.selected_tournaments_label.config(text="Selected Tournaments: None")
 
     def confirm_tournaments(self):
-        if False:
-        # if not self.selected_tournaments:
+        if not self.selected_tournaments:
             messagebox.showwarning("No Selection", "You must select at least one tournament.")
         else:
             # tournament_list = ', '.join(self.selected_tournaments.names)
@@ -344,7 +343,6 @@ class TournamentApp:
                 tournament.teams = sorted(tournament.teams, key=lambda x: x.elo, reverse=True)
 
                 tournament.create_base_pools_names_ranks()
-
         
             ## For some reason, self.teams does not contain the user-selected team
             self.teams.append(self.selected_team)
@@ -452,132 +450,186 @@ class TournamentApp:
             button.update_idletasks() 
     
     def display_tournament_info(self, tournament):
-        if len(tournament.teams) == tournament.maxTeams:
-            # Avoid adding the same tab twice
-            if tournament.name not in [self.notebook.tab(i, 'text') for i in self.notebook.tabs()]:
-                self.tournament_tab = ttk.Frame(self.notebook)
-                self.notebook.add(self.tournament_tab, text=tournament.name)
+        # Check if the tournament has reached its maximum number of teams
+        if len(tournament.teams) != tournament.maxTeams:
+            return
+        
+        self.create_team_pool_object_for_tournament(tournament)
+        
+        # Add the main tournament tab if it doesn't already exist
+        if tournament.name not in [self.notebook.tab(i, 'text') for i in self.notebook.tabs()]:
+            self.create_main_tournament_tab(tournament)
+            self.add_team_info_frame(tournament)
 
-                # Create a sub-notebook for Pool-Play and Bracket tabs
-                self.sub_notebook = ttk.Notebook(self.tournament_tab)
-                self.sub_notebook.grid(row=0, column=0, sticky="nsew")
+        else:
+            # If the tab exists, select it and pause date simulation
+            for tab_id in self.notebook.tabs():
+                if self.notebook.tab(tab_id, option="text") == tournament.name:
+                    self.notebook.select(tab_id)
+                    self.toggle_pause()
+                    break
 
-                # Create Pool-Play tab
-                pool_play_frame = ttk.Frame(self.sub_notebook)
-                self.sub_notebook.add(pool_play_frame, text='Pool-Play')
+        # Display pool information or results
+        self.display_pool_play(tournament)
 
-                # Add pool information into the Pool-Play tab
-                pool_format = tournament.pool_format
-                pool_names = list(pool_format.keys())
-                self.pools_frame = ttk.Frame(pool_play_frame)
-                self.pools_frame.pack(expand=True, fill='both', padx=10, pady=10)
+        if tournament.completed:
+            # Add bracket tab and display the bracket
+            self.display_bracket_tab(tournament)
 
-                # Display pool headers above their respective columns
-                for i, header in enumerate(pool_names):
-                    entry = tk.Label(self.pools_frame, text=header, font=("Arial", 16), width=20, height=2)
-                    entry.grid(row=0, column=i * 2, columnspan=2, padx=5, pady=5)
-            else:
-                if self.notebook.tab(self.notebook.select(), "text") != tournament.name:
-                    for tab_id in self.notebook.tabs():
-                        if self.notebook.tab(tab_id, option="text") == tournament.name:
-                            self.notebook.select(tab_id)
-                            self.toggle_pause()
-                            return
+        # Add a button to simulate the tournament if it is not completed
+        ## Use this to test the first if to test how tournament goes
+        # if not tournament.completed:
+        if tournament.start_date == self.current_date_in_simulation:
+            # Add team information display frame on the right side
+            self.add_simulate_button(tournament)
 
-            if not tournament.completed:
-                for pool_index, pool_name in enumerate(pool_names):
-                    row = 1
-                    for team in tournament.pool_teams[pool_index]:
-                        entry = tk.Label(self.pools_frame, text=team, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                        entry.grid(row=row, column=pool_index * 2)
-                        entry.bind("<Enter>", lambda event, t=team: self.show_team_info(t, tournament))
-                        entry.bind("<Leave>", lambda event: self.clear_team_display())
-                        
-                        record_label = tk.Label(self.pools_frame, text="0-0", font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                        record_label.grid(row=row, column=(pool_index * 2) + 1)
-                        row += 1
-            else:
-                initial_ranks = {}
-                for pool_teams in tournament.pool_teams:
-                    for team in pool_teams:
-                        team_name, initial_rank = team.rsplit("(", 1)
-                        initial_ranks[team_name.strip()] = initial_rank.strip(")")
 
-                for pool_index, pool_results in enumerate(tournament.pool_results):
-                    row = 1
-                    for team_info in pool_results:
-                        team_name = team_info[0].teamName
-                        win_loss = f"{team_info[1]['wins']}-{team_info[1]['losses']}"
-                        initial_rank = initial_ranks.get(team_name, "N/A")
-                        entry_text = f"{team_name} ({initial_rank})"
+    def create_main_tournament_tab(self, tournament):
+        """Creates the main tournament tab and sub-notebook."""
+        self.tournament_tab = ttk.Frame(self.notebook)
+        self.notebook.add(self.tournament_tab, text=tournament.name)
 
-                        entry = tk.Label(self.pools_frame, text=entry_text, font=("Arial", 16), width=20, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                        entry.grid(row=row, column=pool_index * 2)
-                        entry.bind("<Enter>", lambda event, t=team_info[0].teamName: self.show_team_info(t, tournament))
-                        entry.bind("<Leave>", lambda event: self.clear_team_display())
-                        
-                        record_label = tk.Label(self.pools_frame, text=win_loss, font=("Arial", 16), width=5, height=2, padx=5, pady=5, borderwidth=1, relief="solid")
-                        record_label.grid(row=row, column=(pool_index * 2) + 1)
-                        row += 1
+        self.sub_notebook = ttk.Notebook(self.tournament_tab)
+        self.sub_notebook.grid(row=0, column=0, sticky="nsew")
+
+    def display_pool_play(self, tournament):
+        """Displays or updates the pool play information."""
+        # Check if the "Pool-Play" tab already exists
+        for tab_id in self.sub_notebook.tabs():
+            if self.sub_notebook.tab(tab_id, option="text") == 'Pool-Play':
+                pool_play_frame = self.sub_notebook.nametowidget(tab_id)
+                for widget in pool_play_frame.winfo_children():
+                    widget.destroy()  # Clear existing widgets to refresh content
+                break
+        else:
+            # Create the "Pool-Play" tab if it does not exist
+            pool_play_frame = ttk.Frame(self.sub_notebook)
+            self.sub_notebook.add(pool_play_frame, text='Pool-Play')
+
+        self.pools_frame = ttk.Frame(pool_play_frame)
+        self.pools_frame.grid(row=0, column=0, sticky="nsew", padx=10, pady=10)
+
+        pool_names = list(tournament.pool_format.keys())
+
+        # Display headers for each pool
+        for i, pool_name in enumerate(pool_names):
+            header_label = tk.Label(self.pools_frame, text=pool_name, font=("Arial", 16), width=20, height=2)
+            header_label.grid(row=0, column=i * 2, columnspan=2, padx=5, pady=5)
+
+        # Populate teams and records based on tournament status
+        if not tournament.completed:
+            self.populate_pool_teams(tournament, pool_names)
+        else:
+            self.populate_completed_pool_results(tournament, pool_names)
+
+        # Create the results frame underneath the standings
+        results_frame = ttk.Frame(pool_play_frame)
+        results_frame.grid(row=1, column=0, columnspan=len(pool_names) * 2, sticky="nsew", padx=10, pady=10)
+
+        # Display game results with headers
+        self.display_pool_game_results(results_frame, tournament)
+
+    def display_pool_game_results(self, parent_frame, tournament):
+        """Displays game results for each pool with a centered header."""
+        pool_names = list(tournament.pool_format.keys())
+
+        # Create headers and pool frames for results
+        for i, pool_name in enumerate(pool_names):
+            # Create a centered header for each pool
+            header_label = tk.Label(
+                parent_frame,
+                text=f"Results for {pool_name}",
+                font=("Arial", 18, "bold"),
+                anchor="center"
+            )
+            header_label.grid(row=0, column=i, padx=10, pady=(10, 5), sticky="nsew")
+
+            # Create a frame to display the game results for this pool
+            pool_frame = tk.Frame(parent_frame, borderwidth=1, relief="solid")
+            pool_frame.grid(row=1, column=i, padx=5, pady=5, sticky="nsew")
 
             if tournament.completed:
-                # Create Bracket tab
-                bracket_frame = ttk.Frame(self.sub_notebook)
-                self.sub_notebook.add(bracket_frame, text='Bracket')
+                # Display completed game results
+                pool_results = tournament.pool_score_results.get(pool_name, [])
+                for game_index, game in enumerate(pool_results):
+                    game_label = tk.Label(pool_frame, text=game, font=("Arial", 12), anchor="w")
+                    game_label.grid(row=game_index, column=0, sticky="w", padx=5, pady=2)
+            else:
+                # Display "0-0" results when the tournament is ongoing
+                team_combinations = list(combinations(tournament.tournament_pool_objects[i], 2))
+                for game_index, match in enumerate(team_combinations):
+                    game_text = f"{match[0].teamName} vs {match[1].teamName} : 0-0"
+                    game_label = tk.Label(pool_frame, text=game_text, font=("Arial", 12), anchor="w")
+                    game_label.grid(row=game_index, column=0, sticky="w", padx=5, pady=2)
 
-                # Create a nested notebook inside the bracket_frame
-                bracket_notebook = ttk.Notebook(bracket_frame)
-                bracket_notebook.pack(expand=True, fill='both')  # Pack the nested notebook
+    def populate_pool_teams(self, tournament, pool_names):
+        """Populates pool teams for an ongoing tournament."""
+        for pool_index, pool_name in enumerate(pool_names):
+            for row, team in enumerate(tournament.pool_teams[pool_index], start=1):
+                team_label = tk.Label(self.pools_frame, text=team, font=("Arial", 16), width=20, height=2, borderwidth=1, relief="solid")
+                team_label.grid(row=row, column=pool_index * 2)
+                team_label.bind("<Enter>", lambda event, t=team: self.show_team_info(t, tournament))
+                team_label.bind("<Leave>", lambda event: self.clear_team_display())
 
-                # Draw the full bracket into the nested notebook
-                self.draw_full_bracket(bracket_notebook, tournament)
+                record_label = tk.Label(self.pools_frame, text="0-0", font=("Arial", 16), width=5, height=2, borderwidth=1, relief="solid")
+                record_label.grid(row=row, column=(pool_index * 2) + 1)
+        
 
-            # Frame to hold the team information on the right side
-            info_frame = ttk.Frame(self.tournament_tab)
-            info_frame.grid(row=0, column=1, sticky="ne", padx=10, pady=10)
+    def populate_completed_pool_results(self, tournament, pool_names):
+        """Populates pool results for a completed tournament."""
+        initial_ranks = {team.rsplit("(", 1)[0].strip(): team.rsplit("(", 1)[1].strip(")") for pool in tournament.pool_teams for team in pool}
 
-            self.select_team_information = tk.Label(
-                info_frame, text="", anchor="nw", justify="left",
-                background="white", relief="solid", width=30, height=20, padx=10, pady=10, fg="red"
-            )
-            self.select_team_information.grid(row=0, column=0)
-            
-            if tournament not in self.select_team_information_label_array:
-                self.select_team_information_label_array[tournament.name] = self.select_team_information
+        for pool_index, pool_results in enumerate(tournament.pool_results):
+            for row, team_info in enumerate(pool_results, start=1):
+                team_name = team_info[0].teamName
+                win_loss = f"{team_info[1]['wins']}-{team_info[1]['losses']}"
+                initial_rank = initial_ranks.get(team_name, "N/A")
+                entry_text = f"{team_name} ({initial_rank})"
 
-            if not tournament.completed:
-                self.simulate_tournament_button = Button(self.tournament_tab, text="Simulate Tournament",command=lambda t=tournament: self.simulate_tournament(t))
-                # self.simulate_tournament_button = tk.Button(self.tournament_tab, text="Simulate Tournament", command=self.simulate_tournament)
-                self.simulate_tournament_button.grid(row=1, column=0, columnspan=2, pady=(20, 10), sticky="s")
-            
-            pool_result_frame = ttk.Frame(self.tournament_tab)
-            pool_result_frame.grid(row=1, column=0, sticky="ne", padx=10, pady=10)
-                
-            for index, pool in enumerate(tournament.pool_format.keys()):
-                # Create and place the pool header
-                header_label = tk.Label(root, text=pool, font=("Arial", 14, "bold"), anchor="center")
-                header_label.grid(row=0, column=index, padx=10, pady=5, sticky="nsew")
-                
-                # Create a frame for each pool's results
-                pool_frame = tk.Frame(root, borderwidth=1, relief="solid")
-                pool_frame.grid(row=1, column=index, padx=10, pady=5, sticky="nsew")
-                
-                if tournament.completed:
-                    # Add game result labels to each pool frame
-                    for game in tournament.pool_score_results.get(pool, []):
-                        game_label = tk.Label(pool_frame, text=game, anchor="w")
-                        game_label.pack(anchor="w", padx=5, pady=2)
-                else:
-                    for pool in tournament.tournament_pool_objects:
-                        team_combinations = list(combinations(pool, 2))
-                        for match in team_combinations:
-                            game_text = match[0].name + " | " + match[1].name + " : " + "0 - 0"
-                            game_label = tk.Label(pool_frame, text=game_text, anchor="w")
-                            game_label.pack(anchor="w", padx=5, pady=2)
+                team_label = tk.Label(self.pools_frame, text=entry_text, font=("Arial", 16), width=20, height=2, borderwidth=1, relief="solid")
+                team_label.grid(row=row, column=pool_index * 2)
+                team_label.bind("<Enter>", lambda event, t=team_name: self.show_team_info(t, tournament))
+                team_label.bind("<Leave>", lambda event: self.clear_team_display())
+
+                record_label = tk.Label(self.pools_frame, text=win_loss, font=("Arial", 16), width=5, height=2, borderwidth=1, relief="solid")
+                record_label.grid(row=row, column=(pool_index * 2) + 1)
+
+
+    def display_bracket_tab(self, tournament):
+        """Creates and displays the bracket tab."""
+        bracket_frame = ttk.Frame(self.sub_notebook)
+        self.sub_notebook.add(bracket_frame, text='Bracket')
+
+        bracket_notebook = ttk.Notebook(bracket_frame)
+        bracket_notebook.pack(expand=True, fill='both')
+
+        self.draw_full_bracket(bracket_notebook, tournament)
+
+
+    def add_team_info_frame(self, tournament):
+        """Adds a frame for displaying selected team information."""
+        info_frame = ttk.Frame(self.tournament_tab)
+        info_frame.grid(row=0, column=1, sticky="ne", padx=10, pady=10)
+
+        self.select_team_information = tk.Label(
+            info_frame, text="", anchor="nw", justify="left",
+            background="white", relief="solid", width=30, height=20, padx=10, pady=10, fg="red"
+        )
+        self.select_team_information.grid(row=0, column=0)
+
+        if tournament.name not in self.select_team_information_label_array:
+            self.select_team_information_label_array[tournament.name] = self.select_team_information
+
+
+    def add_simulate_button(self, tournament):
+        """Adds a button to simulate the tournament."""
+        self.simulate_tournament_button = tk.Button(self.tournament_tab, text="Simulate Tournament",
+                                                    command=lambda t=tournament: self.simulate_tournament(t))
+        self.simulate_tournament_button.grid(row=1, column=0, columnspan=2, pady=(20, 10), sticky="s")
 
     def draw_full_bracket(self, notebook, tournament):
         teams_advancing = tournament.number_of_qualified_teams
-        if tournament.maxTeams in [16, 20]:
+        if tournament.maxTeams in [16, 20] or teams_advancing == 0:
             teams_advancing = 1
         
         match_data = tournament.bracket.round_letters.get((teams_advancing, tournament.maxTeams), {})
@@ -748,14 +800,14 @@ class TournamentApp:
         self.create_team_pool_object_for_tournament(tournament)
         tournament.run_event()
         self.display_tournament_info(tournament)
+        self.simulate_tournament_button.destroy()
     
-    ## TO DO: labels for pool-play results in tournament tab, 
-    # make sure that the teams if they win the invite tournament, that they aren't going to another event on the same day.
+    ## TO DO:
     # test game.py for possible quickness, to allow. also test how fast it runs 30 games on average.
 
 # Run the app
 teamGenerator = TeamGenerator()
-tournamentGenerator = TournamentGenerator("2024", 100, 1, 10)
+tournamentGenerator = TournamentGenerator("2024", 100, 20, 10)
 tournamentDirector = TournamentDirector(teamGenerator, tournamentGenerator)
 root = tk.Tk()
 app = TournamentApp(root, teamGenerator, tournamentGenerator, tournamentDirector)
