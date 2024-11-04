@@ -62,6 +62,8 @@ class Tournament:
 
         self.bracket = None
 
+        self.pool_score_results = {}
+
     def add_team(self, team):
         # if self.main_tournament:
         #     if team.qualified_for_tournament(self.qualifier_tournament):
@@ -103,7 +105,7 @@ class Tournament:
     def run_event(self):
         # teams_index = None
         teams_advancing = self.number_of_qualified_teams
-        if (teams_advancing == 0):
+        if (self.maxTeams in [16, 20]):
             teams_advancing = 1
         self.bracket = Bracket(teams_advancing, self.maxTeams)
         self.handle_pool_play()
@@ -132,11 +134,44 @@ class Tournament:
 
         if self.open_tournament:
             number_of_invites = self.invite_tournament_reference.number_of_qualified_teams
-            self.invite_tournament_reference.teams.append(self.winners[0:number_of_invites-1])
-    
+
+            ## Check if the invite tournament is on the same date as any lower priority tournament
+            for index in range(0, number_of_invites):
+                ## Loop through each tournament bid-winners and their tournaments:
+                tournament_list = self.winners[index].tournament_list
+                has_added = False
+                for competition in tournament_list:
+                    ## If the competition is not the open tournament or the invite tournament
+                    if competition != self and competition != self.invite_tournament_reference:
+                        ## If a future competition is equal to this invite_tournament's start date
+                        if self.invite_tournament_reference.start_date == competition.start_date:
+                            ## If the invite tournament has more priority than the competition, then the team wants to go to the invite
+                            if self.invite_tournament_reference.priority > competition.priority:
+                                ## Therefore, add to invite tournament list of teams the team that won.
+                                self.invite_tournament_reference.teams.append(self.winners[index])
+                                ## And remove from the team that won, that tournament on the same date.
+                                self.winners[index].tournament_list.remove(competition)
+
+                                self.winners[index].tournament_list.append(self.invite_tournament_reference)
+
+                                ## Fill that spot with another team:
+                                competition.teams.remove(self.winners[index])
+                                competition.teams.append(competition.waitList.pop())
+                                has_added = True
+                                break
+                    else:
+                        print("Error?")
+                
+                ## If there is no tournament with the same date, add the invite tournament to bid_winner
+                if not has_added:
+                    self.invite_tournament_reference.teams.append(self.winners[index])
+                    self.winners[index].tournament_list.append(self.invite_tournament_reference)
 
     def handle_pool_play(self):
+        alpha = "A"
         for pool in self.tournament_pool_objects:
+            pool_alphabet = "Pool " + alpha
+            self.pool_score_results[pool_alphabet] = []
             win_loss_record = {team: {"wins": 0, "losses": 0} for team in pool}
 
             team_combinations = list(combinations(pool, 2))
@@ -145,8 +180,12 @@ class Tournament:
                 game.main()
                 winner, loser, winnerPoints, loserPoints = game.return_winner()
 
+                self.pool_score_results[pool_alphabet].append(winner.teamName + " | " + loser.teamName + " : " + str(winnerPoints) + "-" + str(loserPoints))
+
                 win_loss_record[winner]["wins"] += 1
                 win_loss_record[loser]["losses"] += 1
+            
+            alpha = chr(ord(alpha) + 1) 
             
             sorted_teams = sorted(win_loss_record.items(), key=lambda x: (-x[1]["wins"], x[1]["losses"]))
 
@@ -194,14 +233,14 @@ class TournamentGenerator:
         tournamentCalendar = []
 
         # Generate normal events: anyone can attend
-        for _ in range(self.num_tournaments):
-            name = self.generate_unique_name()
-            random_date = self.get_random_date()
-            min_elo = random.randint(500, 1500)
-            max_elo = min_elo + random.randint(500, 800)
-            number_of_teams = random.choice([8, 10, 12, 16])
-            tournament = Tournament(name, random_date, number_of_teams, 0, min_elo, max_elo, True, False, False, False)
-            tournamentCalendar.append(tournament)
+        # for _ in range(self.num_tournaments):
+        #     name = self.generate_unique_name()
+        #     random_date = self.get_random_date()
+        #     min_elo = random.randint(500, 1500)
+        #     max_elo = min_elo + random.randint(500, 800)
+        #     number_of_teams = random.choice([8, 10, 12, 16])
+        #     tournament = Tournament(name, random_date, number_of_teams, 0, min_elo, max_elo, True, False, False, False)
+        #     tournamentCalendar.append(tournament)
 
         # Generate open tournaments to qualify for invite-only events
         open_tournaments = []
@@ -226,19 +265,19 @@ class TournamentGenerator:
             tournamentCalendar.append(invite_only_tournament)
         
         # Generate national tournaments, where the highest teams join.
-        for i in range(self.national_tournaments):
-            name = open_tournaments[i].name.removesuffix(" Open") + " Challenge"
-            random_date = self.add_random_weeks(open_tournaments[i].start_date)
-            min_elo = 0
-            max_elo = 0
-            national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True)
-            tournamentCalendar.append(national_only_tournament)
+        # for i in range(self.national_tournaments):
+        #     name = open_tournaments[i].name.removesuffix(" Open") + " Challenge"
+        #     random_date = self.add_random_weeks(open_tournaments[i].start_date)
+        #     min_elo = 0
+        #     max_elo = 0
+        #     national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True)
+        #     tournamentCalendar.append(national_only_tournament)
 
         return tournamentCalendar
 
     def get_random_date(self):
         start_date = date.today().replace(day=1, month=1).toordinal()
-        end_date = date.today().replace(day=30, month=12).toordinal()
+        end_date = date.today().replace(day=30, month=1).toordinal()
         random_day = date.fromordinal(random.randint(start_date, end_date))
 
         return random_day

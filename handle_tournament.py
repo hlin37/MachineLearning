@@ -43,9 +43,6 @@ class TournamentDirector:
                 allowed_teams = self.team_sorted_by_elo[eligble_index[1]:eligble_index[0]]
 
                 tournament.number_of_qualified_teams = number_of_qualified_teams
-
-                # for i in range(number_of_qualified_teams):
-                #     tournament.add_team(None)
                 
                 for team in allowed_teams:
                     choice = random.choice([0,1])

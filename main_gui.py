@@ -323,7 +323,8 @@ class TournamentApp:
             self.selected_tournaments_label.config(text="Selected Tournaments: None")
 
     def confirm_tournaments(self):
-        if not self.selected_tournaments:
+        if False:
+        # if not self.selected_tournaments:
             messagebox.showwarning("No Selection", "You must select at least one tournament.")
         else:
             # tournament_list = ', '.join(self.selected_tournaments.names)
@@ -335,10 +336,10 @@ class TournamentApp:
             
             ## For the tournaments that still have a spot, add the first team on the waitlist
             for tournament in self.tournaments:
-                if not tournament.invite_tournament:
-                    if len(tournament.teams) < tournament.maxTeams:
-                        tournament.add_team(tournament.waitList.pop())
-                
+                # if not tournament.invite_tournament:
+                if len(tournament.teams) < tournament.maxTeams:
+                    tournament.add_team(tournament.waitList.pop())
+            
                 # Sort tournament teams by Elo in descending order
                 tournament.teams = sorted(tournament.teams, key=lambda x: x.elo, reverse=True)
 
@@ -540,7 +541,7 @@ class TournamentApp:
                 background="white", relief="solid", width=30, height=20, padx=10, pady=10, fg="red"
             )
             self.select_team_information.grid(row=0, column=0)
-
+            
             if tournament not in self.select_team_information_label_array:
                 self.select_team_information_label_array[tournament.name] = self.select_team_information
 
@@ -548,10 +549,35 @@ class TournamentApp:
                 self.simulate_tournament_button = Button(self.tournament_tab, text="Simulate Tournament",command=lambda t=tournament: self.simulate_tournament(t))
                 # self.simulate_tournament_button = tk.Button(self.tournament_tab, text="Simulate Tournament", command=self.simulate_tournament)
                 self.simulate_tournament_button.grid(row=1, column=0, columnspan=2, pady=(20, 10), sticky="s")
+            
+            pool_result_frame = ttk.Frame(self.tournament_tab)
+            pool_result_frame.grid(row=1, column=0, sticky="ne", padx=10, pady=10)
+                
+            for index, pool in enumerate(tournament.pool_format.keys()):
+                # Create and place the pool header
+                header_label = tk.Label(root, text=pool, font=("Arial", 14, "bold"), anchor="center")
+                header_label.grid(row=0, column=index, padx=10, pady=5, sticky="nsew")
+                
+                # Create a frame for each pool's results
+                pool_frame = tk.Frame(root, borderwidth=1, relief="solid")
+                pool_frame.grid(row=1, column=index, padx=10, pady=5, sticky="nsew")
+                
+                if tournament.completed:
+                    # Add game result labels to each pool frame
+                    for game in tournament.pool_score_results.get(pool, []):
+                        game_label = tk.Label(pool_frame, text=game, anchor="w")
+                        game_label.pack(anchor="w", padx=5, pady=2)
+                else:
+                    for pool in tournament.tournament_pool_objects:
+                        team_combinations = list(combinations(pool, 2))
+                        for match in team_combinations:
+                            game_text = match[0].name + " | " + match[1].name + " : " + "0 - 0"
+                            game_label = tk.Label(pool_frame, text=game_text, anchor="w")
+                            game_label.pack(anchor="w", padx=5, pady=2)
 
     def draw_full_bracket(self, notebook, tournament):
         teams_advancing = tournament.number_of_qualified_teams
-        if tournament.number_of_qualified_teams == 0:
+        if tournament.maxTeams in [16, 20]:
             teams_advancing = 1
         
         match_data = tournament.bracket.round_letters.get((teams_advancing, tournament.maxTeams), {})
@@ -725,10 +751,11 @@ class TournamentApp:
     
     ## TO DO: labels for pool-play results in tournament tab, 
     # make sure that the teams if they win the invite tournament, that they aren't going to another event on the same day.
+    # test game.py for possible quickness, to allow. also test how fast it runs 30 games on average.
 
 # Run the app
 teamGenerator = TeamGenerator()
-tournamentGenerator = TournamentGenerator("2024", 100, 20, 10)
+tournamentGenerator = TournamentGenerator("2024", 100, 1, 10)
 tournamentDirector = TournamentDirector(teamGenerator, tournamentGenerator)
 root = tk.Tk()
 app = TournamentApp(root, teamGenerator, tournamentGenerator, tournamentDirector)
