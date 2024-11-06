@@ -27,6 +27,8 @@ class Team:
 
         self.wins = 0
         self.loss = 0
+
+        self.rating = 1000
     
     def returnBoxScore(self):
         for i in range(7):
@@ -42,6 +44,13 @@ class Team:
                         self.tournament_list.append(tournament)
         else:
             self.tournament_list.append(tournament)
+    
+    def adjust_rating(self, score_difference):
+        k = 40
+        maximum_score_difference = 15
+        score_adjustment = k * (score_difference / maximum_score_difference)
+        
+        self.rating += score_adjustment
             
     
     # def createTeam(self, start):

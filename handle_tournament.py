@@ -37,10 +37,19 @@ class TournamentDirector:
                         else:
                             tournament.add_team(team)
                             team.add_to_tournament_list(tournament, tournament_dict)
+                    else:
+                        tournament.add_to_invited_teams(team)
+
             elif tournament.invite_tournament:
                 number_of_qualified_teams = random.choice([2,4,6])
                 eligble_index = self.find_indices(self.team_sorted_by_elo, tournament.min_elo, tournament.max_elo)
                 allowed_teams = self.team_sorted_by_elo[eligble_index[1]:eligble_index[0]]
+
+                counter = 1
+                while (len(allowed_teams) < 50):
+                    eligble_index = self.find_indices(self.team_sorted_by_elo, tournament.min_elo - (counter * 50), tournament.max_elo + (counter * 50))
+                    allowed_teams = self.team_sorted_by_elo[eligble_index[1]:eligble_index[0]]
+                    counter += 1
 
                 tournament.number_of_qualified_teams = number_of_qualified_teams
                 
@@ -52,12 +61,19 @@ class TournamentDirector:
                         else:
                             tournament.add_team(team)
                             team.add_to_tournament_list(tournament, tournament_dict)
-                
-                
+                    else:
+                        tournament.add_to_invited_teams(team)
+
             else:
                 eligble_index = self.find_indices(self.team_sorted_by_elo, tournament.min_elo, tournament.max_elo)
                 allowed_teams = self.team_sorted_by_elo[eligble_index[1]:eligble_index[0]]
 
+                counter = 1
+                while (len(allowed_teams) < 50):
+                    eligble_index = self.find_indices(self.team_sorted_by_elo, tournament.min_elo - (counter * 50), tournament.max_elo + (counter * 50))
+                    allowed_teams = self.team_sorted_by_elo[eligble_index[1]:eligble_index[0]]
+                    counter += 1
+                
                 for team in allowed_teams:
                     choice = random.choice([0,1])
                     if choice == 1:
@@ -66,6 +82,8 @@ class TournamentDirector:
                         else:
                             tournament.add_team(team)
                             team.add_to_tournament_list(tournament, tournament_dict)
+                    else:
+                        tournament.add_to_invited_teams(team)
                     
     
     def find_indices(self, arr, min_val, max_val):

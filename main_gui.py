@@ -8,6 +8,7 @@ import calendar
 import math
 from tkmacosx import Button
 
+
 class TournamentApp:
     def __init__(self, root, teamGenerator, tournamentGenerator, tournamentDirector):
         self.root = root
@@ -30,6 +31,16 @@ class TournamentApp:
         self.current_month = 1  # Start with January
         self.current_year = 2024  # Start with the year 2024
 
+        self.choose_team(root)
+
+        self.select_team_information_label_array = {}
+
+        self.current_date_in_simulation = datetime.date(self.current_year, 1, 1)
+
+        self.paused = False
+    
+    def choose_team(self, root):
+
         ttk.Label(root, text="Choose Your Team", font=("Arial", 16)).grid(row=0, column=0, columnspan=2, pady=10)
 
         self.team_var = tk.StringVar()
@@ -40,12 +51,6 @@ class TournamentApp:
 
         self.confirm_team_button = tk.Button(root, text="Confirm Team", command=self.confirm_team)
         self.confirm_team_button.grid(row=1, column=1, padx=10, pady=10)
-
-        self.select_team_information_label_array = {}
-
-        self.current_date_in_simulation = datetime.date(self.current_year, 1, 1)
-
-        self.paused = False
     
     def confirm_team(self):
         selected_team_name = self.team_var.get()
@@ -203,7 +208,17 @@ class TournamentApp:
 
         if allowed_to_participate:
             button.config(bg="SkyBlue1")
-            button.update_idletasks() 
+            button.update_idletasks()
+        else:
+            if tournament.open_tournament:
+                button.config(bg="MistyRose2")
+                button.update_idletasks()
+            elif tournament.invite_tournament:
+                button.config(bg="DarkGoldenrod1")
+                button.update_idletasks()
+            elif tournament.national_tournament:
+                button.config(bg="VioletRed1")
+                button.update_idletasks()
     
     ## function to display the tournamnt information like the number of teams going etc.
     def show_tournament_info(self, tournament):
@@ -332,12 +347,15 @@ class TournamentApp:
             ## Add user-selected team to the tournaments selected.
             for tournament in self.selected_tournaments:
                 tournament.add_team(self.selected_team)
-            
+
             ## For the tournaments that still have a spot, add the first team on the waitlist
             for tournament in self.tournaments:
                 # if not tournament.invite_tournament:
-                if len(tournament.teams) < tournament.maxTeams:
-                    tournament.add_team(tournament.waitList.pop())
+                while len(tournament.teams) < tournament.maxTeams - tournament.number_of_qualified_teams:
+                    if len(tournament.waitList) != 0:
+                        tournament.add_team(tournament.waitList.pop())
+                    else:
+                        tournament.add_team(tournament.invited_teams.pop())
             
                 # Sort tournament teams by Elo in descending order
                 tournament.teams = sorted(tournament.teams, key=lambda x: x.elo, reverse=True)

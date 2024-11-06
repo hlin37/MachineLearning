@@ -41,6 +41,8 @@ class Tournament:
         ## Waitlist of teams
         self.waitList = []
 
+        self.invited_teams = []
+
         ## Once tournament is over, store the winners
         self.winners = []
 
@@ -65,17 +67,6 @@ class Tournament:
         self.pool_score_results = {}
 
     def add_team(self, team):
-        # if self.main_tournament:
-        #     if team.qualified_for_tournament(self.qualifier_tournament):
-        #         if len(self.teams) < self.maxTeams:
-        #             self.teams.append(team)
-        #     else:
-        #         x = 0
-        # else:
-        #     if len(self.teams) < self.maxTeams:
-        #         if self.min_elo <= team['elo'] <= self.max_elo:
-        #             self.teams.append(team)
-
         self.teams.append(team)
     
     ## Creates a string for each team with their ranking going into the tournament
@@ -101,6 +92,8 @@ class Tournament:
     def add_to_waitlist(self, team):
         self.waitList.append(team)
 
+    def add_to_invited_teams(self, team):
+        self.invited_teams.append(team)
     
     def run_event(self):
         # teams_index = None
@@ -129,6 +122,8 @@ class Tournament:
 
         self.bracket.determine_rankings()
         self.winners = self.bracket.rankings
+
+        self.adjust_ratings_for_placement()
 
         self.completed = True
 
@@ -180,6 +175,9 @@ class Tournament:
                 game.main()
                 winner, loser, winnerPoints, loserPoints = game.return_winner()
 
+                winner.adjust_rating(winnerPoints - loserPoints)
+                loser.adjust_rating(loserPoints - winnerPoints)
+
                 self.pool_score_results[pool_alphabet].append(winner.teamName + " | " + loser.teamName + " : " + str(winnerPoints) + "-" + str(loserPoints))
 
                 win_loss_record[winner]["wins"] += 1
@@ -189,8 +187,66 @@ class Tournament:
             
             sorted_teams = sorted(win_loss_record.items(), key=lambda x: (-x[1]["wins"], x[1]["losses"]))
 
-            self.pool_results.append(sorted_teams)
+            sorted_teams = self.handle_ties(sorted_teams)
 
+            self.pool_results.append(sorted_teams)
+    
+    def handle_ties(self, sorted_teams):
+        i = 0
+        while i < len(sorted_teams) - 1:
+            j = i
+            tied_teams = [sorted_teams[j]]
+            
+            # Find groups of tied teams
+            while j + 1 < len(sorted_teams) and sorted_teams[j][1]["wins"] == sorted_teams[j + 1][1]["wins"]:
+                tied_teams.append(sorted_teams[j + 1])
+                j += 1
+
+            if len(tied_teams) > 1:
+                # Extract team names for the head-to-head comparison
+                tied_team_names = [team[0] for team in tied_teams]
+
+                # Get head-to-head records among tied teams
+                head_to_head_record = self.head_to_head(tied_team_names)
+
+                # Sort based on head-to-head records, then apply further tiebreakers if necessary
+                tied_teams = sorted(
+                    tied_teams, 
+                    key=lambda x: (head_to_head_record[x[0]]["wins"], -head_to_head_record[x[0]]["losses"]), 
+                    reverse=True
+                )
+                
+                # Replace the range in the sorted list with resolved ties
+                sorted_teams[i:j + 1] = tied_teams
+
+            i = j + 1
+        return sorted_teams
+
+    # Helper methods for tiebreakers
+    def head_to_head(self, tied_teams):
+        # Create a dictionary for head-to-head records
+        head_to_head_record = {team: {"wins": 0, "losses": 0} for team in tied_teams}
+
+        # Iterate over all game results to find matches between tied teams
+        for pool_results in self.pool_score_results.values():
+            for result in pool_results:
+                winner, match_details = result.split(" | ")
+                loser = match_details.split(" : ")[0]
+
+                if winner in tied_teams and loser in tied_teams:
+                    head_to_head_record[winner]["wins"] += 1
+                    head_to_head_record[loser]["losses"] += 1
+
+        return head_to_head_record
+
+    def adjust_ratings_for_placement(self):
+        for team in self.teams:
+            intitial_seeding = self.teams.index(team)
+            final_seeding = self.winners.index(team)
+
+            c = 40
+            placement_rating = c * ((intitial_seeding - final_seeding) / self.maxTeams)
+            team.rating += placement_rating
 
 class TournamentGenerator:
     def __init__(self, start_year, num_tournaments, num_invite_tournaments, num_national_tournaments):
@@ -198,6 +254,10 @@ class TournamentGenerator:
         self.num_tournaments = num_tournaments
         self.num_invite_tournaments = num_invite_tournaments
         self.national_tournaments = num_national_tournaments
+
+        self.sectional_tournaments = []
+        self.regional_tournaments = []
+        self.final_tournament = []
 
         self.load_pool_formats()
 
@@ -207,10 +267,13 @@ class TournamentGenerator:
 
         self.determine_pool_format()
 
+        # A dictionary to list all tournaments by date
+        self.create_tournament_dict()
+
     def generate_unique_name(self):
-        prefixes = ["Winter", "Spring", "Summer", "Fall", "Championship", "Open", "Classic", "Challenge", "Showdown", 
+        prefixes = ["Winter", "Spring", "Summer", "Fall", "Summit", "Frontier", "Classic", "Crown", "Pinnacle", 
                     "Legacy", "Thunder", "Elite", "Majestic", "Royal", "Grand", "Infinity", "Victory", "Triumph"]
-        suffixes = ["Competition", "Cup", "Bowl", "Tournament", "Fest", "Series", "Spectacular", "Clash", "Derby", 
+        suffixes = ["Competition", "Cup", "Bowl", "Showdown", "Fest", "Series", "Spectacular", "Clash", "Derby", 
                     "Gathering", "Faceoff", "Meet", "Rumble", "Shootout", "Smash"]
         
         while True:
@@ -219,11 +282,45 @@ class TournamentGenerator:
                 count = 1
                 while f"{name} {count}" in self.generated_names:
                     name = f"{random.choice(prefixes)} {random.choice(suffixes)}"
-                #     count += 1
-                # name = f"{name} {count}"
             
             self.generated_names.add(name)
             return name
+    
+    def generate_open_names(self):
+        # List of famous cities in the United States
+        cities = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", 
+                "Philadelphia", "San Antonio", "San Diego", "Dallas", "San Jose", 
+                "Austin", "Jacksonville", "Fort Worth", "Columbus", "Charlotte", 
+                "San Francisco", "Indianapolis", "Seattle", "Denver", "Washington",
+                "Boston", "El Paso", "Nashville", "Detroit", "Oklahoma City", "Stanford"]
+        
+        name = ""
+        while name not in self.generated_names or name == "":
+            name = random.choice(cities) + " Open"
+            self.generated_names.add(name)
+        
+        return name
+
+    def generate_national_names(self):
+        unique_words = [
+                        "Apex", "Quantum", "Radiance", "Odyssey", "Harbinger", 
+                        "Infinity", "Momentum", "Catalyst", "Euphoria", "Phantom", 
+                        "Zenith", "Vortex", "Nexus", "Echo", "Spectra", 
+                        "Arc", "Horizon", "Pulse", "Ember", "Ignite", 
+                        "Flare", "Torrent", "Synergy", "Fusion", "Eclipse", 
+                        "Solstice", "Nova", "Aurora", "Expedition", "Trident",
+                        "Rift", "Convergence", "Obsidian", "Chronicle", "Paragon", 
+                        "Legacy", "Vertex", "Mirage", "Forge", "Surge", 
+                        "Ascension", "Vertex", "Impulse", "Crusade", "Rising", 
+                        "Virtue", "Resolve", "Fury", "Emissary", "Echo", 
+                        "Blaze", "Havoc"]
+        prefixes = ["Northeast", "Northwest", "Southeast", "Southwest", "East", "West", "North", "South"]
+        name = ""
+        while name not in self.generated_names or name == "":
+            name = random.choice(prefixes) + " " + random.choice(unique_words)
+            self.generated_names.add(name)
+        
+        return name
 
     def generate_tournaments(self):
         # Create the main tournament for the qualifiers
@@ -245,7 +342,7 @@ class TournamentGenerator:
         # Generate open tournaments to qualify for invite-only events
         open_tournaments = []
         for _ in range(self.num_invite_tournaments):
-            name = self.generate_unique_name() + " Open"
+            name = self.generate_open_names()
             random_date = self.get_random_date()
             min_elo = random.randint(500, 1500)
             max_elo = min_elo + random.randint(500, 800)
@@ -266,18 +363,61 @@ class TournamentGenerator:
         
         # Generate national tournaments, where the highest teams join.
         for i in range(self.national_tournaments):
-            name = open_tournaments[i].name.removesuffix(" Open") + " Challenge"
+            name = self.generate_national_names()
             random_date = self.add_random_weeks(open_tournaments[i].start_date)
             min_elo = 0
             max_elo = 0
             national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True)
             tournamentCalendar.append(national_only_tournament)
+        
+        self.generate_sectional_tournaments()
+        self.generate_regionals_tournaments()
+        self.generate_final_tournament()
 
         return tournamentCalendar
+    
+    def generate_sectional_tournaments(self):
+        sections = ["Big Sky", "Capital", "Central Plains", "East Coast", "East New England",
+                    "East Plains", "Florida", "Founders", "Gulf Coast", "Metro New York", "Northern Cal",
+                    "North Carolina", "Northwest Plains", "Oregon", "Ozarks", "Rocky Mountain", "Southern Cal",
+                    "Texas", "Upstate New York", "Washington", "West New England", "West Plains"]
+        
+        for section in sections:
+            name = section + " Sectional Championship"
+            start_date = date.today().replace(day=1, month=12).toordinal()
+            end_date = date.today().replace(day=10, month=12).toordinal()
+            random_day = date.fromordinal(random.randint(start_date, end_date))
+            min_elo = 0
+            max_elo = 0
+            sectional_tournament = Tournament(name, random_day, 0, 4, min_elo, max_elo, False, False, False, False)
+            self.sectional_tournaments.append(sectional_tournament)
+    
+    def generate_regionals_tournaments(self):
+        sections = ["Great Lakes", "Mid-Atlantic", "North Central", "Northeast", "Northwest", "South Central",
+                    "Southeast", "Southwest"]
+        
+        for section in sections:
+            name = section + " Regional Championship"
+            start_date = date.today().replace(day=10, month=12).toordinal()
+            end_date = date.today().replace(day=24, month=12).toordinal()
+            random_day = date.fromordinal(random.randint(start_date, end_date))
+            min_elo = 0
+            max_elo = 0
+            regional_tournament = Tournament(name, random_day, 0, 5, min_elo, max_elo, False, False, False, False)
+            self.regional_tournaments.append(regional_tournament)
+    
+    def generate_final_tournament(self):
+            name = "Ultimate Fribsee Championships"
+            day = date.today().replace(day=31, month=12).toordinal()
+            min_elo = 0
+            max_elo = 0
+            final_tournament = Tournament(name, day, 0, 6, min_elo, max_elo, False, False, False, False)
+            self.final_tournament.append(final_tournament)
+    
 
     def get_random_date(self):
         start_date = date.today().replace(day=1, month=1).toordinal()
-        end_date = date.today().replace(day=30, month=12).toordinal()
+        end_date = date.today().replace(day=30, month=11).toordinal()
         random_day = date.fromordinal(random.randint(start_date, end_date))
 
         return random_day
@@ -300,4 +440,12 @@ class TournamentGenerator:
             format_choice = list(pool_formats_for_teams.keys())[choice]
 
             tournament.pool_format = pool_formats_for_teams[format_choice]
+    
+    def create_tournament_dict(self):
+        self.tournament_dict = {}
+        for t in self.tournaments:
+            day = t.start_date
+            if day not in self.tournament_dict:
+                self.tournament_dict[day] = []
+            self.tournament_dict[day].append(t)
     
