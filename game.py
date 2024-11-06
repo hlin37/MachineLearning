@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import random
 import math
+from line_profiler import LineProfiler
 # from team import Team
 
 class Simulation:
@@ -718,7 +719,7 @@ class Simulation:
 
     ## TO DO: MAYBE ADD IN A PROBABILITY TO SEE IF THE ACTION IS COMPLETED BY USING PLAYER STATS?
     def main(self):
-        
+
         self.teamOnOffense = self.team1
         self.teamOnDefense = self.team2
 

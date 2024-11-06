@@ -8,7 +8,7 @@ from itertools import combinations
 import json
 
 class Tournament:
-    def __init__(self, name, start_date, number_of_teams, priority, min_elo, max_elo, normal_tournament, open_tournament, invite_tournament, national_tournament):
+    def __init__(self, name, start_date, number_of_teams, priority, min_elo, max_elo, normal_tournament, open_tournament, invite_tournament, national_tournament, results_against_each_team_df):
         
         self.name = name
         self.start_date = start_date
@@ -20,6 +20,7 @@ class Tournament:
         self.open_tournament = open_tournament
         self.invite_tournament = invite_tournament
         self.national_tournament = national_tournament
+        self.results_against_each_team_df = results_against_each_team_df
         
         ## Higher-level tournaments are larger in priority.
         self.priority = priority
@@ -117,8 +118,13 @@ class Tournament:
             winner, loser, winnerPoints, loserPoints = game.return_winner()
             self.bracket.bracket_dict[key].winner = winner
             self.bracket.bracket_dict[key].winnerPoints = winnerPoints
+            winner.wins += 1
+            
             self.bracket.bracket_dict[key].loser = loser
             self.bracket.bracket_dict[key].loserPoints = loserPoints
+            loser.loss += 1
+
+            self.results_against_each_team_df.loc[winner.teamName, loser.teamName] += 1
 
         self.bracket.determine_rankings()
         self.winners = self.bracket.rankings
@@ -181,7 +187,12 @@ class Tournament:
                 self.pool_score_results[pool_alphabet].append(winner.teamName + " | " + loser.teamName + " : " + str(winnerPoints) + "-" + str(loserPoints))
 
                 win_loss_record[winner]["wins"] += 1
+                winner.wins += 1
+
                 win_loss_record[loser]["losses"] += 1
+                loser.loss += 1
+
+                self.results_against_each_team_df.loc[winner.teamName, loser.teamName] += 1
             
             alpha = chr(ord(alpha) + 1) 
             
@@ -249,11 +260,12 @@ class Tournament:
             team.rating += placement_rating
 
 class TournamentGenerator:
-    def __init__(self, start_year, num_tournaments, num_invite_tournaments, num_national_tournaments):
+    def __init__(self, start_year, num_tournaments, num_invite_tournaments, num_national_tournaments, results_against_each_team_df):
         self.start_year = start_year
         self.num_tournaments = num_tournaments
         self.num_invite_tournaments = num_invite_tournaments
         self.national_tournaments = num_national_tournaments
+        self.results_against_each_team_df = results_against_each_team_df
 
         self.sectional_tournaments = []
         self.regional_tournaments = []
@@ -336,7 +348,7 @@ class TournamentGenerator:
             min_elo = random.randint(500, 1500)
             max_elo = min_elo + random.randint(500, 800)
             number_of_teams = random.choice([8, 10, 12, 16])
-            tournament = Tournament(name, random_date, number_of_teams, 0, min_elo, max_elo, True, False, False, False)
+            tournament = Tournament(name, random_date, number_of_teams, 0, min_elo, max_elo, True, False, False, False, self.results_against_each_team_df)
             tournamentCalendar.append(tournament)
 
         # Generate open tournaments to qualify for invite-only events
@@ -347,7 +359,7 @@ class TournamentGenerator:
             min_elo = random.randint(500, 1500)
             max_elo = min_elo + random.randint(500, 800)
             number_of_teams = random.choice([8, 10, 12, 16, 20])
-            qualifier_tournament = Tournament(name, random_date, number_of_teams, 1, min_elo, max_elo, False, True, False, False)
+            qualifier_tournament = Tournament(name, random_date, number_of_teams, 1, min_elo, max_elo, False, True, False, False, self.results_against_each_team_df)
             open_tournaments.append(qualifier_tournament)
             tournamentCalendar.append(qualifier_tournament)
         
@@ -357,7 +369,7 @@ class TournamentGenerator:
             random_date = self.add_random_weeks(open_tournaments[i].start_date)
             min_elo = random.randint(900, 1400)
             max_elo = random.randint(1400, 1800)
-            invite_only_tournament = Tournament(name, random_date, 16, 2, min_elo, max_elo, False, False, True, False)
+            invite_only_tournament = Tournament(name, random_date, 16, 2, min_elo, max_elo, False, False, True, False, self.results_against_each_team_df)
             open_tournaments[i].invite_tournament_reference = invite_only_tournament
             tournamentCalendar.append(invite_only_tournament)
         
@@ -367,12 +379,12 @@ class TournamentGenerator:
             random_date = self.add_random_weeks(open_tournaments[i].start_date)
             min_elo = 0
             max_elo = 0
-            national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True)
+            national_only_tournament = Tournament(name, random_date, 16, 3, min_elo, max_elo, False, False, False, True, self.results_against_each_team_df)
             tournamentCalendar.append(national_only_tournament)
         
-        self.generate_sectional_tournaments()
-        self.generate_regionals_tournaments()
-        self.generate_final_tournament()
+        # self.generate_sectional_tournaments()
+        # self.generate_regionals_tournaments()
+        # self.generate_final_tournament()
 
         return tournamentCalendar
     

@@ -7,13 +7,16 @@ import customtkinter as ctk
 import calendar
 from tkinter import ttk
 import tkinter as tk
+import pandas as pd
 
 class TournamentApp:
 
-    def __init__(self, root, team_generator, tournament_generator, tournament_director):
+    def __init__(self, root, team_generator, tournament_generator, tournament_director, results_againt_each_team_df):
 
         self.root = root
         root.title("Ultimate Frisbee")
+
+        self.results_against_each_team_df = results_against_each_team_df
 
         ## list of all team objects
         self.teams = team_generator.teamList
@@ -41,7 +44,15 @@ class TournamentApp:
 
         self.notebook_tab_list = []
 
+        self.tournament_to_pool_play_frame = {}
+        self.tournament_to_bracket_tab = {}
+        self.tournament_to_tournament_results_tab = {}
+
         self.choose_team(root)
+    
+    def read_results(self):
+        df = pd.read_excel('your_file.xlsx') 
+        return df
 
     def choose_team(self, root):
         
@@ -68,6 +79,10 @@ class TournamentApp:
         ## selects which tournaments the other teams will be going to
         self.tournament_director.decide_which_tournament()
 
+        ## For some reason, self.teams does not contain the user-selected team
+        self.teams.append(self.selected_team)
+
+
         for widget in self.root.winfo_children():
             widget.destroy()
 
@@ -75,7 +90,7 @@ class TournamentApp:
 
     def display_calendar(self):
         
-        self.notebook_tab = ctk.CTkTabview(self.root)
+        self.notebook_tab = ctk.CTkTabview(self.root, command=self.on_tab_selected)
         self.notebook_tab.grid(row=0, column=0)
 
         calendar_tab = self.notebook_tab.add("Calendar")
@@ -83,6 +98,12 @@ class TournamentApp:
 
         calendar_frame = ctk.CTkFrame(self.notebook_tab.tab("Calendar"))
         calendar_frame.grid(row=0, column=0, padx=10, pady=10, sticky="ne")
+
+        roster_tab = self.notebook_tab.add("Roster")
+        self.notebook_tab_list.append("Roster")
+
+        self.roster_frame = ctk.CTkFrame(self.notebook_tab.tab("Roster"))
+        self.roster_frame.grid(row=0, column=0, padx=10, pady=10, sticky="ne")
 
         # Month and Year Frame
         nav_frame = ctk.CTkFrame(calendar_frame)
@@ -129,8 +150,9 @@ class TournamentApp:
             self.current_date_label = ctk.CTkLabel(nav_frame, text=f"Current Date: {self.current_date}", font=("Arial", 16))
             self.current_date_label.grid(row=0, column=1, padx=10)
 
-            self.start_simulation_button = ctk.CTkButton(nav_frame, text="Start Simulation", command=self.start_simulation)
-            self.start_simulation_button.grid(row=1, column=0, columnspan=3, pady=10)
+            if self.current_date == datetime.date(self.current_year, 1, 1):
+                self.start_simulation_button = ctk.CTkButton(nav_frame, text="Start Simulation", command=self.start_simulation)
+                self.start_simulation_button.grid(row=1, column=0, columnspan=3, pady=10)
 
             self.pause_button = ctk.CTkButton(nav_frame, text="Pause", command=self.toggle_pause)
             self.pause_button.grid(row=2, column=0, columnspan=7, pady=5)
@@ -158,6 +180,7 @@ class TournamentApp:
         # Update the month-year label and refresh the calendar grid
         for widget in self.root.winfo_children():
             widget.destroy()
+            self.notebook_tab_list.clear()
         self.display_calendar()
     
     def confirm_tournaments(self):
@@ -183,8 +206,11 @@ class TournamentApp:
 
                 tournament.create_base_pools_names_ranks()
         
-            ## For some reason, self.teams does not contain the user-selected team
-            self.teams.append(self.selected_team)
+            # ## For some reason, self.teams does not contain the user-selected team
+            # self.teams.append(self.selected_team)
+
+            self.current_month = 1  # Start with January
+            self.current_year = 2024  # Start with the year 2024
 
             self.in_simulation = True
             
@@ -221,6 +247,8 @@ class TournamentApp:
         # Display pool information or results
         self.display_pool_play(tournament)
 
+        self.add_delete_tournament_tab_button(tournament)
+
         if tournament.completed:
             # Add bracket tab and display the bracket
             self.display_bracket_tab(tournament)
@@ -234,18 +262,27 @@ class TournamentApp:
         self.tournament_tab = self.notebook_tab.add(tournament.name)
         self.notebook_tab_list.append(tournament.name)
 
-        self.tournament_results = ctk.CTkTabview(self.tournament_tab)
-        self.tournament_results.grid(row=0, column=0, sticky="nsew")
+        if tournament not in self.tournament_to_tournament_results_tab:
+            tournament_results = ctk.CTkTabview(self.tournament_tab)
+            tournament_results.grid(row=0, column=0, sticky="nsew")
+            
+            self.tournament_to_tournament_results_tab[tournament] = tournament_results
+        
+            tournament_results.add("Pool Play")
+        
+        if tournament not in self.tournament_to_pool_play_frame:
+            tournament_results = self.tournament_to_tournament_results_tab[tournament]
+            pool_play_frame = ctk.CTkFrame(tournament_results.tab("Pool Play"))
+            pool_play_frame.grid(row=0, column=0, padx=10, pady=10, sticky="ne")
 
-        self.tournament_results.add("Pool Play")
-
-        self.pool_play_frame = ctk.CTkFrame(self.tournament_results.tab("Pool Play"))
-        self.pool_play_frame.grid(row=0, column=0, padx=10, pady=10, sticky="ne")
+            self.tournament_to_pool_play_frame[tournament] = pool_play_frame
 
     
     def display_pool_play(self, tournament):
 
-        pools_frame = ttk.Frame(self.pool_play_frame)
+        pool_play_frame = self.tournament_to_pool_play_frame[tournament]
+
+        pools_frame = ttk.Frame(pool_play_frame)
         pools_frame.grid(row=0, column=0, sticky="nsew", padx=10, pady=10)
 
         pool_names = list(tournament.pool_format.keys())
@@ -261,7 +298,7 @@ class TournamentApp:
             self.populate_completed_pool_results(tournament, pool_names, pools_frame)
 
         # Create the results frame underneath the standings
-        results_frame = ttk.Frame(self.pool_play_frame)
+        results_frame = ttk.Frame(pool_play_frame)
         results_frame.grid(row=1, column=0, columnspan=len(pool_names) * 2, sticky="nsew", padx=10, pady=10)
 
         # Display game results with headers
@@ -330,7 +367,12 @@ class TournamentApp:
     
     def display_bracket_tab(self, tournament):
         
-        bracket_tab = self.tournament_results.add(tournament.name + " Bracket")
+        if tournament not in self.tournament_to_bracket_tab.keys():
+            tournament_results = self.tournament_to_tournament_results_tab[tournament]
+            bracket_tab = tournament_results.add(tournament.name + " Bracket")
+            self.tournament_to_bracket_tab[tournament] = bracket_tab
+
+        bracket_tab = self.tournament_to_bracket_tab[tournament] 
 
         bracket_results = ctk.CTkTabview(bracket_tab)
         bracket_results.grid(row=0, column=0)
@@ -423,6 +465,29 @@ class TournamentApp:
                                                     command=lambda t=tournament: self.simulate_tournament(t))
         self.simulate_tournament_button.grid(row=1, column=0, columnspan=2, pady=(20, 10), sticky="s")
     
+    def add_delete_tournament_tab_button(self, tournament):
+        """Adds a button to simulate the tournament."""
+        self.delete_tournament_tab = ctk.CTkButton(self.tournament_tab, text="Delete Tournament", hover_color="red",
+                                                    command=lambda t=tournament: self.delete_tournament(t))
+        self.delete_tournament_tab.grid(row=2, column=0, columnspan=2, pady=(20, 10), sticky="s")
+    
+    def delete_tournament(self, tournament):
+        self.notebook_tab.delete(tournament.name)
+
+        if tournament.name in self.notebook_tab_list:
+            self.notebook_tab_list.remove(tournament.name)
+
+        if tournament in self.tournament_to_tournament_results_tab.keys():
+            del(self.tournament_to_tournament_results_tab[tournament])
+        
+        if tournament in self.tournament_to_pool_play_frame.keys():
+            del(self.tournament_to_pool_play_frame[tournament])
+        
+        if tournament in self.tournament_to_bracket_tab.keys():
+            del(self.tournament_to_bracket_tab[tournament])
+
+    
+    
     def simulate_tournament(self, tournament):
         self.create_team_pool_object_for_tournament(tournament)
         tournament.run_event()
@@ -430,6 +495,9 @@ class TournamentApp:
         self.simulate_tournament_button.destroy()
     
     def start_simulation(self):
+        if self.current_month != 1:
+            self.current_month = 1
+            self.update_calendar_display()
         self.start_simulation_button.destroy()
         self.run_simulation()
 
@@ -457,6 +525,10 @@ class TournamentApp:
                         self.toggle_pause()
                     else:
                         tournament.run_event()
+                        if tournament.name in self.notebook_tab_list:
+                            self.display_tournament_info(tournament)
+                            self.notebook_tab.set(tournament.name)
+                            self.toggle_pause()
         
         
         # Store the current month before updating the date
@@ -470,12 +542,83 @@ class TournamentApp:
         
         # Schedule the next update if not paused
         if self.current_date < datetime.date(2024, 12, 31):  # Adjust end date as needed
-            self.root.after(1000, self.run_simulation) 
+            self.root.after(1000, self.run_simulation)
+    
+    def on_tab_selected(self):
+       if self.notebook_tab.get() == "Roster":
+           self.display_roster_information()
+    
+    def display_roster_information(self):
+        for widget in self.roster_frame.winfo_children():
+            widget.destroy()
+        
+        select_team_frame = ctk.CTkFrame(self.roster_frame)
+        select_team_frame.grid(row=0, column=0)
+
+        player_roster_frame = ctk.CTkFrame(self.roster_frame)
+        player_roster_frame.grid(row=1, column=0)
+
+        team_information_frame = ctk.CTkFrame(self.roster_frame)
+        team_information_frame.grid(row=1, column=1)  # Placed beside the roster frame for better layout
+
+        selected_team = ctk.StringVar()
+        team_values = [team.teamName for team in self.teams]
+
+        # Callback function to display the roster when a new team is selected
+        def choose_roster_to_display(selected_team_name):
+            for widget in player_roster_frame.winfo_children():
+                widget.destroy()
+
+            # Find the selected team by name
+            team = next((team for team in self.teams if team.teamName == selected_team_name), None)
+
+            if team:
+                for player in team.roster:
+                    label = ctk.CTkLabel(player_roster_frame, text=player.name, fg_color="white", text_color="red")
+                    label.pack(pady=5)
+                
+                tournament_winner = ""
+                for tournament in team.tournament_list:
+                    if len(tournament.winners) != 0:
+                        if tournament.winners[0] == team:
+                            tournament_winner += tournament.name + " "
+                
+                info_text = (
+                    f"Name: {team.teamName}\n"
+                    f"Elo: {team.elo}\n"
+                    f"Win: {team.wins}\n" 
+                    f"Loss: {team.loss}\n"
+                    f"Tournaments Won: {tournament_winner}" 
+                )
+                # Update team information
+                team_information_label.configure(text=f"{info_text}")
+
+        teams_dropdown = ctk.CTkComboBox(
+            select_team_frame, values=team_values, state="readonly", variable=selected_team,
+            command=choose_roster_to_display
+        )
+        teams_dropdown.set(self.selected_team_name)
+        teams_dropdown.grid(row=0, column=0, padx=10, pady=10)
+
+        team_information_label = ctk.CTkLabel(team_information_frame, text="", fg_color="white", text_color="red",
+                                              width=40, height=40)
+        team_information_label.grid(row=0, column=0)
+
+    
+def read_results():
+    data = pd.read_excel('results_df.xlsx')
+    team_names = data['Team'].dropna().tolist()
+
+    df = pd.DataFrame(0, index=team_names, columns=team_names)
+
+    return df
+
+results_against_each_team_df = read_results()
 
 # Run the app
 teamGenerator = TeamGenerator()
-tournamentGenerator = TournamentGenerator("2024", 100, 20, 10)
+tournamentGenerator = TournamentGenerator("2024", 100, 20, 10, results_against_each_team_df)
 tournamentDirector = TournamentDirector(teamGenerator, tournamentGenerator)
 root = ctk.CTk()
-app = TournamentApp(root, teamGenerator, tournamentGenerator, tournamentDirector)
+app = TournamentApp(root, teamGenerator, tournamentGenerator, tournamentDirector, results_against_each_team_df)
 root.mainloop()
